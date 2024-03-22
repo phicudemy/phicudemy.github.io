@@ -42,6 +42,9 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
+      - name: Install deps
+        run: |
+          npm ci        
       - name: Build TinaCMS
 #        env:
 #          TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
