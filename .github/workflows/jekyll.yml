@@ -45,11 +45,6 @@ jobs:
       - name: Install deps
         run: |
           npm ci        
-      - name: Build TinaCMS
-#        env:
-#          TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
-#          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-        run: npx tinacms build        
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
