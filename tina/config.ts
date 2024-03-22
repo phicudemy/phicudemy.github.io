@@ -5,8 +5,8 @@ const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
 export default defineConfig({
   branch: "main",
-  clientId: "b6b0cb5c-4b1b-43f4-9bea-8d6867c09320", // Get this from tina.io
-  token: "254536a0c4512bf1e0adf225316fc90066f93573", // Get this from tina.io
+  clientId: process.env.TINA_PUBLIC_CLIENT_ID, // Get this from tina.io
+  token: process.env.TINA_TOKEN, // Get this from tina.io
 
   build: {
     outputFolder: "admin",
