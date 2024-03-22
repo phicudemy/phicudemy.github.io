@@ -44,6 +44,11 @@ jobs:
           node-version: 18
       - run: npm install
       - run: npm ci
+      - name: Build TinaCMS
+#        env:
+#          TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
+#          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+        run: npx tinacms build      
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
