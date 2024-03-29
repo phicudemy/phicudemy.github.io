@@ -41,8 +41,8 @@ export default defineConfig({
           },          
           {
             type: "reference",
-            name: "author",
-            collections: ["authors"],
+            name: "people",
+            collections: ["people"],
             label: "نویسنده",
           },          
           {
@@ -116,14 +116,14 @@ export default defineConfig({
           },          
           {
             type: "reference",
-            name: "author",
-            collections: ["authors"],
+            name: "people",
+            collections: ["people"],
             label: "مدرس",
           },          
           {
             type: "datetime",
-            name: "date",
-            label: "تاریخ",
+            name: "start",
+            label: "تاریخ شروع",
             required: true,
           },
           {
@@ -131,6 +131,12 @@ export default defineConfig({
             name: 'published',
             label: 'انتشار'
           },          
+          {
+            type: "reference",
+            name: "groups",
+            collections: ["groups"],
+            label: "گروه",
+          },
           {
             type: "reference",
             name: "categories",
@@ -172,8 +178,8 @@ export default defineConfig({
       },
       {
         label: 'افراد',
-        name: 'authors',
-        path: '_authors',
+        name: 'people',
+        path: '_people',
         fields: [
           {
             label: 'نام',
@@ -252,6 +258,45 @@ export default defineConfig({
         label: 'برچسب‌ها',
         name: 'tags',
         path: '_tags',
+        fields: [
+          {
+            label: 'عنوان',
+            name: 'name',
+            type: 'string',
+            isTitle: true,
+            required: true,
+          },
+          {
+            label: 'نامک',
+            name: 'slug',
+            type: 'string',
+            required: true,
+          },          
+          {
+            label: 'تصویر',
+            name: 'image',
+            type: 'image',
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "توضیح",
+            isBody: true,
+          },   
+        ],
+        ui: {
+          filename: {
+            readonly: true,
+            slugify: values => {
+              return `${values?.slug?.toLowerCase().replace(/ /g, '-')}`
+            }
+          }
+        },
+      },
+      {
+        label: 'گروه‌ها',
+        name: 'groups',
+        path: '_groups',
         fields: [
           {
             label: 'عنوان',
