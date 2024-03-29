@@ -127,11 +127,6 @@ layout: default
         </div>  
       </div>
     </div>
-    <div class="row justify-content-md-center">
-      <div class="col col-lg-6 lead pt-3">
-        {% if page.tags.size > 0 %}<p><strong>برچسب(ها): </strong>{% for tag in page.tags %}{%assign tg = site.tags | where: 'relative_path', tag | first%}<a href="{{tg.url}}" class="btn btn-secondary rounded-pill mx-1"><i class="bi bi-hash"></i>{{tg.title}}</a>{%endfor%}{% for geotag in page.geotags %}{%assign gtg = site.geotags | where: 'relative_path', geotag | first%}<a href="{{gtg.url}}" class="btn btn-secondary rounded-pill mx-1"><i class="bi bi-geo-alt-fill"></i>{{gtg.title}}</a>{%endfor%}</p>{%endif%}
-      </div>
-    </div>
   </div>
 </section>
 
