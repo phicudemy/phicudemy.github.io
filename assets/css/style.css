@@ -68,6 +68,11 @@ html,body {
     }
 }
 @media (min-width: 1400px) {
+  .course-card {
+    position: sticky;
+    top: 10px;
+    height: fit-content;    
+  }
   /* Highlight the sidenote when mouse hovers on the sidenote number in body. */
   .sidenote-number:hover .sidenote {
       background-color: rgba(172, 65, 66, 0.1);
