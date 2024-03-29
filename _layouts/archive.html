@@ -1,0 +1,58 @@
+---
+layout: default
+---
+{%assign pagecollection = site.collections| where: "label", page.collection | first %}
+<div class="container">
+  <div class="row py-5">
+    <div class="col-12 text-center">
+      <h3 class="text-danger"><a class="text-reset" data-bs-toggle="collapse" href="#collapse{{pagecollection.label}}" role="button" aria-expanded="false" aria-controls="collapse{{pagecollection.label}}">{{pagecollection.title}}</a></h3>
+      <div class="collapse" id="collapse{{pagecollection.label}}">
+        {%for subcollection in site[pagecollection.label]%}
+        {% assign subpostsize = site.posts | where_exp: "item", "item[pagecollection.label] contains subcollection.relative_path" | size  %}
+        {% assign subcoursesize = site.courses | where_exp: "item", "item[pagecollection.label] contains subcollection.relative_path" | size  %}
+        {%if subpostsize > 0 or subcoursesize > 0%}<a href="{{subcollection.url}}" class="btn btn-outline-dark btn-lg {%if subcollection.url == page.url%} active{%endif%}"{%if subcollection.url == page.url%} aria-pressed="true"{%endif%}>{{subcollection.title}}</a>{%endif%}
+        {%endfor%}
+      </div>
+      <h1 class="display-1">{{page.title}}</h1>
+      <p class="lead text-secondary">{{page.content}}</p>
+    </div>
+  </div>
+  {% assign filtered_posts = site.posts | where: pagecollection.label, page.relative_path  %}
+  {% if filtered_posts.size > 0 %}
+  <div class="row mb-5">
+    <div class="col-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+                <h5 >مطالب منتشر شده در مجله آکادمی</h5>
+          </div>
+          {% for post in filtered_posts %}
+          <div class="col-sm-4">
+            {% include cardContent.html%}
+          </div>
+          {% endfor %}
+        </div>
+      </div>      
+    </div>
+  </div>
+  {% endif %}
+  {% assign filtered_courses = site.courses | where: pagecollection.label, page.relative_path  %}
+  {% if filtered_courses.size > 0 %}
+  <div class="row">
+    <div class="col-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h5 class="card-title">دوره‌های برگزار شده در مدرسه آکادمی</h5>
+          </div>              
+          {% for post in filtered_courses %}
+          <div class="col-sm-4">
+            {% include cardCourse.html%}
+          </div>
+          {% endfor %}
+        </div>
+      </div>      
+    </div>
+  </div>
+  {% endif %}
+</div>

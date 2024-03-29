@@ -21,39 +21,61 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
+        name: "posts",
+        label: "مطالب",
         path: "_posts",
         format: "md",
         fields: [
           {
             type: "string",
-            name: "layout",
-            label: "Layout",
-            required: true,
-          },
-          {
-            type: "string",
             name: "title",
-            label: "Title",
+            label: "عنوان",
             isTitle: true,
             required: true,
           },
           {
+            label: 'نامک',
+            name: 'slug',
+            type: 'string',
+            required: true,
+          },          
+          {
+            type: "reference",
+            name: "author",
+            collections: ["authors"],
+            label: "نویسنده",
+          },          
+          {
             type: "datetime",
             name: "date",
-            label: "Date",
+            label: "تاریخ",
             required: true,
           },
           {
-            type: "string",
+            type: 'boolean',
+            name: 'published',
+            label: 'انتشار'
+          },          
+          {
+            type: "reference",
             name: "categories",
-            label: "Categories",
+            collections: ["categories"],
+            label: "دسته",
+          },
+          {
+            type: 'string',
+            name: 'tags',
+            label: 'برچسب',
+            description: 'برچسب‌های این پست',
+            list: true,
+            ui: {
+              component: 'tags',
+            },
           },
           {
             type: "rich-text",
             name: "body",
-            label: "Body",
+            label: "متن",
             isBody: true,
           },
         ],
@@ -68,34 +90,220 @@ export default defineConfig({
         
               let currentDate = `${year}-${month}-${day}`;
         
-              return `${currentDate}-${values?.title?.toLowerCase().replace(/ /g, '-')}`
+              return `${currentDate}-${values?.slug?.toLowerCase().replace(/ /g, '-')}`
+            }
+          }
+        },
+      },
+      {
+        name: "course",
+        label: "دوره‌ها",
+        path: "_courses",
+        format: "md",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "عنوان",
+            isTitle: true,
+            required: true,
+          },
+          {
+            label: 'نامک',
+            name: 'slug',
+            type: 'string',
+            required: true,
+          },          
+          {
+            type: "reference",
+            name: "author",
+            collections: ["authors"],
+            label: "مدرس",
+          },          
+          {
+            type: "datetime",
+            name: "date",
+            label: "تاریخ",
+            required: true,
+          },
+          {
+            type: 'boolean',
+            name: 'published',
+            label: 'انتشار'
+          },          
+          {
+            type: "reference",
+            name: "categories",
+            collections: ["categories"],
+            label: "دسته",
+          },
+          {
+            type: 'string',
+            name: 'tags',
+            label: 'برچسب',
+            description: 'برچسب‌های این پست',
+            list: true,
+            ui: {
+              component: 'tags',
+            },
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "متن",
+            isBody: true,
+          },
+        ],
+        ui: {
+          filename: {
+            readonly: true,
+            slugify: values => {
+              const date = new Date();
+              const day = ('0' + date.getDate()).slice(-2);
+              const month = ('0' + (date.getMonth()+1)).slice(-2);
+              const year = date.getFullYear();
+        
+              let currentDate = `${year}-${month}-${day}`;
+        
+              return `${currentDate}-${values?.slug?.toLowerCase().replace(/ /g, '-')}`
+            }
+          }
+        },
+      },
+      {
+        label: 'افراد',
+        name: 'authors',
+        path: '_authors',
+        fields: [
+          {
+            label: 'نام',
+            name: 'name',
+            type: 'string',
+            isTitle: true,
+            required: true,
+          },
+          {
+            label: 'نامک',
+            name: 'slug',
+            type: 'string',
+            required: true,
+          },          
+          {
+            label: 'تصویر',
+            name: 'image',
+            type: 'image',
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "توضیح",
+            isBody: true,
+          },   
+        ],
+        ui: {
+          filename: {
+            readonly: true,
+            slugify: values => {
+              return `${values?.slug?.toLowerCase().replace(/ /g, '-')}`
+            }
+          }
+        },
+      },
+      {
+        label: 'موضوعات',
+        name: 'categories',
+        path: '_categories',
+        fields: [
+          {
+            label: 'عنوان',
+            name: 'name',
+            type: 'string',
+            isTitle: true,
+            required: true,
+          },
+          {
+            label: 'نامک',
+            name: 'slug',
+            type: 'string',
+            required: true,
+          },          
+          {
+            label: 'تصویر',
+            name: 'image',
+            type: 'image',
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "توضیح",
+            isBody: true,
+          },   
+        ],
+        ui: {
+          filename: {
+            readonly: true,
+            slugify: values => {
+              return `${values?.slug?.toLowerCase().replace(/ /g, '-')}`
+            }
+          }
+        },
+      },
+      {
+        label: 'برچسب‌ها',
+        name: 'tags',
+        path: '_tags',
+        fields: [
+          {
+            label: 'عنوان',
+            name: 'name',
+            type: 'string',
+            isTitle: true,
+            required: true,
+          },
+          {
+            label: 'نامک',
+            name: 'slug',
+            type: 'string',
+            required: true,
+          },          
+          {
+            label: 'تصویر',
+            name: 'image',
+            type: 'image',
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "توضیح",
+            isBody: true,
+          },   
+        ],
+        ui: {
+          filename: {
+            readonly: true,
+            slugify: values => {
+              return `${values?.slug?.toLowerCase().replace(/ /g, '-')}`
             }
           }
         },
       },
       {
         name: "page",
-        label: "Pages",
+        label: "صفحات",
         path: "_pages",
         format: "md",
         fields: [
           {
             type: "string",
-            name: "layout",
-            label: "Layout",
-            required: true,
-          },
-          {
-            type: "string",
             name: "title",
-            label: "Title",
+            label: "عنوان",
             isTitle: true,
             required: true,
           },
           {
             type: "string",
-            name: "permalink",
-            label: "Permalink",
+            name: "slug",
+            label: "نامک",
             required: true,
           },
           {

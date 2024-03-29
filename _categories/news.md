@@ -1,0 +1,4 @@
+---
+title: خبر
+slug: news
+---

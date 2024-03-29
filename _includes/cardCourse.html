@@ -1,0 +1,35 @@
+<div class="mb-2">
+  <div class="card shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title"><a class="text-reset" href="{{post.url}}">{{post.title}}</a></h5>
+        <div class="card-subtitle mb-2 text-body-secondary">
+          {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
+          {% if ppl %}<a href="{{ppl.url}}" class="text-reset">{%if ppl.avatar %}<img src="//images.weserv.nl/?url=https://phicudemy.github.io{{ppl.avatar}}&w=20&h=20&fit=cover&mask=circle" class="float-start me-2">{% else %}<i class="bi bi-person-lines-fill"></i>{%endif%} {{ppl.title}}</a>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+      <ul class="list-group small list-group-flush">
+        <li class="list-group-item">طول دوره: 
+          <strong class="float-end">{{post.sessions}} جلسه</strong>
+        </li>
+        <li class="list-group-item">شروع: 
+          <strong class="float-end"><span class="persianDate" data-timestamp="{{post.start | date: '%s'}}"></span></strong>
+        </li>
+        <li class="list-group-item">زمان برگزاری: 
+          <strong class="float-end">{{post.schedule}}</strong>
+        </li>
+        <li class="list-group-item">شیوه: 
+          <strong class="float-end">{{post.type | join: ' | '}}</strong>
+        </li>
+      </ul>
+      <div class="card-footer text-body-secondary small">
+        <span>گروه: </span>
+        {%if post.groups%}{% for group in post.groups %}{% assign grp = site.groups | where: 'relative_path', group | first %}
+        {% if grp %}<span><a class="text-reset" href="{{grp.url}}">{{grp.title}}</a></span> {% endif %}
+        {% endfor %}{%endif%}        
+        <strong><a class="text-reset float-end" href="{{post.url}}">ثبت‌نام</a></strong>
+      </div>
+  </div>
+</div>

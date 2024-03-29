@@ -1,0 +1,47 @@
+<!-- Sidebar -->
+<nav class="d-lg-block sidebar bg-white sticky-top pt-5">
+    <button type="button" class="btn btn-outline-secondary mx-auto d-block d-sm-none d-md-none mt-3" data-bs-toggle="collapse" data-bs-target="#sidebarMenu">
+      فیلتر <i class="bi bi-funnel-fill"></i>
+    </button>
+  <div id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white sticky-top">
+    <div class="ui-group mt-5 position-sticky">
+      <h3 class="">جستجو</h3>
+      <form id="searchForm">
+        <div class="input-group mb-3 rounded-0">
+          <input type="search" class="form-control rounded-0 border-top-0 border-end-0 border-start-0 border-dark border-2" id="searchTxt" placeholder="عبارت مورد نظر..." aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn btn-link text-reset rounded-0 border-top-0 border-end-0 border-start-0 border-dark border-2" type="button" id="clearBtn" style="display:none;"><i class="bi bi-x"></i></button>
+          <button class="btn btn-link text-reset rounded-0 border-top-0 border-end-0 border-start-0 border-dark border-2" type="submit" id="searchBtn"><i class="bi bi-search"></i></button>
+        </div>
+      </form>
+      <div class="filters">
+        <h4>موضوع‌</h4>
+        {% capture homecats %}
+        {% for category in site.categories %}
+        {% assign catsize = site.posts | where: 'categories', category.relative_path | size %}
+        {%if catsize >0 %}
+        <span data-sort="{{ catsize | plus: 1000}}" class="option-set" data-group="{{category.slug}}">
+          <input type="checkbox" class="btn-check" name="category" value="{{category.slug}}" id="{{category.slug}}" autocomplete="off">
+          <label class="btn btn-outline-dark btn-sm  mb-1" for="{{category.slug}}">{{category.title}}</label>
+        </span>
+        {%endif%}
+        {%endfor%}
+        {% endcapture %}
+        {{ homecats | split:'</span>' | sort | reverse | join:'</span>' }}
+        <h4 class="mb-0 pb-0">برچسب</h4>
+        {% capture hometags %}
+        {% for tag in site.tags %}
+        {% assign tagsize = site.posts | where: 'tags', tag.relative_path | size %}
+        {%if tagsize >0 %}
+        <span data-sort="{{ tagsize | plus: 1000}}" class="option-set" data-group="{{category.slug}}">
+          <input type="checkbox" class="btn-check" name="tag" value="{{tag.slug}}" id="{{tag.slug}}" autocomplete="off">
+          <label class="btn btn-outline-dark btn-sm  mb-1" for="{{tag.slug}}">{{tag.title}}</label>
+        </span>
+        {%endif%}
+        {%endfor%}
+        {% endcapture %}
+        {{ hometags | split:'</span>' | sort | reverse | join:'</span>' }}
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Sidebar -->

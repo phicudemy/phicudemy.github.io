@@ -55,3 +55,70 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+permalink: "/contents/:slug/"
+
+collections:
+  posts:
+    title: مطالب
+    label: posts
+    output: true
+  courses:
+    title: دوره‌ها
+    label: courses
+    output: true
+  groups:
+    title: گروه‌ها
+    label: groups
+    output: true
+  tags:
+    title: برچسب‌ها
+    label: tags
+    output: true
+  categories:
+    title: موضوع‌ها
+    label: categories
+    output: true
+  people:
+    title: مؤلفین
+    label: people
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: courses
+  values:
+    layout: course
+    permalink: "/courses/:slug/"
+- scope:
+    path: ''
+    type: groups
+  values:
+    layout: archive
+    permalink: "/groups/:slug/"
+- scope:
+    path: ''
+    type: categories
+  values:
+    layout: archive
+    permalink: "/categories/:slug/"
+- scope:
+    path: ''
+    type: people
+  values:
+    layout: archive
+    permalink: "/people/:slug/"
+- scope:
+    path: ''
+    type: tags
+  values:
+    layout: archive
+    permalink: "/tags/:slug/"
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+  values:
+    layout: default
