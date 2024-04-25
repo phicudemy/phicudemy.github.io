@@ -1,6 +1,7 @@
 ---
 title: مجله
 layout: home
-slug: contents
-permalink: /contents/
+slug: posts
+permalink: /posts/
 ---
+لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است

@@ -1,0 +1,5 @@
+---
+title: اقلیت
+slug: minority
+---
+

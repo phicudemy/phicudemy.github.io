@@ -1,0 +1,5 @@
+---
+title: عدالت
+slug: justice
+---
+

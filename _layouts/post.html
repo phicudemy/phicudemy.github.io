@@ -1,5 +1,6 @@
 ---
 layout: default
+jsFile: post.js 
 ---
 {% for category in page.categories %}{% assign cat = site.categories | where: 'relative_path', category | first %}
 {% if cat %}{% assign botcat = cat.title %}{% assign botcaturl = cat.url %}{% endif %}
@@ -51,16 +52,18 @@ layout: default
                   {% assign commonTags = ',' %}
                   {% for tag in post.tags %}
                     {% if post.url != page.url %}
-                      {% if page.tags contains tag %}
+                      {%for ptag in page.tags %}
+                        {% if ptag == tag  %}
                         {% assign sameTagCount = sameTagCount | plus: 1 %}
                         {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
                         {% assign commonTags = commonTags | append: tagmarkup %}
-                      {% endif %}
+                        {% endif %}
+                      {%endfor%}
                     {% endif %}
                   {% endfor %}
                   {% if sameTagCount >= minCommonTags %}
                   <li class="list-group-item">
-                    <a href="{{post.url}}"><strong>{{post.title}}</strong></a> 
+                    <a href="{{post.url}}" class="text-reset"><strong>{{post.title}}</strong></a> 
                     {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
                     {% if ppl %}{{ppl.title}}
                     {% endif %}
@@ -93,16 +96,18 @@ layout: default
                     {% assign commonTags = ',' %}
                     {% for tag in post.tags %}
                     {% if post.url != page.url %}
-                        {% if page.tags contains tag %}
+                      {%for ptag in page.tags %}
+                        {% if ptag == tag  %}
                         {% assign sameTagCount = sameTagCount | plus: 1 %}
                         {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
                         {% assign commonTags = commonTags | append: tagmarkup %}
                         {% endif %}
+                      {%endfor%}
                     {% endif %}
                     {% endfor %}
                     {% if sameTagCount >= minCommonTags %}
                     <li class="list-group-item">
-                    <a href="{{post.url}}"><strong>{{post.title}}</strong></a> 
+                    <a href="{{post.url}}" class="text-reset"><strong>{{post.title}}</strong></a> 
                     {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
                     {% if ppl %}{{ppl.title}}
                     {% endif %}

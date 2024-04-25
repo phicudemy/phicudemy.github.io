@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: آکادمی فلسفه و فرهنگ
+title: جمهوری فلسفه و ادبیات
 email: phicudemy@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -55,7 +55,7 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-permalink: "/contents/:slug/"
+permalink: "/posts/:slug/"
 
 collections:
   posts:
@@ -66,9 +66,9 @@ collections:
     title: دوره‌ها
     label: courses
     output: true
-  groups:
-    title: گروه‌ها
-    label: groups
+  contents:
+    title: محتوا
+    label: contents
     output: true
   tags:
     title: برچسب‌ها
@@ -89,12 +89,13 @@ defaults:
   values:
     layout: course
     permalink: "/courses/:slug/"
+    jsFile: post.js
 - scope:
     path: ''
-    type: groups
+    type: contents
   values:
     layout: archive
-    permalink: "/groups/:slug/"
+    permalink: "/contents/:slug/"
 - scope:
     path: ''
     type: categories
@@ -118,6 +119,7 @@ defaults:
     type: posts
   values:
     layout: post
+    jsFile: post.js
 - scope:
     path: ''
   values:

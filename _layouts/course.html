@@ -1,5 +1,6 @@
 ---
 layout: default
+jsFile: post.js 
 ---
 {% for group in page.groups %}{% assign grp = site.groups | where: 'relative_path', group | first %}
 {% if grp %}{% assign botgrp = grp.title %}{% assign botgrpurl = grp.url %}{% endif %}
@@ -39,7 +40,7 @@ layout: default
         {% include cardCourse.html %}
         </div>
       </div>      
-      <div class="col-sm-8 pt-3">
+      <div class="col-sm-8 pt-3 content">
         {{page.content| markdownify}}
         <div class="mb-2">
           <div class="card shadow-sm">
@@ -66,7 +67,7 @@ layout: default
                 {% endfor %}
                 {% if sameTagCount >= minCommonTags %}
                 <li class="list-group-item">
-                  <a href="{{post.url}}"><strong>{{post.title}}</strong></a> 
+                  <a href="{{post.url}}" class="text-reset"><strong>{{post.title}}</strong></a> 
                   {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
                   {% if ppl %}{{ppl.title}}
                   {% endif %}
@@ -108,7 +109,7 @@ layout: default
                 {% endfor %}
                 {% if sameTagCount >= minCommonTags %}
                 <li class="list-group-item">
-                  <a href="{{post.url}}"><strong>{{post.title}}</strong></a> 
+                  <a href="{{post.url}}" class="text-reset"><strong>{{post.title}}</strong></a> 
                   {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
                   {% if ppl %}{{ppl.title}}
                   {% endif %}

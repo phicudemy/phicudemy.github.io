@@ -1,29 +1,32 @@
 <div class="card shadow-sm ">
     <div class="card-body">
         <small class="first text-secondary">
-            <i class="bi bi-card-heading"></i> 
-            {%if post.categories%}{% for category in post.categories %}{% assign cat = site.categories | where: 'relative_path', category | first %}
-            {% if cat %}<span><a class="text-reset" href="{{cat.url}}">{{cat.title}}</a></span> {% endif %}{% endfor %}{%endif%}            
-            </a>
+            {% if post %}{%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content | first %}
+            {% if cont %}<span><a class="text-reset" href="{{cont.url}}"><i class="{{cont.icon}}"></i> {{cont.title}}</a></span> {% endif %}{% endfor %} / {%endif%}
+            {% else%}
+            <a class="text-reset" href="${post[i].contents[0].url} "><i class="${post[i].contents[0].icon}"></i> ${post[i].contents[0].title} </a> / 
+            {% endif %}            
+            {% if post %}{%if post.categories%}{% for category in post.categories %}{% assign cat = site.categories | where: 'relative_path', category | first %}
+            {% if cat %}<span><a class="text-reset" href="{{cat.url}}">{{cat.title}}</a></span> {% endif %}{% endfor %}{%endif%}
+            {% else%}
+            <a class="text-reset" href="${post[i].category[0].url} ">${post[i].category[0].title} </a>
+            {% endif %}            
         </small>
-        <h5 class="card-title"><a class="text-reset" href="{{post.url}}">{{ post.title }}</a></h5>
+        <h5 class="card-title"><a class="text-reset" href="{% if post %}{{post.url}}{% else%}${post[i].link} {% endif %}">{% if post.title %}{{post.title}}{% else%}${post[i].title} {% endif %}</a></h5>
         <div class="card-subtitle mb-2 text-body-secondary">
-            
+            {% if post %}
             {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
             {% if ppl %}<a href="{{ppl.url}}" class="text-reset">{%if ppl.avatar %}<img src="//images.weserv.nl/?url=https://phicudemy.github.io{{ppl.avatar}}&w=20&h=20&fit=cover&mask=circle" class="float-start me-2">{% else %}<i class="bi bi-person-lines-fill"></i>{%endif%} {{ppl.title}}</a>
             {% endif %}
             {% endfor %}
             {% endif %}
+            {% else %}
+            ${authorlist}
+            {% endif %}
+              <a href="{% if post %}{{post.url}}{% else%}${post[i].link} {% endif %}" class="float-end small"><i class="bi bi-calendar3"></i> <span class="persianDate" data-timestamp="{% if post %}{{post.date | date: '%s'}}{% else%}${post[i].date} {% endif %}"></span></a>
         </div>
-        <div class="card-text">
-            {{ post.excerpt| truncatewords:80 | strip_html  }}
+        <div class="card-text small">
+            {% if post %}{{ post.excerpt| truncatewords:80 | strip_html  }}{% else%}${post[i].excerpt} {% endif %}
         </div>
-    </div>
-    <div class="card-footer text-body-secondary small">
-        <span>گروه: </span>
-        {%if post.groups%}{% for group in post.groups %}{% assign grp = site.groups | where: 'relative_path', group | first %}
-        {% if grp %}<span><a class="text-reset" href="{{grp.url}}">{{grp.title}}</a></span> {% endif %}
-        {% endfor %}{%endif%}        
-        <a href="{{post.url}}" class="float-end"><i class="bi bi-calendar3"></i> <span class="persianDate" data-timestamp="{{post.date | date: '%s'}}"></span></a>
     </div>
 </div>

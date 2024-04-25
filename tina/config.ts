@@ -63,6 +63,12 @@ export default defineConfig({
             label: "دسته",
           },
           {
+            type: "reference",
+            name: "contents",
+            collections: ["contents"],
+            label: "نوع محتوا",
+          },          
+          {
             type: 'string',
             name: 'tags',
             label: 'برچسب',
@@ -131,12 +137,6 @@ export default defineConfig({
             name: 'published',
             label: 'انتشار'
           },          
-          {
-            type: "reference",
-            name: "groups",
-            collections: ["groups"],
-            label: "گروه",
-          },
           {
             type: "reference",
             name: "categories",
@@ -294,9 +294,9 @@ export default defineConfig({
         },
       },
       {
-        label: 'گروه‌ها',
-        name: 'groups',
-        path: '_groups',
+        label: 'انواع محتوا',
+        name: 'contents',
+        path: '_contents',
         fields: [
           {
             label: 'عنوان',
@@ -313,8 +313,8 @@ export default defineConfig({
           },          
           {
             label: 'تصویر',
-            name: 'image',
-            type: 'image',
+            name: 'icon',
+            type: 'string',
           },
           {
             type: "rich-text",

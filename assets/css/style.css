@@ -28,7 +28,6 @@ html,body {
     display: inline-block;
     position: relative;
     text-decoration: none;
-    color: inherit;
   }
   input, .form-control:focus {
     box-shadow: none;
@@ -54,6 +53,10 @@ html,body {
     font-size: 80%;
     position: relative;
 }
+  /* Popover */
+  .popover {
+    font-family: Vazirmatn, sans-serif;
+  }
 /* Wide viewport */
 @media (min-width: 1400px) {
     .sidenote {
@@ -89,4 +92,14 @@ html,body {
   .sidenote {
       display: none;
   }
+}
+.grid-sizer,
+.grid-item { width: 33%; }
+/* 2 columns wide */
+.grid-item--width2 { width: 66%; }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .grid-sizer,
+  .grid-item,
+  .grid-item--width2 { width: 100%; }
 }

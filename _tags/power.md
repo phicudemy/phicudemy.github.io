@@ -1,0 +1,5 @@
+---
+title: قدرت
+slug: power
+---
+
