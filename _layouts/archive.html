@@ -2,9 +2,9 @@
 layout: default
 ---
 {%assign pagecollection = site.collections| where: "label", page.collection | first %}
-<div class="container">
-  <div class="row py-5">
-    <div class="col-12 text-center">
+<div class="container-fluid">
+  <div class="row post-header p-5" style="min-height: 50vh !important;">
+    <div class="col-12 text-center my-auto">
       <h3 class="text-danger"><a class="text-reset" data-bs-toggle="collapse" href="#collapse{{pagecollection.label}}" role="button" aria-expanded="false" aria-controls="collapse{{pagecollection.label}}">{{pagecollection.title}}</a></h3>
       <div class="collapse" id="collapse{{pagecollection.label}}">
         {%for subcollection in site[pagecollection.label]%}
@@ -14,7 +14,7 @@ layout: default
         {%endfor%}
       </div>
       <h1 class="display-1">{{page.title}}</h1>
-      <p class="lead text-secondary">{{page.content}}</p>
+      <div class="">{{page.content}}</div>
     </div>
   </div>
   {% assign filtered_posts = site.posts | where: pagecollection.label, page.relative_path  %}
@@ -23,11 +23,11 @@ layout: default
     <div class="col-12">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4">
-                <h5 >مطالب منتشر شده در مجله آکادمی</h5>
+          <div class="col-lg-4">
+                <h5 >مطالب منتشر شده در مجله</h5>
           </div>
           {% for post in filtered_posts %}
-          <div class="col-sm-4">
+          <div class="col-lg-4">
             {% include cardContent.html%}
           </div>
           {% endfor %}
@@ -42,11 +42,11 @@ layout: default
     <div class="col-12">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4">
-            <h5 class="card-title">دوره‌های برگزار شده در مدرسه آکادمی</h5>
+          <div class="col-lg-4">
+            <h5 class="card-title">دوره‌های برگزار شده در آکادمی</h5>
           </div>              
           {% for post in filtered_courses %}
-          <div class="col-sm-4">
+          <div class="col-lg-4">
             {% include cardCourse.html%}
           </div>
           {% endfor %}

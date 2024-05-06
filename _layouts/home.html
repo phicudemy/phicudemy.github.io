@@ -6,9 +6,9 @@ layout: default
 {% elsif page.slug == 'posts' %}
 {% assign target = site.posts %}
 {% endif %}
-<div class="container py-3">
-    <div class="row pt-3">
-      <div class="col-12 text-center">
+<div class="container-fluid">
+    <div class="row post-header" style="min-height: 50vh !important;">
+      <div class="col-12 text-center my-auto">
         <h1 class="display-1">{{page.title}}</h1>
         <p class="lead">{{page.content}}</p>
         {% capture homecats %}
@@ -23,10 +23,6 @@ layout: default
         {%endfor%}
         {% endcapture %}
         {{ homecats | split:'</span>' | sort | reverse | join:'</span>' }}
-
-      
-      </div>
-        
       </div>
     </div>
     <div class="row">
@@ -36,7 +32,7 @@ layout: default
             فیلتر <i class="bi bi-funnel-fill"></i>
           </button>
         <div id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white sticky-top">
-          <div class="ui-group mt-5 position-sticky">
+          <div class="ui-group position-sticky">
             <h4 class="">جستجو</h4>
             <form id="searchForm">
               <div class="input-group mb-3 rounded-0">
@@ -153,7 +149,7 @@ for (var i = to-no ; i < to; i++) {
       excerpt = '<p class="m-0">'+post[i].excerpt+'</p>';
     }
     for (var j = 0; j < post[i].authors.length; j++) {
-      var authoritem= `<a class="text-reset" href="${post[i].authors[j].url}">${post[i].authors[j].avatar? `<img src="//images.weserv.nl/?url=https://jonubshahr.github.io${post[i].authors[j].avatar}&w=20&h=20&fit=cover&mask=circle" class="float-start me-2">`: `` }${post[i].authors[j].title}</a> `;
+      var authoritem= `<a class="text-reset" href="${post[i].authors[j].url}">${post[i].authors[j].avatar? `<img src="//images.weserv.nl/?url=https://phicudemy.github.io${post[i].authors[j].avatar}&w=20&h=20&fit=cover&mask=circle" class="float-start me-2">`: `` }${post[i].authors[j].title}</a> `;
       authorlist += authoritem;
     }
     {% if page.slug == 'courses' %}

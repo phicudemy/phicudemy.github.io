@@ -1,5 +1,5 @@
 ---
-title: مدرسه
+title: آکادمی
 layout: home
 slug: courses
 permalink: /courses/

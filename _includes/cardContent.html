@@ -1,17 +1,22 @@
-<div class="card shadow-sm ">
+<div class="card shadow-sm border-dark">
+        <nav class="navbar bg-secondary-subtle rounded-top-3 pb-0 border-bottom  border-dark">
+            <ul class="navbar-nav mx-2">
+                <li class=" nav-item first text-secondary bg-white border border-dark border-bottom-0 rounded-top mb-n1 pb-0 p-2">
+                    {% if post %}{%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content | first %}
+                    {% if cont %}<span><a class="text-reset" href="{{cont.url}}"><i class="{{cont.icon}}"></i> {{cont.title}}</a></span> {% endif %}{% endfor %} / {%endif%}
+                    {% else%}
+                    <a class="text-reset" href="${post[i].contents[0].url} "><i class="${post[i].contents[0].icon}"></i> ${post[i].contents[0].title} </a> / 
+                    {% endif %}            
+                    {% if post %}{%if post.categories%}{% for category in post.categories %}{% assign cat = site.categories | where: 'relative_path', category | first %}
+                    {% if cat %}<span><a class="text-reset" href="{{cat.url}}">{{cat.title}}</a></span> {% endif %}{% endfor %}{%endif%}
+                    {% else%}
+                    <a class="text-reset" href="${post[i].category[0].url} ">${post[i].category[0].title} </a>
+                    {% endif %}            
+                </li>
+            </ul>
+            <a href="/posts/" class="float-end text-reset me-3 text-muted">مجله</a>
+        </nav>
     <div class="card-body">
-        <small class="first text-secondary">
-            {% if post %}{%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content | first %}
-            {% if cont %}<span><a class="text-reset" href="{{cont.url}}"><i class="{{cont.icon}}"></i> {{cont.title}}</a></span> {% endif %}{% endfor %} / {%endif%}
-            {% else%}
-            <a class="text-reset" href="${post[i].contents[0].url} "><i class="${post[i].contents[0].icon}"></i> ${post[i].contents[0].title} </a> / 
-            {% endif %}            
-            {% if post %}{%if post.categories%}{% for category in post.categories %}{% assign cat = site.categories | where: 'relative_path', category | first %}
-            {% if cat %}<span><a class="text-reset" href="{{cat.url}}">{{cat.title}}</a></span> {% endif %}{% endfor %}{%endif%}
-            {% else%}
-            <a class="text-reset" href="${post[i].category[0].url} ">${post[i].category[0].title} </a>
-            {% endif %}            
-        </small>
         <h5 class="card-title"><a class="text-reset" href="{% if post %}{{post.url}}{% else%}${post[i].link} {% endif %}">{% if post.title %}{{post.title}}{% else%}${post[i].title} {% endif %}</a></h5>
         <div class="card-subtitle mb-2 text-body-secondary">
             {% if post %}
@@ -23,10 +28,40 @@
             {% else %}
             ${authorlist}
             {% endif %}
-              <a href="{% if post %}{{post.url}}{% else%}${post[i].link} {% endif %}" class="float-end small"><i class="bi bi-calendar3"></i> <span class="persianDate" data-timestamp="{% if post %}{{post.date | date: '%s'}}{% else%}${post[i].date} {% endif %}"></span></a>
+              
         </div>
         <div class="card-text small">
             {% if post %}{{ post.excerpt| truncatewords:80 | strip_html  }}{% else%}${post[i].excerpt} {% endif %}
         </div>
     </div>
+    <nav class="navbar small navbar-expand-lg navbar-light bg-body-tertiary rounded-bottom-3 p-0 border-top border-top-dashed border-dark">
+        <div class="container-fluid justify-content-between">
+          <!-- Left elements -->
+          <div class="d-flex">
+            <!-- Brand -->
+            <div class="me-2 mb-1">
+                {% if post %}
+                {% if post.content %}
+                {% capture words %}
+                {{ post.content | number_of_words | minus: 180 }}
+                {% endcapture %}
+                {% unless words contains '-' %}
+                {{ words | plus: 150 | divided_by: 150 | prepend: '<i class="bi bi-stopwatch"></i> ' |append: ' دقیقه'  }}
+                {% endunless %}
+                {%endif%}
+                {% else%}<i class="bi bi-stopwatch"></i> ${post[i].length} {% endif %}                
+            </div>
+          </div>
+          <!-- Left elements -->
+      
+          <!-- Right elements -->
+          <ul class="navbar-nav flex-row p-0">
+            <li class="nav-item me-3 me-lg-1">
+                <a class="nav-link" href="{% if post %}{{post.url}}{% else%}${post[i].link} {% endif %}"><i class="bi bi-calendar3"></i>   <span class="persianDate" data-timestamp="{% if post %}{{post.date | date: '%s'}}{% else%}${post[i].date} {% endif %}"></span></a>
+            </li>
+          </ul>
+          <!-- Right elements -->
+        </div>
+      </nav>
+    
 </div>

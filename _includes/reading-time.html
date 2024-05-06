@@ -1,0 +1,8 @@
+{%if read %}
+{% capture words %}
+{{ content | number_of_words | minus: 180 }}
+{% endcapture %}
+{% unless words contains '-' %}
+{{ words | plus: 150 | divided_by: 150 | prepend: '<i class="bi bi-stopwatch"></i> ' |append: ' دقیقه'  }}
+{% endunless %}
+{%endif%}

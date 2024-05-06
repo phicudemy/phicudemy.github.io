@@ -1,48 +1,18 @@
-<nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+<nav class="navbar navbar-light navbar-expand-md justify-content-center bg-secondary-subtle rounded-top-3 pb-0 border-bottom  border-dark">
     <div class="container-fluid">
-        <div href="/" class="navbar-brand d-flex w-50 me-auto">
-            <a class="" href="/">
-                <img
-                  src="/assets/img/logo.png"
-                  height="30"
-                  alt="Logo"
-                  loading="lazy"
-                  style="margin-top: 2px;"
-                />
-              </a>
-              <form class="input-group ms-1 w-auto my-auto d-none d-sm-flex">
-                <input
-                  autocomplete="off"
-                  type="search"
-                  class="form-control rounded form-control-sm"
-                  placeholder="جستجو"
-                  style="min-width: 125px;"
-                />
-                <span class="input-group-text border-0 d-none d-lg-flex"><i class="bi bi-search"></i></span>
-              </form>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
+        <a class="navbar-brand abs h6" href="/">{{site.title}}</a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-            <ul class="navbar-nav w-100 justify-content-center">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">نخست</a>
+        <div class="navbar-collapse collapse" id="collapseNavbar">
+            <ul class="navbar-nav">
+            {% for item in site.data.navtop %}
+                <li class="nav-item {% if page.url == item.link or page.url contains item.slug %} active bg-white border border-dark border-bottom-0 rounded-top mb-n1 pb-0{% endif %}">
+                    <a class="nav-link {% if page.url == item.link %}mb-0 pb-0{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/courses/">مدرسه</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/posts/">مجله</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/">درباره</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">تماس</a>
-                </li>
+            {% endfor %}                
             </ul>
-            <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+            <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#">حمایت</a>
                 </li>

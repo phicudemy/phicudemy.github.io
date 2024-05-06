@@ -1,0 +1,13 @@
+- name: نخست
+  link: /
+- name: آکادمی
+  link: /courses/
+  slug: courses
+- name: مجله
+  link: /posts/
+  slug: posts
+- name: درباره
+  link: #
+- name: تماس
+  link: #
+  
