@@ -23,11 +23,11 @@ layout: default
     <div class="col-12">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 mb-2">
                 <h5 >مطالب منتشر شده در مجله</h5>
           </div>
           {% for post in filtered_posts %}
-          <div class="col-lg-4">
+          <div class="col-lg-4 mb-2">
             {% include cardContent.html%}
           </div>
           {% endfor %}
@@ -42,11 +42,11 @@ layout: default
     <div class="col-12">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 mb-2">
             <h5 class="card-title">دوره‌های برگزار شده در آکادمی</h5>
           </div>              
           {% for post in filtered_courses %}
-          <div class="col-lg-4">
+          <div class="col-lg-4 mb-2">
             {% include cardCourse.html%}
           </div>
           {% endfor %}
