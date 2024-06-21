@@ -69,20 +69,23 @@ export default defineConfig({
             label: "نوع محتوا",
           },          
           {
-            type: 'reference',
+            type: 'string',
             name: 'tags',
-            collections: ["tags"],
             label: 'برچسب',
             description: 'برچسب‌های این پست',
+            list: true,
             ui: {
               component: 'tags',
             },
           },
           {
-            type: "rich-text",
+            type: "string",
             name: "body",
             label: "متن",
             isBody: true,
+            ui: {
+              component: 'textarea',
+            },
           },
         ],
         ui: {
