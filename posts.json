@@ -8,7 +8,7 @@ layout: none
       {% if post.people%}"authors"   : [{% for author in post.people %}{% assign aut = site.people | where: 'relative_path', author | first %}{"title": "{{aut.title}}", "slug" : "{{aut.slug}}", "url" : "{{aut.url}}", "avatar": "{{aut.avatar}}"}{% unless forloop.last %},{% endunless %}{%endfor%}],{%endif%}
       "slug"   : "{{post.slug}}",
       {% if post.coverImg%}"coverImg": "{{post.coverImg}}",{%endif%}
-      {% if post.excerpt%}"excerpt": "{{post.excerpt|strip_html | strip_newlines | strip | truncatewords: 50 }}",{%endif%}
+      {% if post.excerpt%}"excerpt": "{{post.content |strip_html | strip_newlines | strip | truncatewords: 80 }}",{%endif%}
       "featured"  : {% if post.featured%}true{%else%}false{%endif%} ,
       "category" : [{% for category in post.categories %}{% assign cat = site.categories | where: 'relative_path', category | first %}{"title": "{{cat.title}}", "slug" : "{{cat.slug}}", "url" : "{{cat.url}}"}{% unless forloop.last %},{% endunless %}{%endfor%}],
       {%if post.contents%}"contents" : [{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content | first %}{"title": "{{cont.title}}", "slug" : "{{cont.slug}}", "url" : "{{cont.url}}", "icon": "{{cont.icon}}"}{% unless forloop.last %},{% endunless %}{%endfor%}],{%endif%}

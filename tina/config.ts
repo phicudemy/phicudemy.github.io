@@ -69,11 +69,11 @@ export default defineConfig({
             label: "نوع محتوا",
           },          
           {
-            type: 'string',
+            type: 'reference',
             name: 'tags',
+            collections: ["tags"],
             label: 'برچسب',
             description: 'برچسب‌های این پست',
-            list: true,
             ui: {
               component: 'tags',
             },

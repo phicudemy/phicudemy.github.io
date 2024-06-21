@@ -31,7 +31,16 @@
               
         </div>
         <div class="card-text small">
-            {% if post %}{{ post.excerpt| truncatewords:80 | strip_html  }}{% else%}${post[i].excerpt} {% endif %}
+            {%if post.url == page.url %}
+            {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
+            {% if ppl %}{%if ppl.content %} {{ppl.content | truncatewords:50 | strip_html}}{%endif%}
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+            {%else%}
+            {% if post %}{{ post.content| truncatewords:80 | strip_html  }}{% else%}${post[i].excerpt} {% endif %}
+            <a href="{% if post %}{{post.url}}{% else%}${post[i].link} {% endif %}" class="btn bg-secondary-subtle float-end">مطالعه بیشتر</a>
+            {%endif%}
         </div>
     </div>
     <nav class="navbar small navbar-expand-lg navbar-light bg-body-tertiary rounded-bottom-3 p-0 border-top border-top-dashed border-dark">

@@ -25,9 +25,18 @@
       {% endif %}
     </div>
     <div class="card-text small">
+      {%if post.url == page.url %}
+      {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
+      {% if ppl %}{%if ppl.content %} <p>{{ppl.content | truncatewords:50 | strip_html}}</p>{%endif%}
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+      {%else%}
       <p>
         {% if post %}{{ post.excerpt| truncatewords:25 | strip_html  }}{% else%}${post[i].excerpt} {% endif %}
       </p>
+      {%endif%}
+
       <strong>
         {% if post %}{{post.schedule}}{% else %}${post[i].schedule}{% endif %}
         <span class="float-end">{% if post %}{{post.type | join: ' | '}}{% else %}${post[i].type}{% endif %}</span>
