@@ -1,5 +1,5 @@
 ---
-name: ساجد طیبی
+title: ساجد طیبی
 slug: sajedtayebi
 ---
 

@@ -186,7 +186,7 @@ export default defineConfig({
         fields: [
           {
             label: 'نام',
-            name: 'name',
+            name: 'title',
             type: 'string',
             isTitle: true,
             required: true,
@@ -225,7 +225,7 @@ export default defineConfig({
         fields: [
           {
             label: 'عنوان',
-            name: 'name',
+            name: 'title',
             type: 'string',
             isTitle: true,
             required: true,
@@ -264,7 +264,7 @@ export default defineConfig({
         fields: [
           {
             label: 'عنوان',
-            name: 'name',
+            name: 'title',
             type: 'string',
             isTitle: true,
             required: true,
@@ -303,7 +303,7 @@ export default defineConfig({
         fields: [
           {
             label: 'عنوان',
-            name: 'name',
+            name: 'title',
             type: 'string',
             isTitle: true,
             required: true,
