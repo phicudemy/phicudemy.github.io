@@ -1,5 +1,0 @@
----
-title: تبعیض
-slug: discrimination
----
-

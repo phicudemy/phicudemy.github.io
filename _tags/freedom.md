@@ -1,5 +1,0 @@
----
-title: آزادی
-slug: freedom
----
-

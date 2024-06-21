@@ -1,5 +1,0 @@
----
-title: زنان
-slug: women
----
-

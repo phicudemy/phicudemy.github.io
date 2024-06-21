@@ -1,5 +1,0 @@
----
-title: کارگری
-slug: labor
----
-

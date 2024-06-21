@@ -1,5 +1,0 @@
----
-title: پاریس
-slug: paris
----
-

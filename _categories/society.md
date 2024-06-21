@@ -1,4 +1,0 @@
----
-title: جامعه
-slug: society
----
