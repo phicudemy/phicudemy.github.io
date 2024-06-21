@@ -1,0 +1,5 @@
+---
+title: فلسفه
+slug: philosophy
+---
+
