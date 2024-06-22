@@ -5,6 +5,7 @@ title: >-
 slug: fregeBedeutung1
 people: _people/طیبی.md
 date: 2024-06-21T20:30:00.000Z
+published: true
 categories: _categories/philosophy.md
 contents: _contents/article.md
 tags:
