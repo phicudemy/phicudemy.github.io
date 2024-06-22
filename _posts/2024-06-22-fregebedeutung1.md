@@ -21,7 +21,11 @@ tags:
 
 علی‌رغمِ معقولیت و مقبولیتِ اصلِ بی‌طرفیِ تفسیری در حالتِ کلّی، توسلِ لانگ و وایت به آن در توجیه تصمیم‌شان در برگزیدنِ معادل‌هایی برای فعلِ ‘bedeuten’، اسمِ ‘Bedeutung’‌، و مشتقاتِ آنها بلافاصله با مخالفتِ دیوید بل و به بحثی میانِ او و مترجمانِ _نوشته‌ها_ انجامید. [^3]
 
+ لانگ و وایت در مقدمه‌شان بر ترجمه‌ی نوشته‌ها این تصمیم را چنین بیان می‌کنند:
+> … ما با برگرداندنِ ‘_bedeuten’‌_ و ‘_Bedeutung’_ به ‘mean’‌ و ‘meaning’ راه خود را از تمامِ مترجمانِ انگلیسیِ پیشینِ فرگه جدا کرده‌ایم. [...] به همین ترتیب، مشتقاتِ آنها مانندِ ‘_bedeutungsvoll’__‌_ و ‘_gleichbedeutend’_ را به ‘meaningful’‌ و ‘having the same meaning’‌ برگردانده‌ایم.[^4]
+
 [^1]: Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” Analysis 40(4): 196–202, p. 196. 
 [^2]: Frege, G. (1979) Posthumous Writings. Translated by Peter Long and Roger White, Blackwell.
 [^3]: Bell, David (1980). “On the translation of Frege’s Bedeutung,” Analysis 40(4):191-195. 
 Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” Analysis 40(4): 196 - 202.
+[^4]: Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979)  _Posthumous Writings_, p. VI.
