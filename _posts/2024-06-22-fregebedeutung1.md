@@ -26,6 +26,5 @@ tags:
 
 [^1]: Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” Analysis 40(4): 196–202, p. 196. 
 [^2]: Frege, G. (1979) Posthumous Writings. Translated by Peter Long and Roger White, Blackwell.
-[^3]: Bell, David (1980). “On the translation of Frege’s Bedeutung,” Analysis 40(4):191-195. 
-Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” Analysis 40(4): 196 - 202.
+[^3]: Bell, David (1980). “On the translation of Frege’s Bedeutung,” Analysis 40(4):191-195. Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” Analysis 40(4): 196 - 202.
 [^4]: Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979)  _Posthumous Writings_, p. VI.
