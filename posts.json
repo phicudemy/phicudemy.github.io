@@ -5,7 +5,7 @@ layout: none
   {% for post in site.posts %}
     {
       "title"    : "{{ post.title | escape }}",
-      {% if post.people%}"authors"   : [{% for author in post.people %}{% assign aut = site.people | where: 'relative_path', author | first %}{"title": "{{aut.title}}", "slug" : "{{aut.slug}}", "url" : "{{aut.url}}", "avatar": "{{aut.avatar}}"}{% unless forloop.last %},{% endunless %}{%endfor%}],{%endif%}
+      {% if post.people%}"authors"   : [{% for author in post.people %}{% assign aut = site.people | where: 'relative_path', author | first %}{"title": "{{aut.title}}", "slug" : "{{aut.slug}}", "url" : "{{aut.url}}", "avatar": "{{aut.image}}"}{% unless forloop.last %},{% endunless %}{%endfor%}],{%endif%}
       "slug"   : "{{post.slug}}",
       {% if post.coverImg%}"coverImg": "{{post.coverImg}}",{%endif%}
       {% if post.excerpt%}"excerpt": "{{post.content |strip_html | strip_newlines | strip | truncatewords: 80 }}",{%endif%}

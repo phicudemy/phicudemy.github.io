@@ -1,6 +1,6 @@
 {% if page.slug == 'courses' %}
 $.ajax({
-  url:"/courses.json",
+  url:"/courses.json?v=0.5",
   dataType: 'json',
   async: false,
   success: function(data) {
@@ -10,7 +10,7 @@ $.ajax({
 });
 {% elsif page.slug == 'posts' %}
 $.ajax({
-  url:"/posts.json",
+  url:"/posts.json?v=0.5",
   dataType: 'json',
   async: false,
   success: function(data) {

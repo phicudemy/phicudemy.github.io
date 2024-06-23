@@ -2,7 +2,7 @@ $(".content a").each(function(){
     if ($(this).attr('href').startsWith('/courses/') || $(this).attr('href').startsWith('/posts/')){
       var $this = $(this)
       $.ajax({
-      url:"/courses.json",
+      url:"/courses.json?v=0.5",
       dataType: 'json',
       async: false,
       success: function(data) {
@@ -10,7 +10,7 @@ $(".content a").each(function(){
       }
     });
     $.ajax({
-      url:"/posts.json",
+      url:"/posts.json?v=0.5",
       dataType: 'json',
       async: false,
       success: function(data) {

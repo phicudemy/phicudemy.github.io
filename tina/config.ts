@@ -1,4 +1,4 @@
-import { defineConfig } from "tinacms";
+import { defineConfig, wrapFieldsWithMeta } from "tinacms";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
@@ -67,16 +67,25 @@ export default defineConfig({
             name: "contents",
             collections: ["contents"],
             label: "نوع محتوا",
-          },          
+          },
           {
-            type: 'string',
-            name: 'tags',
-            label: 'برچسب',
-            description: 'برچسب‌های این پست',
+            type: "object",
             list: true,
+            name: "tags",
+            label: "تگ‌ها",
             ui: {
-              component: 'tags',
+              itemProps: (item) => {
+                return { label: `${item?.tag} `}
+              }
             },
+            fields: [
+              {
+                type: "reference",
+                label: "تگ",
+                name: "tag",
+                collections: ["tags"],
+              },
+            ],
           },
           {
             type: "string",
@@ -118,6 +127,11 @@ export default defineConfig({
             required: true,
           },
           {
+            type: "string",
+            name: "subtitle",
+            label: "زیر عنوان",
+          },
+          {
             label: 'نامک',
             name: 'slug',
             type: 'string',
@@ -128,6 +142,7 @@ export default defineConfig({
             name: "people",
             collections: ["people"],
             label: "مدرس",
+            required: true,
           },          
           {
             type: "datetime",
@@ -147,20 +162,37 @@ export default defineConfig({
             label: "دسته",
           },
           {
-            type: 'string',
-            name: 'tags',
-            label: 'برچسب',
-            description: 'برچسب‌های این پست',
+            type: "object",
             list: true,
+            name: "tags",
+            label: "تگ‌ها",
             ui: {
-              component: 'tags',
+              itemProps: (item) => {
+                return { label: `${item?.tag} `}
+              }
             },
+            fields: [
+              {
+                type: "reference",
+                label: "تگ",
+                name: "tag",
+                collections: ["tags"],
+              },
+            ],
           },
           {
-            type: "rich-text",
+            type: 'image',
+            label: 'فایل پی‌دی‌اف',
+            name: 'pdfFile',
+          },          
+          {
+            type: "string",
             name: "body",
             label: "متن",
             isBody: true,
+            ui: {
+              component: 'textarea',
+            },
           },
         ],
         ui: {
