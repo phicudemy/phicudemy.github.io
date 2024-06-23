@@ -34,6 +34,11 @@ export default defineConfig({
             required: true,
           },
           {
+            type: "string",
+            name: "subtitle",
+            label: "زیر عنوان",
+          },
+          {
             label: 'نامک',
             name: 'slug',
             type: 'string',
@@ -125,11 +130,6 @@ export default defineConfig({
             label: "عنوان",
             isTitle: true,
             required: true,
-          },
-          {
-            type: "string",
-            name: "subtitle",
-            label: "زیر عنوان",
           },
           {
             label: 'نامک',
