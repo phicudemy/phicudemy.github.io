@@ -12,11 +12,11 @@ jsFile: post.js
 <section>
   <div class="container-fluid">
     <div class="row py-5  post-header" style="height: 90vh !important;">
-      <div class="col-12 my-auto text-center">
+      <div class="col-sm-6 mx-auto my-auto text-center">
         <h5 class="text-danger">
           <a href="{{botcaturl}}" class="text-reset">{{botcat}}</a>
         </h5>
-        <h1 class="display-5 px-5 mx-5 mb-0">{{page.title}}</h1>
+        <h1 class="display-5 mb-0">{{page.title}}</h1>
         {% if page.people%}{% for author in page.people %}{% assign aut = site.people | where: 'relative_path', author | first %}
         {% if aut %}
         <a href="{{aut.url}}" class="text-reset lead"><strong>{{aut.title}}</strong></a>
@@ -27,7 +27,7 @@ jsFile: post.js
         </p>
         <p  class="text-muted">
             {% assign read = page.content %}
-          {{page.content | number_of_words }} کلمه | {% include reading-time.html %}
+          {{page.content | number_of_words }} کلمه 
         </p>
         <p class="lead text-dark">
           {{page.excerpt | strip_html}}

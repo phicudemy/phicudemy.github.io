@@ -55,7 +55,7 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-permalink: "/posts/:slug/"
+permalink: "/magazine/:slug/"
 
 collections:
   posts:
@@ -119,6 +119,7 @@ defaults:
     type: posts
   values:
     layout: post
+    permalink: "/magazine/:slug/"
     jsFile: post.js
 - scope:
     path: ''

@@ -93,6 +93,19 @@ export default defineConfig({
             ],
           },
           {
+            type: 'image',
+            label: 'فایل پی‌دی‌اف',
+            name: 'pdfFile',
+          },          
+          {
+            type: "string",
+            name: "excerpt",
+            label: "معرفی (خلاصه)",
+            ui: {
+              component: 'textarea',
+            },
+          },
+          {
             type: "string",
             name: "body",
             label: "متن",
@@ -181,10 +194,13 @@ export default defineConfig({
             ],
           },
           {
-            type: 'image',
-            label: 'فایل پی‌دی‌اف',
-            name: 'pdfFile',
-          },          
+            type: "string",
+            name: "excerpt",
+            label: "معرفی (خلاصه)",
+            ui: {
+              component: 'textarea',
+            },
+          },
           {
             type: "string",
             name: "body",
