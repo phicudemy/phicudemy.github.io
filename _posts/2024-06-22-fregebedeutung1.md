@@ -45,4 +45,3 @@ tags:
        در نوشتنِ این یادداشت، از این مقاله‌ی مایکل بینی و همچنین یادداشت او در ابتدای مجموعه‌ی زیر از آثار فرگه بهره‌ی بسیار برده‌ام:   
       Beaney, M. (1997). ‘Introduction’, in G. Frege (1997), The Frege Reader, edited by M. Beaney, Blackwell, pages 1–46.   
 [^7]: Frege, G. (1884/1950), _The Foundations of Arithmetic_, Translated by J. L. Austin, Blackwell
-
