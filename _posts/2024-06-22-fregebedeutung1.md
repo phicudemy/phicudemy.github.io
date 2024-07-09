@@ -75,17 +75,13 @@ tags:
 [^11]: از نظرِ فرگه، Sinn یک جمله‌ی خبری اندیشه یا گزاره‌ای است که با ادای آن جمله بیان می‌شود. آن‌چه جملاتِ صادق (یا کاذب) را، به‌لحاظِ معناشناختی از هم‌دیگر متمایز می‌کند، اندیشه‌ی متفاوتی است که بیان می‌کنند.
 
 [^bignote]: یک استثنای مهم در این میانِ مدخلی است که دامت در ۱۹۶۷ در معرفی فلسفه‌ی فرگه در _دایرة‌المعارفِ فلسفه_ منتشر کرد:
-
 Dummett, M. (1967). ‘Frege’s Philosophy’, in Paul Edwards (ed.), _The Encyclopedia of Philosophy_. pages 7–115.
-
 او اینجا ‘Bedeutung’‌ را، حتی در توضیحِ آثارِ متأخرِ فرگه به ‘meaning’ برمی‌گرداند.  با این حال، همان‌طور که در ادامه خواهیم دید، او نیز در اثر اصلی خود در شرح فلسفه‌ی زبانِ فرگه از این تصمیم عدول می‌کند. 
 
 [^13]: Russell, B. (1903). The Principles of Mathematics, Cambridge University Press, pp. 509-510.
 
 [^bignote]: Frege, G. (1915, 1916, 1917). ‘The Fundamental Laws of Arithmetic’, translated by J. Stachelroth and P. E. B. Jourdain, _The Monist_ 25(4):481–94, 26 (2):182–99, 27(1):114–27.
-
 این نخستین ترجمه از متن‌های فرگه به زبانِ انگلیسی قبل از سال ۱۹۴۸ است. از بعد از این تاریخ امّا جریانِ ترجمه‌ی آثار فرگه به انگلیسی شروع می‌شود. برای شرحی از تاریخچه‌ی ترجمه‌ی آثار او به انگلیسی بنگرید به:
-
 Beaney, M. (2019), 'A Brief History of English Translations of Frege’s Writings', in P. A. Ebert, and M. Rossberg (eds), _Essays on Frege's Basic Laws of Arithmetic_, Oxford University Press.
 
 [^15]: Frege, G. (1964). _The Basic Laws of Arithmetic: exposition of the system, _edited and translated by M. Furth, University of California Press.
