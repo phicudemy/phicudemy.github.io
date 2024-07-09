@@ -59,9 +59,9 @@ tags:
 [^4]: Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979)  _Posthumous Writings_, p. VI.
 [^5]: برای سادگی بحث، در ادامه اغلب تنها از اسمِ ‘Bedeutung’ بحث خواهم کرد. اما آن‌چه گفته می‌شود را می‌توان، با جرح‌وتعدیلِ لازم، به فعلِ ‘bedeuten’ و دیگر مشتقاتِ این واژه‌ها تعمیم داد.
 [^bignote]: بحث و جدل‌ها درباره‌ی ترجمه‌ی این اصطلاح در آثار فرگه تا همین امروز ادامه داشته و ماجرایی دارد بسیار گسترده‌تر از مناقشه‌ی میانِ بل و مترجمانِ نوشته‌ها، که این یادداشت بر آن متمرکز است. برای شرحی مفصل از این ماجرا، بنگرید به:
-Beaney, M. (2019), 'Translating ‘Bedeutung’ in Frege’s Writings: A Case Study and Cautionary Tale in the History and                    Philosophy of Translation', in P. A. Ebert, and M. Rossberg (eds), Essays on Frege's Basic Laws of Arithmetic, Oxford University Press.
-در نوشتنِ این یادداشت، از این مقاله‌ی مایکل بینی و همچنین یادداشت او در ابتدای مجموعه‌ی زیر از آثار فرگه بهره‌ی بسیار برده‌ام:
-Beaney, M. (1997). ‘Introduction’, in G. Frege (1997), The Frege Reader, edited by M. Beaney, Blackwell, pages 1–46.
+    Beaney, M. (2019), 'Translating ‘Bedeutung’ in Frege’s Writings: A Case Study and Cautionary Tale in the History and                    Philosophy of Translation', in P. A. Ebert, and M. Rossberg (eds), Essays on Frege's Basic Laws of Arithmetic, Oxford University Press.
+    در نوشتنِ این یادداشت، از این مقاله‌ی مایکل بینی و همچنین یادداشت او در ابتدای مجموعه‌ی زیر از آثار فرگه بهره‌ی بسیار برده‌ام:
+    Beaney, M. (1997). ‘Introduction’, in G. Frege (1997), The Frege Reader, edited by M. Beaney, Blackwell, pages 1–46.
 
 [^7]: Frege, G. (1884/1950), _The Foundations of Arithmetic_, Translated by J. L. Austin, Blackwell
 
