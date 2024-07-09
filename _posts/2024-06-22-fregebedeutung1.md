@@ -64,19 +64,31 @@ tags:
     Beaney, M. (2019), 'Translating ‘Bedeutung’ in Frege’s Writings: A Case Study and Cautionary Tale in the History and                    Philosophy of Translation', in P. A. Ebert, and M. Rossberg (eds), Essays on Frege's Basic Laws of Arithmetic, Oxford University Press.
     در نوشتنِ این یادداشت، از این مقاله‌ی مایکل بینی و همچنین یادداشت او در ابتدای مجموعه‌ی زیر از آثار فرگه بهره‌ی بسیار برده‌ام:
     Beaney, M. (1997). ‘Introduction’, in G. Frege (1997), The Frege Reader, edited by M. Beaney, Blackwell, pages 1–46.
+
 [^7]: Frege, G. (1884/1950), _The Foundations of Arithmetic_, Translated by J. L. Austin, Blackwell
+
 [^8]: Frege, G. (1891), ‘Funktion und Begriff,’ translated as ‘Function and Concept’ by P. Geach.
+
 [^9]: Frege, G. (1892), ‘Über Sinn und Bedeutung,’ translated as ‘On Sense and Reference’ by M. Black.
+
 [^10]: از نظرِ فرگه Sinn یک لفظِ مفرد ویژگی‌ای است که آن لفظ به واسطه‌ی آن مرجع‌اش را برمی‌گزیند. بنابراین، Sinn‌های «نویسنده‌ی گلستان» و «سراینده‌ی بوستان»، به ترتیب، ویژگی‌های _نویسنده‌ی کتابِ گلستان بودن_ و _سراینده‌ی کتابِ بوستان بودن _است.
+
 [^11]: از نظرِ فرگه، Sinn یک جمله‌ی خبری اندیشه یا گزاره‌ای است که با ادای آن جمله بیان می‌شود. آن‌چه جملاتِ صادق (یا کاذب) را، به‌لحاظِ معناشناختی از هم‌دیگر متمایز می‌کند، اندیشه‌ی متفاوتی است که بیان می‌کنند.
+
 [^bignote]: یک استثنای مهم در این میانِ مدخلی است که دامت در ۱۹۶۷ در معرفی فلسفه‌ی فرگه در _دایرة‌المعارفِ فلسفه_ منتشر کرد:
     Dummett, M. (1967). ‘Frege’s Philosophy’, in Paul Edwards (ed.), _The Encyclopedia of Philosophy_. pages 7–115.
     او اینجا ‘Bedeutung’‌ را، حتی در توضیحِ آثارِ متأخرِ فرگه به ‘meaning’ برمی‌گرداند.  با این حال، همان‌طور که در ادامه خواهیم دید، او نیز در اثر اصلی خود در شرح فلسفه‌ی زبانِ فرگه از این تصمیم عدول می‌کند.
+
 [^13]: Russell, B. (1903). The Principles of Mathematics, Cambridge University Press, pp. 509-510.
+
 [^bignote]: Frege, G. (1915, 1916, 1917). ‘The Fundamental Laws of Arithmetic’, translated by J. Stachelroth and P. E. B. Jourdain, _The Monist_ 25(4):481–94, 26 (2):182–99, 27(1):114–27. 
     این نخستین ترجمه از متن‌های فرگه به زبانِ انگلیسی قبل از سال ۱۹۴۸ است. از بعد از این تاریخ امّا جریانِ ترجمه‌ی آثار فرگه به انگلیسی شروع می‌شود. برای شرحی از تاریخچه‌ی ترجمه‌ی آثار او به انگلیسی بنگرید به:
     Beaney, M. (2019), 'A Brief History of English Translations of Frege’s Writings', in P. A. Ebert, and M. Rossberg (eds), _Essays on Frege's Basic Laws of Arithmetic_, Oxford University Press.
+
 [^15]: Frege, G. (1964). _The Basic Laws of Arithmetic: exposition of the system, _edited and translated by M. Furth, University of California Press.
+
 [^16]: Frege, G. (1948). “Sense and reference, ”translated by M. Black, _Philosophical Review,_ 57 (3):209-230.
+
 [^17]: Frege, G. (1949). “On Sense and Nominatum,” translated by. H. Feigl, in H. Feigl (ed.), _Readings in Philosophical Analysis_, Appleton-Century-Crofts. pp. 85-102.
+
 [^18]: Dummett, M. (1973). _Frege: Philosophy of Language_, Duckworth.
