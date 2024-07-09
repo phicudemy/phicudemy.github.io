@@ -9,11 +9,12 @@ published: true
 categories: _categories/philosophy.md
 contents: _contents/article.md
 tags:
-  - ترجمه
-  - فلسفه تحلیلی
-  - فلسفه زبان
-  - فرگه
+  - {}
+  - {}
+  - {}
+  - {}
 ---
+
 
 > اگر جایی در متنی قطعه‌ای هست که گویش‌ورانِ زبانِ اصلی را با مسأله‌ی تفسیری مشروعی مواجه می‌کند، مترجم باید تلاش کند که، در صورتِ امکان، خواننده‌ی نسخه‌ی خودش را با همان مسأله‌ی تفسیری مواجه کند و نسخه‌ای تولید نکند که این مسائل را در نظر خودش حل‌وفصل می‌کند.[^1]
 
@@ -28,6 +29,12 @@ tags:
 
 هدفِ این مقاله، که در دو پاره منتشر می‌شود، ارائه‌ی گزارشی است از مشکلِ ترجمه‌ی این واژه در آثار فرگه و استدلال‌های اقامه‌شده از سوی طرفین نزاع، در بحثِ میانِ بل و مترجمانِ *نوشته‌ها*. برای این منظور، در پاره‌ی نخست، پس از تقریرِ اجمالی محلِ نزاع و چرایی مشکل‌ساز شدنِ ترجمه‌ی ‘Bedeutung’ در آثار فرگه (بخش I)،[^5]  گزارشی بسیار کوتاه ارائه خواهم داد از رویه‌ی مترجمان و شارحانِ فرگه در برگرداندنِ ‘Bedeutung’ تا پیش از انتشارِ ترجمه‌ی لانگ و وایت (بخشِ II)، و سپس استدلال‌های لانگ و وایت در مقدمه‌‌شان بر نوشته‌ها را معرفی خواهم کرد (بخشِ III). در پاره‌ی دوم، مروری خواهم داشت به استدلال‌های بل برضدِ مترجمانِ نوشته‌ها و به‌نفعِ پیشنهاد ایجابی خودش و پاسخ‌های لانگ و وایت به او.[^bignote]
 
+## (I)
+استفاده‌ی مترجمانِ‌ _نوشته‌ها_ از معادلِ انگلیسی ‘meaning’ برای ‘Bedeutung’ آلمانی، تا جایی که به نوشته‌های پیش از حوالی سال
+۱۸۹۱ فرگه مربوط است، کاری است نه عجیب و نه متفاوت با رویه‌ی دیگر مترجمانِ انگلیسیِ او. تا پیش از این تاریخ، ‘Bedeutung’ در آثار فرگه کم‌وبیش در همان مفهومِ عادی و روزمره‌ی آن به کار می‌رفته است، همان چیزی که معمولاً در فارسی با «معنا» و در انگلیسی با ‘meaning’ از آن یاد می‌کنیم. بنابراین، واژگانِ انتخابیِ لانگ و وایت معادل‌های انگلیسیِ طبیعی و استاندارد برای واژه‌های آلمانی فرگه است، کما این که در هر فرهنگ لغتِ آلمانی-انگلیسیِ استانداردی ‘meaning’‌ به‌عنوانِ معادل اصلی برای ‘Bedeutung’ ذکر می‌شود. و این همان معادلی است که، فی‌المثل، آستین در ترجمه‌اش از _مبانی حساب فرگه_ (۱۸۸۴)_،_ منتشرشده در سال 1950، به کار برده است.[^7]
+
+[^7]: Frege, G. (1884/1950), _The Foundations of Arithmetic_, Translated by J. L. Austin, Blackwell
+
 [^1]: Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” Analysis 40(4): 196–202, p. 196. 
 [^2]: Frege, G. (1979) Posthumous Writings. Translated by Peter Long and Roger White, Blackwell.
 [^3]: Bell, David (1980). “On the translation of Frege’s Bedeutung,” Analysis 40(4):191-195. Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” Analysis 40(4): 196 - 202.
@@ -37,4 +44,5 @@ tags:
        Beaney, M. (2019), 'Translating ‘Bedeutung’ in Frege’s Writings: A Case Study and Cautionary Tale in the History and                    Philosophy of Translation', in P. A. Ebert, and M. Rossberg (eds), Essays on Frege's Basic Laws of Arithmetic, Oxford University Press.   
        در نوشتنِ این یادداشت، از این مقاله‌ی مایکل بینی و همچنین یادداشت او در ابتدای مجموعه‌ی زیر از آثار فرگه بهره‌ی بسیار برده‌ام:   
       Beaney, M. (1997). ‘Introduction’, in G. Frege (1997), The Frege Reader, edited by M. Beaney, Blackwell, pages 1–46.   
+[^7]: Frege, G. (1884/1950), _The Foundations of Arithmetic_, Translated by J. L. Austin, Blackwell
 
