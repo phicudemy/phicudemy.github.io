@@ -82,7 +82,9 @@ tags:
 [^13]: Russell, B. (1903). The Principles of Mathematics, Cambridge University Press, pp. 509-510.
 
 [^bignote]: Frege, G. (1915, 1916, 1917). ‘The Fundamental Laws of Arithmetic’, translated by J. Stachelroth and P. E. B. Jourdain, _The Monist_ 25(4):481–94, 26 (2):182–99, 27(1):114–27. 
+    
     این نخستین ترجمه از متن‌های فرگه به زبانِ انگلیسی قبل از سال ۱۹۴۸ است. از بعد از این تاریخ امّا جریانِ ترجمه‌ی آثار فرگه به انگلیسی شروع می‌شود. برای شرحی از تاریخچه‌ی ترجمه‌ی آثار او به انگلیسی بنگرید به:
+    
     Beaney, M. (2019), 'A Brief History of English Translations of Frege’s Writings', in P. A. Ebert, and M. Rossberg (eds), _Essays on Frege's Basic Laws of Arithmetic_, Oxford University Press.
 
 [^15]: Frege, G. (1964). _The Basic Laws of Arithmetic: exposition of the system, _edited and translated by M. Furth, University of California Press.
