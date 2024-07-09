@@ -51,12 +51,6 @@ tags:
 
 با شروعِ جریانِ ترجمه‌ی گسترده‌ی آثارِ فرگه به زبانِ انگلیسی بعد از جنگِ جهانیِ دوم، در فاصله‌ی یک سال دو ترجمه از مقاله‌ی ۱۸۹۲ فرگه، که اصطلاحاتِ ‘Sinn’ _و_ _‘_Bedeutung’ __را در عنوان‌اش دارد، منتشر می‌شود. ترجمه‌ی اول از بلَک (۱۹۴۸) است[^16] که در آن ‘Bedeutung’ در عنوانِ مقاله به ‘reference’ و در متن گاه به ‘reference’ و گاه به ‘referent’ برگردانده شده است. مترجم دوم، فایگل، اما از پیشنهادِ کارنپ تبعیت می‌کند و آن را به ‘nominatum’ برمی‌گرداند.[^17] با این حال، نقطه‌ی عطفِ اصلی در جاافتادنِ معادلی برای این واژه در زبان انگلیسی انتشارِ اثر بزرگ دامت در ۱۹۷۳ است.[^18] او در این اثر برای نخستین بار در زبانِ انگلیسی به شرحِ مبسوط و نظام‌مندِ آرای فرگه در فلسفه‌ی زبان می‌پردازد. او در اینجا از معادلِ reference برای Bedeutung استفاده می‌کند و به همان سرعتی که کتابِ او به مرجعی در فرگه‌شناسی تبدیل می‌شود، معادلِ او هم در ادبیاتِ ثانویه مربوط به فرگه جا می‌افتد. در واقع می‌توان گفت پس از انتشارِ اثرِ دامت، reference به معادلِ رایج و استانداردِ Bedeutung در بحث از آرای فرگه تبدیل می‌شود. 
 
-[^16]: Frege, G. (1948). “Sense and reference,”translated by M. Black, _Philosophical Review,_ 57 (3):209-230.
-
-[^17]: Frege, G. (1949). “On Sense and Nominatum,” translated by. H. Feigl, in H. Feigl (ed.), _Readings in Philosophical Analysis_, Appleton-Century-Crofts. pp. 85-102.
-
-[^18]: Dummett, M. (1973). _Frege: Philosophy of Language_, Duckworth.
-
 بنابراین، به طور خلاصه، تا پیش از انتشار _نوشته‌ها_، از یک سو، در بعدِ سلبی، اجماع تقریباً کاملی بوده است که meaning معادل مناسبی در زبان انگلیسی برای _Bedeutung_ __در آثار متأخر فرگه نیست. از سوی دیگر، در بعد ایجابی، reference، به‌خصوص در مکتبوباتِ ثانویه راجع به فرگه جا افتاده بوده است. 
 
 
@@ -83,3 +77,6 @@ tags:
     این نخستین ترجمه از متن‌های فرگه به زبانِ انگلیسی قبل از سال ۱۹۴۸ است. از بعد از این تاریخ امّا جریانِ ترجمه‌ی آثار فرگه به انگلیسی شروع می‌شود. برای شرحی از تاریخچه‌ی ترجمه‌ی آثار او به انگلیسی بنگرید به:
     Beaney, M. (2019), 'A Brief History of English Translations of Frege’s Writings', in P. A. Ebert, and M. Rossberg (eds), _Essays on Frege's Basic Laws of Arithmetic_, Oxford University Press.
 [^15]: Frege, G. (1964). _The Basic Laws of Arithmetic: exposition of the system, _edited and translated by M. Furth, University of California Press.
+[^16]: Frege, G. (1948). “Sense and reference, ”translated by M. Black, _Philosophical Review,_ 57 (3):209-230.
+[^17]: Frege, G. (1949). “On Sense and Nominatum,” translated by. H. Feigl, in H. Feigl (ed.), _Readings in Philosophical Analysis_, Appleton-Century-Crofts. pp. 85-102.
+[^18]: Dummett, M. (1973). _Frege: Philosophy of Language_, Duckworth.
