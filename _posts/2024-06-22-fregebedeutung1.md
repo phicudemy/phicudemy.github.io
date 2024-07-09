@@ -74,10 +74,8 @@ tags:
 [^4]: Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979)  _Posthumous Writings_, p. VI.
 [^5]: برای سادگی بحث، در ادامه اغلب تنها از اسمِ ‘Bedeutung’ بحث خواهم کرد. اما آن‌چه گفته می‌شود را می‌توان، با جرح‌وتعدیلِ لازم، به فعلِ ‘bedeuten’ و دیگر مشتقاتِ این واژه‌ها تعمیم داد.
 [^6]: بحث و جدل‌ها درباره‌ی ترجمه‌ی این اصطلاح در آثار فرگه تا همین امروز ادامه داشته و ماجرایی دارد بسیار گسترده‌تر از مناقشه‌ی میانِ بل و مترجمانِ نوشته‌ها، که این یادداشت بر آن متمرکز است. برای شرحی مفصل از این ماجرا، بنگرید به:
-    
-    Beaney, M. (2019), 'Translating ‘Bedeutung’ in Frege’s Writings: A Case Study and Cautionary Tale in the History and                    Philosophy of Translation', in P. A. Ebert, and M. Rossberg (eds), Essays on Frege's Basic Laws of Arithmetic, Oxford University Press.
-    
-    در نوشتنِ این یادداشت، از این مقاله‌ی مایکل بینی و همچنین یادداشت او در ابتدای مجموعه‌ی زیر از آثار فرگه بهره‌ی بسیار برده‌ام:
+    Beaney, M. (2019), 'Translating ‘Bedeutung’ in Frege’s Writings: A Case Study and Cautionary Tale in the History and Philosophy of Translation', in P. A. Ebert, and M. Rossberg (eds), Essays on Frege's Basic Laws of Arithmetic, Oxford University Press. 
+        در نوشتنِ این یادداشت، از این مقاله‌ی مایکل بینی و همچنین یادداشت او در ابتدای مجموعه‌ی زیر از آثار فرگه بهره‌ی بسیار برده‌ام:
     Beaney, M. (1997). ‘Introduction’, in G. Frege (1997), The Frege Reader, edited by M. Beaney, Blackwell, pages 1–46.
 
 [^7]: Frege, G. (1884/1950), _The Foundations of Arithmetic_, Translated by J. L. Austin, Blackwell
@@ -91,9 +89,7 @@ tags:
 [^11]: از نظرِ فرگه، Sinn یک جمله‌ی خبری اندیشه یا گزاره‌ای است که با ادای آن جمله بیان می‌شود. آن‌چه جملاتِ صادق (یا کاذب) را، به‌لحاظِ معناشناختی از هم‌دیگر متمایز می‌کند، اندیشه‌ی متفاوتی است که بیان می‌کنند.
 
 [^12]: یک استثنای مهم در این میانِ مدخلی است که دامت در ۱۹۶۷ در معرفی فلسفه‌ی فرگه در _دایرة‌المعارفِ فلسفه_ منتشر کرد:
-    
-    Dummett, M. (1967). ‘Frege’s Philosophy’, in Paul Edwards (ed.), _The Encyclopedia of Philosophy_. pages 7–115.
-    
+     Dummett, M. (1967). ‘Frege’s Philosophy’, in Paul Edwards (ed.), _The Encyclopedia of Philosophy_. pages 7–115.
     او اینجا ‘Bedeutung’‌ را، حتی در توضیحِ آثارِ متأخرِ فرگه به ‘meaning’ برمی‌گرداند.  با این حال، همان‌طور که در ادامه خواهیم دید، او نیز در اثر اصلی خود در شرح فلسفه‌ی زبانِ فرگه از این تصمیم عدول می‌کند.
 
 [^13]: Russell, B. (1903). The Principles of Mathematics, Cambridge University Press, pp. 509-510.
