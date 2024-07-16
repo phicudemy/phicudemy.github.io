@@ -21,3 +21,5 @@ contents: _contents/article.md
 
 
 [^1]: Beaney, M. (1997) “Introduction,” in G. Frege, _Frege Reader_, edited by M. Beaney, Blackwell. 
+[^2]: Frege, G. (1979) _Posthumous Writings_. Translated by Peter Long and Roger White, Blackwell.
+
