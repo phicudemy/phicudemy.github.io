@@ -17,7 +17,8 @@
             <a href="/posts/" class="float-end text-reset me-3 text-muted">مجله</a>
         </nav>
     <div class="card-body">
-        <h5 class="card-title"><a class="text-reset" href="{% if post %}{{post.url}}{% else%}${post[i].link} {% endif %}">{% if post.title %}{{post.title}}{% else%}${post[i].title} {% endif %}</a></h5>
+        <h5 class="card-title mb-0"><a class="text-reset" href="{% if post %}{{post.url}}{% else%}${post[i].link} {% endif %}">{% if post.title %}{{post.title}}{% else%}${post[i].title} {% endif %}</a></h5>
+        <h6>{% if post.subtitle %}{{post.subtitle}}{% else%}${post[i].subtitle} {% endif %}</h6>
         <div class="card-subtitle mb-2 text-body-secondary">
             {% if post %}
             {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}

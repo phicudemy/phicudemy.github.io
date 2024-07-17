@@ -18,7 +18,7 @@ $(document).ready(function(){
     })
     
     $.ajax({
-      url:"/posts.json?v=0.5",
+      url:"/posts.json?v=0.6",
       dataType: 'json',
       async: false,
       success: function(data) {
