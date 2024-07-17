@@ -56,6 +56,8 @@ contents: _contents/article.md
 2. کاربردِ ‘Bedeutung’ در اثرِ متأخر از جمله‌ی مواردی است که فرگه در آثارِ پس از ۱۸۹۱ معنای عادی این واژه را مراد کرده است. و لذا، از همان آموزه‌ای دفاع می‌کند که در اثر متقدم طرح کرده است.
 3. با وجود آن که فرگه پیش از ۱۸۹۱ عموماً ‘Bedeutung’ را در معنای عادی آن به کار می‌برد، اما می‌توان پیش‌آگاهی‌ای از معنای فنیِ متأخر آن را در آثار آن دوره نیز یافت. ولذا آموزه‌ی متقدم در واقع از نشانه‌های این است که فرگه حتی در آن دوره هم گاه چیزی شبیه به معنای فنیِ متأخر را از ‘Bedeutung’ مراد می‌کرده است.
 
+اگر ‘Bedeutung’ را، همچون مترجمانِ _نوشته‌ها_ همواره به ‘meaning’ بازگردانیم، خواننده‌ی انگلیسی زبانِ فرگه نیز با هر سه‌ی این گزینه‌ها مواجه خواهد بود. انتخابِ معادلِ ‘reference’ اما این دعوای تفسیریِ مشروع را به نفعِ گزینه‌ی ۱ فیصله می‌دهد. از نظرِ لانگ و وایت، حتی اگر این موضعی درست باشد، در صللاحیتِ مترجم نیست که به جای خواننده در این باره تصمیم بگیرید.[^5]
+
 
 
 
@@ -65,5 +67,7 @@ contents: _contents/article.md
 [^2]: Frege, G. (1979) _Posthumous Writings_. Translated by Peter Long and Roger White, Blackwell.
 [^3]: بحث از این تفسیرِ بل فراتر از حوصله‌ی این یادداشت است. در این جا به صرفِ نقلِ توصیفِ کلّی او از ‘Bedeutung’ در آثارِ متأخرِ فرگه اکتفا می‌کنم:
 [^4]: Long, Peter & White, Roger (1980). “On the Translation of Frege’s _Bedeutung_: A Reply to Dr. Bell,” _Analysis_ 40(4): 196–202, p. 196. 
+[^5]: برای پاسخ‌هایی به این استدلال‌های مترجمانِ _نوشته‌ها_ نگاه کنید به بحثِ مایکل بینی در بخشِ‌ مربوط در مقاله‌ی زیر:
+     Beaney, M. (2019), 'Translating ‘Bedeutung’ in Frege’s Writings: A Case Study and Cautionary Tale in the History and Philosophy of Translation', in P. A. Ebert, and M. Rossberg (eds), _Essays on Frege's Basic Laws of Arithmetic, Oxford University Press__, pp. ???._
 
 
