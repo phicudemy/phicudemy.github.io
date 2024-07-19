@@ -154,7 +154,7 @@ for (var i = to-no ; i < to; i++) {
     }
     {% if page.slug == 'courses' %}
     var postCard = `
-    <div class="grid-item ${post[i].featured? 'grid-item--width2': ''} ${post[i].category[0].slug} px-2 pb-4 mb-2">
+    <div class="grid-item ${post[i].featured? 'grid-item--width2': ''} ${post[i].category[0]? post[i].category[0].slug : ''} px-2 pb-4 mb-2">
             {% include cardCourse.html%}
     </div>
     `;
