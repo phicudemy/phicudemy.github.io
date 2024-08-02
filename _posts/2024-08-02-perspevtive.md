@@ -4,6 +4,7 @@ subtitle: درباره‌یِ کتابِ نظریهٔ معرفت در پدیدا
 slug: perspectives
 people: _people/mohsenzamani.md
 date: 2024-08-01T20:30:00.000Z
+published: true
 tags:
   - tag: _tags/bookreview.md
 ---
