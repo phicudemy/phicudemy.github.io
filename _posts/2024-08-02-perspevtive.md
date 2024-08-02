@@ -5,10 +5,11 @@ slug: perspectives
 people: _people/mohsenzamani.md
 date: 2024-08-01T20:30:00.000Z
 published: true
-categories: _categories/philosophy.md
+categories: _categories/booksreview.md
 tags:
   - tag: _tags/bookreview.md
 ---
+
 
 **نامِ کتاب:** نظریة معرفت در پدیدارشناسی؛ هوسرل،
 هایدگر، مرلوپونتی
