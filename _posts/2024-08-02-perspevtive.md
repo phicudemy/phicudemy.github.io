@@ -1,6 +1,6 @@
 ---
 title: در سختیِ امتزاجِ افق‌ها
-subtitle: درباره‌یِ کتابِ نظریهٔ معرفت در پدیدارشناسی
+subtitle: درباره‌یِ کتابِ «نظریهٔ معرفت در پدیدارشناسی»
 slug: perspectives
 people: _people/mohsenzamani.md
 date: 2024-08-01T20:30:00.000Z
