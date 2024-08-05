@@ -5,12 +5,14 @@
                     {% if post %}{%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content | first %}
                     {% if cont %}<span><a class="text-reset" href="{{cont.url}}"><i class="{{cont.icon}}"></i> {{cont.title}}</a></span> {% endif %}{% endfor %} / {%endif%}
                     {% else%}
-                    <a class="text-reset" href="${post[i].contents[0].url} "><i class="${post[i].contents[0].icon}"></i> ${post[i].contents[0].title} </a> / 
+                    {% capture contentsTag %}${post[i].contents[0]}{%endcapture%}
+                    {% if contentsTag %}<a class="text-reset" href="${post[i].contents[0].url} "><i class="${post[i].contents[0].icon}"></i> ${post[i].contents[0].title} </a> / {%endif%}
                     {% endif %}            
                     {% if post %}{%if post.categories%}{% for category in post.categories %}{% assign cat = site.categories | where: 'relative_path', category | first %}
                     {% if cat %}<span><a class="text-reset" href="{{cat.url}}">{{cat.title}}</a></span> {% endif %}{% endfor %}{%endif%}
                     {% else%}
-                    <a class="text-reset" href="${post[i].category[0].url} ">${post[i].category[0].title} </a>
+                    {% capture categoryTag %}${post[i].category[0]}{%endcapture%}
+                    {% if categoryTag %}<a class="text-reset" href="${post[i].category[0].url} ">${post[i].category[0].title} </a>{%endif%}
                     {% endif %}            
                 </li>
             </ul>
@@ -18,18 +20,15 @@
         </nav>
     <div class="card-body">
         <h5 class="card-title mb-0"><a class="text-reset" href="{% if post %}{{post.url}}{% else%}${post[i].link} {% endif %}">{% if post.title %}{{post.title}}{% else%}${post[i].title} {% endif %}</a></h5>
-        <h6>{% if post.subtitle %}{{post.subtitle}}{% else%}${post[i].subtitle} {% endif %}</h6>
+        {% if post.subtitle %}<h6>{{post.subtitle}}</h6>{% else%}{% capture subtitleTag %}${post[i].subtitle}{%endcapture%}{%if subtitleTag %}<h6>${post[i].subtitle}</h6>{%endif%}{% endif %}</h6>
         <div class="card-subtitle mb-2 text-body-secondary">
             {% if post %}
             {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
             {% if ppl %}<a href="{{ppl.url}}" class="text-reset">{%if ppl.avatar %}<img src="//images.weserv.nl/?url=https://phicudemy.github.io{{ppl.avatar}}&w=20&h=20&fit=cover&mask=circle" class="float-start me-2">{% else %}<i class="bi bi-person-lines-fill"></i>{%endif%} {{ppl.title}}</a>
-            {% endif %}
-            {% endfor %}
-            {% endif %}
+            {% endif %}{% endfor %}{% endif %}
             {% else %}
-            ${authorlist}
+            {% capture authorsTag %}${authorlist}{%endcapture%}{% if authorsTag %}${authorlist}{%endif%}
             {% endif %}
-              
         </div>
         <div class="card-text small">
             {%if post.url == page.url %}
@@ -54,11 +53,10 @@
                 {% if post.content %}
                 {{post.content | number_of_words |append: ' کلمه' }}
                 {%endif%}
-                {% else%}${post[i].length} {% endif %}                
+                {% else%}{% capture lengthTag %}${post[i].length}{%endcapture%}{% if lengthTag %}${post[i].length}{% endif %}{% endif %}                
             </div>
           </div>
           <!-- Left elements -->
-      
           <!-- Right elements -->
           <ul class="navbar-nav flex-row p-0">
             <li class="nav-item me-3 me-lg-1">
@@ -68,5 +66,4 @@
           <!-- Right elements -->
         </div>
       </nav>
-    
 </div>

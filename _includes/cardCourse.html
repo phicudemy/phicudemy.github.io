@@ -5,7 +5,7 @@
             {% if post %}{%if post.categories%}{% for category in post.categories %}{% assign cat = site.categories | where: 'relative_path', category | first %}
             {% if cat %}<span><a class="text-reset" href="{{cat.url}}">{{cat.title}}</a></span> {% endif %}{% endfor %}{%endif%}
             {% else%}
-            <a class="text-reset" href="${post[i].category[0].url} ">${post[i].category[0].title} </a>
+            {% capture categoryTag %}${post[i].category[0]}{%endcapture%}{% if categoryTag %}<a class="text-reset" href="${post[i].category[0].url} ">${post[i].category[0].title} </a>{%endif%}
             {% endif %}            
         </li>
     </ul>
@@ -21,7 +21,7 @@
       {% endfor %}
       {% endif %}
       {% else %}
-      ${authorlist}
+      {% capture authorsTag %}${authorlist}{%endcapture%}{% if authorsTag %}${authorlist}{%endif%}
       {% endif %}
     </div>
     <div class="card-text small">
@@ -33,13 +33,12 @@
       {% endif %}
       {%else%}
       <p>
-        {% if post %}{{ post.excerpt| truncatewords:25 | strip_html  }}{% else%}${post[i].excerpt} {% endif %}
+        {% if post %}{{ post.excerpt| truncatewords:25 | strip_html  }}{% else%}{% capture excerptTag %}${post[i].excerpt}{%endcapture%}{% if excerptTag %}${post[i].excerpt}{% endif %}{% endif %}
       </p>
       {%endif%}
-
       <strong>
         {% if post %}{{post.schedule}}{% else %}${post[i].schedule}{% endif %}
-        <span class="float-end">{% if post %}{{post.type | join: ' | '}}{% else %}${post[i].type}{% endif %}</span>
+        <span class="float-end">{% if post %}{{post.type | join: ' | '}}{% else %}{% capture typeTag %}${post[i].type}{%endcapture%}{% if typeTag %}${post[i].type}{% endif %}{% endif %}</span>
       </strong>
     </div>
   </div>
@@ -50,12 +49,11 @@
         <!-- Brand -->
         <div class="me-2 mb-1">
           <i class="bi bi-stopwatch"></i> 
-          {% if post %}{{post.sessions}}{% else %}${post[i].sessions}{% endif %}
+          {% if post %}{{post.sessions}}{% else %}{% capture sessionsTag %}${post[i].sessions}{%endcapture%}{% if sessionsTag %}${post[i].sessions}{% endif %}{% endif %}
           جلسه
         </div>
       </div>
       <!-- Left elements -->
-
       <!-- Right elements -->
       <ul class="navbar-nav flex-row p-0">
         <li class="nav-item me-3 me-lg-1">
@@ -65,5 +63,4 @@
       <!-- Right elements -->
     </div>
   </nav>
-
 </div>

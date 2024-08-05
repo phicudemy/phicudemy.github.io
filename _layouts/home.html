@@ -58,7 +58,7 @@ layout: default
               <h4 class="mb-0 pb-0">برچسب</h4>
               {% capture hometags %}
               {% for tag in site.tags %}
-              {% assign tagsize = target | where: 'tags', tag.relative_path | size %}
+              {% assign tagsize = target | where: tags.tag, tag.relative_path | size %}
               {%if tagsize >0 %}
               <span data-sort="{{ tagsize | plus: 1000}}" class="option-set" data-group="{{category.slug}}">
                 <input type="checkbox" class="btn-check" name="tag" value="{{tag.slug}}" id="{{tag.slug}}" autocomplete="off">
