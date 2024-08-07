@@ -1,0 +1,5 @@
+---
+title: فرهنگ
+slug: culture
+---
+
