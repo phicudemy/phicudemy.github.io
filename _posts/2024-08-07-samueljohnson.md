@@ -1,6 +1,6 @@
 ---
 title: ازدیاد بی حد و حصر کتاب در زمانه جاهل ما
-slug: SamuelJohnson
+slug: samueljohnson
 people: _people/omidkarimzade.md
 date: 2024-08-06T20:30:00.000Z
 published: true
