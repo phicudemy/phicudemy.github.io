@@ -42,7 +42,7 @@ layout: default
               </div>
             </form>
             <div class="filters">
-              <h4 class="mb-0 pb-0">مؤلف</h4>
+              <h4 class="my-2">مؤلف</h4>
               {% capture homeppl %}
               {% for ppl in site.people %}
               {% assign pplsize = target | where: 'people', ppl.relative_path | size %}
@@ -55,7 +55,7 @@ layout: default
               {%endfor%}
               {% endcapture %}
               {{ homeppl | split:'</span>' | sort | reverse | join:'</span>' }}
-              <h4 class="mb-0 pb-0">برچسب</h4>
+              <h4 class="my-2">برچسب</h4>
               {% capture hometags %}
               {% for tag in site.tags %}
               {% assign tagsize = target | where: tags.tag, tag.relative_path | size %}
