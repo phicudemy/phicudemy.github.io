@@ -7,7 +7,7 @@
         <div class="navbar-collapse collapse" id="collapseNavbar">
             <ul class="navbar-nav">
             {% for item in site.data.navtop %}
-                <li class="nav-item {% if page.url == item.link or page.url contains item.slug %} active bg-white border border-dark border-bottom-0 rounded-top mb-n1 pb-0{% endif %}">
+                <li class="nav-item {% if page.url == item.link or page.url contains item.slug %} active bg-main border border-dark border-bottom-0 rounded-top mb-n1 pb-0{% endif %}">
                     <a class="nav-link {% if page.url == item.link %}mb-0 pb-0{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
                 </li>
             {% endfor %}                
