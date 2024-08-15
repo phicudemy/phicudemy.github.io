@@ -362,6 +362,12 @@ export default defineConfig({
         path: '_contents',
         fields: [
           {
+            type: "reference",
+            name: "section",
+            collections: ["sections"],
+            label: "بخش",
+          },
+          {
             label: 'عنوان',
             name: 'title',
             type: 'string',
@@ -399,6 +405,41 @@ export default defineConfig({
         name: "page",
         label: "صفحات",
         path: "_pages",
+        format: "md",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "عنوان",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "string",
+            name: "slug",
+            label: "نامک",
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+        ui: {
+          filename: {
+            readonly: true,
+            slugify: values => {        
+              return `${values?.title?.toLowerCase().replace(/ /g, '-')}`
+            }
+          }
+        },
+      },
+      {
+        name: "sections",
+        label: "بخش‌ها",
+        path: "_type",
         format: "md",
         fields: [
           {
