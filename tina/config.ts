@@ -167,13 +167,7 @@ export default defineConfig({
             type: 'boolean',
             name: 'published',
             label: 'انتشار'
-          },
-          {
-            type: "reference",
-            name: "contents",
-            collections: ["contents"],
-            label: "نوع محتوا",
-          },
+          },          
           {
             type: "reference",
             name: "categories",
