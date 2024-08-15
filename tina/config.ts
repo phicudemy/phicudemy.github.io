@@ -52,12 +52,6 @@ export default defineConfig({
             required: true,
           },          
           {
-            type: "reference",
-            name: "translator",
-            collections: ["people"],
-            label: "مترجم",
-          },          
-          {
             type: "datetime",
             name: "date",
             label: "تاریخ",
