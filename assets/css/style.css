@@ -135,6 +135,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .border-top-dashed{
   border-top-style: dashed !important;
  }
+ .border-bottom-dashed{
+  border-bottom-style: dashed !important;
+ }
  @media (min-width: 768px) {
   .navbar-brand.abs
       {

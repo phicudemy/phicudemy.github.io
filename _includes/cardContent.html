@@ -1,3 +1,4 @@
+
 <div class="card shadow-sm border-dark">
         <nav class="navbar bg-secondary-subtle rounded-top-3 pb-0 border-bottom  border-dark">
             <ul class="navbar-nav mx-2">
@@ -19,8 +20,9 @@
             <a href="/posts/" class="float-end text-reset me-3 text-muted">مجله</a>
         </nav>
     <div class="card-body">
+        
         <h5 class="card-title"><a class="text-reset" href="{% if post %}{{post.url}}{% else%}${post[i].link} {% endif %}">{% if post.title %}{{post.title}}{% else%}${post[i].title} {% endif %}</a></h5>
-        {% if post.subtitle %}<h6>{{post.subtitle}}</h6>{% else%}{%unless page == post %}{% capture subtitleTag %}${post[i].subtitle}{%endcapture%}{%if subtitleTag  %}<h6>{{subtitleTag}}</h6>{%endif%}{%endunless%}{% endif %}</h6>
+        {%if post %}{% if post.subtitle %}<h6>{{post.subtitle}}</h6>{% endif %}{%else%}<h6>${(post[i].subtitle)? post[i].subtitle : ""}</h6>{%endif%}
         <div class="card-subtitle mb-2 text-body-secondary">
             {% if post %}
             {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
