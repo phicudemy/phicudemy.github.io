@@ -49,6 +49,13 @@ export default defineConfig({
             name: "people",
             collections: ["people"],
             label: "نویسنده",
+            required: true,
+          },          
+          {
+            type: "reference",
+            name: "translator",
+            collections: ["people"],
+            label: "مترجم",
           },          
           {
             type: "datetime",
