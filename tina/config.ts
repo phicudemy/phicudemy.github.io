@@ -51,12 +51,6 @@ export default defineConfig({
             label: "نویسنده",
           },          
           {
-            type: "reference",
-            name: "translator",
-            collections: ["people"],
-            label: "مترجم",
-          },          
-          {
             type: "datetime",
             name: "date",
             label: "تاریخ",
@@ -173,7 +167,13 @@ export default defineConfig({
             type: 'boolean',
             name: 'published',
             label: 'انتشار'
-          },          
+          },
+          {
+            type: "reference",
+            name: "contents",
+            collections: ["contents"],
+            label: "نوع محتوا",
+          },
           {
             type: "reference",
             name: "categories",
