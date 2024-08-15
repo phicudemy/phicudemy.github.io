@@ -1,3 +1,8 @@
+{% if page.url contains 'courses' or page.section contains 'courses' %}
+{% assign target = site.courses %}
+{% elsif page.url contains 'magazine' or page.section contains 'magazine' %}
+{% assign target = site.posts %}
+{% endif %}
 <nav class="navbar navbar-light navbar-expand-md justify-content-center bg-secondary-subtle rounded-top-3 pb-0 border-bottom  border-dark">
     <div class="container-fluid">
         <a class="navbar-brand abs h6" href="/">{{site.title}}</a>
@@ -7,7 +12,7 @@
         <div class="navbar-collapse collapse" id="collapseNavbar">
             <ul class="navbar-nav">
             {% for item in site.data.navtop %}
-                <li class="nav-item {% if page.url == item.link or page.url contains item.slug %} active bg-main border border-dark border-bottom-0 rounded-top mb-n1 pb-0{% endif %}">
+                <li class="nav-item {% if page.url == item.link or page.url contains item.slug or page.section contains item.slug %} active bg-main border border-dark border-bottom-0 rounded-top mb-n1 pb-0{% endif %}">
                     <a class="nav-link {% if page.url == item.link %}mb-0 pb-0{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
                 </li>
             {% endfor %}                
@@ -23,3 +28,20 @@
         </div>
     </div>
 </nav>
+{% if target %}
+<nav class="navbar navbar-expand-lg navbar-light bg-main rounded-top-3 py-0 border-bottom border-bottom-dashed border-dark">
+    <div class="container-fluid justify-content-between">
+      <ul class="navbar-nav flex-row">
+        {% for content in site.contents %}
+        {% assign contsize = target | where: 'contents', content.relative_path | size %}
+        {%if contsize >0 %}
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link d-sm-flex align-items-sm-center {% if page.url == content.url or page.contents == content.relative_path %} active {%endif%}" href="{{content.url}}">{{content.title}}</a>
+        </li>
+        {%endif%}
+        {%endfor%}
+      </ul>  
+    </div>
+  </nav>
+  <!-- Navbar -->
+{%endif%}
