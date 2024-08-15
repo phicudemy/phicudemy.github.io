@@ -51,6 +51,12 @@ export default defineConfig({
             label: "نویسنده",
           },          
           {
+            type: "reference",
+            name: "translator",
+            collections: ["people"],
+            label: "مترجم",
+          },          
+          {
             type: "datetime",
             name: "date",
             label: "تاریخ",
