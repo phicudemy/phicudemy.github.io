@@ -1,4 +1,4 @@
 ---
 title: مجله
-slug: contents
+slug: magazine
 ---
