@@ -364,8 +364,8 @@ export default defineConfig({
         fields: [
           {
             type: "reference",
-            name: "type",
-            collections: ["type"],
+            name: "section",
+            collections: ["sections"],
             label: "بخش",
           },
           {
@@ -438,8 +438,8 @@ export default defineConfig({
         },
       },
       {
-        name: "type",
-        label: "صفحات",
+        name: "sections",
+        label: "بخش‌ها",
         path: "_type",
         format: "md",
         fields: [
