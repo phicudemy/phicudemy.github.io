@@ -49,13 +49,6 @@ export default defineConfig({
             name: "people",
             collections: ["people"],
             label: "نویسنده",
-            required: true,
-          },          
-          {
-            type: "reference",
-            name: "translator",
-            collections: ["people"],
-            label: "مترجم",
           },          
           {
             type: "datetime",
@@ -174,13 +167,7 @@ export default defineConfig({
             type: 'boolean',
             name: 'published',
             label: 'انتشار'
-          },
-          {
-            type: "reference",
-            name: "contents",
-            collections: ["contents"],
-            label: "نوع محتوا",
-          },
+          },          
           {
             type: "reference",
             name: "categories",
@@ -363,12 +350,6 @@ export default defineConfig({
         path: '_contents',
         fields: [
           {
-            type: "reference",
-            name: "section",
-            collections: ["sections"],
-            label: "بخش",
-          },
-          {
             label: 'عنوان',
             name: 'title',
             type: 'string',
@@ -406,41 +387,6 @@ export default defineConfig({
         name: "page",
         label: "صفحات",
         path: "_pages",
-        format: "md",
-        fields: [
-          {
-            type: "string",
-            name: "title",
-            label: "عنوان",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "string",
-            name: "slug",
-            label: "نامک",
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-        ],
-        ui: {
-          filename: {
-            readonly: true,
-            slugify: values => {        
-              return `${values?.title?.toLowerCase().replace(/ /g, '-')}`
-            }
-          }
-        },
-      },
-      {
-        name: "sections",
-        label: "بخش‌ها",
-        path: "_type",
         format: "md",
         fields: [
           {
