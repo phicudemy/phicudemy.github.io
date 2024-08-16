@@ -1,13 +1,15 @@
 ---
 title: ازدیاد بی حد و حصر کتاب در زمانه جاهل ما
 slug: samueljohnson
-people: _people/omidkarimzade.md
+people: _people/samueljohnson.md
+translator: _people/omidkarimzade.md
 date: 2024-08-06T20:30:00.000Z
 published: true
 categories: _categories/culture.md
 contents: _contents/notes.md
 excerpt: ''
 ---
+
 
 
 ## توضیح مترجم
