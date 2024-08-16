@@ -1,5 +1,5 @@
 ---
-title: 'بی‌طرفی تفسیری و مسأله‌ی ترجمه‌ی ‘Bedeutung’ در آثار متأخر فرگه '
+title: 'بی‌طرفی تفسیری و مسأله‌ی ترجمه‌ی «Bedeutung» در آثار متأخر فرگه '
 subtitle: گزارشی از یک مناقشه (بخشِ اول)
 slug: fregeBedeutung1
 people: _people/طیبی.md
@@ -8,6 +8,7 @@ published: true
 categories: _categories/philosophy.md
 contents: _contents/article.md
 ---
+
 
 
 <img src="https://upload.wikimedia.org/wikipedia/en/9/95/Benefits_Supervisor_Sleeping.jpg" alt="drawing" style="width:200px;"/>
