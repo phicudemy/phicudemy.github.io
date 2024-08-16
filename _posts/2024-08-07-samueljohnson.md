@@ -1,5 +1,6 @@
 ---
 title: ازدیاد بی حد و حصر کتاب در زمانه جاهل ما
+subtitle: مجلّهٔ آیدلر ( شماره ۸۵، شنبه اول دسامبر ۱۷۵۹)
 slug: samueljohnson
 people: _people/samueljohnson.md
 translator: _people/omidkarimzade.md
