@@ -19,7 +19,7 @@ excerpt: ''
 <img
         src = "https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Samuel_Johnson.jpg"
         alt = "SamuelJohnson"
-        width ="300"
+        width = "300"
         height = "400" />
 #### توضیح مترجم:
 
