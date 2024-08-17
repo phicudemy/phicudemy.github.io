@@ -11,10 +11,12 @@ contents: _contents/notes.md
 excerpt: ''
 ---
 
-#### توضیح مترجم:
 
 
 ----------
+
+#### توضیح مترجم:
+
 ![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Samuel_Johnson.jpg){: .img-thumbnail .float-end .ms-4 .w-50} 
 
 
