@@ -1,5 +1,5 @@
 ---
-title: 'بی‌طرفی تفسیری و مسأله‌ی ترجمه‌ی «Bedeutung» در آثار متأخر فرگه '
+title: 'بی‌طرفی تفسیری و مسأله‌ی ترجمه «Bedeutung» در آثار متأخر فرگه '
 subtitle: گزارشی از یک مناقشه (بخشِ دوم)
 slug: fregeBedeutung2
 people: _people/طیبی.md
