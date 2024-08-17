@@ -11,7 +11,7 @@ tags:
   - tag: _tags/bookreview.md
 ---
 
-![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/نظریۀ-معرفت-2.jpg){: .img-thumbnail .float-end .ms-4 .w-40} 
+![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/نظریۀ-معرفت-2.jpg){: .img-thumbnail .float-end .ms-4 .w-50} 
 
 **نامِ کتاب:** نظریهٔ معرفت در پدیدارشناسی؛ هوسرل،
 هایدگر، مرلوپونتی
