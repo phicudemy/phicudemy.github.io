@@ -1,6 +1,6 @@
 
 <div class="card shadow-sm border-dark">
-        <nav class="navbar bg-secondary-subtle rounded-top-3 pb-0 border-bottom  border-dark">
+        <nav class="navbar bg-warning-subtle rounded-top-3 pb-0 border-bottom  border-dark">
             <ul class="navbar-nav mx-2">
                 <li class=" nav-item first text-secondary bg-white border border-dark border-bottom-0 rounded-top mb-n1 pb-0 p-2">
                     {% if post %}{%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content | first %}
@@ -45,7 +45,7 @@
             {%endif%}
         </div>
     </div>
-    <nav class="navbar small navbar-expand-lg navbar-light bg-body-tertiary rounded-bottom-3 p-0 border-top border-top-dashed border-dark">
+    <nav class="navbar small navbar-expand-lg navbar-light bg-warning bg-opacity-10 rounded-bottom-3 p-0 border-top border-top-dashed border-dark">
         <div class="container-fluid justify-content-between">
           <!-- Left elements -->
           <div class="d-flex">

@@ -148,4 +148,23 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
           text-align: center;
       }
   }
-  
+  .accordion-button:not(.collapsed),
+.accordion-button:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+  background-color: transparent;
+}
+.accordion-button::after {
+  width: 11px;
+  height: 11px;
+  border-radius: 100%;
+  background-color: var(--bs-danger);
+  background-image: none !important;
+}
+.accordion-button.collapsed::after {
+  background-color: var(--bs-gray-300);
+}
+.nav-link.active, .nav-link:active {
+  background-color: white !important;
+}
