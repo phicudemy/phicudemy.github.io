@@ -1,5 +1,5 @@
 ---
-title: ازدیاد بی حد و حصر کتاب در زمانه جاهل ما
+title: ازدیاد بی‌حدوحصر کتاب در زمانهٔ جاهل ما
 subtitle: ''
 slug: samueljohnson
 people: _people/samueljohnson.md
@@ -17,9 +17,10 @@ excerpt: >-
   کاهلی‌مان از ما نهان کرده است، بزرگی می‌جویند.
 ---
 
+
 ----------
 
-#### توضیح مترجم:
+**توضیح مترجم:**
 
 ![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Samuel_Johnson.jpg){: .img-thumbnail .float-end .ms-4 .w-50} 
 
