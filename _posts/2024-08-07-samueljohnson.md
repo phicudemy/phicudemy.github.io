@@ -29,8 +29,8 @@ excerpt: ''
 
 ----------
 
-[^1]: <br><div dir="auto" align="left">Samuel Johnson </div> 
-[^2]: <br><div dir="auto" align="left">The Vanity of Human Wishes</div>
+[^1]: Samuel Johnson
+[^2]: The Vanity of Human Wishes
 
 <div dir="auto" align="left" style="font-weight: bold"> مجلّهٔ آیدلر ( شماره ۸۵، شنبه اول دسامبر ۱۷۵۹)</div>
 <br>
