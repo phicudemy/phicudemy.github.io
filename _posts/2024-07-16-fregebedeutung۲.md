@@ -7,7 +7,10 @@ date: 2024-07-15T20:30:00.000Z
 published: true
 categories: _categories/philosophy.md
 contents: _contents/article.md
+tags:
+  - tag: _tags/frege.md
 ---
+
 
 
 
