@@ -19,11 +19,12 @@ contents: _contents/notes.md
 کارکردگرایی لوئیس در فلسفه‌ی ذهن نمونه‌ای از رویکردِ عام‌ترِ لوئیس است به تعریفِ مفاهیمِ نظریه‌ای. از نظرِ او چنین مفاهیمی همگی به‌صورتِ کارکردی و با کاربستِ جملاتِ رمزی بر نظریه‌ای که آن مفاهیم در آن معرفی شده‌اند تعریف می‌شوند. از نظر او، در موردِ حالاتِ ذهنی، این نظریه همان دیدگاهِ عرفی یا روان‌شناسی عامیانه است که در زبانِ روزمره به کار می‌رود. 
 
 برخی از مهم‌ترین آثار لوئیس در فلسفه‌ی ذهن از این قرار اند:
-
-- An Argument for the Identity Theory (1966) 
-- Psychophysical and Theoretical Identifications (1972) 
-- Mad Pain and Martian Pain (1980) 
-- Desire as Belief (1988)
+<ul dir="ltr">
+<li> An Argument for the Identity Theory (1966) </li>
+<li> Psychophysical and Theoretical Identifications (1972) </li>
+<li> Mad Pain and Martian Pain (1980) </li>
+<li> Desire as Belief (1988) </li>
+</ul>
 <br> <br>
 
 **۲- فلسفه‌ی زبان و زبان‌شناسی**
