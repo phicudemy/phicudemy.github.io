@@ -19,6 +19,7 @@ tags:
 
 [^1]: David K. Lewis
 [^2]: Willard Quine
+
 <br> 
 
 **۱- فلسفه‌ی ذهن**
