@@ -49,9 +49,11 @@ contents: _contents/notes.md
 از نظرِ لوئیس، ویژگی‌ها عبارت اند از مجموعه‌ی همه‌ی اشیائی که آن ویژگی‌ها را در جهان‌های ممکنِ مختلف دارند. گزاره‌ها نیز مجموعه‌ی جها‌ن‌های ممکنی اند که آن گزاره در آن صادق است. 
 
 برخی از مهم‌ترین آثار لوئیس در متافیزیک و منطق وجهی از این قرار اند:
-     
-- Counterpart Theory and Quantified Modal Logic (1968) 
-- _On the Plurality of Worlds_ (1986)
+
+<ul dir="ltr">
+<li> Counterpart Theory and Quantified Modal Logic (1968)</li> 
+<li> <i>On the Plurality of Worlds</i> (1986)</li>
+</ul>
 <br> <br>
 
 **۴- فلسفه‌ی منطق و فلسفه‌ی علم**
