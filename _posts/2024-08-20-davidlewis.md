@@ -1,5 +1,5 @@
 ---
-title: دیوید کی. لوئیس (۲۰۰۱-۱۹۴۱)
+title: دیوید کِی. لوئیس (۲۰۰۱-۱۹۴۱)
 slug: davidlewis
 people: _people/jomhouri.md
 date: 2024-08-19T20:30:00.000Z
