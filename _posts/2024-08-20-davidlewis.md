@@ -34,12 +34,14 @@ contents: _contents/notes.md
 
 برخی از مهم‌ترین آثار لوئیس در فلسفه‌ی زبان و زبان‌شناسی از این قرار اند:
 <div align="left">
+<p dir="ltr">
 <ul>
 <li> <i>Convention</i> (1969) </li>
 <li> General Semantics (1970)</li>  
 <li> Languages and Language (1975)</li>
 <li> Scorekeeping in a Language Game (1979)</li>
 </ul>
+</p>
 </div>
 <br> <br>
 **۳- متافیزیک و منطق وجهی**
