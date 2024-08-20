@@ -64,6 +64,8 @@ contents: _contents/notes.md
 
 برخی از مهم‌ترین آثار لوئیس در فلسفه‌ی منطق و فلسفه‌ی علم از این قرار اند:
 
-- _Counterfactuals_ (1973) 
-- Causation (1973) 
-- Probabilities of  Conditionals and Conditional Probabilities (1976)
+<ul dir="ltr">
+<li> <i>Counterfactuals</i> (1973)</li>
+<li> Causation (1973)</li>
+<li> Probabilities of  Conditionals and Conditional Probabilities (1976)</li>
+</ul>
