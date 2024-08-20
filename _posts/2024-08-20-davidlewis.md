@@ -6,7 +6,10 @@ date: 2024-08-19T20:30:00.000Z
 published: true
 categories: _categories/philosophy.md
 contents: _contents/notes.md
+tags:
+  - tag: _tags/davidlewis.md
 ---
+
 
 
 ![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Philosophers/Lewis, David/01-Lewis.jpg){: .img-thumbnail .float-end .ms-2 .w-50}
