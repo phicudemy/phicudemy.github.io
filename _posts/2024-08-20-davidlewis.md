@@ -20,7 +20,7 @@ contents: _contents/notes.md
 
 برخی از مهم‌ترین آثار لوئیس در فلسفه‌ی ذهن از این قرار اند:
 
-- An Argument for the Identity Theory (1966), 
+- An Argument for the Identity Theory (1966) 
 - Psychophysical and Theoretical Identifications (1972) 
 - Mad Pain and Martian Pain (1980) 
 - Desire as Belief (1988)
