@@ -59,7 +59,7 @@ contents: _contents/notes.md
 تفسیرِ کریپکی از ویتگنشتاین در اثر زیر ارائه شده است:
 
 <ul dir="ltr">
-<li> <i>Wittgenstein: On Rules and Private Language<i> (1982) </li>
+<li> <i>Wittgenstein: On Rules and Private Language</i> (1982) </li>
 </ul>
 
 **۴. متافیزیک**
