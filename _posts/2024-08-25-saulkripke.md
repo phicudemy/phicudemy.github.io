@@ -73,7 +73,7 @@ contents: _contents/notes.md
 <ul dir="ltr">
 <li> <i>Naming and Necessity</i> (1972/1980) </li>
 <li> Identity and Necessity (1971) </li>
-<li> </i>Reference and Existence</i> (1973/2011) </li>
+<li> <i>Reference and Existence</i> (1973/2011) </li>
 </ul>
 
 **۵. فلسفه‌ی ذهن**
