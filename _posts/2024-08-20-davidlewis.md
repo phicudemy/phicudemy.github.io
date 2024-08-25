@@ -10,11 +10,10 @@ tags:
   - tag: _tags/davidlewis.md
 ---
 
+<img src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Philosophers/Lewis, David/01-Lewis.jpg" alt=""  style="float:left;width:35%;border: 2px solid #fcf6eb; padding: 20px;">
 
 
-
-
-![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Philosophers/Lewis, David/01-Lewis.jpg){: .img-thumbnail .float-end .ms-2 .w-50}
+![](){: .img-thumbnail .float-end .ms-2 .w-50}
 
 دیوید کِی. لوئیس[^1]، فیلسوفِ آمریکایی مدرکِ دکتری خود را در سال ۱۹۶۷ از دانشگاهِ هاروارد و تحتِ نظر ویلارد کواین[^2] گرفت. او از سال ۱۹۶۶ تا ۱۹۷۰ استادِ دانشگاه کالیفرنیا، لس‌آنجلس (UCLA) و از سالِ ۱۹۷۰ تا زمانِ مرگِ نابهنگام‌اش در سال ۲۰۰۱ استادِ دانشگاه پرینستون بود. آثار او در بسیاری از حوزه‌های فلسفی آثار مهم، کلاسیک، و اثرگذاری بوده است. در ادامه شرحی کوتاه از مهم‌ترین آثار او در برخی از این حوزه‌ها ارائه  و فهرستی کوتاه از آثار مهم او در آن حوزه‌ها معرفی می‌شود. 
 
