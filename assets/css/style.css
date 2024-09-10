@@ -14,7 +14,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
   h1,h2,h3, .h1, .h2, .h3, .card-title {
     font-family: Parastoo, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
   }
   .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
     font-family: Parastoo, sans-serif;
@@ -58,9 +58,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
   blockquote {
     background: #fcf6eb;
-    border-right: 10px solid #ccc;
-    padding: 1.5em 10px;
+    border-right: 10px solid #d8bc95;
+    padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
+    font-size: 85%;
   }
   code{
       white-space: pre-line;
