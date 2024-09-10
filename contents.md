@@ -3,5 +3,5 @@ title: مجله
 layout: home
 slug: posts
 permalink: /magazine/
+image: /assets/images/Paintings/narcissus.jpg
 ---
-لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است

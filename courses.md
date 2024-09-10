@@ -3,5 +3,5 @@ title: آکادمی
 layout: home
 slug: courses
 permalink: /courses/
+image: /assets/images/Paintings/school_of_Athens_Raphael.webp
 ---
-لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
