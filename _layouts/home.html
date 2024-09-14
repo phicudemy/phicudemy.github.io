@@ -10,7 +10,7 @@ layout: default
   <div class="row">
       <div class="col-sm-5 p-5 align-top">
         <div class="">
-          <h2 class="display-1"><strong>{{page.title}}</strong></h2>
+          <h2 class="display-2"><strong>{{page.title}}</strong></h2>
           <div class="accordion accordion-flush" id="accordionFlushExample">
             {% for category in site.categories %}
             {% assign catsize = target | where: 'categories', category.relative_path | size %}
