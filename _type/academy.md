@@ -1,5 +1,5 @@
 ---
-title: academy
+title: آکادمی
 slug: academy
 ---
 
