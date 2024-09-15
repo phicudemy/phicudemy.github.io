@@ -1,0 +1,5 @@
+---
+title: academy
+slug: academy
+---
+
