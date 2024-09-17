@@ -1,7 +1,9 @@
-{% if page.url contains 'courses' or page.section contains 'courses' %}
-{% assign target = site.courses %}
+{% if page.url contains 'academy' or page.section contains 'academy' %}
+{% assign target = site.events %}
+{% assign section = 'academy' %}
 {% elsif page.url contains 'magazine' or page.section contains 'magazine' %}
 {% assign target = site.posts %}
+{% assign section = 'magazine' %}
 {% endif %}
 <nav class="navbar navbar-light navbar-expand-md justify-content-center bg-secondary-subtle rounded-top-3 pb-0 border-bottom  border-dark">
     <div class="container-fluid">
@@ -33,10 +35,10 @@
     <div class="container-fluid justify-content-between">
       <ul class="navbar-nav flex-row">
         {% for content in site.contents %}
+        {% if content.section contains section %}
         {% assign contsize = target | where: 'contents', content.relative_path | size %}
-        {%if contsize >0 %}
         <li class="nav-item me-3 me-lg-1">
-          <a class="nav-link d-sm-flex align-items-sm-center {% if page.url == content.url or page.contents == content.relative_path %} active {%endif%}" href="{{content.url}}">{{content.title}}</a>
+          <a class="nav-link d-sm-flex align-items-sm-center {%if contsize == 0 %}disabled{%endif%} {% if page.url == content.url or page.contents == content.relative_path %} active {%endif%}" href="{{content.url}}">{{content.title}}</a>
         </li>
         {%endif%}
         {%endfor%}

@@ -1,31 +1,26 @@
 ---
 layout: default
 ---
-{% if page.slug == 'academy' %}
-{% assign target = site.events %}
-{% elsif page.slug == 'posts' %}
-{% assign target = site.posts %}
-{% endif %}
 <div class="container-fluid">
   <div class="row">
       <div class="col-sm-5 p-5 align-top">
         <div class="">
           <h2 class="display-2"><strong>{{page.title}}</strong></h2>
           <div class="accordion accordion-flush" id="accordionFlushExample">
-            {% for category in site.categories %}
-            {% assign catsize = target | where: 'categories', category.relative_path | size %}
-            {%if catsize >0 %}
+            {% assign acontents = site.contents | where: 'section', '_type/academy.md' %}
+            {% for category in acontents %}
+            {% assign catsize = site.events | where: 'contents', category.relative_path | size %}
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-{{category.slug}}" aria-expanded="false" aria-controls="flush-collapseOne">
+                <button class="accordion-button collapsed" {%if catsize == 0 %}disabled{%endif%} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-{{category.slug}}" aria-expanded="false" aria-controls="flush-collapseOne">
                   {{category.title}}
                 </button>
               </h2>
               <div id="flush-collapse-{{category.slug}}" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <ul class="list-group list-group-flush">
-                    {% assign catposts = target | where: 'categories', category.relative_path %}
-                    {% for post in catposts| limit: 3  %}
+                    {% assign catposts = site.events | where: 'categories', category.relative_path %}
+                    {% for post in site.events| limit: 5  %}
                     <li class="list-group-item small"><a href="{{post.url}}" class="text-reset">{{post.title}}</a><span class="float-end text-muted persianDate" data-timestamp="{{post.date | date: '%s'}}"></span></li>
                     {%endfor%}
                   </ul>
@@ -33,7 +28,6 @@ layout: default
                 </div>
               </div>
             </div>
-            {%endif%}
             {%endfor%}
           </div>
         </div>

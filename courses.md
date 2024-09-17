@@ -1,7 +1,7 @@
 ---
 title: آکادمی
-layout: home
+layout: academy
 slug: courses
-permalink: /courses/
+permalink: /academy/
 image: /assets/images/Paintings/school_of_Athens_Raphael.webp
 ---

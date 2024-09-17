@@ -138,9 +138,9 @@ export default defineConfig({
         },
       },
       {
-        name: "course",
-        label: "دوره‌ها",
-        path: "_courses",
+        name: "events",
+        label: "برنامه‌ها",
+        path: "_events",
         format: "md",
         fields: [
           {
@@ -157,34 +157,67 @@ export default defineConfig({
             required: true,
           },          
           {
-            type: "reference",
+            type: "object",
+            list: true,
             name: "people",
-            collections: ["people"],
             label: "مدرس",
-            required: true,
-          },          
-          {
-            type: "datetime",
-            name: "start",
-            label: "تاریخ شروع",
-            required: true,
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.person} `}
+              }
+            },
+            fields: [
+              {
+                type: "reference",
+                label: "مدرس",
+                name: "person",
+                collections: ["people"],
+              },
+            ],
           },
           {
-            type: 'boolean',
-            name: 'published',
-            label: 'انتشار'
+            type: "object",
+            list: true,
+            name: "others",
+            label: "سایر",
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.person} `}
+              }
+            },
+            fields: [
+              {
+                type: "reference",
+                label: "سایر",
+                name: "person",
+                collections: ["people"],
+              },
+            ],
           },
           {
             type: "reference",
             name: "contents",
             collections: ["contents"],
-            label: "نوع محتوا",
+            label: "نوع",
           },
           {
-            type: "reference",
+            type: "object",
+            list: true,
             name: "categories",
-            collections: ["categories"],
-            label: "دسته",
+            label: "موضوع",
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.category} `}
+              }
+            },
+            fields: [
+              {
+                type: "reference",
+                label: "موضوع",
+                name: "category",
+                collections: ["categories"],
+              },
+            ],
           },
           {
             type: "object",
@@ -212,6 +245,47 @@ export default defineConfig({
             ui: {
               component: 'textarea',
             },
+          },
+          {
+            type: 'string',
+            label: 'زمان برگزاری',
+            name: 'schedule',
+          },
+          {
+            label: 'شکل برگزاری',
+            name: 'format',
+            type: 'string',
+            list: true,
+            options: [
+              {
+                value: 'online',
+                label: 'آنلاین',
+              },
+              {
+                value: 'offline',
+                label: 'آفلاین',
+              },
+              {
+                value: 'inperson',
+                label: 'حضوری',
+              },
+            ],
+          },          
+          {
+            type: "datetime",
+            name: "start",
+            label: "تاریخ شروع",
+            required: true,
+          },
+          {
+            type: 'number',
+            label: 'تعداد جلسات',
+            name: 'sessions',
+          },
+          {
+            type: 'boolean',
+            name: 'published',
+            label: 'انتشار'
           },
           {
             type: "string",

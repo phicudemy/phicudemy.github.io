@@ -1,7 +1,7 @@
 - name: نخست
   link: /
 - name: آکادمی
-  link: /courses/
+  link: /academy/
   slug: courses
 - name: مجله
   link: /magazine/

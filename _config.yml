@@ -62,9 +62,9 @@ collections:
     title: مطالب
     label: posts
     output: true
-  courses:
-    title: دوره‌ها
-    label: courses
+  events:
+    title: برنامه‌ها
+    label: events
     output: true
   contents:
     title: محتوا
@@ -85,10 +85,10 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: courses
+    type: events
   values:
     layout: course
-    permalink: "/courses/:slug/"
+    permalink: "/academy/:slug/"
     jsFile: post.js
 - scope:
     path: ''
