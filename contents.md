@@ -1,6 +1,6 @@
 ---
 title: مجله
-layout: home
+layout: magazine
 slug: posts
 permalink: /magazine/
 image: /assets/images/Paintings/narcissus.jpg

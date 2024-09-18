@@ -6,7 +6,7 @@ layout: default
       <div class="col-sm-5 p-lg-5 align-top">
         <div class="">
           <h2 class="display-2"><strong>{{page.title}}</strong></h2>
-          <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion accordion-flush mb-2" id="accordionFlushExample">
             {% for category in site.categories %}
             {% assign catsize = site.posts | where: 'categories', category.relative_path | size %}
             {%if catsize >0 %}
