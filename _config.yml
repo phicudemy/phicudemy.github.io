@@ -63,7 +63,7 @@ collections:
     label: posts
     output: true
   events:
-    title: برنامه‌ها
+    title: برنامه
     label: events
     output: true
   contents:
@@ -71,15 +71,15 @@ collections:
     label: contents
     output: true
   tags:
-    title: برچسب‌ها
+    title: برچسب
     label: tags
     output: true
   categories:
-    title: موضوع‌ها
+    title: موضوع‌
     label: categories
     output: true
   people:
-    title: مؤلفین
+    title: پدیدآورنده
     label: people
     output: true
 defaults:
