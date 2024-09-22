@@ -266,14 +266,15 @@ blockquote {
   background-color: transparent;
 }
 .accordion-button::after {
+  font-family: "bootstrap-icons";
   width: 11px;
   height: 11px;
-  border-radius: 100%;
-  background-color: var(--bs-danger);
+  content: '\F229';
+  color: var(--bs-danger);
   background-image: none !important;
 }
 .accordion-button.collapsed::after {
-  background-color: var(--bs-gray-300);
+  color: var(--bs-gray-300);
 }
 .nav-link.active, .nav-link:active {
   background-color: white !important;
