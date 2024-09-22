@@ -12,25 +12,25 @@ jsFile: post.js
 <section class="post-header">
   <div class="container-fluid">
     <div class="row py-5  ">
-      <div class="col-sm-6 mx-auto my-auto text-center">
-        <h5 class="text-danger">
-          <a href="{{botcaturl}}" class="text-reset">{{botcat}}</a>
-        </h5>
+      <div class="col-sm-6 mx-auto my-auto">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a class="text-danger" href="/magazine/">مجله</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a class="text-danger" href="{{botcaturl}}">{{botcat}}</a></li>
+          </ol>
+        </nav>
         <h1 class="display-5 mb-4">{{page.title}}</h1>
         {% if page.subtitle%}<h2 class="mb-4">{{page.subtitle%}}</h2>{%endif%}
         {% if page.people%}{% for author in page.people %}{% assign aut = site.people | where: 'relative_path', author | first %}
         {% if aut %}
-        <a href="{{aut.url}}" class="text-reset lead"><strong>{{aut.title}}</strong></a>
+        <a href="{{aut.url}}" class="text-muted h3"><strong>{{aut.title}}</strong></a>
         {% endif %}
         {% endfor %}{%endif%}
-        <p class="text-muted mt-2">
-            <span class="persianDate " data-timestamp="{{page.date | date: '%s'}}"></span>
-        </p>
-        <p  class="text-muted">
-            {% assign read = page.content %}
-          {{page.content | number_of_words }} کلمه 
+        <p class=" mt-2 lead">
+          <i class="bi bi-telegram p-2"></i><i class="bi bi-whatsapp p-2"></i><i class="bi bi-twitter p-2"></i><i class="bi bi-share-fill p-2"></i> | <span class="persianDate " data-timestamp="{{page.date | date: '%s'}}"></span> | <span class="font-fd">{{page.content | number_of_words }} کلمه </span>
         </p>
         <!-- <p class="lead text-dark">
+          {% assign read = page.content %}
           {{page.excerpt | strip_html}}
         </p> -->
       </div>
