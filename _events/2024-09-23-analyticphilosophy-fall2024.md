@@ -57,6 +57,7 @@ Soames, S. (2003) <i>Philosophical Analysis in the Twentieth Century, Vol. 2: Th
 ### برنامهٔ درس
 
 <br>
+
 **جلسهٔ اول (۲ آبان): منطق‌گرایی و تلقی فرگه از عدد**
 
 <p dir="ltr">
