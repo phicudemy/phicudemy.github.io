@@ -72,7 +72,15 @@ Moore, G. E. (1939), “Proof of an External World,” Proceedings of the Britis
 
 **جلسهٔ چهارم**
 
+۲۳ آبان: همپل و معیار معناداری تجربه‌گرایانه 
+
+Hempel, Carl G. (1950), “Problems and Changes in the Empiricist Criterion of Meaning,” Revue Internationale de Philosophie, 4: 41–63.
+
 **جلسهٔ پنجم**
+
+۳۰ آبان: کارنپ و وجودشناسی
+
+Carnap, R. (1950), “Empiricism, Semantics, and Ontology,” Revue Internationale de Philosophie, 4: 20-40.
 
 **جلسهٔ ششم**
 
@@ -80,11 +88,7 @@ Moore, G. E. (1939), “Proof of an External World,” Proceedings of the Britis
 
 **جلسهٔ هشتم**
 
-۱۶ آبان: مور و برهان جهان خارج
 
-Moore, G. E. (1939), “Proof of an External World,” Proceedings of the British Academy, 25: 273-300.
-| ۲۳ آبان 	| همپل و معیار معناداری تجربه‌گرایانه 	|                                                             Hempel, Carl G. (1950), “Problems and Changes in the Empiricist Criterion of Meaning,” Revue Internationale de Philosophie, 4: 41–63. 	|
-| ۳۰ آبان 	|                  کارنپ و وجودشناسی 	|                                                                                          Carnap, R. (1950), “Empiricism, Semantics, and Ontology,” Revue Internationale de Philosophie, 4: 20-40. 	|
 |   ۶ آذر 	|          کواین تمایز تحلیلی/ترکیبی 	|                                             Quine W. V. O (1951), “Two Dogmas of Empiricism,” reprinted in W. V. Quine (1953), From a Logical Point of View, Harvard University Press. pp. 20-46. 	|
 |  ۱۳ آذر 	|          آستین و فلسفه زبان روزمره 	|                                                                                                      Austin, John L. (1962). Sense and Sensibilia. Oxford University Press. Edited by G. Warnock. 	|
 |  ۲۰ آذر 	|                  کریپکی و ذات‌گرایی 	|                                                                           Kripke, S. (1971), “Identity and Necessity,” in Milton Munitz, ed., Identity and Individuation, NYU Press. pp. 135-164. 	|
