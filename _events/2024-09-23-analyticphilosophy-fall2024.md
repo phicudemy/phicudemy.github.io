@@ -38,6 +38,7 @@ sessions: 8
  - Soames, S. (2003) _Philosophical Analysis in the Twentieth Century, Vol. 1: The Dawn of Analysis_, Princeton University Press.
   - Soames, S. (2003) _Philosophical Analysis in the Twentieth Century, Vol. 2: The Age of Meaning_, Princeton University Press.
 <br><br>
+
 ### اهداف درس:
 
 بخشی از اهدافی که در این درس پی‌گیری می‌شوند عبارت‌اند از:
