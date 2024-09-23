@@ -10,6 +10,7 @@ format:
   - online
   - inperson
 start: 2024-10-22T20:30:00.000Z
+sessions: 8
 ---
 
 
