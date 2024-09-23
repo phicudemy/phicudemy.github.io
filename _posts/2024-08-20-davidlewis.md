@@ -1,16 +1,17 @@
 ---
 title: دیوید کِی. لوئیس (۲۰۰۱-۱۹۴۱)
 slug: davidlewis
-people: 
+people:
   - person: _people/jomhouri.md
 date: 2024-08-19T20:30:00.000Z
 published: true
-categories: 
+categories:
   - category: _categories/philosophy.md
 contents: _contents/notes.md
 tags:
   - tag: _tags/davidlewis.md
 ---
+
 
 <img src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Philosophers/Lewis, David/01-Lewis.jpg" alt=""  style="float:left;width:35%;border: 2px solid #fcf6eb; padding: 20px;">
 
@@ -29,7 +30,7 @@ tags:
 کارکردگرایی لوئیس در فلسفه‌ی ذهن نمونه‌ای از رویکردِ عام‌ترِ لوئیس است به تعریفِ مفاهیمِ نظریه‌ای. از نظرِ او چنین مفاهیمی همگی به‌صورتِ کارکردی و با کاربستِ جملاتِ رمزی بر نظریه‌ای که آن مفاهیم در آن معرفی شده‌اند تعریف می‌شوند. از نظر او، در موردِ حالاتِ ذهنی، این نظریه همان دیدگاهِ عرفی یا روان‌شناسی عامیانه است که در زبانِ روزمره به کار می‌رود. 
 
 برخی از مهم‌ترین آثار لوئیس در فلسفه‌ی ذهن از این قرار اند:
-<ul dir="ltr">
+<ul dir="ltr" align="left">
 <li> An Argument for the Identity Theory (1966) </li>
 <li> Psychophysical and Theoretical Identifications (1972) </li>
 <li> Mad Pain and Martian Pain (1980) </li>
