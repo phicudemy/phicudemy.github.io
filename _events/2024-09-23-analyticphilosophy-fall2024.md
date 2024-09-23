@@ -47,12 +47,18 @@ sessions: 8
  -  آشنایی با برخی از مهم‌ترین مفاهیم فلسفی، نظیر معنا، گزاره، تحلیل منطقی، شک‌گرایی، معیار تحقیق‌پذیری معنا، چارچوب‌های زبانی، تعهد وجودی، تمایز تحلیلی/ترکیبی، تمایز پیشینی/پسینی، تمایز ضروری/ممکن، صلبیت، و جهان‌های ممکن.
  - آشنایی با برخی آموزه‌ها و استدلال‌های پایهٔ فلسفی، نظیر منطق‌گرایی در حساب، نظریهٔ وصف‌های معین راسل، اتمیسم‌منطقی راسل، برهان جهان خارج مور، استدلال کواین بر ضد تمایز تحلیلی/ترکیبی، و آموزهٔ صلبیت نام‌های خاص کریپکی.
  - خواندنِ و مواجهه با متون فلسفی کلاسیک و فهم و درک آنها و همچنین توسعهٔ مهارت‌های نقادی، نوشتن، و بحث سازنده در باب موضوعات فلسفی.
+
 <br><br>
 ### برنامهٔ درس
+
 <br><br>
-**جلسهٔ اول:**
+**جلسهٔ اول**
+
 ۲ آبان: منطق‌گرایی و تلقی فرگه از عدد
-Frege, G. (1892), “On Sinn and Bedeutung,” reprinted in The Frege Reader (ed. Michael Beany), Blackwell (1997). pp. 172-180. 	|
+
+Frege, G. (1892), “On Sinn and Bedeutung,” reprinted in The Frege Reader (ed. Michael Beany), Blackwell (1997). pp. 172-180.
+
+
 |  ۹ آبان 	|                راسل و اتمیسم منطقی 	| Russell, B. (1918) “The Philosophy of Logical Atomism,” Monist, 28, 495–527; 29, 32–63, 190–222, 345–380; reprinted in Bertrand Russell, Logic and Knowledge, Allen and Unwin, 1956. pp. 177–281; 	|
 | ۱۶ آبان 	|              مور و برهان جهان خارج 	|                                                                                               Moore, G. E. (1939), “Proof of an External World,” Proceedings of the British Academy, 25: 273-300. 	|
 | ۲۳ آبان 	| همپل و معیار معناداری تجربه‌گرایانه 	|                                                             Hempel, Carl G. (1950), “Problems and Changes in the Empiricist Criterion of Meaning,” Revue Internationale de Philosophie, 4: 41–63. 	|
