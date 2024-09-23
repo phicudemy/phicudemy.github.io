@@ -134,7 +134,7 @@ blockquote {
       outline:0px !important;
   }
   .content {
-    text-align: right;
+    text-align: justify;
   }
   .content img{
     width: 100%;
