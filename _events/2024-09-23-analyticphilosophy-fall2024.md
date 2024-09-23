@@ -58,8 +58,27 @@ sessions: 8
 
 Frege, G. (1892), “On Sinn and Bedeutung,” reprinted in The Frege Reader (ed. Michael Beany), Blackwell (1997). pp. 172-180.
 
+**جلسهٔ دوم**
 
-|  ۹ آبان 	|                راسل و اتمیسم منطقی 	| Russell, B. (1918) “The Philosophy of Logical Atomism,” Monist, 28, 495–527; 29, 32–63, 190–222, 345–380; reprinted in Bertrand Russell, Logic and Knowledge, Allen and Unwin, 1956. pp. 177–281; 	|
+۹ آبان: راسل و اتمیسم منطقی
+
+Russell, B. (1918) “The Philosophy of Logical Atomism,” Monist, 28, 495–527; 29, 32–63, 190–222, 345–380; reprinted in Bertrand Russell, Logic and Knowledge, Allen and Unwin, 1956. pp. 177–281.
+
+**جلسهٔ سوم**
+
+**جلسهٔ چهارم**
+
+**جلسهٔ پنجم**
+
+**جلسهٔ ششم**
+
+**جلسهٔ هفتم**
+
+**جلسهٔ هشتم**
+
+۹ آبان: راسل و اتمیسم منطقی
+
+Russell, B. (1918) “The Philosophy of Logical Atomism,” Monist, 28, 495–527; 29, 32–63, 190–222, 345–380; reprinted in Bertrand Russell, Logic and Knowledge, Allen and Unwin, 1956. pp. 177–281;
 | ۱۶ آبان 	|              مور و برهان جهان خارج 	|                                                                                               Moore, G. E. (1939), “Proof of an External World,” Proceedings of the British Academy, 25: 273-300. 	|
 | ۲۳ آبان 	| همپل و معیار معناداری تجربه‌گرایانه 	|                                                             Hempel, Carl G. (1950), “Problems and Changes in the Empiricist Criterion of Meaning,” Revue Internationale de Philosophie, 4: 41–63. 	|
 | ۳۰ آبان 	|                  کارنپ و وجودشناسی 	|                                                                                          Carnap, R. (1950), “Empiricism, Semantics, and Ontology,” Revue Internationale de Philosophie, 4: 20-40. 	|
