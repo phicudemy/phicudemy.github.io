@@ -53,7 +53,7 @@ Soames, S. (2003) <i>Philosophical Analysis in the Twentieth Century, Vol. 1: Th
 <p dir="ltr">
 Soames, S. (2003) <i>Philosophical Analysis in the Twentieth Century, Vol. 2: The Age of Meaning</i>, Princeton University Press.
 </p>
-<br><br>
+<br>
 ### برنامهٔ درس
 
 <br>
