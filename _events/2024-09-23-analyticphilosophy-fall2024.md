@@ -57,33 +57,28 @@ Soames, S. (2003) <i>Philosophical Analysis in the Twentieth Century, Vol. 2: Th
 ### برنامهٔ درس
 
 <br>
-**جلسهٔ اول (۲ آبان): منطق‌گرایی و تلقی فرگه از عدد
-**
+**جلسهٔ اول (۲ آبان): منطق‌گرایی و تلقی فرگه از عدد**
 
 <p dir="ltr">
 Frege, G. (1892), “On Sinn and Bedeutung,” reprinted in The Frege Reader (ed. Michael Beany), Blackwell (1997). pp. 172-180.</p>
 
-**جلسهٔ دوم (۹ آبان): راسل و اتمیسم منطقی
-**
+**جلسهٔ دوم (۹ آبان): راسل و اتمیسم منطقی**
 
 <p dir="ltr">
 Russell, B. (1918) “The Philosophy of Logical Atomism,” Monist, 28, 495–527; 29, 32–63, 190–222, 345–380; reprinted in Bertrand Russell, Logic and Knowledge, Allen and Unwin, 1956. pp. 177–281.</p>
 
-**جلسهٔ سوم (۱۶ آبان): مور و برهان جهان خارج
-**
+**جلسهٔ سوم (۱۶ آبان): مور و برهان جهان خارج**
 
 <p dir="ltr">
 Moore, G. E. (1939), “Proof of an External World,” Proceedings of the British Academy, 25: 273-300.</p>
 
-**جلسهٔ چهارم**
+**جلسهٔ چهارم (۲۳ آبان): همپل و معیار معناداری تجربه‌گرایانه **
 
-۲۳ آبان: همپل و معیار معناداری تجربه‌گرایانه 
 <p dir="ltr">
 Hempel, Carl G. (1950), “Problems and Changes in the Empiricist Criterion of Meaning,” Revue Internationale de Philosophie, 4: 41–63.</p>
 
-**جلسهٔ پنجم**
+**جلسهٔ پنجم (۳۰ آبان): کارنپ و وجودشناسی**
 
-۳۰ آبان: کارنپ و وجودشناسی
 <p dir="ltr">
 Carnap, R. (1950), “Empiricism, Semantics, and Ontology,” Revue Internationale de Philosophie, 4: 20-40.</p>
 
