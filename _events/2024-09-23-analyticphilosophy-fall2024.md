@@ -84,11 +84,18 @@ Carnap, R. (1950), “Empiricism, Semantics, and Ontology,” Revue Internationa
 
 **جلسهٔ ششم**
 
+۶ آذر: کواین تمایز تحلیلی/ترکیبی
+
+Quine W. V. O (1951), “Two Dogmas of Empiricism,” reprinted in W. V. Quine (1953), From a Logical Point of View, Harvard University Press. pp. 20-46. 
+
 **جلسهٔ هفتم**
+
+۱۳ آذر: آستین و فلسفه زبان روزمره
+
+Austin, John L. (1962). Sense and Sensibilia. Oxford University Press. Edited by G. Warnock.
 
 **جلسهٔ هشتم**
 
 
-|   ۶ آذر 	|          کواین تمایز تحلیلی/ترکیبی 	|                                             Quine W. V. O (1951), “Two Dogmas of Empiricism,” reprinted in W. V. Quine (1953), From a Logical Point of View, Harvard University Press. pp. 20-46. 	|
-|  ۱۳ آذر 	|          آستین و فلسفه زبان روزمره 	|                                                                                                      Austin, John L. (1962). Sense and Sensibilia. Oxford University Press. Edited by G. Warnock. 	|
+
 |  ۲۰ آذر 	|                  کریپکی و ذات‌گرایی 	|                                                                           Kripke, S. (1971), “Identity and Necessity,” in Milton Munitz, ed., Identity and Individuation, NYU Press. pp. 135-164. 	|
