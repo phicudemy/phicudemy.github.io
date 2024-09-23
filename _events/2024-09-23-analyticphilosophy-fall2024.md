@@ -28,3 +28,15 @@ sessions: 8
 
 در انتخاب موضوعات و مقالات برای این درس علاوه بر اهمیتِ آثار و کلاسیک بودن‌شان، جنبهٔ آموزشی آنها از حیث نمایانگری روش و سبک فلسفهٔ تحلیلی و وضوح و روشنی آنها مدّ نظر بوده است. علاوه بر این تلاش شده است این آثار نمایانندهٔ تنوعِ حوزه‌های مختلف فلسفهٔ تحلیلی، تا حد امکان، و تقابلِ میانِ دیدگاه‌های مختلف در این حوزه‌ها باشند.
 
+**منابع درس:**
+
+**منابع اصلی:** 
+بستهٔ مقالات درس که شامل تمام مقالات الزامی و اختیاری مشخص‌شده در برنامهٔ درس است.
+
+**منابع کمکی:**
+
+ - Soames, S. (2003) _Philosophical Analysis in the Twentieth Century,
+   Vol. 1: The Dawn of Analysis_, Princeton University Press.
+  - Soames, S. (2003) _Philosophical Analysis in the Twentieth Century,
+   Vol. 2: The Age of Meaning_, Princeton University Press.
+
