@@ -96,6 +96,6 @@ Austin, John L. (1962). Sense and Sensibilia. Oxford University Press. Edited by
 
 **جلسهٔ هشتم**
 
+۲۰ آذر: کریپکی و ذات‌گرایی
 
-
-|  ۲۰ آذر 	|                  کریپکی و ذات‌گرایی 	|                                                                           Kripke, S. (1971), “Identity and Necessity,” in Milton Munitz, ed., Identity and Individuation, NYU Press. pp. 135-164. 	|
+Kripke, S. (1971), “Identity and Necessity,” in Milton Munitz, ed., Identity and Individuation, NYU Press. pp. 135-164.
