@@ -66,6 +66,10 @@ Russell, B. (1918) “The Philosophy of Logical Atomism,” Monist, 28, 495–52
 
 **جلسهٔ سوم**
 
+۱۶ آبان: مور و برهان جهان خارج
+
+Moore, G. E. (1939), “Proof of an External World,” Proceedings of the British Academy, 25: 273-300.
+
 **جلسهٔ چهارم**
 
 **جلسهٔ پنجم**
@@ -76,10 +80,9 @@ Russell, B. (1918) “The Philosophy of Logical Atomism,” Monist, 28, 495–52
 
 **جلسهٔ هشتم**
 
-۹ آبان: راسل و اتمیسم منطقی
+۱۶ آبان: مور و برهان جهان خارج
 
-Russell, B. (1918) “The Philosophy of Logical Atomism,” Monist, 28, 495–527; 29, 32–63, 190–222, 345–380; reprinted in Bertrand Russell, Logic and Knowledge, Allen and Unwin, 1956. pp. 177–281;
-| ۱۶ آبان 	|              مور و برهان جهان خارج 	|                                                                                               Moore, G. E. (1939), “Proof of an External World,” Proceedings of the British Academy, 25: 273-300. 	|
+Moore, G. E. (1939), “Proof of an External World,” Proceedings of the British Academy, 25: 273-300.
 | ۲۳ آبان 	| همپل و معیار معناداری تجربه‌گرایانه 	|                                                             Hempel, Carl G. (1950), “Problems and Changes in the Empiricist Criterion of Meaning,” Revue Internationale de Philosophie, 4: 41–63. 	|
 | ۳۰ آبان 	|                  کارنپ و وجودشناسی 	|                                                                                          Carnap, R. (1950), “Empiricism, Semantics, and Ontology,” Revue Internationale de Philosophie, 4: 20-40. 	|
 |   ۶ آذر 	|          کواین تمایز تحلیلی/ترکیبی 	|                                             Quine W. V. O (1951), “Two Dogmas of Empiricism,” reprinted in W. V. Quine (1953), From a Logical Point of View, Harvard University Press. pp. 20-46. 	|
