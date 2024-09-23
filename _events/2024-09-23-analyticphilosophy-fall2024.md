@@ -63,15 +63,15 @@ Soames, S. (2003) <i>Philosophical Analysis in the Twentieth Century, Vol. 2: Th
 <p dir="ltr">
 Frege, G. (1892), “On Sinn and Bedeutung,” reprinted in The Frege Reader (ed. Michael Beany), Blackwell (1997). pp. 172-180.</p>
 
-**جلسهٔ دوم**
+**جلسهٔ دوم (۹ آبان): راسل و اتمیسم منطقی
+**
 
-۹ آبان: راسل و اتمیسم منطقی
 <p dir="ltr">
 Russell, B. (1918) “The Philosophy of Logical Atomism,” Monist, 28, 495–527; 29, 32–63, 190–222, 345–380; reprinted in Bertrand Russell, Logic and Knowledge, Allen and Unwin, 1956. pp. 177–281.</p>
 
-**جلسهٔ سوم**
+**جلسهٔ سوم (۱۶ آبان): مور و برهان جهان خارج
+**
 
-۱۶ آبان: مور و برهان جهان خارج
 <p dir="ltr">
 Moore, G. E. (1939), “Proof of an External World,” Proceedings of the British Academy, 25: 273-300.</p>
 
