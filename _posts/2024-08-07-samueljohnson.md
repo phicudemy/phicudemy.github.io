@@ -2,11 +2,14 @@
 title: ازدیاد بی‌حدوحصر کتاب در زمانهٔ جاهل ما
 subtitle: ''
 slug: samueljohnson
-people: _people/samueljohnson.md
-translator: _people/omidkarimzade.md
+people: 
+  - person: _people/samueljohnson.md
+translator: 
+  - person: _people/omidkarimzade.md
 date: 2024-08-06T20:30:00.000Z
 published: true
-categories: _categories/culture.md
+categories: 
+  - category: _categories/culture.md
 contents: _contents/notes.md
 excerpt: >-
   کسانی گفته‌اند که «جامعهٔ تباه چه‌بسیار قانون دارد»؛ نمی دانم این سخن که

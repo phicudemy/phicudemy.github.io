@@ -1,9 +1,11 @@
 ---
 title: سول اِی. کریپکی (۲۰۲۲-۱۹۴۰)
 slug: saulkripke
-people: _people/jomhouri.md
+people: 
+    - person: _people/jomhouri.md
 date: 2024-08-24T20:30:00.000Z
-categories: _categories/philosophy.md
+categories: 
+    - category: _categories/philosophy.md
 contents: _contents/notes.md
 ---
 

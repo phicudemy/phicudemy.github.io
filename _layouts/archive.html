@@ -33,7 +33,7 @@ layout: default
     </div>
   </div>
   {% endif %}
-  {% assign filtered_courses = site.courses | where: pagecollection.label, page.relative_path  %}
+  {% assign filtered_courses = site.events | where: pagecollection.label, page.relative_path  %}
   {% if filtered_courses.size > 0 %}
   <div class="row">
     <div class="col-12">

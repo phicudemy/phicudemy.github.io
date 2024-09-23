@@ -2,10 +2,12 @@
 title: 'بی‌طرفی تفسیری و مسأله‌ی ترجمه‌ی «Bedeutung» در آثار متأخر فرگه '
 subtitle: گزارشی از یک مناقشه (بخشِ اول)
 slug: fregebedeutung1
-people: _people/طیبی.md
+people: 
+    - person: _people/طیبی.md
 date: 2024-06-21T20:30:00.000Z
 published: true
-categories: _categories/philosophy.md
+categories: 
+    - category: _categories/philosophy.md
 contents: _contents/article.md
 tags:
   - tag: _tags/frege.md
@@ -65,7 +67,6 @@ tags:
 
 
 [^1]: Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” Analysis 40(4): 196–202, p. 196. 
-
 [^2]: Frege, G. (1979) Posthumous Writings. Translated by Peter Long and Roger White, Blackwell.
 [^3]: Bell, David (1980). “On the translation of Frege’s Bedeutung,” Analysis 40(4):191-195. Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” Analysis 40(4): 196 - 202.
 [^4]: Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979)  _Posthumous Writings_, p. VI.

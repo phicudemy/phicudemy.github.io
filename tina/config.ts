@@ -45,17 +45,43 @@ export default defineConfig({
             required: true,
           },          
           {
-            type: "reference",
+            type: "object",
+            list: true,
             name: "people",
-            collections: ["people"],
             label: "نویسنده",
-          },          
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.person} `}
+              }
+            },
+            fields: [
+              {
+                type: "reference",
+                label: "نویسنده",
+                name: "person",
+                collections: ["people"],
+              },
+            ],
+          },
           {
-            type: "reference",
+            type: "object",
+            list: true,
             name: "translator",
-            collections: ["people"],
             label: "مترجم",
-          },          
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.person} `}
+              }
+            },
+            fields: [
+              {
+                type: "reference",
+                label: "مترجم",
+                name: "person",
+                collections: ["people"],
+              },
+            ],
+          },  
           {
             type: "datetime",
             name: "date",
@@ -68,10 +94,23 @@ export default defineConfig({
             label: 'انتشار'
           },          
           {
-            type: "reference",
+            type: "object",
+            list: true,
             name: "categories",
-            collections: ["categories"],
-            label: "دسته",
+            label: "موضوع",
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.category} `}
+              }
+            },
+            fields: [
+              {
+                type: "reference",
+                label: "موضوع",
+                name: "category",
+                collections: ["categories"],
+              },
+            ],
           },
           {
             type: "reference",

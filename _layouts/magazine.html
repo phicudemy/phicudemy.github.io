@@ -8,7 +8,13 @@ layout: default
           <h2 class="display-2 mb-lg-5 mb-sm-2"><strong>{{page.title}}</strong></h2>
           <div class="accordion accordion-flush mb-2" id="accordionFlushExample">
             {% for category in site.categories %}
-            {% assign catsize = site.posts | where: 'categories', category.relative_path | size %}
+            {%assign catsize = 0 %}
+            {%assign catrecent = 0 %}
+            {% for post in site.posts %}
+            {% for cat in post.categories %}
+            {% if cat.category == category.relative_path %}{%assign catsize = catsize | plus: 1 %}{%endif%}
+            {%endfor%}
+            {%endfor%}
             {%if catsize >0 %}
             <div class="accordion-item">
               <h2 class="accordion-header">
@@ -19,9 +25,14 @@ layout: default
               <div id="flush-collapse-{{category.slug}}" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <ul class="list-group list-group-flush">
-                    {% assign catposts = site.posts | where: 'categories', category.relative_path %}
-                    {% for post in catposts| limit: 5  %}
+                    {% for post in site.posts %}
+                    {% if catrecent  == 5 %}{% break %}{% endif %} 
+                    {% for cat in post.categories %}
+                    {% if cat.category == category.relative_path %}
+                    {% assign catrecent = catrecent | plus: 1 %}
                     <li class="list-group-item small"><a href="{{post.url}}" class="text-reset">{{post.title}}</a><span class="float-end text-muted persianDate" data-timestamp="{{post.date | date: '%s'}}"></span></li>
+                    {%endif%}
+                    {%endfor%}
                     {%endfor%}
                   </ul>
                   <a href="{{category.url}}" class="float-end small text-danger strong mt-2">صفحه {{category.title}} <i class="bi bi-caret-left-fill"></i></a><br>
