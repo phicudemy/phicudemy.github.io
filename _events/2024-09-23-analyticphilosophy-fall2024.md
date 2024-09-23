@@ -46,7 +46,8 @@ sessions: 8
 بستهٔ مقالات درس که شامل تمام مقالات الزامی و اختیاری مشخص‌شده در برنامهٔ درس است.
 
 #### منابع کمکی:
-<p dir="rtl">
+
+<p dir="ltr">
 Soames, S. (2003) <i>Philosophical Analysis in the Twentieth Century, Vol. 1: The Dawn of Analysis</i>, Princeton University Press.
 Soames, S. (2003) <i>Philosophical Analysis in the Twentieth Century, Vol. 2: The Age of Meaning</i>, Princeton University Press.
 </p>
