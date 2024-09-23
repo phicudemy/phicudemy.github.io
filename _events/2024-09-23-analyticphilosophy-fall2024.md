@@ -82,20 +82,17 @@ Hempel, Carl G. (1950), “Problems and Changes in the Empiricist Criterion of M
 <p dir="ltr">
 Carnap, R. (1950), “Empiricism, Semantics, and Ontology,” Revue Internationale de Philosophie, 4: 20-40.</p>
 
-**جلسهٔ ششم**
+**جلسهٔ ششم (۶ آذر): کواین تمایز تحلیلی/ترکیبی**
 
-۶ آذر: کواین تمایز تحلیلی/ترکیبی
 <p dir="ltr">
 Quine W. V. O (1951), “Two Dogmas of Empiricism,” reprinted in W. V. Quine (1953), From a Logical Point of View, Harvard University Press. pp. 20-46. </p>
 
-**جلسهٔ هفتم**
+**جلسهٔ هفتم (۱۳ آذر): آستین و فلسفه زبان روزمره**
 
-۱۳ آذر: آستین و فلسفه زبان روزمره
 <p dir="ltr">
 Austin, John L. (1962). Sense and Sensibilia. Oxford University Press. Edited by G. Warnock.</p>
 
-**جلسهٔ هشتم**
+**جلسهٔ هشتم (۲۰ آذر): کریپکی و ذات‌گرایی**
 
-۲۰ آذر: کریپکی و ذات‌گرایی
 <p dir="ltr">
 Kripke, S. (1971), “Identity and Necessity,” in Milton Munitz, ed., Identity and Individuation, NYU Press. pp. 135-164.</p>
