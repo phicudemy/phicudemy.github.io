@@ -35,8 +35,5 @@ sessions: 8
 
 **منابع کمکی:**
 
- - Soames, S. (2003) _Philosophical Analysis in the Twentieth Century,
-   Vol. 1: The Dawn of Analysis_, Princeton University Press.
-  - Soames, S. (2003) _Philosophical Analysis in the Twentieth Century,
-   Vol. 2: The Age of Meaning_, Princeton University Press.
-
+ - Soames, S. (2003) _Philosophical Analysis in the Twentieth Century, Vol. 1: The Dawn of Analysis_, Princeton University Press.
+  - Soames, S. (2003) _Philosophical Analysis in the Twentieth Century, Vol. 2: The Age of Meaning_, Princeton University Press.
