@@ -73,8 +73,7 @@ Russell, B. (1918) “The Philosophy of Logical Atomism,” Monist, 28, 495–52
 <p dir="ltr">
 Moore, G. E. (1939), “Proof of an External World,” Proceedings of the British Academy, 25: 273-300.</p>
 
-**جلسهٔ چهارم (۲۳ آبان): همپل و معیار معناداری تجربه‌گرایانه **
-
+**جلسهٔ چهارم (۲۳ آبان): همپل و معیار معناداری تجربه‌گرایانه**
 <p dir="ltr">
 Hempel, Carl G. (1950), “Problems and Changes in the Empiricist Criterion of Meaning,” Revue Internationale de Philosophie, 4: 41–63.</p>
 
