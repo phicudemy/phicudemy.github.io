@@ -15,6 +15,7 @@ sessions: 8
 
 
 
+
 ### محتوای درس:
 
 هدفِ این درس آشنایی‌ مقدماتی با فلسفهٔ تحلیلی از طریق مطالعه و بررسی آثاری از برخی از مهم‌ترین چهره‌های این سنتِ فلسفی است. عنوانِ «فلسفهٔ تحلیلی» عموماً بر رویکردی در پرداختن به مسائل فلسفی در حوزه‌های مختلف (اعم از متافیزیک، معرفت‌شناسی، فلسفهٔ زبان، فلسفهٔ ذهن، و غیره) اطلاق می‌شود که در اواخر قرنِ نوزدهم و اوایلِ قرنِ بیستم در نتیجهٔ کارهای ریاضیدان، منطق‌دان، و فیلسوفِ آلمانی گوتلب فرگه و فیلسوفان بریتانیایی، برتراند راسل و جی. ای. مور شکل گرفت و در سراسرِ قرنِ بیستم و تا کنون توسعه یافته و به جریانِ غالبِ فلسفه در جهانِ انگلیسی‌زبان تبدیل شده است. در بخشِ نخستِ این درس (جلسه‌های ۱-۳) به معرفی برخی آرای این سه فیلسوفِ بنیان‌گذارِ فلسفهٔ تحلیلی و مطالعه چند اثرِ کلاسیک و مهمِ آنها می‌پردازیم و با بعضی آموزه‌ها و استدلال‌های آنها در حوزه‌‌های فلسفهٔ ریاضیات، متافیزیک، فلسفهٔ زبان، و معرفت‌شناسی آشنا می‌شویم.
@@ -56,50 +57,50 @@ Soames, S. (2003) <i>Philosophical Analysis in the Twentieth Century, Vol. 2: Th
 ### برنامهٔ درس
 
 <br>
-**جلسهٔ اول**
+**جلسهٔ اول (۲ آبان): منطق‌گرایی و تلقی فرگه از عدد
+**
 
-۲ آبان: منطق‌گرایی و تلقی فرگه از عدد
-
-Frege, G. (1892), “On Sinn and Bedeutung,” reprinted in The Frege Reader (ed. Michael Beany), Blackwell (1997). pp. 172-180.
+<p dir="ltr">
+Frege, G. (1892), “On Sinn and Bedeutung,” reprinted in The Frege Reader (ed. Michael Beany), Blackwell (1997). pp. 172-180.</p>
 
 **جلسهٔ دوم**
 
 ۹ آبان: راسل و اتمیسم منطقی
-
-Russell, B. (1918) “The Philosophy of Logical Atomism,” Monist, 28, 495–527; 29, 32–63, 190–222, 345–380; reprinted in Bertrand Russell, Logic and Knowledge, Allen and Unwin, 1956. pp. 177–281.
+<p dir="ltr">
+Russell, B. (1918) “The Philosophy of Logical Atomism,” Monist, 28, 495–527; 29, 32–63, 190–222, 345–380; reprinted in Bertrand Russell, Logic and Knowledge, Allen and Unwin, 1956. pp. 177–281.</p>
 
 **جلسهٔ سوم**
 
 ۱۶ آبان: مور و برهان جهان خارج
-
-Moore, G. E. (1939), “Proof of an External World,” Proceedings of the British Academy, 25: 273-300.
+<p dir="ltr">
+Moore, G. E. (1939), “Proof of an External World,” Proceedings of the British Academy, 25: 273-300.</p>
 
 **جلسهٔ چهارم**
 
 ۲۳ آبان: همپل و معیار معناداری تجربه‌گرایانه 
-
-Hempel, Carl G. (1950), “Problems and Changes in the Empiricist Criterion of Meaning,” Revue Internationale de Philosophie, 4: 41–63.
+<p dir="ltr">
+Hempel, Carl G. (1950), “Problems and Changes in the Empiricist Criterion of Meaning,” Revue Internationale de Philosophie, 4: 41–63.</p>
 
 **جلسهٔ پنجم**
 
 ۳۰ آبان: کارنپ و وجودشناسی
-
-Carnap, R. (1950), “Empiricism, Semantics, and Ontology,” Revue Internationale de Philosophie, 4: 20-40.
+<p dir="ltr">
+Carnap, R. (1950), “Empiricism, Semantics, and Ontology,” Revue Internationale de Philosophie, 4: 20-40.</p>
 
 **جلسهٔ ششم**
 
 ۶ آذر: کواین تمایز تحلیلی/ترکیبی
-
-Quine W. V. O (1951), “Two Dogmas of Empiricism,” reprinted in W. V. Quine (1953), From a Logical Point of View, Harvard University Press. pp. 20-46. 
+<p dir="ltr">
+Quine W. V. O (1951), “Two Dogmas of Empiricism,” reprinted in W. V. Quine (1953), From a Logical Point of View, Harvard University Press. pp. 20-46. </p>
 
 **جلسهٔ هفتم**
 
 ۱۳ آذر: آستین و فلسفه زبان روزمره
-
-Austin, John L. (1962). Sense and Sensibilia. Oxford University Press. Edited by G. Warnock.
+<p dir="ltr">
+Austin, John L. (1962). Sense and Sensibilia. Oxford University Press. Edited by G. Warnock.</p>
 
 **جلسهٔ هشتم**
 
 ۲۰ آذر: کریپکی و ذات‌گرایی
-
-Kripke, S. (1971), “Identity and Necessity,” in Milton Munitz, ed., Identity and Individuation, NYU Press. pp. 135-164.
+<p dir="ltr">
+Kripke, S. (1971), “Identity and Necessity,” in Milton Munitz, ed., Identity and Individuation, NYU Press. pp. 135-164.</p>
