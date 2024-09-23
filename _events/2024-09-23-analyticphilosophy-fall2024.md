@@ -1,5 +1,5 @@
 ---
-title: درآمدی بر فلسفه‌ی تحلیلی
+title: درآمدی بر فلسفهٔ تحلیلی
 slug: analyticphilosophy-fall2024
 people:
   - person: _people/طیبی.md
