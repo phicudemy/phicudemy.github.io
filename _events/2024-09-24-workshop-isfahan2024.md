@@ -4,7 +4,7 @@ slug: workshop-Isfahan2024
 people:
   - path: _people/marziyelotfi.md
   - path: _people/طیبی.md
-  - {}
+  - path: _people/omidkarimzade.md
 format:
   - inperson
 start: 2024-10-15T20:30:00.000Z
