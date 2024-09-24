@@ -1,5 +1,5 @@
 ---
-title: درآمدی بر فلسفه‌ی سیاسی تحلیلی
+title: درآمدی بر فلسفهٔ سیاسی تحلیلی
 slug: politicalphilosophy-fall2024
 people:
   - path: _people/omidkarimzade.md
