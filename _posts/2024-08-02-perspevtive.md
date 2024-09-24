@@ -3,14 +3,15 @@ title: در سختیِ امتزاجِ افق‌ها
 subtitle: درباره‌یِ کتابِ «نظریهٔ معرفت در پدیدارشناسی»
 slug: perspectives
 people: 
-  - person: _people/mohsenzamani.md
+  - path: _people/mohsenzamani.md
 date: 2024-08-01T20:30:00.000Z
 published: true
 categories: 
-  - category: _categories/philosophy.md
-contents: _contents/bookreviews.md
+  - path: _categories/philosophy.md
+contents: 
+  - path: _contents/bookreviews.md
 tags:
-  - tag: _tags/bookreview.md
+  - path: _tags/bookreview.md
 ---
 
 ![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/نظریۀ-معرفت-2.jpg){: .img-thumbnail .float-end .ms-4 .w-50} 

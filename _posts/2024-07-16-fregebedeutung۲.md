@@ -3,14 +3,15 @@ title: 'بی‌طرفی تفسیری و مسأله‌ی ترجمه «Bedeutung»
 subtitle: گزارشی از یک مناقشه (بخشِ دوم)
 slug: fregeBedeutung2
 people: 
-  - person: _people/طیبی.md
+  - path: _people/طیبی.md
 date: 2024-07-15T20:30:00.000Z
 published: true
 categories: 
-  - category: _categories/philosophy.md
-contents: _contents/article.md
+  - path: _categories/philosophy.md
+contents: 
+  - path: _contents/article.md
 tags:
-  - tag: _tags/frege.md
+  - path: _tags/frege.md
 ---
 
 

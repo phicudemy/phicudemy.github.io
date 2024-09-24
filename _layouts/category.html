@@ -3,7 +3,9 @@ layout: default
 ---
 
 {%assign pagecollection = site.collections| where: "label", page.collection | first %}
-{% assign filtered_posts = site.posts | where: pagecollection.label, page.relative_path  %}
+{{page.relative_path}}
+{% assign filtered_posts = site.posts | where_exp: "item", "item[pagecollection.label] contains page.relative_path" %}
+{{filtered_posts.size}}
 <section class="post-header">
   <div class="container">
     <div class="row p-lg-5">

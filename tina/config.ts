@@ -51,14 +51,14 @@ export default defineConfig({
             label: "نویسنده",
             ui: {
               itemProps: (item) => {
-                return { label: `${item?.person} `}
+                return { label: `${item?.path} `}
               }
             },
             fields: [
               {
                 type: "reference",
                 label: "نویسنده",
-                name: "person",
+                name: "path",
                 collections: ["people"],
               },
             ],
@@ -70,14 +70,14 @@ export default defineConfig({
             label: "مترجم",
             ui: {
               itemProps: (item) => {
-                return { label: `${item?.person} `}
+                return { label: `${item?.path} `}
               }
             },
             fields: [
               {
                 type: "reference",
                 label: "مترجم",
-                name: "person",
+                name: "path",
                 collections: ["people"],
               },
             ],
@@ -100,23 +100,36 @@ export default defineConfig({
             label: "موضوع",
             ui: {
               itemProps: (item) => {
-                return { label: `${item?.category} `}
+                return { label: `${item?.path} `}
               }
             },
             fields: [
               {
                 type: "reference",
                 label: "موضوع",
-                name: "category",
+                name: "path",
                 collections: ["categories"],
               },
             ],
           },
           {
-            type: "reference",
+            type: "object",
+            list: true,
             name: "contents",
-            collections: ["contents"],
             label: "نوع محتوا",
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.path} `}
+              }
+            },
+            fields: [
+              {
+                type: "reference",
+                label: "نوع محتوا",
+                name: "path",
+                collections: ["contents"],
+              },
+            ],
           },
           {
             type: "object",
@@ -125,14 +138,14 @@ export default defineConfig({
             label: "تگ‌ها",
             ui: {
               itemProps: (item) => {
-                return { label: `${item?.tag} `}
+                return { label: `${item?.path} `}
               }
             },
             fields: [
               {
                 type: "reference",
                 label: "تگ",
-                name: "tag",
+                name: "path",
                 collections: ["tags"],
               },
             ],
@@ -202,14 +215,14 @@ export default defineConfig({
             label: "مدرس",
             ui: {
               itemProps: (item) => {
-                return { label: `${item?.person} `}
+                return { label: `${item?.path} `}
               }
             },
             fields: [
               {
                 type: "reference",
                 label: "مدرس",
-                name: "person",
+                name: "path",
                 collections: ["people"],
               },
             ],
@@ -221,14 +234,14 @@ export default defineConfig({
             label: "سایر",
             ui: {
               itemProps: (item) => {
-                return { label: `${item?.person} `}
+                return { label: `${item?.path} `}
               }
             },
             fields: [
               {
                 type: "reference",
                 label: "سایر",
-                name: "person",
+                name: "path",
                 collections: ["people"],
               },
             ],
@@ -246,14 +259,14 @@ export default defineConfig({
             label: "موضوع",
             ui: {
               itemProps: (item) => {
-                return { label: `${item?.category} `}
+                return { label: `${item?.path} `}
               }
             },
             fields: [
               {
                 type: "reference",
                 label: "موضوع",
-                name: "category",
+                name: "path",
                 collections: ["categories"],
               },
             ],
@@ -265,14 +278,14 @@ export default defineConfig({
             label: "تگ‌ها",
             ui: {
               itemProps: (item) => {
-                return { label: `${item?.tag} `}
+                return { label: `${item?.path} `}
               }
             },
             fields: [
               {
                 type: "reference",
                 label: "تگ",
-                name: "tag",
+                name: "path",
                 collections: ["tags"],
               },
             ],

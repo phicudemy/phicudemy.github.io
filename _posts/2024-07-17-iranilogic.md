@@ -3,12 +3,13 @@ title: «بهرحال مطلب بسیار غامض و بحث آن بسیار م�
 subtitle: برشی از تاریخ ورود منطق جدید به ایران
 slug: iranilogic
 people: 
-    - person: _people/طیبی.md
+    - path: _people/طیبی.md
 date: 2024-07-16T20:30:00.000Z
 published: true
 categories: 
-    - category: _categories/philosophy.md
-contents: _contents/article.md
+    - path: _categories/philosophy.md
+contents: 
+    - path: _contents/article.md
 ---
 
 

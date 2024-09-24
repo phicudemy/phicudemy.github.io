@@ -2,10 +2,11 @@
 title: درآمدی بر فلسفهٔ تحلیلی
 slug: analyticphilosophy-fall2024
 people:
-  - person: _people/طیبی.md
-contents: _contents/courses.md
+  - path: _people/طیبی.md
+contents: 
+  - path: _contents/courses.md
 categories:
-  - category: _categories/philosophy.md
+  - path: _categories/philosophy.md
 format:
   - online
   - inperson

@@ -2,7 +2,7 @@
 layout: default
 jsFile: post.js 
 ---
-{% for category in page.categories %}{% assign cat = site.categories | where: 'relative_path', category.category | first %}
+{% for category in page.categories %}{% assign cat = site.categories | where: 'relative_path', category.path | first %}
 {% if cat %}{% assign botcat = cat.title %}{% assign botcaturl = cat.url %}{% endif %}
 {% endfor %}
 <section class="post-header">
@@ -18,12 +18,12 @@ jsFile: post.js
         <h1 class="display-5 mb-4">{{page.title}}</h1>
         {% if page.subtitle%}<h2 class="mb-4">{{page.subtitle%}}</h2>{%endif%}
         <h3 class="text-muted mb-4">
-        {% if page.people%}{% for author in page.people %}{% assign aut = site.people | where: 'relative_path', author.person | first %}
+        {% if page.people%}{% for author in page.people %}{% assign aut = site.people | where: 'relative_path', author.path | first %}
         {% if aut %}
         <a href="{{aut.url}}" class="text-reset"><strong>{{aut.title}}</strong></a>
         {% endif %}
         {% endfor %}{%endif%}
-        {% if page.translator%} | مترجم: {% for author in page.translator %}{% assign aut = site.people | where: 'relative_path', author.person | first %}
+        {% if page.translator%} | مترجم: {% for author in page.translator %}{% assign aut = site.people | where: 'relative_path', author.path | first %}
         {% if aut %}
         <a href="{{aut.url}}" class="text-reset">{{aut.title}}</a>
         {% endif %}

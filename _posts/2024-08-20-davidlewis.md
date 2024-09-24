@@ -2,14 +2,15 @@
 title: دیوید کِی. لوئیس (۲۰۰۱-۱۹۴۱)
 slug: davidlewis
 people:
-  - person: _people/jomhouri.md
+  - path: _people/jomhouri.md
 date: 2024-08-19T20:30:00.000Z
 published: true
 categories:
-  - category: _categories/philosophy.md
-contents: _contents/notes.md
+  - path: _categories/philosophy.md
+contents: 
+  - path: _contents/notes.md
 tags:
-  - tag: _tags/davidlewis.md
+  - path: _tags/davidlewis.md
 ---
 
 

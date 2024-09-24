@@ -12,7 +12,7 @@ layout: default
             {%assign catrecent = 0 %}
             {% for post in site.posts %}
             {% for cat in post.categories %}
-            {% if cat.category == category.relative_path %}{%assign catsize = catsize | plus: 1 %}{%endif%}
+            {% if cat.path == category.relative_path %}{%assign catsize = catsize | plus: 1 %}{%endif%}
             {%endfor%}
             {%endfor%}
             {%if catsize >0 %}
@@ -28,7 +28,7 @@ layout: default
                     {% for post in site.posts %}
                     {% if catrecent  == 5 %}{% break %}{% endif %} 
                     {% for cat in post.categories %}
-                    {% if cat.category == category.relative_path %}
+                    {% if cat.path == category.relative_path %}
                     {% assign catrecent = catrecent | plus: 1 %}
                     <li class="list-group-item small"><a href="{{post.url}}" class="text-reset">{{post.title}}</a><span class="float-end text-muted persianDate" data-timestamp="{{post.date | date: '%s'}}"></span></li>
                     {%endif%}

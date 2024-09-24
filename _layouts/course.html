@@ -17,7 +17,8 @@ jsFile: post.js
           <a href="{{botcaturl}}" class="text-reset">{{botcat}}</a>
         </h5>
         <h1 class="display-3 mb-0">{{page.title}}</h1>
-        {% if page.people%}{% for author in page.people %}{% assign aut = site.people | where: 'relative_path', author.person | first %}
+        {{page.people}}
+        {% if page.people%}{% for author in page.people %}{% assign aut = site.people | where: 'relative_path', author.path | first %}
         {% if aut %}
         <a href="{{aut.url}}" class="text-reset lead"><strong>{{aut.title}}</strong></a>
         {% endif %}

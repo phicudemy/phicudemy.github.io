@@ -36,7 +36,13 @@
       <ul class="navbar-nav flex-row">
         {% for content in site.contents %}
         {% if content.section contains section %}
-        {% assign contsize = target | where: 'contents', content.relative_path | size %}
+        {%assign contsize = 0 %}
+        {% for post in site.posts %}
+        {% for cont in post.contents %}
+        {% if cont.path == content.relative_path %}{%assign contsize = contsize | plus: 1 %}{%endif%}
+        {%endfor%}
+        {%endfor%}
+    
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link d-sm-flex align-items-sm-center {%if contsize == 0 %}disabled{%endif%} {% if page.url == content.url or page.contents == content.relative_path %} active {%endif%}" href="{{content.url}}">{{content.title}}</a>
         </li>

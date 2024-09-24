@@ -3,14 +3,15 @@ title: ازدیاد بی‌حدوحصر کتاب در زمانهٔ جاهل ما
 subtitle: ''
 slug: samueljohnson
 people: 
-  - person: _people/samueljohnson.md
+  - path: _people/samueljohnson.md
 translator: 
-  - person: _people/omidkarimzade.md
+  - path: _people/omidkarimzade.md
 date: 2024-08-06T20:30:00.000Z
 published: true
 categories: 
-  - category: _categories/culture.md
-contents: _contents/notes.md
+  - path: _categories/culture.md
+contents: 
+  - path: _contents/notes.md
 excerpt: >-
   کسانی گفته‌اند که «جامعهٔ تباه چه‌بسیار قانون دارد»؛ نمی دانم این سخن که
   «زمانهٔ جاهل چه‌بسیار کتاب دارد» همان‌مایه از حقیقت بهره‌ور است یا نه. در آن
