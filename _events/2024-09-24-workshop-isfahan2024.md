@@ -5,6 +5,9 @@ people:
   - path: _people/marziyelotfi.md
   - path: _people/طیبی.md
   - path: _people/omidkarimzade.md
+contents: _contents/workshops.md
+categories:
+  - path: _categories/philosophy.md
 format:
   - inperson
 start: 2024-10-15T20:30:00.000Z
