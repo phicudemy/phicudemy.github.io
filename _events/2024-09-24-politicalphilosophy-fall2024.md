@@ -51,14 +51,14 @@ published: true
 
 
 ### برنامهٔ درس
-<br>
+<br><br>
 
 **جلسهٔ اول (۳ آبان):**
 
 مقدمه : تاریخچه فلسفه سیاسی تحلیلی با معرفی مهم­ترین موضوعات و مناقشات آن و نیز تفاوت­های موضوعی وروش­شناختی میان فلسفه سیاسی تحلیلی و قاره­ای
 
 <p dir="ltr">
-Matravers, Matt. (2008) "Twentieth-century political philosophy", in <i>The Routledge Companion to Twentieth-Century Philosophy</i> <br>
+Matravers, Matt. (2008) "Twentieth-century political philosophy", in <i>The Routledge Companion to Twentieth-Century Philosophy</i> <br><br>
 
 Owen, David. 2015: <i>On the distinction between continental/analytical political philosophy</i>
 </p>
@@ -76,9 +76,9 @@ Berlin Isaiah (2002) </i>Liberty</i>, Incorporating Four Essays on Liberty.
 عدالت و برابری
 
 <p dir="ltr">
-Cohen, G. A. (1989) "On the Currency of Egalitarian Justice", <i>Ethics</i>, Vol. 99, No. 4.<br>
+Cohen, G. A. (1989) "On the Currency of Egalitarian Justice", <i>Ethics</i>, Vol. 99, No. 4.<br><br>
 
-(optional) Cohen, G. A. (2000) "Where the Action is: On the Site of Distributive Justice" In _If You're an Egalitarian, How come You're So Rich_, Harvard University Press, Chapter 9:134-147.<br>
+(optional) Cohen, G. A. (2000) "Where the Action is: On the Site of Distributive Justice" In _If You're an Egalitarian, How come You're So Rich_, Harvard University Press, Chapter 9:134-147.<br><br>
 
 Anderson, Elizabeth (2015) "The Fundamental Disagreement Between Luck Egalitarians and Relational Egalitarians'', In <i>Distributive Justice and Access to Advantage</i>, (ed.) Alexander Kaufman, Oxford University Press.
 </p>
@@ -88,7 +88,7 @@ Anderson, Elizabeth (2015) "The Fundamental Disagreement Between Luck Egalitaria
 نظریه عدالت رالز: جامعه سیاسی به­‌سامان، اصل اول عدالت، اصل تمایز
 
 <p dir="ltr">
-Pogge Thomas. (2007) <i>John Rawls: His Life and Theory of Justice</i>, Chapters 5 & 6 & 8.<br>
+Pogge Thomas. (2007) <i>John Rawls: His Life and Theory of Justice</i>, Chapters 5 & 6 & 8.<br><br>
 
 (optional) Freeman, Samuel. (2007). _Rawls_, Routledge, Chapters 1 & 2 & 3.
 </p>
@@ -98,7 +98,7 @@ Pogge Thomas. (2007) <i>John Rawls: His Life and Theory of Justice</i>, Chapters
 نقش مفهوم وضعیت نخستین در توجیه اصول عدالت
 
 <p dir="ltr">
-Freeman, Samuel. (2007). <i>Rawls</i>, Routledge, Chapter 4.<br>
+Freeman, Samuel. (2007). <i>Rawls</i>, Routledge, Chapter 4.<br><br>
 
 Hinton, Timothy (ed), (2015) <i>The Original Position</i>, Cambridge University Press, Chapters 5 & 7.
 </p>
@@ -116,7 +116,7 @@ Nozick, Robert. (1974) <i>Anarchy, State and Utopia</i>, Blackwell Published Ltd
 نوزیک علیه رالز: شرح حمله
 
 <p dir="ltr">
-Nozick, Robert. (1974) <i>Anarchy, State and Utopia</i>, Blackwell Published Ltd. (especially Chapter 7, Distributive Justice).<br>
+Nozick, Robert. (1974) <i>Anarchy, State and Utopia</i>, Blackwell Published Ltd. (especially Chapter 7, Distributive Justice).<br><br>
 
 Cohen G.A. (1995) "Robert Nozick and Wilt Chamberlain: How Patterns Preserve Liberty" in <i>Self-Ownership Freedom and Equality</i>, Cambridge University Press.
 </p>
