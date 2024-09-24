@@ -3,7 +3,7 @@ title: کارگاه آشنایی با فلسفهٔ تحلیلی
 slug: workshop-Isfahan2024
 people:
   - path: _people/marziyelotfi.md
-  - {}
+  - path: _people/طیبی.md
   - {}
 format:
   - inperson
