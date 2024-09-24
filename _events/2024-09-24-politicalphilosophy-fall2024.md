@@ -2,6 +2,8 @@
 title: درآمدی بر فلسفه‌ی سیاسی تحلیلی
 slug: politicalphilosophy-fall2024
 contents: _contents/courses.md
+categories:
+  - path: _categories/philosophy.md
 format:
   - online
   - inperson
