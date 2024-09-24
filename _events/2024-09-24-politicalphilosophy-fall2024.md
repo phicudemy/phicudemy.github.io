@@ -50,22 +50,22 @@ published: true
 
 <br>
 
-**جلسهٔ اول (۳ آبان): **
+**جلسهٔ اول (۳ آبان):**
 
 مقدمه : تاریخچه فلسفه سیاسی تحلیلی با معرفی مهم­ترین موضوعات و مناقشات آن و نیز تفاوت­های موضوعی وروش­شناختی میان فلسفه سیاسی تحلیلی و قاره­ای
 
 <p dir="ltr">
-Matravers, Matt. (2008) "Twentieth-century political philosophy", in _The Routledge Companion to Twentieth-Century Philosophy_
+Matravers, Matt. (2008) "Twentieth-century political philosophy", in <i>The Routledge Companion to Twentieth-Century Philosophy</i> <br>
 
-Owen, David. 2015: _On the distinction between continental/analytical political philosophy_
+Owen, David. 2015: <i>On the distinction between continental/analytical political philosophy</i>
 </p>
 
-**جلسهٔ دوم (۱۰ آبان): **
+**جلسهٔ دوم (۱۰ آبان):**
 
 آزادی مثبت؛ آزادی منفی؛ تمایزها و مناقشه­‌ها
 
 <p dir="ltr">
-Berlin Isaiah (2002) _Liberty_, Incorporating Four Essays on Liberty.
+Berlin Isaiah (2002) </i>Liberty</i>, Incorporating Four Essays on Liberty.
 </p>
 
 **جلسهٔ سوم (۱۷ آبان):**
@@ -73,19 +73,19 @@ Berlin Isaiah (2002) _Liberty_, Incorporating Four Essays on Liberty.
 عدالت و برابری
 
 <p dir="ltr">
-Cohen, G. A. (1989) "On the Currency of Egalitarian Justice", _Ethics_, Vol. 99, No. 4.<br>
+Cohen, G. A. (1989) "On the Currency of Egalitarian Justice", <i>Ethics</i>, Vol. 99, No. 4.<br>
 
 (optional) Cohen, G. A. (2000) "Where the Action is: On the Site of Distributive Justice" In _If You're an Egalitarian, How come You're So Rich_, Harvard University Press, Chapter 9:134-147.<br>
 
-Anderson, Elizabeth (2015) "The Fundamental Disagreement Between Luck Egalitarians and Relational Egalitarians'', In _Distributive Justice and Access to Advantage_, (ed.) Alexander Kaufman, Oxford University Press.
+Anderson, Elizabeth (2015) "The Fundamental Disagreement Between Luck Egalitarians and Relational Egalitarians'', In <i>Distributive Justice and Access to Advantage</i>, (ed.) Alexander Kaufman, Oxford University Press.
 </p>
 
 **جلسهٔ چهارم (۲۴ آبان):**
 
-نظریه عدالت رالز: جامعه سیاسی به­سامان، اصل اول عدالت، اصل تمایز
+نظریه عدالت رالز: جامعه سیاسی به­‌سامان، اصل اول عدالت، اصل تمایز
 
 <p dir="ltr">
-Pogge Thomas. (2007) _John Rawls: His Life and Theory of Justice_, Chapters 5 & 6 & 8.
+Pogge Thomas. (2007) <i>John Rawls: His Life and Theory of Justice</i>, Chapters 5 & 6 & 8.<br>
 
 (optional) Freeman, Samuel. (2007). _Rawls_, Routledge, Chapters 1 & 2 & 3.
 </p>
@@ -95,9 +95,9 @@ Pogge Thomas. (2007) _John Rawls: His Life and Theory of Justice_, Chapters 5 & 
 نقش مفهوم وضعیت نخستین در توجیه اصول عدالت
 
 <p dir="ltr">
-Freeman, Samuel. (2007). _Rawls_, Routledge, Chapter 4.
+Freeman, Samuel. (2007). <i>Rawls</i>, Routledge, Chapter 4.<br>
 
-Hinton, Timothy (ed), (2015) _The Original Position_, Cambridge University Press, Chapters 5 & 7.
+Hinton, Timothy (ed), (2015) <i>The Original Position</i>, Cambridge University Press, Chapters 5 & 7.
 </p>
 
 **جلسهٔ ششم (۷ آذر):**
@@ -105,7 +105,7 @@ Hinton, Timothy (ed), (2015) _The Original Position_, Cambridge University Press
 نظریه عدالت استحقاقی نوزیک: اصول ومبانی
 
 <p dir="ltr">
-Nozick, Robert. (1974) _Anarchy, State and Utopia_, Blackwell Published Ltd. (especially Chapter 7, Distributive Justice).
+Nozick, Robert. (1974) <i>Anarchy, State and Utopia</i>, Blackwell Published Ltd. (especially Chapter 7, Distributive Justice).
 </p>
 
 **جلسهٔ هفتم (۱۴ آذر):**
@@ -113,9 +113,9 @@ Nozick, Robert. (1974) _Anarchy, State and Utopia_, Blackwell Published Ltd. (es
 نوزیک علیه رالز: شرح حمله
 
 <p dir="ltr">
-Nozick, Robert. (1974) _Anarchy, State and Utopia_, Blackwell Published Ltd. (especially Chapter 7, Distributive Justice).
+Nozick, Robert. (1974) <i>Anarchy, State and Utopia</i>, Blackwell Published Ltd. (especially Chapter 7, Distributive Justice).<br>
 
-Cohen G.A. (1995) "Robert Nozick and Wilt Chamberlain: How Patterns Preserve Liberty" in _Self-Ownership Freedom and Equality_, Cambridge University Press.
+Cohen G.A. (1995) "Robert Nozick and Wilt Chamberlain: How Patterns Preserve Liberty" in <i>Self-Ownership Freedom and Equality</i>, Cambridge University Press.
 </p>
 
 **جلسهٔ هشتم (۲۱ آذر):**
@@ -123,5 +123,5 @@ Cohen G.A. (1995) "Robert Nozick and Wilt Chamberlain: How Patterns Preserve Lib
 نوزیک علیه رالز: دفاع و داوری
 
 <p dir="ltr">
-Hunt, Lester (2015) Anarchy, _State, and Utopia-An Advanced Guide_, Wiley-Blackwell
+Hunt, Lester (2015) Anarchy, <i>State, and Utopia-An Advanced Guide</i>, Wiley-Blackwell
 </p>
