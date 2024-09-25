@@ -1,6 +1,6 @@
 ---
 section: _type/academy.md
-title: نشست‌ها
+title: نشست
 slug: sessions
 ---
 

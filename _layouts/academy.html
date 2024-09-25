@@ -1,35 +1,11 @@
 ---
 layout: default
 ---
-<div class="container-fluid">
+<div class="container">
   <div class="row">
-      <div class="col-sm-5 p-lg-5 align-top">
+      <div class="col-sm-5 p-lg-5 my-auto">
         <div class="">
           <h2 class="display-2 mb-lg-5 mb-sm-2"><strong>{{page.title}}</strong></h2>
-          <div class="accordion accordion-flush mb-2" id="accordionFlushExample">
-            {% assign acontents = site.contents | where: 'section', '_type/academy.md' %}
-            {% for category in acontents %}
-            {% assign catsize = site.events | where: 'contents', category.relative_path | size %}
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" {%if catsize == 0 %}disabled{%endif%} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-{{category.slug}}" aria-expanded="false" aria-controls="flush-collapseOne">
-                  {{category.title}}
-                </button>
-              </h2>
-              <div id="flush-collapse-{{category.slug}}" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <ul class="list-group list-group-flush">
-                    {% assign catposts = site.events | where: 'categories', category.relative_path %}
-                    {% for post in site.events| limit: 5  %}
-                    <li class="list-group-item small"><a href="{{post.url}}" class="text-reset">{{post.title}}</a><span class="float-end text-muted persianDate" data-timestamp="{{post.date | date: '%s'}}"></span></li>
-                    {%endfor%}
-                  </ul>
-                  <a href="{{category.url}}" class="float-end small text-danger strong mt-2">صفحه {{category.title}} <i class="bi bi-caret-left-fill"></i></a><br>
-                </div>
-              </div>
-            </div>
-            {%endfor%}
-          </div>
         </div>
       </div>
       <div class="col-sm-7 p-lg-5 align-self-center">
@@ -37,3 +13,33 @@ layout: default
       </div>
   </div>
 </div>
+<div class="container">
+  <div class="row mb-5">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <button class="nav-link active event text-reset" aria-current="page">همه</button>
+      </li>
+      {% for content in site.contents %}
+      {%assign contsize = 0 %}
+      {% for post in site.events %}
+      {% for cont in post.contents %}
+      {% if cont.path == content.relative_path %}{%assign contsize = contsize | plus: 1 %}{%endif%}
+      {%endfor%}
+      {%endfor%}
+      {% if contsize > 0 %}
+      <li class="nav-item">
+        <button class="nav-link text-reset event" value="{{content.slug}}">{{content.title}}</button>
+      </li>
+      {%endif%}
+      {%endfor%}
+    </ul>
+  </div>
+  <div class="row mb-5">
+    {% for post in site.events %}
+    <div class="col-lg-4 mb-2 event-card {%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content.path | first %}{% if cont %}{{cont.slug}}{% endif %}{% endfor %} {%endif%}">
+      {% include cardCourse.html%}
+    </div>
+    {%endfor%}
+  </div>
+</div>
+

@@ -1,5 +1,5 @@
-<div class="card shadow-sm border-dark">
-  <nav class="navbar bg-secondary-subtle rounded-top-3 pb-0 border-bottom  border-dark">
+<div class="card shadow-sm border-dark h-100">
+  <nav class="navbar bg-first rounded-top-3 pb-0 border-bottom  border-dark">
     <ul class="navbar-nav mx-2">
         <li class=" nav-item first text-secondary bg-white border border-dark border-bottom-0 rounded-top mb-n1 pb-0 p-2">
           {%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content.path | first %}
@@ -8,47 +8,42 @@
           {% if categ %}<span><a class="text-reset" href="{{categ.url}}">{{categ.title}}</a></span> {% endif %}{% endfor %}{%endif%}
         </li>
     </ul>
-    <a href="/posts/" class="float-end text-reset me-3 text-muted">آکادمی</a>
+    <a href="/academy/" class="float-end text-reset me-3 text-muted">آکادمی</a>
   </nav>
   <div class="card-body">
     <h5 class="card-title"><a class="text-reset" href="{% if post %}{{post.url}}{% else%}${post[i].link} {% endif %}">{% if post.title %}{{post.title}}{% else%}${post[i].title} {% endif %}</a></h5>
     <div class="card-subtitle mb-2 text-body-secondary">
-      {% if post %}
-      {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
-      {% if ppl %}<a href="{{ppl.url}}" class="text-reset">{%if ppl.avatar %}<img src="//images.weserv.nl/?url=https://phicudemy.github.io{{ppl.avatar}}&w=20&h=20&fit=cover&mask=circle" class="float-start me-2">{% else %}<i class="bi bi-person-lines-fill"></i>{%endif%} {{ppl.title}}</a>
-      {% endif %}
-      {% endfor %}
-      {% endif %}
-      {% else %}
-      {% capture authorsTag %}${authorlist}{%endcapture%}{% if authorsTag %}${authorlist}{%endif%}
-      {% endif %}
+      {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person.path | first %}
+      {% if ppl %}<a href="{{ppl.url}}" class="text-reset"><strong>{%if ppl.avatar %}<img src="//images.weserv.nl/?url=https://phicudemy.github.io{{ppl.avatar}}&w=20&h=20&fit=cover&mask=circle" class="float-start me-2">{% else %}<i class="bi bi-person-lines-fill"></i>{%endif%} {{ppl.title}}</strong></a>
+      {% endif %}{% endfor %}{% endif %}
     </div>
     <div class="card-text small">
-      {%if post.url == page.url %}
-      {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
-      {% if ppl %}{%if ppl.content %} <p>{{ppl.content | truncatewords:50 | strip_html}}</p>{%endif%}
-      {% endif %}
-      {% endfor %}
-      {% endif %}
-      {%else%}
-      <p>
-        {% if post %}{{ post.excerpt| truncatewords:25 | strip_html  }}{% else%}{% capture excerptTag %}${post[i].excerpt}{%endcapture%}{% if excerptTag %}${post[i].excerpt}{% endif %}{% endif %}
-      </p>
-      {%endif%}
       <strong>
-        {% if post %}{{post.schedule}}{% else %}${post[i].schedule}{% endif %}
-        <span class="float-end">{% if post %}{{post.type | join: ' | '}}{% else %}{% capture typeTag %}${post[i].type}{%endcapture%}{% if typeTag %}${post[i].type}{% endif %}{% endif %}</span>
+        {% if post.format %}<span>شیوه برگزاری: {% for frmt in post.format %}{% assign fmt = site.data.dict | where: 'en', frmt | first %}{{fmt.fa}} {%endfor%}</span>{%endif%}
+        {% if post.schedule %}<span class="float-end">زمان برگزاری: {{post.schedule}}</span>{%endif%}
       </strong>
+      <p>
+        {%if post.url == page.url %}
+        {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person.person | first %}
+        {% if ppl %}{%if ppl.content %} {{ppl.content | truncatewords:50 | strip_html}}{%endif%}
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+        {%else%}
+        {{ post.content| truncatewords:80 | strip_html  }}
+        <a href="{{post.url}}" class="btn bg-secondary-subtle btn-sm float-end">بیشتر</a>
+        {%endif%}
+      </p>
     </div>
   </div>
-  <nav class="navbar small navbar-expand-lg navbar-light bg-body-tertiary rounded-bottom-3 pb-0 p-0 border-top border-top-dashed border-dark">
+  <nav class="navbar small navbar-expand-lg navbar-light bg-first rounded-bottom-3 pb-0 p-0 border-top border-top-dashed border-dark">
     <div class="container-fluid justify-content-between">
       <!-- Left elements -->
       <div class="d-flex">
         <!-- Brand -->
-        <div class="me-2 mb-1">
+        <div class="me-2 mb-1 font-fd">
           <i class="bi bi-stopwatch"></i> 
-          {% if post %}{{post.sessions}}{% else %}{% capture sessionsTag %}${post[i].sessions}{%endcapture%}{% if sessionsTag %}${post[i].sessions}{% endif %}{% endif %}
+          {% if post.sessions %}{{post.sessions}}{% endif %}
           جلسه
         </div>
       </div>
@@ -56,7 +51,7 @@
       <!-- Right elements -->
       <ul class="navbar-nav flex-row p-0">
         <li class="nav-item me-3 me-lg-1">
-          <a class="nav-link" href="{% if post %}{{post.url}}{% else%}${post[i].link} {% endif %}"><i class="bi bi-calendar3"></i>   <span class="persianDate" data-timestamp="{% if post %}{{post.start | date: '%s'}}{% else %}${post[i].start}{% endif %}"></span></a>
+          <a class="nav-link" href="{% if post %}{{post.url}}{% else%}${post[i].link} {% endif %}"><i class="bi bi-calendar3"></i>   <span class="persianMonth" data-timestamp="{% if post %}{{post.start | date: '%s'}}{% else %}${post[i].start}{% endif %}"></span></a>
         </li>
       </ul>
       <!-- Right elements -->

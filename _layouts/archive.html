@@ -6,14 +6,26 @@ layout: default
   <div class="container">
     <div class="row p-lg-5">
       <div class="col-sm-6 my-auto">
+        {% unless pagecollection.label == 'contents' %}
         <h5 class="text-danger"><a class="text-reset" data-bs-toggle="collapse" href="#collapse{{pagecollection.label}}" role="button" aria-expanded="false" aria-controls="collapse{{pagecollection.label}}">{{pagecollection.title}} <i class="bi bi-three-dots-vertical"></i></a></h5>
         <div class="collapse" id="collapse{{pagecollection.label}}">
           {%for subcollection in site[pagecollection.label]%}
-          {% assign subpostsize = site.posts | where_exp: "item", "item[pagecollection.label] contains subcollection.relative_path" | size  %}
-          {% assign subcoursesize = site.courses | where_exp: "item", "item[pagecollection.label] contains subcollection.relative_path" | size  %}
-          {%if subpostsize > 0 or subcoursesize > 0%}<a href="{{subcollection.url}}" class="btn btn-outline-first {%if subcollection.url == page.url%} active{%endif%}"{%if subcollection.url == page.url%} aria-pressed="true"{%endif%}>{{subcollection.title}}</a>{%endif%}
+          {%assign sceventsize = 0 %}
+          {% for post in site.events %}
+          {% for cat in post[pagecollection.label] %}
+          {% if cat.path == subcollection.relative_path %}{%assign sceventsize = sceventsize | plus: 1 %}{%endif%}
+          {%endfor%}
+          {%endfor%}
+          {%assign scpostsize = 0 %}
+          {% for post in site.posts %}
+          {% for cat in post[pagecollection.label] %}
+          {% if cat.path == subcollection.relative_path %}{%assign scpostsize = scpostsize | plus: 1 %}{%endif%}
+          {%endfor%}
+          {%endfor%}
+          {%if sceventsize > 0 or scpostsize > 0%}<a href="{{subcollection.url}}" class="btn btn-outline-first {%if subcollection.url == page.url%} active{%endif%}"{%if subcollection.url == page.url%} aria-pressed="true"{%endif%}>{{subcollection.title}}</a>{%endif%}
           {%endfor%}
         </div>
+        {%endunless%}
         <h1 class="display-1">{{page.title}}</h1>
         <div class="">{{page.content}}</div>
       </div>
@@ -23,55 +35,6 @@ layout: default
         {%endif%}
       </div>
     </div>
-  </div>
-  <div class="container">
-    {%assign catsize = 0 %}
-    {% for post in site.posts %}
-    {% for cat in post[pagecollection.label] %}
-    {% if cat.path == page.relative_path %}{%assign catsize = catsize | plus: 1 %}{%endif%}
-    {%endfor%}
-    {%endfor%}
-    {% if catsize > 0 %}
-    {% unless pagecollection.label == 'contents' %}
-    <div class="row mb-5">
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <button class="nav-link active content text-reset" aria-current="page">همه</button>
-        </li>
-        {% for content in site.contents %}
-        {%assign contsize = 0 %}
-        {% for post in site.posts %}
-        {% for cat in post[pagecollection.label] %}
-        {% if cat.path == page.relative_path %}
-        {% for cont in post.contents %}
-        {% if cont.path == content.relative_path %}{%assign contsize = contsize | plus: 1 %}{%endif%}
-        {%endfor%}
-        {%endif%}
-        {%endfor%}
-        {%endfor%}
-        {% if contsize > 0 %}
-        <li class="nav-item">
-          <button class="nav-link text-reset content" value="{{content.slug}}">{{content.title}}</button>
-        </li>
-        {%endif%}
-        {%endfor%}
-      </ul>
-    </div>
-    {%endunless%}
-    <div class="row mb-5">
-      {%assign catsize = 0 %}
-      {%assign catrecent = 0 %}
-      {% for post in site.posts %}
-      {% for cat in post[pagecollection.label] %}
-      {% if cat.path == page.relative_path %}
-      <div class="col-lg-4 mb-2 content-card {%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content.path | first %}{% if cont %}{{cont.slug}}{% endif %}{% endfor %} {%endif%}">
-        {% include cardContent.html%}
-      </div>
-      {%endif%}
-      {%endfor%}
-      {%endfor%}
-    </div>
-    {% endif %}
   </div>
   <div class="container">
     {%assign catsize = 0 %}
@@ -122,15 +85,53 @@ layout: default
     </div>
     {% endif %}
   </div>
+  <div class="container">
+    {%assign catsize = 0 %}
+    {% for post in site.posts %}
+    {% for cat in post[pagecollection.label] %}
+    {% if cat.path == page.relative_path %}{%assign catsize = catsize | plus: 1 %}{%endif%}
+    {%endfor%}
+    {%endfor%}
+    {% if catsize > 0 %}
+    {% unless pagecollection.label == 'contents' %}
+    <div class="row mb-5">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <button class="nav-link active content text-reset" aria-current="page">همه</button>
+        </li>
+        {% for content in site.contents %}
+        {%assign contsize = 0 %}
+        {% for post in site.posts %}
+        {% for cat in post[pagecollection.label] %}
+        {% if cat.path == page.relative_path %}
+        {% for cont in post.contents %}
+        {% if cont.path == content.relative_path %}{%assign contsize = contsize | plus: 1 %}{%endif%}
+        {%endfor%}
+        {%endif%}
+        {%endfor%}
+        {%endfor%}
+        {% if contsize > 0 %}
+        <li class="nav-item">
+          <button class="nav-link text-reset content" value="{{content.slug}}">{{content.title}}</button>
+        </li>
+        {%endif%}
+        {%endfor%}
+      </ul>
+    </div>
+    {%endunless%}
+    <div class="row mb-5">
+      {%assign catsize = 0 %}
+      {%assign catrecent = 0 %}
+      {% for post in site.posts %}
+      {% for cat in post[pagecollection.label] %}
+      {% if cat.path == page.relative_path %}
+      <div class="col-lg-4 mb-2 content-card {%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content.path | first %}{% if cont %}{{cont.slug}}{% endif %}{% endfor %} {%endif%}">
+        {% include cardContent.html%}
+      </div>
+      {%endif%}
+      {%endfor%}
+      {%endfor%}
+    </div>
+    {% endif %}
+  </div>
 </section>
-<script>
-  $('button.content').on('click', function(e){
-    $(this).addClass('active').parent().siblings().children().removeClass('active');
-    if ($(this).val()){
-      $('.content-card').hide();
-      $('.'+$(this).val()).fadeIn('slow');
-    } else {
-      $('.content-card').fadeIn('slow');
-    }
-  })
-</script>

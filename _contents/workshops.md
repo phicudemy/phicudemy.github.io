@@ -1,6 +1,6 @@
 ---
 section: _type/academy.md
-title: کارگاه‌ها
+title: کارگاه
 slug: workshops
 ---
 

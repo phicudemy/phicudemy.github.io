@@ -1,6 +1,6 @@
 ---
 section: _type/academy.md
-title: دوره‌ها
+title: دوره
 slug: programs
 ---
 

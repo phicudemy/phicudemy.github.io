@@ -1,6 +1,6 @@
 ---
 section: _type/academy.md
-title: دروس
+title: درس
 slug: courses
 ---
 
