@@ -2,11 +2,10 @@
   <nav class="navbar bg-secondary-subtle rounded-top-3 pb-0 border-bottom  border-dark">
     <ul class="navbar-nav mx-2">
         <li class=" nav-item first text-secondary bg-white border border-dark border-bottom-0 rounded-top mb-n1 pb-0 p-2">
-            {% if post %}{%if post.categories%}{% for category in post.categories %}{% assign cat = site.categories | where: 'relative_path', category | first %}
-            {% if cat %}<span><a class="text-reset" href="{{cat.url}}">{{cat.title}}</a></span> {% endif %}{% endfor %}{%endif%}
-            {% else%}
-            {% capture categoryTag %}${post[i].category[0]}{%endcapture%}{% if categoryTag %}<a class="text-reset" href="${post[i].category[0].url} ">${post[i].category[0].title} </a>{%endif%}
-            {% endif %}            
+          {%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content.path | first %}
+          {% if cont %}<span><a class="text-reset" href="{{cont.url}}"><i class="{{cont.icon}}"></i> {{cont.title}}</a></span> {% endif %}{% endfor %} / {%endif%}
+          {%if post.categories%}{% for category in post.categories %}{% assign categ = site.categories | where: 'relative_path', category.path | first %}
+          {% if categ %}<span><a class="text-reset" href="{{categ.url}}">{{categ.title}}</a></span> {% endif %}{% endfor %}{%endif%}
         </li>
     </ul>
     <a href="/posts/" class="float-end text-reset me-3 text-muted">آکادمی</a>

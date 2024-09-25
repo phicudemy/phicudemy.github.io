@@ -247,10 +247,23 @@ export default defineConfig({
             ],
           },
           {
-            type: "reference",
+            type: "object",
+            list: true,
             name: "contents",
-            collections: ["contents"],
             label: "نوع",
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.path} `}
+              }
+            },
+            fields: [
+              {
+                type: "reference",
+                label: "نوع",
+                name: "path",
+                collections: ["contents"],
+              },
+            ],
           },
           {
             type: "object",

@@ -5,7 +5,8 @@ people:
   - path: _people/marziyelotfi.md
   - path: _people/طیبی.md
   - path: _people/omidkarimzade.md
-contents: _contents/workshops.md
+contents: 
+  - path: _contents/workshops.md
 categories:
   - path: _categories/philosophy.md
 schedule: ۲۵ و ۲۶ مهر ۱۴۰۳

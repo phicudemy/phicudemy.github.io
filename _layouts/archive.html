@@ -36,7 +36,7 @@ layout: default
     <div class="row mb-5">
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <button class="nav-link active" aria-current="page">همه</button>
+          <button class="nav-link active content text-reset" aria-current="page">همه</button>
         </li>
         {% for content in site.contents %}
         {%assign contsize = 0 %}
@@ -51,7 +51,7 @@ layout: default
         {%endfor%}
         {% if contsize > 0 %}
         <li class="nav-item">
-          <button class="nav-link">{{content.title}}</button>
+          <button class="nav-link text-reset content" value="{{content.slug}}">{{content.title}}</button>
         </li>
         {%endif%}
         {%endfor%}
@@ -64,48 +64,73 @@ layout: default
       {% for post in site.posts %}
       {% for cat in post[pagecollection.label] %}
       {% if cat.path == page.relative_path %}
-      
-
       <div class="col-lg-4 mb-2 content-card {%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content.path | first %}{% if cont %}{{cont.slug}}{% endif %}{% endfor %} {%endif%}">
         {% include cardContent.html%}
       </div>
       {%endif%}
       {%endfor%}
       {%endfor%}
-  
-      
     </div>
-
     {% endif %}
-    {% assign filtered_courses = site.events | where: pagecollection.label, page.relative_path  %}
-    {% if filtered_courses.size > 0 %}
-    <div class="row">
-      <div class="col-12">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 mb-2">
-              <h5 class="card-title">دوره‌های برگزار شده در آکادمی</h5>
-            </div>              
-            {% for post in filtered_courses %}
-            <div class="col-lg-4 mb-2">
-              {% include cardCourse.html%}
-            </div>
-            {% endfor %}
-          </div>
-        </div>      
+  </div>
+  <div class="container">
+    {%assign catsize = 0 %}
+    {% for post in site.events %}
+    {% for cat in post[pagecollection.label] %}
+    {% if cat.path == page.relative_path %}{%assign catsize = catsize | plus: 1 %}{%endif%}
+    {%endfor%}
+    {%endfor%}
+    {% if catsize > 0 %}
+    {% unless pagecollection.label == 'contents' %}
+    <div class="row mb-5">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <button class="nav-link active event text-reset" aria-current="page">همه</button>
+        </li>
+        {% for content in site.contents %}
+        {%assign contsize = 0 %}
+        {% for post in site.events %}
+        {% for cat in post[pagecollection.label] %}
+        {% if cat.path == page.relative_path %}
+        {% for cont in post.contents %}
+        {% if cont.path == content.relative_path %}{%assign contsize = contsize | plus: 1 %}{%endif%}
+        {%endfor%}
+        {%endif%}
+        {%endfor%}
+        {%endfor%}
+        {% if contsize > 0 %}
+        <li class="nav-item">
+          <button class="nav-link text-reset event" value="{{content.slug}}">{{content.title}}</button>
+        </li>
+        {%endif%}
+        {%endfor%}
+      </ul>
+    </div>
+    {%endunless%}
+    <div class="row mb-5">
+      {%assign catsize = 0 %}
+      {%assign catrecent = 0 %}
+      {% for post in site.events %}
+      {% for cat in post[pagecollection.label] %}
+      {% if cat.path == page.relative_path %}
+      <div class="col-lg-4 mb-2 event-card {%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content.path | first %}{% if cont %}{{cont.slug}}{% endif %}{% endfor %} {%endif%}">
+        {% include cardCourse.html%}
       </div>
+      {%endif%}
+      {%endfor%}
+      {%endfor%}
     </div>
     {% endif %}
   </div>
 </section>
 <script>
-  $('.nav-link').on('click', function(e){
+  $('button.content').on('click', function(e){
     $(this).addClass('active').parent().siblings().children().removeClass('active');
-  })
-  $( window ).on( 'change', function( e ) {
-    var hash = window.location.hash;
-    if (hash.startsWith('#item')){
-      console.log(hash);
+    if ($(this).val()){
+      $('.content-card').hide();
+      $('.'+$(this).val()).fadeIn('slow');
+    } else {
+      $('.content-card').fadeIn('slow');
     }
-  } );
+  })
 </script>

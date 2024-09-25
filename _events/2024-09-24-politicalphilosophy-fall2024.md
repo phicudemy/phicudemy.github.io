@@ -3,7 +3,8 @@ title: درآمدی بر فلسفهٔ سیاسی تحلیلی
 slug: politicalphilosophy-fall2024
 people:
   - path: _people/omidkarimzade.md
-contents: _contents/courses.md
+contents: 
+  - path: _contents/courses.md
 categories:
   - path: _categories/philosophy.md
 format:
