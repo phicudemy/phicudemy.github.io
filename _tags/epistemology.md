@@ -1,0 +1,5 @@
+---
+title: معرفت‌شناسی
+slug: epistemology
+---
+
