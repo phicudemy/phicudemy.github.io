@@ -10,8 +10,10 @@ categories:
 contents:
   - path: _contents/notes.md
 tags:
+  - path: _tags/epistemology.md
   - path: _tags/goldman.md
 ---
+
 
 
 ![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Philosophers/Alvin Goldman/Alvin_Goldman.jpg)
