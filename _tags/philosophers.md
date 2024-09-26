@@ -1,0 +1,5 @@
+---
+title: فیلسوفان
+slug: philosophers
+---
+
