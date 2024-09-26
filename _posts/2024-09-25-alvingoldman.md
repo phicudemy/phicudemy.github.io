@@ -27,7 +27,7 @@ contents:
 
 برخی از مهم‌ترین آثارِ گلدمن در زمینۀ نظریۀ معرفت و توجیه عبارت‌اند از:
 
-<p dir="ltr">Causal Theory of Knowledge (1967)<p>
+<p dir="ltr">Causal Theory of Knowledge (1967)</p>
 
 <p dir="ltr">What Is Justified Belief (1979)</p>
 
