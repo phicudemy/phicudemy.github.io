@@ -10,11 +10,13 @@ categories:
 contents:
   - path: _contents/notes.md
 tags:
+  - path: _tags/cognitivesciences.md
   - path: _tags/socialepistemology.md
   - path: _tags/philosophers.md
   - path: _tags/epistemology.md
   - path: _tags/goldman.md
 ---
+
 
 
 
