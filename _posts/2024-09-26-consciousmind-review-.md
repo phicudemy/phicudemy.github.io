@@ -7,6 +7,8 @@ date: 2024-09-25T20:30:00.000Z
 published: true
 categories:
   - path: _categories/philosophy.md
+contents:
+  - path: _contents/bookreviews.md
 ---
 
 
