@@ -267,6 +267,14 @@ blockquote {
 .accordion-button.collapsed::after {
   color: var(--bs-gray-300);
 }
+.no-accordion.accordion-button:not(.collapsed)::after,
+.no-accordion.accordion-button:after {
+  width: 0;
+  height: 0;
+  content: '';
+  background-image: none !important;
+
+}
 .nav-link.active, .nav-link:active {
   background-color: white !important;
 }
@@ -279,4 +287,7 @@ blockquote {
   border: var(--bs-border-width) var(--bs-border-style) var(--bs-dark) !important;
   border-bottom: 0 !important;
 }
+}
+.carousel-control-prev, .carousel-control-next {
+  display: none;
 }

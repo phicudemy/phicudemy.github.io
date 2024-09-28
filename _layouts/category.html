@@ -3,45 +3,113 @@ layout: default
 ---
 
 {%assign pagecollection = site.collections| where: "label", page.collection | first %}
-{{page.relative_path}}
 {% assign filtered_posts = site.posts | where_exp: "item", "item[pagecollection.label] contains page.relative_path" %}
-{{filtered_posts.size}}
-<section class="post-header">
+<section class="post-header mb-5">
   <div class="container">
-    <div class="row p-lg-5">
-      <div class="col-sm-6 my-auto">
-        <h5 class="text-danger"><a class="text-reset" data-bs-toggle="collapse" href="#collapse{{pagecollection.label}}" role="button" aria-expanded="false" aria-controls="collapse{{pagecollection.label}}">{{pagecollection.title}} <i class="bi bi-three-dots-vertical"></i></a></h5>
-        <div class="collapse" id="collapse{{pagecollection.label}}">
-          {%for subcollection in site[pagecollection.label]%}
-          {% assign subpostsize = site.posts | where_exp: "item", "item[pagecollection.label] contains subcollection.relative_path" | size  %}
-          {% assign subcoursesize = site.courses | where_exp: "item", "item[pagecollection.label] contains subcollection.relative_path" | size  %}
-          {%if subpostsize > 0 or subcoursesize > 0%}<a href="{{subcollection.url}}" class="btn btn-outline-first {%if subcollection.url == page.url%} active{%endif%}"{%if subcollection.url == page.url%} aria-pressed="true"{%endif%}>{{subcollection.title}}</a>{%endif%}
-          {%endfor%}
-        </div>
-        <h1 class="display-1">{{page.title}}</h1>
+    <div class="row  py-5 px-lg-5">
+      <div class="col-sm-5">
+        <h1 class="display-2">{{page.title}}</h1>
         <div class="">{{page.content}}</div>
+        <div class="accordion accordion-flush mb-2">
+          {% for content in site.contents %}
+          {%assign contsize = 0 %}
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat.path == page.relative_path %}
+          {% for cont in post.contents %}
+          {% if cont.path == content.relative_path %}{%assign contsize = contsize | plus: 1 %}{%endif%}
+          {%endfor%}
+          {%endif%}
+          {%endfor%}
+          {%endfor%}
+          {% if contsize > 0 %}
+              <div class="accordion-item">
+            <a class="no-accordion accordion-button text-reset" href="#item-{{content.slug}}">{{content.title}}</a>
+          </div>  
+          {%endif%}
+          {%endfor%}
+
+        </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-7">
         {% if page.image %}
         <img src="//images.weserv.nl/?url=https://jomhourifalsafe.com{{page.image}}&w=800&fit=cover" class="rounded mx-auto d-block w-100 object-fit-contain " alt="...">
         {%endif%}
       </div>
     </div>
   </div>
-  <div class="container-fluid">  
-    <div class="row">
-      <div class="col-3">
-        <nav id="navbar-sideCats" class="h-100 flex-column align-items-stretch pe-4 border-end">
-          <nav class="nav nav-pills  flex-column sticky-top">
-            {% for content in site.contents %}
-            {% assign contsize = filtered_posts | where: 'contents', content.relative_path % | size %}
-            {% if contsize > 0 %}<a class="nav-link text-reset" href="#item-{{content.slug}}">{{content.title}}</a>{%endif%}
-            {%endfor%}
-          </nav>
-        </nav>
+  <div class="container"> 
+    {%assign catsize = 0 %}
+    {% for post in site.posts %}
+    {% for cat in post.categories %}
+    {% if cat.path == page.relative_path %}{%assign catsize = catsize | plus: 1 %}{%endif%}
+    {%endfor%}
+    {%endfor%}
+    {% if catsize > 0 %}
+    <!--<nav id="navbar-content" class="navbar px-3 mb-3 fixed-top bg-first" style="display: none;">
+      <a class="navbar-brand" href="#">{{page.title}}</a>
+      <ul class="nav nav-pills">
+        {% for content in site.contents %}
+        {%assign contsize = 0 %}
+        {% for post in site.posts %}
+        {% for cat in post.categories %}
+        {% if cat.path == page.relative_path %}
+        {% for cont in post.contents %}
+        {% if cont.path == content.relative_path %}{%assign contsize = contsize | plus: 1 %}{%endif%}
+        {%endfor%}
+        {%endif%}
+        {%endfor%}
+        {%endfor%}
+        {% if contsize > 0 %}
+        <li class="nav-item">
+          <a class="nav-link text-reset" href="#item-{{content.slug}}">{{content.title}}</a>
+        </li>
+        {%endif%}
+        {%endfor%}
+      </ul>
+    </nav>-->
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -80%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+      {% for content in site.contents %}
+      {%assign contsize = 0 %}
+      {%assign contrecent = 0 %}
+      {% for post in site.posts %}
+      {% for cat in post.categories %}
+      {% if cat.path == page.relative_path %}
+      {% for cont in post.contents %}
+      {% if cont.path == content.relative_path %}{%assign contsize = contsize | plus: 1 %}{%endif%}
+      {%endfor%}
+      {%endif%}
+      {%endfor%}
+      {%endfor%}
+      {% if contsize > 0 %}
+      <h4 class="display-6 text-muted mt-5" id="item-{{content.slug}}">{{content.title}}</h4>
+      <div class="row">
+        {% for post in site.posts %}
+        {% for cat in post.categories %}
+        {% if cat.path == page.relative_path %}
+        {% for cont in post.contents %}
+        {% if cont.path == content.relative_path %}
+        {%assign contrecent = contrecent | plus: 1 %}
+        <div class="col-lg-4 mb-2">
+          {% if contrecent < 4 %}
+          {% include cardContent.html%}
+          {%else%}
+          {% include cardContentSm.html%}
+          {%endif %}
+
+        </div>
+        {%endif%}
+        {%endfor%}
+        {%endif%}
+        {%endfor%}
+        {%endfor%}
       </div>
-    
-      <div class="col-9">
+      {%endif%}
+
+      {%endfor%}
+    </div>
+    {%endif%}     
+      <div class="col-12">
         <div data-bs-spy="scroll" data-bs-target="#navbar-sideCats" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
           {% for content in site.contents %}
           {% assign contsize = filtered_posts | where: 'contents', content.relative_path % | size %}

@@ -62,3 +62,10 @@ $(document).ready(function(){
       var faDate = faMonth +' '+ faYear
       return faDate;
     }
+    $(window).scroll(function () {
+      if ($(this).scrollTop() < 400) {
+        $('#navbar-content').hide();
+      } else {
+        $('#navbar-content').show();
+      }
+    });
