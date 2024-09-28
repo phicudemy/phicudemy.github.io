@@ -18,10 +18,9 @@
       {% endif %}{% endfor %}{% endif %}
     </div>
     <div class="card-text small">
-      <strong>
-        {% if post.format %}<span>شیوه برگزاری: {% for frmt in post.format %}{% assign fmt = site.data.dict | where: 'en', frmt | first %}{{fmt.fa}} {%endfor%}</span>{%endif%}
-        {% if post.schedule %}<span class="float-end">زمان برگزاری: {{post.schedule}}</span>{%endif%}
-      </strong>
+      {%if post.sessions %}<span class="font-fd">{{post.sessions}}</span> جلسه {%endif%}
+      {% if post.format %}(<span>{% for frmt in post.format %}{% assign fmt = site.data.dict | where: 'en', frmt | first %}{{fmt.fa}}{% unless forloop.last %} و {% endunless %}{%endfor%}</span>){%endif%}
+      {% if post.schedule %} | {{post.schedule}}{%endif%}
       <p>
         {%if post.url == page.url %}
         {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person.person | first %}
@@ -42,19 +41,15 @@
       <div class="d-flex">
         <!-- Brand -->
         <div class="me-2 mb-1 font-fd">
-          <i class="bi bi-stopwatch"></i> 
-          {% if post.sessions %}{{post.sessions}}{% endif %}
-          جلسه
+          <a class="nav-link" href="{% if post %}{{post.url}}{% endif %}"><i class="bi bi-calendar3"></i>   <span class="persianMonth" data-timestamp="{% if post %}{{post.start | date: '%s'}}{% else %}${post[i].start}{% endif %}"></span></a>
         </div>
       </div>
       <!-- Left elements -->
       <!-- Right elements -->
-      <ul class="navbar-nav flex-row p-0">
-        <li class="nav-item me-3 me-lg-1">
-          <a class="nav-link" href="{% if post %}{{post.url}}{% else%}${post[i].link} {% endif %}"><i class="bi bi-calendar3"></i>   <span class="persianMonth" data-timestamp="{% if post %}{{post.start | date: '%s'}}{% else %}${post[i].start}{% endif %}"></span></a>
-        </li>
-      </ul>
-      <!-- Right elements -->
+      <div class="font-fd">
+        <a class="btn btn-sm btn-first my-1" href="{{post.url}}">ثبت‌نام</a>
+      </div>  
+        <!-- Right elements -->
     </div>
   </nav>
 </div>

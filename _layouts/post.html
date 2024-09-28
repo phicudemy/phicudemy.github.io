@@ -12,7 +12,10 @@ jsFile: post.js
         <nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a class="text-danger" href="/magazine/">مجله</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a class="text-danger" href="{{botcaturl}}">{{botcat}}</a></li>
+            {%if page.contents%}{% for content in page.contents %}{% assign cont = site.contents | where: 'relative_path', content.path | first %}
+            {% if cont %}<li class="breadcrumb-item" aria-current="page"><a class="text-danger" href="{{cont.url}}"><i class="{{cont.icon}}"></i> {{cont.title}}</a></li> {% endif %}{% endfor %}{%endif%}
+            {%if page.categories%}{% for category in page.categories %}{% assign categ = site.categories | where: 'relative_path', category.path | first %}
+            {% if categ %}<li class="breadcrumb-item" aria-current="page"><a class="text-danger" href="{{categ.url}}">{{categ.title}}</a></li> {% endif %}{% endfor %}{%endif%}
           </ol>
         </nav>
         <h1 class="display-5 mb-4">{{page.title}}</h1>

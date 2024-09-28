@@ -5,37 +5,37 @@ jsFile: post.js
 {% for category in page.categories %}{% assign cat = site.categories | where: 'relative_path', category | first %}
 {% if cat %}{% assign botcat = cat.title %}{% assign botcaturl = cat.url %}{% endif %}
 {% endfor %}
-{% if page.people%}{% for author in page.people %}{% assign aut = site.people | where: 'relative_path', author | first %}
-{% if aut %}{% assign botaut = aut.title %}{% assign botauturl = aut.url %}{% endif %}
-{% endfor %}
-{%endif%}
-<section>
-  <div class="container">
-    <div class="row py-5  post-header" style="height: 45vh !important;">
-      <div class="col-12 text-center my-auto">
-        <h5 class="text-danger">
-          <a href="{{botcaturl}}" class="text-reset">{{botcat}}</a>
-        </h5>
-        <h1 class="display-3 mb-0">{{page.title}}</h1>
-        {{page.people}}
-        {% if page.people%}{% for author in page.people %}{% assign aut = site.people | where: 'relative_path', author.path | first %}
-        {% if aut %}
-        <a href="{{aut.url}}" class="text-reset lead"><strong>{{aut.title}}</strong></a>
-        {% endif %}
-        {% endfor %}{%endif%}
-        <p class="text-muted">
-          {%if page.sessions%}<i class="bi bi-hourglass-split"></i>  {{page.sessions}} جلسه   - {%endif%} <span class="persianDate " data-timestamp="{{page.start | date: '%s'}}"></span> <i class="bi bi-calendar3"></i> 
+<section class="post-header">
+  <div class="container-fluid">
+    <div class="row py-5">
+      <div class="col-sm-6 mx-auto my-auto">
+        
+        <nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a class="text-danger" href="/academy/">آکادمی</a></li>
+            {%if page.contents%}{% for content in page.contents %}{% assign cont = site.contents | where: 'relative_path', content.path | first %}
+            {% if cont %}<li class="breadcrumb-item" aria-current="page"><a class="text-danger" href="{{cont.url}}"><i class="{{cont.icon}}"></i> {{cont.title}}</a></li> {% endif %}{% endfor %}{%endif%}
+            {%if page.categories%}{% for category in page.categories %}{% assign categ = site.categories | where: 'relative_path', category.path | first %}
+            {% if categ %}<li class="breadcrumb-item" aria-current="page"><a class="text-danger" href="{{categ.url}}">{{categ.title}}</a></li> {% endif %}{% endfor %}{%endif%}
+          </ol>
+        </nav>
+        <h1 class="display-5 mb-0">{{page.title}}</h1>
+        <h3 class="text-muted mb-4">
+          {% if page.people%}{% for author in page.people %}{% assign aut = site.people | where: 'relative_path', author.path | first %}
+          {% if aut %}
+          <a href="{{aut.url}}" class="text-reset"><strong>{{aut.title}}</strong></a>
+          {% endif %}
+          {% unless forloop.last %} | {% endunless %}
+          {% endfor %}{%endif%}
+        </h3>  
+        <p class=" mt-2 lead">
+          <i class="bi bi-telegram p-2"></i><i class="bi bi-whatsapp p-2"></i><i class="bi bi-twitter p-2"></i><i class="bi bi-share-fill p-2"></i> | 
+          <span class="persianMonth" data-timestamp="{{page.date | date: '%s'}}"></span>
+          {%if page.sessions %} | <span class="font-fd">{{page.sessions}}</span> جلسه {%endif%}
+          {% if page.format %}(<span>{% for frmt in page.format %}{% assign fmt = site.data.dict | where: 'en', frmt | first %}{{fmt.fa}}{% unless forloop.last %} و {% endunless %}{%endfor%}</span>){%endif%}
+          {% if page.schedule %} | {{page.schedule}}{%endif%}
         </p>
-        <p class="lead text-dar">
-          این دوره
-          {% if page.sessions%} در {{page.sessions}} جلسه {%endif%}
-          به صورت
-          {{page.type | join: ' و '}}
-          از تاریخ
-          <span class="persianDate " data-timestamp="{{page.start | date: '%s'}}"></span>،
-          {{page.schedule}}
-          برگزار می‌شود.
-        </p>
+
       </div>
     </div>
     <div class="row">

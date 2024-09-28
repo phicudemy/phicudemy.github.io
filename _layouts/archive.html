@@ -4,7 +4,7 @@ layout: default
 {%assign pagecollection = site.collections| where: "label", page.collection | first %}
 <section class="post-header">
   <div class="container">
-    <div class="row p-lg-5">
+    <div class="row py-5 px-lg-5">
       <div class="col-sm-6 my-auto">
         {% unless pagecollection.label == 'contents' %}
         <h5 class="text-danger"><a class="text-reset" data-bs-toggle="collapse" href="#collapse{{pagecollection.label}}" role="button" aria-expanded="false" aria-controls="collapse{{pagecollection.label}}">{{pagecollection.title}} <i class="bi bi-three-dots-vertical"></i></a></h5>
@@ -45,6 +45,11 @@ layout: default
     {%endfor%}
     {% if catsize > 0 %}
     {% unless pagecollection.label == 'contents' %}
+    <div class="row">
+      <div class="col text-muted text-center">
+        <h2 class="display-6">آکادمی</h2>
+      </div>
+    </div>
     <div class="row mb-5">
       <ul class="nav justify-content-center">
         <li class="nav-item">
@@ -70,7 +75,7 @@ layout: default
       </ul>
     </div>
     {%endunless%}
-    <div class="row mb-5">
+    <div class="row pb-5  border-bottom">
       {%assign catsize = 0 %}
       {%assign catrecent = 0 %}
       {% for post in site.events %}
@@ -94,6 +99,11 @@ layout: default
     {%endfor%}
     {% if catsize > 0 %}
     {% unless pagecollection.label == 'contents' %}
+    <div class="row mt-3 text-center">
+      <div class="col text-muted">
+        <h2 class="display-6">مجله</h2>
+      </div>
+    </div>
     <div class="row mb-5">
       <ul class="nav justify-content-center">
         <li class="nav-item">
