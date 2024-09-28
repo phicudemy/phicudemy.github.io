@@ -3,43 +3,50 @@ layout: default
 ---
 <div class="container">
   <div class="row py-5 px-lg-5">
-      <div class="col-sm-5 my-auto">
+      <div class="col-sm-5 align-top">
         <div class="">
           <h2 class="display-2 mb-lg-5 mb-sm-2"><strong>{{page.title}}</strong></h2>
+          <div class="accordion accordion-flush mb-2" id="accordionFlushExample">
+            {% for category in site.contents %}
+            {%assign catsize = 0 %}
+            {%assign catrecent = 0 %}
+            {% for post in site.events %}
+            {% for cat in post.contents %}
+            {% if cat.path == category.relative_path %}{%assign catsize = catsize | plus: 1 %}{%endif%}
+            {%endfor%}
+            {%endfor%}
+            {%if catsize >0 %}
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-{{category.slug}}" aria-expanded="false" aria-controls="flush-collapseOne">
+                  {{category.title}}
+                </button>
+              </h2>
+              <div id="flush-collapse-{{category.slug}}" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul class="list-group list-group-flush">
+                    {% for post in site.events %}
+                    {% if catrecent  == 5 %}{% break %}{% endif %} 
+                    {% for cat in post.contents %}
+                    {% if cat.path == category.relative_path %}
+                    {% assign catrecent = catrecent | plus: 1 %}
+                    <li class="list-group-item small"><a href="{{post.url}}" class="text-reset">{{post.title}}</a><span class="float-end text-muted persianMonth" data-timestamp="{{post.start | date: '%s'}}"></span></li>
+                    {%endif%}
+                    {%endfor%}
+                    {%endfor%}
+                  </ul>
+                  <a href="{{category.url}}" class="float-end small text-danger strong mt-2">صفحه {{category.title}} <i class="bi bi-caret-left-fill"></i></a><br>
+                </div>
+              </div>
+            </div>
+            {%endif%}
+            {%endfor%}
+          </div>
         </div>
       </div>
       <div class="col-sm-7 p-lg-5 align-self-center">
         <img src="//images.weserv.nl/?url=https://jomhourifalsafe.com{{page.image}}&w=800&fit=cover" class="rounded mx-auto d-block w-100 h-75 object-fit-contain " alt="...">
       </div>
-  </div>
-</div>
-<div class="container">
-  <div class="row mb-5">
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <button class="nav-link active event text-reset" aria-current="page">همه</button>
-      </li>
-      {% for content in site.contents %}
-      {%assign contsize = 0 %}
-      {% for post in site.events %}
-      {% for cont in post.contents %}
-      {% if cont.path == content.relative_path %}{%assign contsize = contsize | plus: 1 %}{%endif%}
-      {%endfor%}
-      {%endfor%}
-      {% if contsize > 0 %}
-      <li class="nav-item">
-        <button class="nav-link text-reset event" value="{{content.slug}}">{{content.title}}</button>
-      </li>
-      {%endif%}
-      {%endfor%}
-    </ul>
-  </div>
-  <div class="row mb-5">
-    {% for post in site.events %}
-    <div class="col-lg-4 mb-2 event-card {%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content.path | first %}{% if cont %}{{cont.slug}}{% endif %}{% endfor %} {%endif%}">
-      {% include cardCourse.html%}
-    </div>
-    {%endfor%}
   </div>
 </div>
 
