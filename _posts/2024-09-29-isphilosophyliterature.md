@@ -10,6 +10,8 @@ published: true
 categories:
   - path: _categories/literature.md
   - path: _categories/philosophy.md
+contents:
+  - path: _contents/article.md
 ---
 
 
