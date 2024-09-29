@@ -8,6 +8,7 @@ translator:
 date: 2024-09-28T20:30:00.000Z
 published: true
 categories:
+  - path: _categories/literature.md
   - path: _categories/philosophy.md
 ---
 
