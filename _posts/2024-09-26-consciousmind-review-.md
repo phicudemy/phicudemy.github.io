@@ -1,5 +1,5 @@
 ---
-title: 'معرفی کتاب «ذهن آگاه: در جست‌وجوی نظریه‌ای بنیادی»'
+title: 'معرفی کتاب <i>«ذهن آگاه: در جست‌وجوی نظریه‌ای بنیادی»</i>'
 slug: 'consciousmind-review '
 people:
   - path: _people/marziyelotfi.md
