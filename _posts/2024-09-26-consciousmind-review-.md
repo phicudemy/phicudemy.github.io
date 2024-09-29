@@ -94,14 +94,14 @@ C: دوگانه‌انگاری ویژگی: دیدگاه‌های مربوط به
 
 **منابع**
 
-Chalmers, D. J. (1996), *The Conscious Mind: In Search of a Fundamental Theory*, Oxford: Oxford University Press.
+<p dir="ltr"> Chalmers, D. J. (1996), *The Conscious Mind: In Search of a Fundamental Theory*, Oxford: Oxford University Press.<br>
 
-Jackson, F. (1982), “Epiphenomenal Qualia,” *Philosophical Quarterly*, 32: 127-36.
+Jackson, F. (1982), “Epiphenomenal Qualia,” *Philosophical Quarterly*, 32: 127-36.<br>
 
-Levine, J. (1983), “Materialism and Qualia: The explanatory Gap,” *Pacific Philosophical Quarterly*, 64:354-61.
+Levine, J. (1983), “Materialism and Qualia: The explanatory Gap,” *Pacific Philosophical Quarterly*, 64:354-61.<br>
 
-Nagle, T. (1974), “What Is Like It to Be a Bat?” *Philosophical Review*, 83:435-50.
-
+Nagle, T. (1974), “What Is Like It to Be a Bat?” *Philosophical Review*, 83:435-50.<br>
+</p>
 چالمرز، دیوید جِی (1402)، *ذهن آگاه: در جست‌وجوی نظریه‌ای بنیادی*، ترجمۀ یاسر پوراسماعیل، تهران: نشر نو.
 
 
