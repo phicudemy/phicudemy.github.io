@@ -13,8 +13,7 @@ tags:
   - path: _tags/bookreview.md
 ---
 
-![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Book Covers/book-cover-english.jpeg)
-![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Book Covers/book-cover-persian.jpg)
+![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Book Covers/book-cover-english.jpeg) ![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Book Covers/book-cover-persian.jpg)
 
 کتاب *ذهن آگاه؛ در جست‌وجوی نظریه‌ای بنیادی*[^1] نوشتۀ دیوید جِی. چالمرز[^2]، در سال ۱۹۹۶ از سوی انتشارات آکسفورد به‌چاپ رسید و مورداقبال فراوانی قرار گرفت. یاسر پوراسماعیل کتاب را به فارسی ترجمه کرده و در سال ۱۴۰۲ توسط نشر نو منتشر شده و دردست‌رس علاقه‌مندان است.
 
