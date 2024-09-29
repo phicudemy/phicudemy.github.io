@@ -5,7 +5,7 @@ people:
   - path: _people/marziyelotfi.md
   - path: _people/طیبی.md
   - path: _people/omidkarimzade.md
-contents: 
+contents:
   - path: _contents/workshops.md
 categories:
   - path: _categories/philosophy.md
@@ -16,6 +16,7 @@ start: 2024-10-15T20:30:00.000Z
 sessions: 6
 published: true
 ---
+
 
 
 
@@ -36,7 +37,7 @@ published: true
 
 ### ثبت‌نام:
 
-از طریق شماره همراه: ۰۹۳۶۷۹۴۲۳۸۷
+از طریق شماره تلفن‌های: ۰۳۱۳۶۶۳۶۶۷۲ و ۰۳۱۳۶۶۳۶۶۷۳
 
 هزینهٔ ثبت‌نام:
 
