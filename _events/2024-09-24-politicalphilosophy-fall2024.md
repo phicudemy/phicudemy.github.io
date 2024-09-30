@@ -101,7 +101,7 @@ Dworkin Ronald. (1981) "What is Equality? Part 1, Equality of Welfare", <i>Philo
 
 <p dir="ltr">
 Dworkin Ronald. (1981) "What is Equality? Part 2, Equality of Resources", <i>Philosophy and Public Affairs</i>, 10:283-345</p>
-<br>
+
 ----------
 
 ### معرفی مدرس:
