@@ -47,7 +47,7 @@
       <!-- Left elements -->
       <!-- Right elements -->
       <div class="font-fd">
-        <a class="btn btn-sm btn-first my-1" href="{{post.url}}">ثبت‌نام</a>
+        {%if post.register %}<a class="btn btn-sm btn-first my-1" href="{{post.register}}" target="_blank">ثبت‌نام</a>{%endif%}
       </div>  
         <!-- Right elements -->
     </div>

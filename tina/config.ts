@@ -353,6 +353,11 @@ export default defineConfig({
             label: 'انتشار'
           },
           {
+            label: 'فرم ثبت‌نام',
+            name: 'register',
+            type: 'string',
+          },          
+          {
             type: "string",
             name: "body",
             label: "متن",
