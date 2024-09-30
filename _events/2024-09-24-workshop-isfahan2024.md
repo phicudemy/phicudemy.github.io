@@ -12,6 +12,7 @@ categories:
 schedule: ۲۵ و ۲۶ مهر ۱۴۰۳
 format:
   - inperson
+  - online
 start: 2024-10-15T20:30:00.000Z
 sessions: 6
 published: true
