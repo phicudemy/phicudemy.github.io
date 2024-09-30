@@ -3,6 +3,8 @@ title: نگاهی به آرای الوین گلدمن
 slug: goldmansession
 people:
   - path: _people/mohsenzamani.md
+contents:
+  - path: _contents/sessions.md
 categories:
   - {}
 schedule: پنج‌شنبه ۱۲ مهر ۱۴۰۳، ساعت ۱۷ الی ۱۹
