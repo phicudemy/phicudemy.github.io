@@ -33,9 +33,13 @@ jsFile: post.js
           <span class="persianMonth" data-timestamp="{{page.date | date: '%s'}}"></span>
           {%if page.sessions %} | <span class="font-fd">{{page.sessions}}</span> جلسه {%endif%}
           {% if page.format %}(<span>{% for frmt in page.format %}{% assign fmt = site.data.dict | where: 'en', frmt | first %}{{fmt.fa}}{% unless forloop.last %} و {% endunless %}{%endfor%}</span>){%endif%}
-          {% if page.schedule %} | {{page.schedule}}{%endif%}
+          {% if page.schedule %} | {{page.schedule}}{%endif%} {% if page.register %}<a class="btn d-none d-sm-block float-end btn-lg btn-first" href="{{page.register}}" target="_blank">ثبت‌نام</a>{%endif%}
         </p>
-
+        {% if page.register %}
+        <div class="d-grid d-block d-sm-none bg-dark position-fixed bottom-0 start-0 w-100">
+          <a class="btn btn-first rounded-0" href="{{page.register}}" target="_blank">ثبت‌نام</a>
+        </div>
+        {%endif%}
       </div>
     </div>
     <div class="row">
@@ -52,12 +56,6 @@ jsFile: post.js
       </div>     
       <div class="col-sm-6 pt-3 content">
         {{page.content| markdownify}}
-        {% if page.register %}
-        <h3>ثبت‌نام</h3>
-        <p>
-          جهت ثبت‌نام از طریق <a href="{{page.register}}" target="_blank">این لینک</a> اقدام کنید.          
-        </p>
-      {%endif%}
         <div class="mb-2 foot-comment">
           {% include cardComment.html %}
         </div>
