@@ -2,6 +2,7 @@
 title: نگاهی به آرای الوین گلدمن
 slug: goldmansession
 people:
+  - path: _people/amirsaemi.md
   - path: _people/omidkarimzade.md
   - path: _people/mohsenzamani.md
 contents:
