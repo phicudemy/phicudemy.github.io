@@ -41,11 +41,11 @@ sessions: 8
 
 ### منابع درس:
 
-#### منابع اصلی:
+**منابع اصلی:**
+
 بستهٔ مقالات درس که شامل تمام مقالات الزامی و اختیاری مشخص‌شده در برنامهٔ درس است.
 
-#### منابع کمکی:
-
+**منابع کمکی:**
 <p dir="ltr">
 Soames, S. (2003) <i>Philosophical Analysis in the Twentieth Century, Vol. 1: The Dawn of Analysis</i>, Princeton University Press.</p>
 <p dir="ltr">
