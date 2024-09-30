@@ -3,7 +3,7 @@ title: درآمدی بر فلسفهٔ تحلیلی
 slug: analyticphilosophy-fall2024
 people:
   - path: _people/طیبی.md
-contents: 
+contents:
   - path: _contents/courses.md
 categories:
   - path: _categories/philosophy.md
@@ -13,9 +13,6 @@ format:
 start: 2024-10-22T20:30:00.000Z
 sessions: 8
 ---
-
-
-
 
 ### محتوای درس:
 
@@ -59,41 +56,41 @@ Soames, S. (2003) <i>Philosophical Analysis in the Twentieth Century, Vol. 2: Th
 
 <br>
 
-**جلسهٔ اول (۲ آبان): منطق‌گرایی و تلقی فرگه از عدد**
+**جلسهٔ اول:** منطق‌گرایی و تلقی فرگه از عدد
 
 <p dir="ltr">
 Frege, G. (1892), “On Sinn and Bedeutung,” reprinted in <i>The Frege Reader</i>, ed. by M. Beany, Blackwell (1997). pp. 172-180.</p>
 
-**جلسهٔ دوم (۹ آبان): راسل و اتمیسم منطقی**
+**جلسهٔ دوم:**  راسل و اتمیسم منطقی
 
 <p dir="ltr">
 Russell, B. (1918) “The Philosophy of Logical Atomism,” <i>Monist</i>, 28, 495–527; 29, 32–63, 190–222, 345–380; reprinted in B. Russell, <i>Logic and Knowledge</i>, Allen and Unwin, 1956. pp. 177–281.</p>
 
-**جلسهٔ سوم (۱۶ آبان): مور و برهان جهان خارج**
+**جلسهٔ سوم:** مور و برهان جهان خارج
 
 <p dir="ltr">
 Moore, G. E. (1939), “Proof of an External World,” <i>Proceedings of the British Academy</i>, 25: 273-300.</p>
 
-**جلسهٔ چهارم (۲۳ آبان): همپل و معیار معناداری تجربه‌گرایانه**
+**جلسهٔ چهارم:**  همپل و معیار معناداری تجربه‌گرایانه
 <p dir="ltr">
 Hempel, C. G. (1950), “Problems and Changes in the Empiricist Criterion of Meaning,” <i>Revue Internationale de Philosophie</i>, 4: 41–63.</p>
 
-**جلسهٔ پنجم (۳۰ آبان): کارنپ و وجودشناسی**
+**جلسهٔ پنجم:**  کارنپ و وجودشناسی
 
 <p dir="ltr">
 Carnap, R. (1950), “Empiricism, Semantics, and Ontology,” <i>Revue Internationale de Philosophie</i>, 4: 20-40.</p>
 
-**جلسهٔ ششم (۶ آذر): کواین تمایز تحلیلی/ترکیبی**
+**جلسهٔ ششم:** کواین تمایز تحلیلی/ترکیبی
 
 <p dir="ltr">
 Quine W. V. O (1951), “Two Dogmas of Empiricism,” reprinted in W. V. Quine (1953), <i>From a Logical Point of View</i>, Harvard University Press. pp. 20-46. </p>
 
-**جلسهٔ هفتم (۱۳ آذر): آستین و فلسفه زبان روزمره**
+**جلسهٔ هفتم:** آستین و فلسفه زبان روزمره
 
 <p dir="ltr">
 Austin, J. L. (1962). <i>Sense and Sensibilia</i>, ed. by G. Warnock, Oxford University Press.</p>
 
-**جلسهٔ هشتم (۲۰ آذر): کریپکی و ذات‌گرایی**
+**جلسهٔ هشتم:** کریپکی و ذات‌گرایی
 
 <p dir="ltr">
 Kripke, S. (1971), “Identity and Necessity,” in M. Munitz( ed) <i>Identity and Individuation</i>, NYU Press. pp. 135-164.</p>
