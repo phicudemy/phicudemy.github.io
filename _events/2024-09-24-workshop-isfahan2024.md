@@ -41,7 +41,7 @@ published: true
 <br><br>
 
 ### ثبت‌نام:
-برای ثبت‌نام حضورری یا آنلاین با شماره‌ تلفن‌های ۰۳۱۳۶۶۳۶۶۷۲ و ۰۳۱۳۶۶۳۶۶۷۳ یا آی‌دی تلگرام [@hamid_alaeinejad](http://t.me/hamid_alaeinejad) @hamid_alaeinejad تماس بگیرید. 
+برای ثبت‌نام حضورری یا آنلاین با شماره‌ تلفن‌های <a href="tel:00983136636672">۰۳۱۳۶۶۳۶۶۷۲</a> و <a href="tel:00983136636673">۰۳۱۳۶۶۳۶۶۷۳</a> یا آی‌دی تلگرام [@hamid_alaeinejad](http://t.me/hamid_alaeinejad) @hamid_alaeinejad تماس بگیرید. 
 
 هزینهٔ ثبت‌نام:
 
