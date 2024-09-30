@@ -5,10 +5,12 @@ people:
   - path: _people/amirsaemi.md
   - path: _people/omidkarimzade.md
   - path: _people/mohsenzamani.md
+others:
+  - {}
 contents:
   - path: _contents/sessions.md
 categories:
-  - {}
+  - path: _categories/philosophy.md
 schedule: پنج‌شنبه ۱۲ مهر ۱۴۰۳، ساعت ۱۷ الی ۱۹
 format:
   - inperson
