@@ -15,10 +15,10 @@ tags:
 
 <div class="row">
   <div class="column">
-    <img src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Book Covers/book-cover-english.jpeg" style="width:100%">
+    <img src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Book Covers/book-cover-english.jpeg" style="width: 50%; height: 50%; float: left;">
   </div>
   <div class="column">
-    <img src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Book Covers/book-cover-persian.jpg" style="width:100%">
+    <img src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Book Covers/book-cover-persian.jpg" style="width: 50%; height: 50%; float: right;">
   </div>
 </div>
 
