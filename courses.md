@@ -3,7 +3,7 @@ title: آکادمی
 layout: home
 slug: courses
 permalink: /academy/
-image: /assets/images/Paintings/school_of_Athens_Raphael.webp
+image: /assets/images/Paintings/plato_academy_mosaic.jpg
 ---
 <div class="accordion accordion-flush mb-2" id="accordionFlushExample">
 {% for category in site.contents %}
