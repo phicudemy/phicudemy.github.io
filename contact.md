@@ -1,5 +1,5 @@
 ---
-title: تماس
+title: تماس با ما
 layout: home
 slug: contact
 permalink: /contact/

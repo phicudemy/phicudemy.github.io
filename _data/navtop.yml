@@ -6,8 +6,8 @@
 - name: مجله
   link: /magazine/
   slug: magazine
-- name: درباره
+- name: درباره ما
   link: #
-- name: تماس
+- name: تماس با ما
   link: /contact/
   
