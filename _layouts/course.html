@@ -30,7 +30,7 @@ jsFile: post.js
         </h3>  
         <p class=" mt-2 lead">
           <i class="bi bi-telegram p-2"></i><i class="bi bi-whatsapp p-2"></i><i class="bi bi-twitter p-2"></i><i class="bi bi-share-fill p-2"></i> | 
-          <span class="persianMonth" data-timestamp="{{page.date | date: '%s'}}"></span>
+          <span class="persianMonth" data-timestamp="{%if page.start %}{{page.start | date: '%s'}}{%else%}{{page.date | date: '%s'}}{%endif%}"></span>
           {%if page.sessions %} | <span class="font-fd">{{page.sessions}}</span> جلسه {%endif%}
           {% if page.format %}(<span>{% for frmt in page.format %}{% assign fmt = site.data.dict | where: 'en', frmt | first %}{{fmt.fa}}{% unless forloop.last %} و {% endunless %}{%endfor%}</span>){%endif%}
           {% if page.schedule %} | {{page.schedule}}{%endif%} {% if page.register %}<a class="btn d-none d-sm-block float-end btn-lg btn-first" href="{{page.register}}" target="_blank">ثبت‌نام</a>{%endif%}

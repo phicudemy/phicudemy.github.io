@@ -35,6 +35,12 @@
     <div class="container-fluid justify-content-between">
       <ul class="navbar-nav flex-row">
         {% for content in site.contents %}
+        {% if page.url == content.url %}
+        {%assign active = 'active' %}
+        {% elsif page.contents %}
+        {% for cont in page.contents %}{% if cont.path == content.relative_path %}{%assign active = 'active' %}{% else %}{%assign active = '' %}{%endif%}{%endfor%}
+        {% else %}{%assign active = '' %}
+        {%endif%}
         {% if content.section contains section %}
         {%assign contsize = 0 %}
         {% for post in target %}
@@ -44,7 +50,8 @@
         {%endfor%}
         {%if contsize > 0 %}
         <li class="nav-item me-3 me-lg-1">
-          <a class="nav-link d-sm-flex align-items-sm-center {% if page.url == content.url or page.contents == content.relative_path %} active {%endif%}" href="{{content.url}}">{{content.title}}</a>
+        
+          <a class="nav-link d-sm-flex align-items-sm-center {{active}}" href="{{content.url}}">{{content.title}}</a>
         </li>
         {%endif%}
         {%endif%}
