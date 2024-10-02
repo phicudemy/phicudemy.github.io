@@ -100,4 +100,4 @@ Benjamin, Walter (1999), *The Arcades Project*, trans. Howard Eiland & Kevin McL
 
 [](#_ftnref7).\[7] شعر اودن *In Memory of Sigmund Freud* نام دارد و عبارت Sad is Eros, builder of cities در سطر ماقبل آخر آن آمده (م).
 
-[](#_ftnref8) .\[8] این مقاله نخستین‌بار با عنوان «Angel in the City» در ۱۲ می ۱۹۹۷ در *Nation* منتشر شد.
+[](#_ftnref8) \[8] این مقاله نخستین‌بار با عنوان «Angel in the City» در ۱۲ می ۱۹۹۷ در *Nation* منتشر شد.
