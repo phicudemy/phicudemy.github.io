@@ -21,6 +21,7 @@ register: 'https://zarinp.al/634768'
 <center>
 <img 
        src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/cover_analyticphilosophy.jpg" 
+       alt =" "
        style="width: 50%; height:50%;" />
 </center>
 
