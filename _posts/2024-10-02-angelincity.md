@@ -138,7 +138,7 @@ Benjamin, Walter (1996), *Selected Writings: Volume I* (1913–1926), edited by 
 
 [^28]: این کتاب به فارسی ترجمه شده است. مشخصات ترجمه فارسی به شرح زیر است:
 
-پارینی، [جِی ](https://www.borjbooks.ir/creators/135/ "جی پارینی")(1402)، آخرین روزهای والتر بنیامین، ترجمۀ [مریم خدادادی](https://www.borjbooks.ir/creators/136/ "مریم خدادادی")، تهران: نشر برج. (م)
+[پارینی، جِی](https://www.borjbooks.ir/creators/135/ "جی پارینی")(1402)، آخرین روزهای والتر بنیامین، ترجمۀ [مریم خدادادی](https://www.borjbooks.ir/creators/136/ "مریم خدادادی")، تهران: نشر برج. (م)
 
 [^29]: Gershom Scholem
 
