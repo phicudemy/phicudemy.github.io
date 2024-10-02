@@ -8,7 +8,7 @@ layout: default
   <div class="container">
     <div class="row  py-5 px-lg-5">
       <div class="col-sm-5">
-        <h1 class="display-2">{{page.title}}</h1>
+        <h3 class="display-3">{{page.title}}</h3>
         <div class="">{{page.content}}</div>
         <div class="accordion accordion-flush mb-2">
           {% for content in site.contents %}
@@ -38,6 +38,7 @@ layout: default
       </div>
     </div>
   </div>
+  <br>
   <div class="container"> 
     {%assign catsize = 0 %}
     {% for post in site.posts %}
