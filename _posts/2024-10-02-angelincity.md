@@ -115,7 +115,7 @@ contents:
 
 [^22]: Charlotte Wolff
 
-[^23]: Giesele Freund
+[^23]: Gisèle Freund
 
 [^24]: برای اصل نوشتۀ بنیامین بنگرید به:
      
