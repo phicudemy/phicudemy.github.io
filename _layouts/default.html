@@ -5,7 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ site.title }} {% if page.title %}: {{ page.title }}{% endif %}</title>
+    {%if page.layout == 'home'%}
+    {% assign pagecontent_description = site.description %}
+    {%else %}
     {% assign pagecontent_description = page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | strip_html | strip_newlines | replace: '  ', ' ' | truncate: 250 %}
+    {%endif%}
     <meta name="description" content="{% if pagecontent_description.size > 10 %}{{ pagecontent_description }}{% else %}{{ site.description }}{% endif %}">
     
     <link rel="shortcut icon" type="image/png" href="/assets/img/icon-192x192.png">
