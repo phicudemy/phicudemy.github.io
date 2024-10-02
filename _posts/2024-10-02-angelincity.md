@@ -75,11 +75,11 @@ contents:
 
 [](#_ftnref2)\[2] برای اصل نوشتۀ بنیامین بنگرید به:
 <p dir="ltr">
-Benjamin, Walter (1974) “Goethes Wahlverwandtschaften,” In: *Gesammelte Schriften*, edited by Rolf Tiedemann and Herman Schweppenhäuser, 125–201. Frankfurt: Suhrkamp.
+Benjamin, Walter (1974) “Goethes Wahlverwandtschaften,” In: <i>Gesammelte Schriften</i>, edited by Rolf Tiedemann and Herman Schweppenhäuser, 125–201. Frankfurt: Suhrkamp.
 </p>
 برای ترجمۀ انگلیسی این اثر بنگرید به:
 <p dir="ltr">
-Benjamin, Walter (1996), *Selected Writings: Volume I* (1913–1926), edited by Marcus Bullock and Michael W. Jennings, Cambridge: Harvard University Press.
+Benjamin, Walter (1996), <i>Selected Writings: Volume I</i> (1913–1926), edited by Marcus Bullock and Michael W. Jennings, Cambridge: Harvard University Press.
 </p>
 [](#_ftnref\3)\[3] *Wahlverwandtschaft* نام سوّمین رمان گوته. این رمان در سال ۱۸۰۹ منتشر شد. داستان در اطراف شهر وایمار رخ می‌دهد و قصّۀ زوجی آریستوکرات به نام‌های ادوارد  Eduardو شارلوته Charlotte را روایت می‌کند. آن‌ها که زندگی مرفّهی را در ملکی جداافتاده می‌گذرانند هرکدام پیش‌تر یک بار ازدواج کرده‌اند. پس از آن‌که کاپیتان اتو Otto—دوست ادوارد—و اُتیلی Ottilie—خواهرزادۀ یتیم شارلوته—را دعوت می‌کنند تا مدتی را با آن‌ها بگذرانند، ازدواجشان دست‌خوش بحران می‌شود. گوته این دعوت را «آزمایش» به‌معنی شیمیایی کلمه می‌نامد و محیط خانه و باغ را به محیطی شیمیایی تشبیه می‌کند که عناصر انسانی در آن ریخته شده‌اند تا خواننده بتواند واکنش نهایی را مشاهده کند. درست مانند یک واکنش شیمیایی، زن و شوهر هردو کشش متقابل تازه و شدیدی احساس می‌کنند: شارلوته—که نمایندۀ عقل است—به‌سوی کاپیتان اتوی معقول و پرانرژی، و ادوارد—که نمایندۀ احساس است—به‌سوی اُتیلیِ کم سن‌و‌سال و جذّاب. کشمکش میان احساس و عقل نظم امور را بر هم می‌زند و آشوب پیش می‌آورد و درنهایت به پایانی تراژیک منجر می‌شود. عبارت خویشاوندی‌های اختیاری/ پیوندهای گزینشی در درجۀ اول اصطلاحی علمی بوده که توسط دانشمندانی نظیر رابرت بویل، نیوتون، و لاوازیه به‌کار رفته است.
 
@@ -91,7 +91,7 @@ Benjamin, Walter (1996), *Selected Writings: Volume I* (1913–1926), edited by 
 
 [](#_ftnref5)\[5] مشخصات ترجمه انگلیسی این اثر به قرار زیر است:
 <p dir="ltr">
-Benjamin, Walter (1999), *The Arcades Project*, trans. Howard Eiland & Kevin McLaughlin, Cambridge, MA. & London: Belknap Press. (م)
+Benjamin, Walter (1999), <i>The Arcades Project</i>, trans. Howard Eiland & Kevin McLaughlin, Cambridge, MA. & London: Belknap Press. (م)
 </p>
 [](#_ftnre6)\[6] شعر اودن *In Memory of Sigmund Freud* نام دارد و عبارت Sad is Eros, builder of cities در سطر ماقبل آخر آن آمده (م).
 
