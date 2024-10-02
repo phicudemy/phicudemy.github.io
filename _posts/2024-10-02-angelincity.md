@@ -77,7 +77,7 @@ contents:
 
 [^3]: La Grande Illusion
 
-[^4]: *Gisèle* Freund
+[^4]: Gisèle Freund
 
 [^5]: Lisa Fittko
 
