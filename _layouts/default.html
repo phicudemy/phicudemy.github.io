@@ -11,14 +11,35 @@
     {% assign pagecontent_description = page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | strip_html | strip_newlines | replace: '  ', ' ' | truncate: 250 %}
     {%endif%}
     <meta name="description" content="{% if pagecontent_description.size > 10 %}{{ pagecontent_description }}{% else %}{{ site.description }}{% endif %}">
-    
+    {% if page.image &}
+    {%assign src = page.image | prepend: site.baseurl | prepend: site.url %}
+    {%else%}
+    {% assign foundImage = 0 %}
+    {% assign images = page.content | split:"http" %}
+        {% for image in images %}
+          {% if image contains 'png' %}
+              {% if foundImage == 0 %}
+              {% assign html = image | split:'png' | first %}
+              {% assign src = html | append: 'png' | prepend: 'http' %}
+               {% assign foundImage = 1 %}
+               {% endif %}
+          {% endif %}
+          {% if image contains 'jpg' %}
+              {% if foundImage == 0 %}
+              {% assign html = image | split:'jpg' | first %}
+              {% assign src = html | append: 'jpg' | prepend: 'http' %}
+               {% assign foundImage = 1 %}
+               {% endif %}
+          {% endif %}
+          {% endfor %}
+    {%endif%}
     <link rel="shortcut icon" type="image/png" href="/assets/img/icon-192x192.png">
     <link rel="shortcut icon" sizes="192x192" href="/assets/img/icon-192x192.png">
     <link rel="apple-touch-icon" href="/assets/img/icon-192x192.png">
     
      <!-- Facebook integration -->
     <meta property="og:title" content="{{ page.title }}"/>
-    {% if page.image %}<meta property="og:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}"/>{% endif %}
+    {% if src %}<meta property="og:image" content="{{ src  }}"/>{% endif %}
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}"/>
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="{{ site.title }}"/>
