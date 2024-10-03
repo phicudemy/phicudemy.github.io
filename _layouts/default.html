@@ -49,7 +49,7 @@
     <meta name="twitter:card" content="summary">
     {% if site.twitter_url %}<meta name="twitter:site" content="{{ site.twitter_url }}">{% endif %}
     <meta name="twitter:title" content="{{ page.title }}" />
-    {% if page.image %}<meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />{% endif %}
+    {% if src %}<meta name="twitter:image" content="{{ src }}" />{% endif %}
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
     <meta name="twitter:description" content="{% if pagecontent_description.size > 10 %}{{ pagecontent_description }}{% else %}{{ site.description }}{% endif %}" />
     
