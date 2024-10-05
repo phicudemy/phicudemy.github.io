@@ -85,10 +85,11 @@ tags:
 در نوشتنِ این یادداشت، از این مقاله‌ی مایکل بینی و همچنین یادداشت او در ابتدای مجموعه‌ی زیر از آثار فرگه بهره‌ی بسیار برده‌ام:
 <p dir="ltr"> Beaney, M. (1997). ‘Introduction’, in G. Frege (1997), <i>The Frege Reader</i>, edited by M. Beaney, Blackwell, pages 1–46.</p>
 
-[\[۷\]](#fnref-7){:#fn-7}ویراستِ نخست از ترجمهٔ آستین از *مبانی حساب* فرگه با این مشخصات منتشر شد: 
+[\[۷\]](#fnref-7){:#fn-7} ویراستِ نخست از ترجمهٔ آستین از *مبانی حساب* فرگه با این مشخصات منتشر شد: 
 <p dir="ltr">Frege, G. (1884/1950), <i>The Foundations of Arithmetic</i>, Translated by J. L. Austin, Blackwell.</p>
 
-[^8]: Frege, G. (1891), ‘Funktion und Begriff,’ translated as ‘Function and Concept’ by P. Geach.
+[\[۸\]](#fnref-8){:#fn-8} این مقاله نخستین مقاله از سه‌مقاله‌ٔ به هم مرتبطی است که فرگه در سال‌های ۱۸۹۱ و ۱۸۹۲ منتشر کرد.
+<p dir="ltr">Frege, G. (1891), ‘Funktion und Begriff,’ translated as ‘Function and Concept’ by P. Geach.</p>
 
 [^9]: Frege, G. (1892), ‘Über Sinn und Bedeutung,’ translated as ‘On Sense and Reference’ by M. Black.
 
