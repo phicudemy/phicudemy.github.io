@@ -36,7 +36,7 @@
     </div>
   </div>
   <nav class="navbar small navbar-expand-lg navbar-light bg-first rounded-bottom-3 pb-0 p-0 border-top border-top-dashed border-dark">
-    <div class="container-fluid justify-content-between">
+    <div class="container-fluid justify-content-between py-1">
       <!-- Left elements -->
       <div class="d-flex">
         <!-- Brand -->
@@ -47,7 +47,12 @@
       <!-- Left elements -->
       <!-- Right elements -->
       <div class="font-fd">
-        {%if post.register %}<a class="btn btn-sm btn-first my-1" href="{{post.register}}" target="_blank">ثبت‌نام</a>{%endif%}
+        {%if post.register %}
+        <div class="btn-group d-none d-sm-block float-end btn-group-sm" role="group" aria-label="registration">
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#preregistrModal">پیش‌ثبت‌نام</button>
+          <a class="btn btn-first" href="{{post.register}}" target="_blank">ثبت‌نام</a>
+        </div>
+        {%endif%}
       </div>  
         <!-- Right elements -->
     </div>
