@@ -1,18 +1,19 @@
 ---
-title: 'بی‌طرفی تفسیری و مسأله‌ی ترجمه‌ی «Bedeutung» در آثار متأخر فرگه '
+title: بی‌طرفی تفسیری و مسئلۀ ترجمۀ ‘Bedeutung’ در آثار متأخر فرگه
 subtitle: گزارشی از یک مناقشه (بخشِ اول)
 slug: fregebedeutung1
-people: 
-    - path: _people/طیبی.md
+people:
+  - path: _people/طیبی.md
 date: 2024-06-21T20:30:00.000Z
 published: true
-categories: 
-    - path: _categories/philosophy.md
-contents: 
-    - path: _contents/article.md
+categories:
+  - path: _categories/philosophy.md
+contents:
+  - path: _contents/article.md
 tags:
   - path: _tags/frege.md
 ---
+
 
 
 > اگر جایی در متنی قطعه‌ای هست که گویش‌ورانِ زبانِ اصلی را با مسأله‌ی تفسیری مشروعی مواجه می‌کند، مترجم باید تلاش کند که، در صورتِ امکان، خواننده‌ی نسخه‌ی خودش را با همان مسأله‌ی تفسیری مواجه کند و نسخه‌ای تولید نکند که این مسائل را در نظر خودش حل‌وفصل می‌کند.[^1]
