@@ -78,7 +78,7 @@ tags:
 [\[۴\]](#fnref-4){:#fn-4} از مقدمهٔ مترجمانِ *نوشته‌ها*: 
 <p dir="ltr>Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979) *Posthumous Writings*, p. VI.</p>
 
-[^5]: برای سادگی بحث، در ادامه اغلب تنها از اسمِ ‘Bedeutung’ بحث خواهم کرد. اما آن‌چه گفته می‌شود را می‌توان، با جرح‌وتعدیلِ لازم، به فعلِ ‘bedeuten’ و دیگر مشتقاتِ این واژه‌ها تعمیم داد.
+[\[۵\]](#fnref-5){:#fn-5} برای سادگی بحث، در ادامه اغلب تنها از اسمِ ‘Bedeutung’ بحث خواهم کرد. اما آن‌چه گفته می‌شود را می‌توان، با جرح‌وتعدیلِ لازم، به فعلِ ‘bedeuten’ و دیگر مشتقاتِ این واژه‌ها تعمیم داد.
 [^6]: بحث و جدل‌ها درباره‌ی ترجمه‌ی این اصطلاح در آثار فرگه تا همین امروز ادامه داشته و ماجرایی دارد بسیار گسترده‌تر از مناقشه‌ی میانِ بل و مترجمانِ نوشته‌ها، که این یادداشت بر آن متمرکز است. برای شرحی مفصل از این ماجرا، بنگرید به:
     Beaney, M. (2019), 'Translating ‘Bedeutung’ in Frege’s Writings: A Case Study and Cautionary Tale in the History and Philosophy of Translation', in P. A. Ebert, and M. Rossberg (eds), Essays on Frege's Basic Laws of Arithmetic, Oxford University Press. 
         در نوشتنِ این یادداشت، از این مقاله‌ی مایکل بینی و همچنین یادداشت او در ابتدای مجموعه‌ی زیر از آثار فرگه بهره‌ی بسیار برده‌ام:
