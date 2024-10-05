@@ -91,31 +91,32 @@ tags:
 [\[۸\]](#fnref-8){:#fn-8} این مقاله نخستین مقاله از سه‌مقاله‌ٔ به هم مرتبطی است که فرگه در سال‌های ۱۸۹۱ و ۱۸۹۲ منتشر کرد.
 <p dir="ltr">Frege, G. (1891), ‘Funktion und Begriff,’ translated as ‘Function and Concept’ by P. Geach.</p>
 
-[^9]: Frege, G. (1892), ‘Über Sinn und Bedeutung,’ translated as ‘On Sense and Reference’ by M. Black.
+[\[۹\]](#fnref-9){:#fn-9} این مقاله دومین مقاله از مقالاتِ سه‌گانهٔ فرگه در سال‌های ۱۸۹۱ و ۱۸۹۲ است و می‌توان گفت مهم‌ترین مقالهٔ فرگه در فلسفهٔ زبان است.
+<p dir="ltr">Frege, G. (1892), ‘Über Sinn und Bedeutung,’ translated as ‘On Sense and Reference’ by M. Black.</p>
 
-[^10]: از نظرِ فرگه Sinn یک لفظِ مفرد ویژگی‌ای است که آن لفظ به واسطه‌ی آن مرجع‌اش را برمی‌گزیند. بنابراین، Sinn‌های «نویسنده‌ی گلستان» و «سراینده‌ی بوستان»، به ترتیب، ویژگی‌های _نویسنده‌ی کتابِ گلستان بودن_ و _سراینده‌ی کتابِ بوستان بودن _است.
+[\[۸\]](#fnref-8){:#fn-8} از نظرِ فرگه Sinn یک لفظِ مفرد ویژگی‌ای است که آن لفظ به واسطه‌ی آن مرجع‌اش را برمی‌گزیند. بنابراین، Sinn‌های «نویسنده‌ی گلستان» و «سراینده‌ی بوستان»، به ترتیب، ویژگی‌های _نویسنده‌ی کتابِ گلستان بودن_ و _سراینده‌ی کتابِ بوستان بودن _است.
 
-[^11]: از نظرِ فرگه، Sinn یک جمله‌ی خبری اندیشه یا گزاره‌ای است که با ادای آن جمله بیان می‌شود. آن‌چه جملاتِ صادق (یا کاذب) را، به‌لحاظِ معناشناختی از هم‌دیگر متمایز می‌کند، اندیشه‌ی متفاوتی است که بیان می‌کنند.
+[\[۸\]](#fnref-8){:#fn-8} از نظرِ فرگه، Sinn یک جمله‌ی خبری اندیشه یا گزاره‌ای است که با ادای آن جمله بیان می‌شود. آن‌چه جملاتِ صادق (یا کاذب) را، به‌لحاظِ معناشناختی از هم‌دیگر متمایز می‌کند، اندیشه‌ی متفاوتی است که بیان می‌کنند.
 
-[^12]: یک استثنای مهم در این میانِ مدخلی است که دامت در ۱۹۶۷ در معرفی فلسفه‌ی فرگه در _دایرة‌المعارفِ فلسفه_ منتشر کرد:
+[\[۸\]](#fnref-8){:#fn-8} یک استثنای مهم در این میانِ مدخلی است که دامت در ۱۹۶۷ در معرفی فلسفه‌ی فرگه در _دایرة‌المعارفِ فلسفه_ منتشر کرد:
      Dummett, M. (1967). ‘Frege’s Philosophy’, in Paul Edwards (ed.), _The Encyclopedia of Philosophy_. pages 7–115.
     او اینجا ‘Bedeutung’‌ را، حتی در توضیحِ آثارِ متأخرِ فرگه به ‘meaning’ برمی‌گرداند.  با این حال، همان‌طور که در ادامه خواهیم دید، او نیز در اثر اصلی خود در شرح فلسفه‌ی زبانِ فرگه از این تصمیم عدول می‌کند.
 
-[^13]: Russell, B. (1903). The Principles of Mathematics, Cambridge University Press, pp. 509-510.
+[\[۸\]](#fnref-8){:#fn-8} Russell, B. (1903). The Principles of Mathematics, Cambridge University Press, pp. 509-510.
 
-[^14]: Frege, G. (1915, 1916, 1917). ‘The Fundamental Laws of Arithmetic’, translated by J. Stachelroth and P. E. B. Jourdain, _The Monist_ 25(4):481–94, 26 (2):182–99, 27(1):114–27.
+[\[۸\]](#fnref-8){:#fn-8} Frege, G. (1915, 1916, 1917). ‘The Fundamental Laws of Arithmetic’, translated by J. Stachelroth and P. E. B. Jourdain, _The Monist_ 25(4):481–94, 26 (2):182–99, 27(1):114–27.
     این نخستین ترجمه از متن‌های فرگه به زبانِ انگلیسی قبل از سال ۱۹۴۸ است. از بعد از این تاریخ امّا جریانِ ترجمه‌ی آثار فرگه به انگلیسی شروع می‌شود. برای شرحی از تاریخچه‌ی ترجمه‌ی آثار او به انگلیسی بنگرید به:
     Beaney, M. (2019), 'A Brief History of English Translations of Frege’s Writings', in P. A. Ebert, and M. Rossberg (eds), _Essays on Frege's Basic Laws of Arithmetic_, Oxford University Press.
 
-[^15]: Frege, G. (1964). _The Basic Laws of Arithmetic: exposition of the system, _edited and translated by M. Furth, University of California Press.
+[\[۸\]](#fnref-8){:#fn-8} Frege, G. (1964). _The Basic Laws of Arithmetic: exposition of the system, _edited and translated by M. Furth, University of California Press.
 
-[^16]: Frege, G. (1948). “Sense and reference, ”translated by M. Black, _Philosophical Review,_ 57 (3):209-230.
+[\[۸\]](#fnref-8){:#fn-8} Frege, G. (1948). “Sense and reference, ”translated by M. Black, _Philosophical Review,_ 57 (3):209-230.
 
-[^17]: Frege, G. (1949). “On Sense and Nominatum,” translated by. H. Feigl, in H. Feigl (ed.), _Readings in Philosophical Analysis_, Appleton-Century-Crofts. pp. 85-102.
+[\[۸\]](#fnref-8){:#fn-8} Frege, G. (1949). “On Sense and Nominatum,” translated by. H. Feigl, in H. Feigl (ed.), _Readings in Philosophical Analysis_, Appleton-Century-Crofts. pp. 85-102.
 
-[^18]: Dummett, M. (1973). _Frege: Philosophy of Language_, Duckworth.
+[\[۸\]](#fnref-8){:#fn-8} Dummett, M. (1973). _Frege: Philosophy of Language_, Duckworth.
 
-[^19]: Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979) _Posthumous Writings_, pp. VI-VII.
+[\[۸\]](#fnref-8){:#fn-8} Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979) _Posthumous Writings_, pp. VI-VII.
 
-[^20]: Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979) _Posthumous Writings_, p. VII.
+[\[۸\]](#fnref-8){:#fn-8} Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979) _Posthumous Writings_, p. VII.
 
