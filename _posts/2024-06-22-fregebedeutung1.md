@@ -4,7 +4,7 @@ subtitle: گزارشی از یک مناقشه (بخشِ اول)
 slug: fregebedeutung1
 people:
   - path: _people/طیبی.md
-date: 2024-06-21T20:30:00.000Z
+date: 2024-10-04T20:30:00.000Z
 published: true
 categories:
   - path: _categories/philosophy.md
@@ -14,7 +14,7 @@ tags:
   - path: _tags/frege.md
 ---
 
-
+> اگر جایی در متنی قطعه‌ای هست که گویش‌ورانِ زبانِ اصلی را با مسئلۀ تفسیری مشروعی مواجه می‌کند، مترجم باید تلاش کند که درصورتِ امکان، خوانندۀ نسخۀ خودش را با همان مسئلۀ تفسیری مواجه کند و نسخه‌ای تولید نکند که این مسائل را در نظر خودش حل‌وفصل می‌کند. [\[۱\]](#fn-1){:.fnref #fnref-1}
 
 > اگر جایی در متنی قطعه‌ای هست که گویش‌ورانِ زبانِ اصلی را با مسأله‌ی تفسیری مشروعی مواجه می‌کند، مترجم باید تلاش کند که، در صورتِ امکان، خواننده‌ی نسخه‌ی خودش را با همان مسأله‌ی تفسیری مواجه کند و نسخه‌ای تولید نکند که این مسائل را در نظر خودش حل‌وفصل می‌کند.[^1]
 
@@ -66,9 +66,11 @@ tags:
 
 **ادامه دارد ......**
 
+***
+[\[۱\]](#fnref-1){:#fn-1} نگاه کنید به:
+<p dir = ltr> Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” <i>Analysis</i> 40(4): 196–202, p. 196. </p>
 
-
-[^1]: Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” Analysis 40(4): 196–202, p. 196. 
+[^1]: 
 [^2]: Frege, G. (1979) Posthumous Writings. Translated by Peter Long and Roger White, Blackwell.
 [^3]: Bell, David (1980). “On the translation of Frege’s Bedeutung,” Analysis 40(4):191-195. Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” Analysis 40(4): 196 - 202.
 [^4]: Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979)  _Posthumous Writings_, p. VI.
@@ -109,3 +111,4 @@ tags:
 [^19]: Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979) _Posthumous Writings_, pp. VI-VII.
 
 [^20]: Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979) _Posthumous Writings_, p. VII.
+
