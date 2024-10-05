@@ -1,0 +1,5 @@
+---
+title: منطق
+slug: logic
+---
+
