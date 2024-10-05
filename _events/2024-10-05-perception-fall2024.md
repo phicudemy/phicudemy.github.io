@@ -5,6 +5,8 @@ people:
   - path: _people/hamidvahid.md
 contents:
   - path: _contents/courses.md
+categories:
+  - path: _categories/philosophy.md
 schedule: پنج‌شنبه‌ها ساعت ۱۰ الی ۱۲
 format:
   - online
