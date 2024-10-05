@@ -1,5 +1,5 @@
 ---
-title: بی‌طرفی تفسیری و مسئلۀ ترجمۀ ‘Bedeutung’ در آثار متأخر فرگه
+title: بی‌طرفی تفسیری و مسئلۀ ترجمۀ «Bedeutung» در آثار متأخر فرگه
 subtitle: گزارشی از یک مناقشه (بخشِ اول)
 slug: fregebedeutung1
 people:
