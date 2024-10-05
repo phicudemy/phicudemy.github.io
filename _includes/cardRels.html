@@ -19,9 +19,8 @@
 {% if sameTagCount >= minCommonTags %}
 <li class="list-group-item">
   <a href="{{post.url}}" class="text-reset"><strong>{{post.title}}</strong></a> 
-  {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
-  {% if ppl %}{{ppl.title}}
-  {% endif %}
+  {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person.path | first %}
+  {% if ppl %}{{ppl.title}}  {% endif %}
   {% endfor %}
   {% endif %}
   <span class="float-end"><i class="bi bi-calendar3"></i> <span class="persianDate" data-timestamp="{{post.date | date: '%s'}}"></span></strong>
@@ -35,13 +34,13 @@
 {%endcapture%}
 {% if relPosts.size >130 %}
 <div class="card shadow-sm mb-2 border-dark">
-    <nav class="navbar bg-secondary-subtle rounded-top-3 pb-0 border-bottom  border-dark">
+    <nav class="navbar bg-first rounded-top-3 pb-0 border-bottom  border-dark">
         <ul class="navbar-nav mx-2">
             <li class=" nav-item first text-secondary bg-white border border-dark border-bottom-0 rounded-top mb-n1 pb-0 p-2">
                 مطالب مرتبط          
             </li>
         </ul>
-        <a href="/posts" class="float-end text-reset me-3 text-muted">مجله</a>
+        <a href="/magazine/" class="float-end text-reset me-3 text-muted">مجله</a>
       </nav>
   <ul class="list-group small list-group-flush border-0">
     {{relPosts }}
@@ -69,9 +68,8 @@
 {% if sameTagCount >= minCommonTags %}
 <li class="list-group-item">
 <a href="{{post.url}}" class="text-reset"><strong>{{post.title}}</strong></a> 
-{% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
-{% if ppl %}{{ppl.title}}
-{% endif %}
+{% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person.path | first %}
+{% if ppl %}{{ppl.title}}{% endif %}
 {% endfor %}
 {% endif %}
 <span class="float-end"><i class="bi bi-calendar3"></i> <span class="persianDate" data-timestamp="{{post.date | date: '%s'}}"></span></strong>
@@ -85,13 +83,13 @@
 {%endcapture%}
 {% if relCourses.size >130 %}
 <div class="card shadow-sm mb-2 border-dark">
-    <nav class="navbar bg-secondary-subtle rounded-top-3 pb-0 border-bottom  border-dark">
+    <nav class="navbar bg-first rounded-top-3 pb-0 border-bottom  border-dark">
         <ul class="navbar-nav mx-2">
             <li class=" nav-item first text-secondary bg-white border border-dark border-bottom-0 rounded-top mb-n1 pb-0 p-2">
                 دوره‌های مرتبط          
             </li>
         </ul>
-        <a href="/courses" class="float-end text-reset me-3 text-muted">آکادمی</a>
+        <a href="/academy/" class="float-end text-reset me-3 text-muted">آکادمی</a>
       </nav>
     
   <ul class="list-group small list-group-flush border-0">
