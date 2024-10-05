@@ -66,19 +66,20 @@ tags:
 
 ***
 [\[۱\]](#fnref-1){:#fn-1} نگاه کنید به:
-<span dir = ltr>Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” <i>Analysis</i> 40(4): 196–202, p. 196. </span>
+<p dir = ltr>Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” <i>Analysis</i> 40(4): 196–202, p. 196. </p>
 
 [\[۲\]](#fnref-2){:#fn-2} مشخصاتِ کاملِ این اثر:
-<div dir = ltr>Frege, G. (1979) <i>Posthumous Writings</i>, Translated by Peter Long and Roger White, Blackwell.</div>
+<p dir = ltr>Frege, G. (1979) <i>Posthumous Writings</i>, Translated by Peter Long and Roger White, Blackwell.</p>
 
 [\[۳\]](#fnref-3){:#fn-3} مشخصاتِ نقدِ دیوید بل و پاسخِ مترجمانِ *نوشته‌ها* از این قرار است:
 <p dir="ltr">Bell, David (1980). “On the translation of Frege’s Bedeutung,” <i>Analysis</i> 40(4):191-195. </p>
 <p dir="ltr">Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” <i>Analysis</i> 40(4): 196 - 202.</p>
 
 [\[۴\]](#fnref-4){:#fn-4} از مقدمهٔ مترجمانِ *نوشته‌ها*: 
-<p dir="ltr>Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979) *Posthumous Writings*, p. VI.</p>
+<p dir="ltr>Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979) <i>Posthumous Writings</i>, p. VI.</p>
 
 [\[۵\]](#fnref-5){:#fn-5} برای سادگی بحث، در ادامه اغلب تنها از اسمِ «Bedeutung» بحث خواهم کرد. اما آن‌چه گفته می‌شود را می‌توان، با جرح‌وتعدیلِ لازم، به فعلِ «bedeuten» و دیگر مشتقاتِ این واژه‌ها تعمیم داد.
+
 
 [^6]: بحث و جدل‌ها درباره‌ی ترجمه‌ی این اصطلاح در آثار فرگه تا همین امروز ادامه داشته و ماجرایی دارد بسیار گسترده‌تر از مناقشه‌ی میانِ بل و مترجمانِ نوشته‌ها، که این یادداشت بر آن متمرکز است. برای شرحی مفصل از این ماجرا، بنگرید به:
     Beaney, M. (2019), 'Translating ‘Bedeutung’ in Frege’s Writings: A Case Study and Cautionary Tale in the History and Philosophy of Translation', in P. A. Ebert, and M. Rossberg (eds), Essays on Frege's Basic Laws of Arithmetic, Oxford University Press. 
