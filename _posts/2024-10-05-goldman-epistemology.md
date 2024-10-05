@@ -1,6 +1,9 @@
 ---
 title: معرفت‌شناسی گلدمن
-subtitle: متن سخنرانی در نشست «نگاهی به آرای الوین گلدمن»
+subtitle: >-
+  متن سخنرانی در نشست <a
+  href="https://jomhourifalsafe.com/academy/goldmansession/">«نگاهی به آرای
+  الوین گلدمن»</a>
 slug: goldman-epistemology
 people:
   - path: _people/mohsenzamani.md
@@ -14,6 +17,7 @@ tags:
   - path: _tags/goldman.md
   - path: _tags/epistemology.md
 ---
+
 
 
 
