@@ -226,7 +226,7 @@ Gettier, E. (1963), “Is Justified True Belief Knowledge?” <i>Analysis</i>, 2
 
 Goldman, A. (1967), “A Causal Theory of Knowing,” <i>Journal of Philosophy</i>, 65: 357-72.<br>
 
-Goldman, A. (1976), “Discrimination and Perceptual Knowledge,” <i>The Journal of Philosophy</i>, 73: 771-91.<br>
+Goldman, A. (1976), “Discrimination and Perceptual Knowledge,” <i>Journal of Philosophy</i>, 73: 771-91.<br>
 
 Goldman, A. (1979), “What Is Justified Belief?” in G. Pappas (ed.), <i>Justification and Knowledge, Dordrecht: Reidel</i>, Reprinted in A. Goldman, <i>Liaisons: Philosophy Meets the Cognitive and Social Sciences</i>, Cambridge, MA: MIT Press (1992).<br>
 
