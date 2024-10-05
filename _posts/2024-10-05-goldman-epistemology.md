@@ -10,6 +10,7 @@ categories:
 contents:
   - path: _contents/notes.md
 tags:
+  - path: _tags/goldman.md
   - path: _tags/epistemology.md
 ---
 
