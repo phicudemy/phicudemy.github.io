@@ -141,7 +141,7 @@ blockquote {
   }
   blockquote {
     background: #fcf6eb;
-    border-left: 7px solid var(--bs-danger);
+    border-left: 3.5px solid var(--bs-danger);
     position: relative;
 
     padding: 0.5em 30px 0.5em 10px;
