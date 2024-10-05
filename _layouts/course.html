@@ -101,28 +101,28 @@ jsFile: post.js
 <div class="modal fade" id="preregistrModal" tabindex="-1" aria-labelledby="preregistrModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <form id="preregistrForm" action="https://formspree.io/f/xanywowv" method="POST">
-        <input type="hidden" name="event" id="event" value="{{page.title}}" >
+      <form id="preregistrForm" method="post" action="https://script.google.com/macros/s/AKfycbz9EeQcbuzVYJ_Q8UbvMn78YyJRB6y9ovKZwIwwMHJERIFEtTRwqpge_7p6naCDYij8rw/exec" target="hidden_iframe" onsubmit="submitted=true;">
+      <input type="hidden" name="Event" id="entry.374745072" value="{{page.title}}" >
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="exampleModalLabel">پیش‌ثبت‌نام {{page.title}}</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <div class="form-floating mb-3 input">
-            <input type="text" name="name" required class="form-control" id="floatingInputName" placeholder="">
-            <label for="floatingInputName">نام و نام خانوادگی</label>
+            <input type="text" name="Name" required class="form-control" id="name" placeholder="">
+            <label for="name">نام و نام خانوادگی</label>
           </div>
           <div class="form-floating mb-3 input">
-            <input type="email" name="email" required class="form-control" id="floatingInputEmail" placeholder="test@example.com">
-            <label for="floatingInputEmail">ایمیل</label>
+            <input type="email" name="Email" required class="form-control" id="email" placeholder="test@example.com">
+            <label for="email">ایمیل</label>
           </div>
           <div class="form-floating mb-3 input">
-            <input type="tel" name="celll" required class="form-control" id="floatingInputCell" placeholder="09123456789">
-            <label for="floatingInputCell">شماره همراه</label>
+            <input type="tel" name="Cell" required class="form-control" id="cell" placeholder="09123456789">
+            <label for="cell">شماره همراه</label>
           </div>
           <div class="form-floating input">
-            <textarea name="comment" class="form-control" placeholder="" id="floatingComment"></textarea>
-            <label for="floatingComment">توضیحات ...</label>
+            <textarea name="Comment" class="form-control" placeholder="" id="comment"></textarea>
+            <label for="comment">توضیحات ...</label>
           </div>
           <p id="my-form-status"></p>
         </div>
@@ -134,6 +134,7 @@ jsFile: post.js
     </div>
   </div>
 </div>
+
 <script>
   var form = document.getElementById("preregistrForm");
   
