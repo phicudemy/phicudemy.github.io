@@ -5,10 +5,12 @@ people:
   - path: _people/jomhouri.md
 date: 2024-08-24T20:30:00.000Z
 categories:
+  - path: _categories/logic.md
   - path: _categories/philosophy.md
 contents:
   - path: _contents/notes.md
 ---
+
 
 
 
