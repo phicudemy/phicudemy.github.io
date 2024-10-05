@@ -70,7 +70,7 @@ tags:
 <p dir = ltr>Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” <i>Analysis</i> 40(4): 196–202, p. 196. </p>
 
 [\[۲\]](#fnref-2){:#fn-2} مشخصاتِ کاملِ این اثر:
-<p dir = ltr>Frege, G. (1979) <i>Posthumous Writings</i>, Translated by Peter Long and Roger White, Blackwell.</p>
+<div dir = ltr>Frege, G. (1979) <i>Posthumous Writings</i>, Translated by Peter Long and Roger White, Blackwell.</div>
 
 [\[۳\]](#fnref-3){:#fn-3} مشخصاتِ نقدِ دیوید بل و پاسخِ مترجمانِ *نوشته‌ها* از این قرار است:
 <p dir="ltr">Bell, David (1980). “On the translation of Frege’s Bedeutung,” <i>Analysis<i> 40(4):191-195. </p>
