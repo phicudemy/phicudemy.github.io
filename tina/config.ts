@@ -353,8 +353,13 @@ export default defineConfig({
             label: 'انتشار'
           },
           {
-            label: 'فرم ثبت‌نام',
+            label: 'لینک ثبت‌نام',
             name: 'register',
+            type: 'string',
+          },          
+          {
+            label: 'لینک ثبت‌نام دانشجویی',
+            name: 'stdregister',
             type: 'string',
           },          
           {
