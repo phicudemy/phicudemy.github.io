@@ -2,7 +2,7 @@
 layout: home
 title: درباره ما
 permalink: /about/
-image: /assets/images/Paintings/laughing_philosopher_1629.jpg
+image: /assets/images/Paintings/Apotheosis_of_Homer_Ingres.jpg
 
 ---
 
