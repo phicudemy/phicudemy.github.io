@@ -27,7 +27,6 @@ twitter_username: jomhourifalsafe
 github_username:  phicudemy
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 include:

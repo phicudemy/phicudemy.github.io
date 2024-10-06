@@ -69,3 +69,86 @@ $(document).ready(function(){
         $('#navbar-content').show();
       }
     });
+    function copyToClipboard(text, el) {
+      var copyTest = document.queryCommandSupported('copy');
+      var elOriginalText = el.attr('data-bs-original-title');
+    
+      if (copyTest === true) {
+        var copyTextArea = document.createElement("textarea");
+        copyTextArea.value = text;
+        document.body.appendChild(copyTextArea);
+        copyTextArea.select();
+        try {
+          var successful = document.execCommand('copy');
+          var msg = successful ? 'کپی شد.' : 'کپی نشد!';
+          el.attr('data-bs-original-title', msg).tooltip('show');
+        } catch (err) {
+          console.log('Oops, unable to copy');
+        }
+        document.body.removeChild(copyTextArea);
+        el.attr('data-bs-original-title', elOriginalText);
+      } else {
+        // Fallback if browser doesn't support .execCommand('copy')
+        window.prompt("Copy to clipboard: Ctrl+C or Command+C, Enter", text);
+      }
+    }
+    
+    $(document).ready(function() {
+      // Initialize
+      // ---------------------------------------------------------------------
+    
+      // Tooltips
+      // Requires Bootstrap 3 for functionality
+      $('.js-tooltip').tooltip();
+    
+      // Copy to clipboard
+      // Grab any text in the attribute 'data-copy' and pass it to the 
+      // copy function
+      $('.js-copy').click(function() {
+        var text = $(this).attr('data-copy');
+        var el = $(this);
+        copyToClipboard(text, el);
+      });
+    });
+    
+    var form = document.getElementById("preregistrForm");
+      
+      async function handleSubmit(event) {
+        event.preventDefault();
+        $('.input').children().addClass('disabled')
+        $('.submit-text').hide()
+        $('.spinner-border').show()
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+              'Accept': 'application/json'
+          }
+        }).then(response => {
+          if (response.ok) {
+            status.innerHTML = "پیش‌ثبت‌نام با موفقیت انجام شد.";
+            $('.input').hide()
+            form.reset()
+          } else {
+            response.json().then(data => {
+              if (Object.hasOwn(data, 'errors')) {
+                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+              } else {
+                $('.input').children().removeClass('disabled')
+                $('.spinner-border').hide()
+                $('.submit-text').show()
+                status.innerHTML = "مشکلی در انجام ثبت‌نام به وجود آمده است."
+              }
+            })
+          }
+        }).catch(error => {
+          $('.input').children().removeClass('disabled')
+          $('.spinner-border').hide()
+          $('.submit-text').show()
+          status.innerHTML = "مشکلی در انجام ثبت‌نام به وجود آمده است"
+        });
+      }
+      form.addEventListener("submit", handleSubmit)
+    

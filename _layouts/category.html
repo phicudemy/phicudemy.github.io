@@ -113,7 +113,7 @@ layout: default
       <div class="col-12">
         <div data-bs-spy="scroll" data-bs-target="#navbar-sideCats" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
           {% for content in site.contents %}
-          {% assign contsize = filtered_posts | where: 'contents', content.relative_path % | size %}
+          {% assign contsize = filtered_posts | where: 'contents', content.relative_path | size %}
           {% if contsize > 0 %}
           <div>
             <h3 class="display-5 mt-5">{{content.title}}</h3>
@@ -153,4 +153,4 @@ layout: default
       </div>
     </div>
   </div>
-</section>
+</section> 

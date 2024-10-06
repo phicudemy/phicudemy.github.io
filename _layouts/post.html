@@ -19,7 +19,7 @@ jsFile: post.js
           </ol>
         </nav>
         <h1 class="display-5 mb-4">{{page.title}}</h1>
-        {% if page.subtitle%}<h2 class="mb-4">{{page.subtitle%}}</h2>{%endif%}
+        {% if page.subtitle%}<h2 class="mb-4">{{page.subtitle}}</h2>{%endif%}
         <h3 class="text-muted mb-4">
         {% if page.people%}{% for author in page.people %}{% assign aut = site.people | where: 'relative_path', author.path | first %}
         {% if aut %}
@@ -33,7 +33,9 @@ jsFile: post.js
         {% endfor %}{%endif%}
         </h3>
         <p class=" mt-2 lead">
-          <i class="bi bi-telegram p-2"></i><i class="bi bi-whatsapp p-2"></i><i class="bi bi-twitter p-2"></i><i class="bi bi-share-fill p-2"></i> | <span class="persianDate " data-timestamp="{{page.date | date: '%s'}}"></span> | <span class="font-fd">{{page.content | number_of_words }} کلمه </span>
+          {% include shareButtons.html %}
+
+           | <span class="persianDate " data-timestamp="{{page.date | date: '%s'}}"></span> | <span class="font-fd">{{page.content | number_of_words }} کلمه </span>
         </p>
         <!-- <p class="lead text-dark">
           {% assign read = page.content %}
