@@ -7,10 +7,14 @@
 {% endif %}
 <nav class="navbar navbar-light navbar-expand-md justify-content-center bg-first rounded-top-3 pb-0 border-bottom  border-dark">
     <div class="container-fluid">
-        <a class="navbar-brand abs h6" href="/">{{site.title}}</a>
-        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
+        <button class="navbar-toggler position-absolute border-0 mt-2 ms-2 start-0 top-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <a class="navbar-brand abs mx-auto  h6" href="/">{{site.title}}</a>
+        <div class="position-absolute end-0 top-0 mt-2 me-2">
+            <a class="text-reset" href="https://t.me/jomhourifalsafe" target="_blank"><i class="bi bi-telegram h2 my-auto"></i></a>
+            <a class="text-reset" href="https://instagram.com/jomhourifalsafe" target="_blank"><i class="bi bi-instagram h2 my-auto"></i></a>
+        </div>
         <div class="navbar-collapse collapse" id="collapseNavbar">
             <ul class="navbar-nav text-center">
             {% for item in site.data.navtop %}
@@ -19,7 +23,7 @@
                 </li>
             {% endfor %}                
             </ul>
-            <ul class="navbar-nav ms-auto text-center">
+            <ul class="navbar-nav ms-auto text-center" style="display: none;">
                 <li class="nav-item">
                     <a class="nav-link" href="#">حمایت</a>
                 </li>
