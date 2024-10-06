@@ -17,7 +17,9 @@ start: 2024-10-23T20:30:00.000Z
 sessions: 4
 published: true
 register: 'https://zarinp.al/636104'
+stdregister: 'https://zarinp.al/636348'
 ---
+
 
 <center>
 <img 
