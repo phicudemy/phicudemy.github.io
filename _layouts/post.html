@@ -23,7 +23,7 @@ jsFile: post.js
         <h3 class="text-muted mb-4">
         {% if page.people%}{% for author in page.people %}{% assign aut = site.people | where: 'relative_path', author.path | first %}
         {% if aut %}
-        <a href="{{aut.url}}" class="text-reset"><strong>{{aut.title}}</strong></a>
+        <a rel="author" href="{{aut.url}}" class="text-reset"><strong>{{aut.title}}</strong></a>
         {% endif %}
         {% endfor %}{%endif%}
         {% if page.translator%} | مترجم: {% for author in page.translator %}{% assign aut = site.people | where: 'relative_path', author.path | first %}
@@ -35,7 +35,7 @@ jsFile: post.js
         <p class=" mt-2 lead">
           {% include shareButtons.html %}
 
-           | <span class="persianDate " data-timestamp="{{page.date | date: '%s'}}"></span> | <span class="font-fd">{{page.content | number_of_words }} کلمه </span>
+           | <time class="persianDate" data-time="{{page.date}}" data-timestamp="{{page.date | date: '%s'}}"></time> | <span class="font-fd">{{page.content | number_of_words }} کلمه </span>
         </p>
         <!-- <p class="lead text-dark">
           {% assign read = page.content %}
