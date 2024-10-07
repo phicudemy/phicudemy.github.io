@@ -56,6 +56,16 @@ html,body {
   .font-fd{
     font-family: 'Sahel-FD';
   }  
+  .footnote{
+    font-family: 'Sahel-FD';
+  }
+  .footnotes{
+    padding: 10px ;
+  }
+  .p-english {
+    direction: ltr;
+    text-align: left !important;
+  }
   .post-header {
     background-image: 
     linear-gradient(0deg, rgba(252,246,235,1) 0%, rgba(9,9,121,0) 50%, rgba(252,246,235,1) 100%),

@@ -1,3 +1,4 @@
+var english = /^[A-Za-z0-9]*$/;
 $(document).ready(function(){
   const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
   const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
@@ -16,10 +17,22 @@ $(document).ready(function(){
       $(this).after('<figcaption class="figure-caption">'+$(this).attr('alt')+'</figcaption>')
     })
     $('.content .footnote').each(function () {
+      var noteClass, numClass = "";
       var href = $(this).attr('href').replace('#', '');
       var hrefContent = $(document.getElementById(href)).text().replace('↩', '');
-      $(this).parent().wrap('<span class="sidenote-number"></span>').after('<small class="sidenote">'+$(this).text()+': '+$(document.getElementById(href)).text().replace('↩', '')+'</small>');
+      var hrefContentNoSpace = hrefContent.replace(/\s/g, '')
+      if (english.test(hrefContentNoSpace.substring(0, 3))){
+        noteClass = " p-english";
+        numClass = '';
+        $(document.getElementById(href)).addClass('p-english')
+      } else {
+        noteClass = "";
+        numClass = ' font-fd'
+        $(document.getElementById(href)).addClass('font-fd')
+      }
+      $(this).parent().wrap('<span class="sidenote-number'+numClass+'"></span>').after('<small class="sidenote'+noteClass+'">'+$(this).text()+': '+$(document.getElementById(href)).text().replace('↩', '')+'</small>');
     })
+
     $('button.content').on('click', function(e){
       $(this).addClass('active').parent().siblings().children().removeClass('active');
       if ($(this).val()){
@@ -150,5 +163,8 @@ $(document).ready(function(){
           status.innerHTML = "مشکلی در انجام ثبت‌نام به وجود آمده است"
         });
       }
-      form.addEventListener("submit", handleSubmit)
+      if (form) {
+
+        form.addEventListener("submit", handleSubmit)
+      }
     
