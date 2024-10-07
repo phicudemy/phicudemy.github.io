@@ -7,7 +7,7 @@ jsFile: post.js
 {% endfor %}
 <section class="post-header">
   <div class="container-fluid">
-    <div class="row py-5  ">
+    <header class="row py-5  ">
       <div class="col-sm-6 mx-auto my-auto">
         <nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb">
           <ol class="breadcrumb">
@@ -42,7 +42,7 @@ jsFile: post.js
           {{page.excerpt | strip_html}}
         </p> -->
       </div>
-    </div>
+    </header>
     <div class="row">
       <div class="col-sm-3 pt-3 course-card" >
           <div data-spy="affix" class="d-flex flex-column  d-none side-card" style="height: 100vh;">
@@ -56,7 +56,9 @@ jsFile: post.js
           </div>
       </div>      
       <div class="col-sm-6 pt-3 content lh-lg">
-        {{page.content| markdownify}}
+        <article>
+          {{page.content| markdownify}}
+        </article>
         <div class="mb-2 foot-comment">
           {% include cardComment.html %}
         </div>
