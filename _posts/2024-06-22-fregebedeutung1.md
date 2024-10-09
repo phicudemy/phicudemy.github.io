@@ -124,7 +124,7 @@ tags:
 <p dir="ltr">Frege, G. (1964). <i>The Basic Laws of Arithmetic: exposition of the system</i>, edited and translated by M. Furth, University of California Press.</p>
 
 [\[۱۶\]](#fnref-16){:#fn-16} 
-<p dir="ltr">Frege, G. (1948). “Sense and reference, ”translated by M. Black, <i>Philosophical Review</i>, 57 (3):209-230.</p>
+<p dir="ltr">Frege, G. (1948). “Sense and reference,” translated by M. Black, <i>Philosophical Review</i>, 57 (3):209-230.</p>
 
 [\[۱۷\]](#fnref-17){:#fn-17} 
 <p dir="ltr">Frege, G. (1949). “On Sense and Nominatum,” translated by. H. Feigl, in H. Feigl (ed.), <i>Readings in Philosophical Analysis</i>, Appleton-Century-Crofts. pp. 85-102.</p>
