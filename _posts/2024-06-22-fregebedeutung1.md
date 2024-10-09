@@ -75,7 +75,7 @@ tags:
 <p dir="ltr">Bell, David (1980). “On the translation of Frege’s Bedeutung,” <i>Analysis</i> 40(4):191-195. </p>
 <p dir="ltr">Long, Peter & White, Roger (1980). “On the Translation of Frege’s Bedeutung: A Reply to Dr. Bell,” <i>Analysis</i> 40(4): 196 - 202.</p>
 
-[\[۴\]](#fnref-4){:#fn-4} از مقدمهٔ مترجمانِ *نوشته‌ها*: 
+[\[۴\]](#fnref-4){:#fn-4} از مقدمهٔ مترجمانِ *نوشته‌ها*:
 <p dir="ltr>Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979) <i>Posthumous Writings</i>, p. VI.</p>
 
 [\[۵\]](#fnref-5){:#fn-5} برای سادگی بحث، در ادامه اغلب تنها از اسمِ «Bedeutung» بحث خواهم کرد. اما آن‌چه گفته می‌شود را می‌توان، با جرح‌وتعدیلِ لازم، به فعلِ «bedeuten» و دیگر مشتقاتِ این واژه‌ها تعمیم داد.
