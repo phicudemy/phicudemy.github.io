@@ -129,9 +129,11 @@ tags:
 <p dir="ltr">Frege, G. (1949). “On Sense and Nominatum,” translated by. H. Feigl, in H. Feigl (ed.), <i>Readings in Philosophical Analysis</i>, Appleton-Century-Crofts. pp. 85-102.</p>
 
 [\[۱۸\]](#fnref-18){:#fn-18} 
-<p dir="ltr">Dummett, M. (1973). _Frege: Philosophy of Language_, Duckworth.
+<p dir="ltr">Dummett, M. (1973). <i>Frege: Philosophy of Language</i>, Duckworth.</p>
 
-[\[۱۹\]](#fnref-19){:#fn-19} Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979) _Posthumous Writings_, pp. VI-VII.
+[\[۱۹\]](#fnref-19){:#fn-19} 
+<p dir="ltr">Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979) <i>Posthumous Writings</i>, pp. VI-VII.</p>
 
-[\[۲۰\]](#fnref-20){:#fn-20} Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979) _Posthumous Writings_, p. VII.
+[\[۲۰\]](#fnref-20){:#fn-20} 
+<p dir="ltr">Long, P. & R. White (1979) “Translators’ Preface,’ in G. Frege (1979) <i>Posthumous Writings</i>, p. VII.</p>
 
