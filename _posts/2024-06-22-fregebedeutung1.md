@@ -62,7 +62,7 @@ tags:
 
 بنابراین، از نظر آن‌‌ها، هر ترجمه‌ای جز ‘meaning’ برای ‘Bedeutung’ نقضِ اصلِ بی‌طرفی تفسیری و نادرست است. 
 
-*ادامه در [پارهٔ دوم](https://jomhourifalsafe.com/magazine/fregebedeutung2/)*
+**ادامه در [پارهٔ دوم](https://jomhourifalsafe.com/magazine/fregebedeutung2/)**
 
 ***
 [\[۱\]](#fnref-1){:#fn-1} نگاه کنید به:
