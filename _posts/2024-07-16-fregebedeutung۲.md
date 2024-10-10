@@ -83,12 +83,12 @@ tags:
 <p dir="ltr">Beaney, M. (1997) “Introduction,” in G. Frege, <i>Frege Reader</i>, edited by M. Beaney, Blackwell.</p> 
 
 [\[۲\]](#fnref-2){:#fn-2} 
-<p dir="ltr">Frege, G. (1979) <i>Posthumous Writings</i>, Translated by Peter Long and Roger White, Blackwell.</p>
+<p dir="ltr">Frege, G. (1979) <i>Posthumous Writings</i>, Translated by P. Long and R. White, Blackwell.</p>
 
 [\[۳\]](#fnref-3){:#fn-3} بحث از این تفسیرِ بل فراتر از حوصله‌ی این یادداشت است. در این جا به صرفِ نقلِ توصیفِ کلّی او از «Bedeutung» در آثارِ متأخرِ فرگه اکتفا می‌کنم.
 
 [\[۴\]](#fnref-4){:#fn-4} 
-<p dir="ltr">Long, Peter & White, Roger (1980). “On the Translation of Frege’s <i>Bedeutung</i>: A Reply to Dr. Bell,” <i>Analysis</i> 40(4): 196–202, p. 196.</p>
+<p dir="ltr">Long, P. & W., Roger (1980). “On the Translation of Frege’s <i>Bedeutung</i>: A Reply to Dr. Bell,” <i>Analysis</i> 40(4): 196–202, p. 196.</p>
  
 [\[۵\]](#fnref-5){:#fn-5} برای پاسخ‌هایی به این استدلال‌های مترجمانِ *نوشته‌ها*، نگاه کنید به بحثِ مایکل بینی در بخشِ‌ مربوط در مقالۀ زیر:
 <p dir="ltr">Beaney, M. (2019), 'Translating ‘Bedeutung’ in Frege’s Writings: A Case Study and Cautionary Tale in the History and Philosophy of Translation', in P. A. Ebert, and M. Rossberg (eds), <i>Essays on Frege's Basic Laws of Arithmetic</i>, Oxford University Press, pp. 588–636.</p>
