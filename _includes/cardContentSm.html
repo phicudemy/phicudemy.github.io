@@ -5,7 +5,8 @@
         <p class="card-subtitle mb-2 text-body-secondary small">
           {% if post.subtitle %}{{post.subtitle}}
           {%else%}
-          {% if post.people%}{% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person | first %}
+          {% if post.people%}
+          {% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person.path | first %}
           {% if ppl %}{%if ppl.avatar %}<img src="//images.weserv.nl/?url=https://phicudemy.github.io{{ppl.avatar}}&w=20&h=20&fit=cover&mask=circle" class="float-start me-2">{% else %}<i class="bi bi-person-lines-fill"></i>{%endif%} {{ppl.title}}
           {% endif %}{% endfor %}{% endif %}
           {%endif%}                                
