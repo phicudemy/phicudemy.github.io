@@ -93,5 +93,3 @@ tags:
  
 [\[۵\]](#fnref-5){:#fn-5} برای پاسخ‌هایی به این استدلال‌های مترجمانِ *نوشته‌ها*، نگاه کنید به بحثِ مایکل بینی در بخشِ‌ مربوط در مقالۀ زیر:
 <p dir="ltr">Beaney, M. (2019), 'Translating ‘Bedeutung’ in Frege’s Writings: A Case Study and Cautionary Tale in the History and Philosophy of Translation', in P. A. Ebert, and M. Rossberg (eds), <i>Essays on Frege's Basic Laws of Arithmetic</i>, Oxford University Press, pp. 588–636.</p>
-
-
