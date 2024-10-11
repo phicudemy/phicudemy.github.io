@@ -4,6 +4,7 @@ layout: home
 slug: contact
 permalink: /contact/
 image: /assets/images/Paintings/laughing_philosopher_1629.jpg
+caption: Rembrandt laughing / Rembrandt, c. 1628, Oil on copper, 22.2 × 17.1 cm (8 3/4 × 6 3/4 in.), J. Paul Getty Museum California.
 ---
 <div class="vstack gap-3">
   <div class="p-2 d-flex justify-content-between"><span> آدرس:‌ </span><a target="_blank" href="https://maps.app.goo.gl/hKiNKykQFUqNKqyZ8" style="direction:ltr;">تهران،‌ خیابان انقلاب، خیابان وصال شیرازی، کوچهٔ نایبی، پلاک ۲۳.</a> </div>

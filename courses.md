@@ -4,6 +4,7 @@ layout: home
 slug: courses
 permalink: /academy/
 image: /assets/images/Paintings/plato_academy_mosaic.jpg
+caption: Plato's Academy mosaic (from Pompeii), 100 BC to 79 AD, 86 cm × 85 cm (34 × 33 in), National Archaeological Museum of Naples, Naples, Italy.
 ---
 <div class="accordion accordion-flush mb-2" id="accordionFlushExample">
 {% for category in site.contents %}

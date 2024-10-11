@@ -4,6 +4,7 @@ layout: home
 slug: posts
 permalink: /magazine/
 image: /assets/images/Paintings/narcissus.jpg
+caption: Narcissus / Caravaggio, 1595, Oil on canvas, 110 cm × 92 cm (43 × 36 in), Palazzo Barberini, Rome Italy.
 ---
 <div class="accordion accordion-flush mb-2" id="accordionFlushExample">
 {% for category in site.categories %}
