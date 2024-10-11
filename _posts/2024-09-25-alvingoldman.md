@@ -6,6 +6,7 @@ people:
 date: 2024-09-24T20:30:00.000Z
 published: true
 categories:
+  - path: _categories/cogsci.md
   - path: _categories/philosophy.md
 contents:
   - path: _contents/notes.md
@@ -16,6 +17,7 @@ tags:
   - path: _tags/epistemology.md
   - path: _tags/goldman.md
 ---
+
 
 
 
