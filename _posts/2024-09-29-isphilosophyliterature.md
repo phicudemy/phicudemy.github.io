@@ -63,11 +63,17 @@ tags:
 
 
 [^1]: Jim Holt
+
 [^2]: Jeeves
+
 [^3]: P.G. Wodehouse
+
 [^4]: Bertrand Russell
+
 [^5]: G.E. Moore
+
 [^6]: Willard Quine
+
 [^7]: Martha Nussbaum
 [^8]: Timothy Williamson
 [^9]: Evelyn Waugh
