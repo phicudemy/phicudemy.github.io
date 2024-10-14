@@ -57,7 +57,7 @@ tags:
 و ضیافتی است جاودان از می صافی ...
 
 <br><br> 
-جیم هلت[^29]، [نیویورک تایمز، ۳۰ ژوئن ۲۰۱۲
+جیم هلت، [نیویورک تایمز، ۳۰ ژوئن ۲۰۱۲
 ](https://archive.nytimes.com/opinionator.blogs.nytimes.com/2012/06/30/is-philosophy-literature/)
 
 
