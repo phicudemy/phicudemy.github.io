@@ -13,8 +13,9 @@ categories:
 contents:
   - path: _contents/article.md
 tags:
-  - {}
+  - path: _tags/analyticphilosophy.md
 ---
+
 
 
 آیا فلسفه ادبیات است؟ آیا مردم فلسفه را برای التذاذ می‌خوانند؟ البته که چنان است و البته که آن‌ها چنین می‌کنند.
