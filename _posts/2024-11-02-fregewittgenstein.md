@@ -1,7 +1,7 @@
 ---
-title: از فرگه به وینگنشتاین دربارهٔ تراکتاتوس (I)
+title: از فرگه به وینگنشتاین دربارهٔ <i>تراکتاتوس</i> (I)
 subtitle: نامهٔ اول (۲۸ ژوئن ۱۹۱۹)
-slug: fregewittgenstein
+slug: fregewittgenstein-1
 people:
   - path: _people/gottlonfrege.md
 translator:
@@ -18,6 +18,7 @@ tags:
   - path: _tags/frege.md
   - path: _tags/analyticphilosophy.md
 ---
+
 
 
 **یادداشت مترجم:**
