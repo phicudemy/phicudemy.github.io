@@ -12,6 +12,8 @@ categories:
 contents:
   - path: _contents/notes.md
 tags:
+  - {}
+  - path: _tags/wittgenstein.md
   - path: _tags/frege.md
   - path: _tags/analyticphilosophy.md
 ---
