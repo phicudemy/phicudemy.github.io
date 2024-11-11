@@ -15,7 +15,7 @@ tags:
 schedule: جمعه ۲۵ آبان ۱۴۰۳، ساعت ۱۷-۱۹
 format: []
 start: 2024-11-14T20:30:00.000Z
-sessions: 1
+sessions: 0
 ---
 
 
