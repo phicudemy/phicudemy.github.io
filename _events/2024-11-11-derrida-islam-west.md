@@ -17,7 +17,9 @@ format:
   - online
 start: 2024-11-14T20:30:00.000Z
 sessions: 1
+published: true
 ---
+
 
 <center>
 <img 
