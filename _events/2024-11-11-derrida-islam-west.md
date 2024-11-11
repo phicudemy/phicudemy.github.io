@@ -7,7 +7,7 @@ categories:
   - path: _categories/socialscience.md
 tags:
   - path: _tags/derrida.md
-  - {}
+  - path: _tags/islam.md
 format:
   - online
 start: 2024-11-14T20:30:00.000Z
