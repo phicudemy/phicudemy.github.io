@@ -2,9 +2,9 @@
 title: 'معرفی و نقد کتاب «تفاوت: گفت‌وگو با ژاک دریدا دربارهٔ اسلام و غرب»'
 slug: derrida-islam-west
 people:
-  - path: _people/hosseinmesbahian.md
-  - path: _people/aminbozorgian.md
   - path: _people/maryamvahdati.md
+  - path: _people/aminbozorgian.md
+  - path: _people/hosseinmesbahian.md
 contents:
   - path: _contents/sessions.md
 categories:
