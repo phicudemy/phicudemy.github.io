@@ -13,9 +13,10 @@ tags:
   - path: _tags/derrida.md
   - path: _tags/islam.md
 schedule: جمعه ۲۵ آبان ۱۴۰۳، ساعت ۱۷-۱۹
-format: []
+format:
+  - online
 start: 2024-11-14T20:30:00.000Z
-sessions: 0
+sessions: 1
 ---
 
 <center>
