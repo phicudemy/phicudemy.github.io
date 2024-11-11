@@ -1,6 +1,8 @@
 ---
 title: 'معرفی و نقد کتاب «تفاوت: گفت‌وگو با ژاک دریدا دربارهٔ اسلام و غرب»'
 slug: derrida-islam-west
+people:
+  - path: _people/maryamvahdati.md
 contents:
   - path: _contents/sessions.md
 categories:
@@ -13,6 +15,7 @@ format:
 start: 2024-11-14T20:30:00.000Z
 sessions: 1
 ---
+
 
 
 
