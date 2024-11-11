@@ -1,0 +1,5 @@
+---
+title: دریدا
+slug: derrida
+---
+
