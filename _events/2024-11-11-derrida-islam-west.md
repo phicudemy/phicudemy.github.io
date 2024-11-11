@@ -35,12 +35,12 @@ sessions: 0
 
 **زمان: جمعه، ۲۵ آبان ۱۴۰۳، ساعت ۱۷-۱۹ (به‌وقت تهران)**
 
-[لینک برگزاری در پلتفرم زوم (zoom): ](https://us06web.zoom.us/j/86405071082?pwd=2xPRBNNeD7HKG7DRbp9Re3I0LiAWXR.1
+[لینک برگزاری در پلتفرم زوم (zoom)](https://us06web.zoom.us/j/86405071082?pwd=2xPRBNNeD7HKG7DRbp9Re3I0LiAWXR.1
 )
-
+<p align="left">
 Meeting ID: 864 0507 1082
-
+<br>
 Passcode: 5rcuiu
-
+</p>
 
 
