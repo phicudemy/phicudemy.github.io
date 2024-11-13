@@ -58,6 +58,10 @@ collections:
     title: مطالب
     label: posts
     output: true
+  blog:
+    title: وبلاگ
+    label: blog
+    output: true
   events:
     title: برنامه
     label: events
@@ -85,6 +89,13 @@ defaults:
   values:
     layout: course
     permalink: "/academy/:slug/"
+    jsFile: post.js
+- scope:
+    path: ''
+    type: blog
+  values:
+    layout: post
+    permalink: "/blog/:slug/"
     jsFile: post.js
 - scope:
     path: ''

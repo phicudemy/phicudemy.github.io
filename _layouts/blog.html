@@ -1,0 +1,79 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="row pt-5">
+      <div class="col-sm-5 align-top">
+        <div class="">
+          <h3 class="display-3 mb-lg-5 mb-sm-2"><strong>{{page.title}}</strong></h2>
+            {% for post in site.blog reversed %}
+            {% if forloop.first %}
+            <div class="card h-100 bg-white   rounded-0" style="--bs-bg-opacity: .3;">
+              <div class="card-body">
+                <time class="persianDate text-muted" data-time="{{post.date}}" data-timestamp="{{post.date | date: '%s'}}"></time>
+                <a href="{{post.url}}" class="card-title h4 w-100">{{post.title}}</a>
+                {% if post.subtitle%}<p class="lead text-body-secondary mb-0">{{post.subtitle}}</p>{%endif%}
+                {% if post.people%}{% for author in post.people %}{% assign aut = site.people | where: 'relative_path', author.path | first %}
+                {% if aut %}
+                <a rel="author" href="{{aut.url}}" class="text-reset">{{aut.title}}</a>
+                {% endif %}
+                {% endfor %}{%endif%}
+                {% if post.translator%} | مترجم: {% for author in post.translator %}{% assign aut = site.people | where: 'relative_path', author.path | first %}
+                {% if aut %}
+                <a href="{{aut.url}}" class="text-reset">{{aut.title}}</a>
+                {% endif %}
+                {% endfor %}{%endif%}
+        
+                <p class="card-text">
+                  {{post.content |strip_html | strip_newlines | strip | truncatewords: 120}}
+                </p>
+                <a class="btn btn-light rounded-circle shadow-sm float-end m-2" href="{{post.url}}"><i class="bi bi-chevron-left"></i></a>
+
+                
+              </div>
+            </div>
+    
+            {% endif %}    
+            {%endfor%}
+          </div>
+      </div>
+      <div class="col-sm-7 align-top">
+        <figure>
+          <img src="//images.weserv.nl/?url=https://jomhourifalsafe.com{{page.image}}&w=800&fit=cover" 
+          class="rounded mx-auto d-block w-100 object-fit-contain " 
+          alt="...">
+          <figcaption><div class="figure-caption" dir="ltr">{{page.caption}}</div></figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 mt-0 pt-0 g-0 pb-5">
+      {% for post in site.blog reversed  %}
+      {% unless forloop.first %}
+      <div class="col">
+        <div class="card h-100 bg-white   rounded-0" style="--bs-bg-opacity: .3;">
+          <div class="card-body">
+            <time class="persianDate text-muted" data-time="{{post.date}}" data-timestamp="{{post.date | date: '%s'}}"></time>
+            <a href="{{post.url}}" class="card-title h5 w-100">{{post.title}}</a>
+            {% if post.people%}{% for author in post.people %}{% assign aut = site.people | where: 'relative_path', author.path | first %}
+            {% if aut %}
+            <a rel="author" href="{{aut.url}}" class="text-reset">{{aut.title}}</a>
+            {% endif %}
+            {% endfor %}{%endif%}
+            {% if post.translator%} | مترجم: {% for author in post.translator %}{% assign aut = site.people | where: 'relative_path', author.path | first %}
+            {% if aut %}
+            <a href="{{aut.url}}" class="text-reset">{{aut.title}}</a>
+            {% endif %}
+            {% endfor %}{%endif%}
+    
+            <p class="card-text">
+              {{post.content |strip_html | strip_newlines | strip | truncatewords: 80}}
+            </p>
+            <a class="btn btn-light rounded-circle shadow-sm float-end m-2" href="{{post.url}}"><i class="bi bi-chevron-left"></i></a>
+          </div>
+        </div>
+      </div>
+      {%endunless%}
+      {%endfor%}
+    </div>
+</div>
+

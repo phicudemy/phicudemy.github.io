@@ -389,6 +389,132 @@ export default defineConfig({
         },
       },
       {
+        name: "blog",
+        label: "وبلاگ",
+        path: "_blog",
+        format: "md",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "عنوان",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "string",
+            name: "subtitle",
+            label: "زیر عنوان",
+          },
+          {
+            label: 'نامک',
+            name: 'slug',
+            type: 'string',
+            required: true,
+          },          
+          {
+            type: "object",
+            list: true,
+            name: "people",
+            label: "نویسنده",
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.path} `}
+              }
+            },
+            fields: [
+              {
+                type: "reference",
+                label: "نویسنده",
+                name: "path",
+                collections: ["people"],
+              },
+            ],
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "تاریخ",
+            required: true,
+          },
+          {
+            type: 'boolean',
+            name: 'published',
+            label: 'انتشار'
+          },          
+          {
+            type: "object",
+            list: true,
+            name: "categories",
+            label: "موضوع",
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.path} `}
+              }
+            },
+            fields: [
+              {
+                type: "reference",
+                label: "موضوع",
+                name: "path",
+                collections: ["categories"],
+              },
+            ],
+          },
+          {
+            type: "object",
+            list: true,
+            name: "tags",
+            label: "تگ‌ها",
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.path} `}
+              }
+            },
+            fields: [
+              {
+                type: "reference",
+                label: "تگ",
+                name: "path",
+                collections: ["tags"],
+              },
+            ],
+          },
+          {
+            type: "string",
+            name: "excerpt",
+            label: "معرفی (خلاصه)",
+            ui: {
+              component: 'textarea',
+            },
+          },
+          {
+            type: "string",
+            name: "body",
+            label: "متن",
+            isBody: true,
+            ui: {
+              component: 'textarea',
+            },
+          },
+        ],
+        ui: {
+          filename: {
+            readonly: true,
+            slugify: values => {
+              const date = new Date();
+              const day = ('0' + date.getDate()).slice(-2);
+              const month = ('0' + (date.getMonth()+1)).slice(-2);
+              const year = date.getFullYear();
+        
+              let currentDate = `${year}-${month}-${day}`;
+        
+              return `${currentDate}-${values?.slug?.toLowerCase().replace(/ /g, '-')}`
+            }
+          }
+        },
+      },
+      {
         label: 'افراد',
         name: 'people',
         path: '_people',
