@@ -5,6 +5,8 @@ people:
   - path: _people/alirezakazemi.md
 contents:
   - path: _contents/courses.md
+categories:
+  - path: _categories/philosophy.md
 schedule: چهارشنبه‌ها، ساعت ۱۴-۱۶
 format:
   - online
