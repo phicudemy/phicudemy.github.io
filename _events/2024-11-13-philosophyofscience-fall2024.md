@@ -64,7 +64,7 @@ stdregister: 'https://zarinp.al/648150'
 منبع اصلی این درس چهار فصل از کتاب زیر است:
 
 <p align="left">
-Schrenk, M. (2016), <i>Metaphysics of Science: A Systematic and Historical Introduction</i>, Routledge.
+Schrenk, M. (2016), <i>Metaphysics of Science: A Systematic and Historical Introduction</i>, Routledge
 </p>
  
 این کتاب توسط آقای دکتر حسن امیری آرا ترجمه شده و توسط انتشارات سمت به چاپ رسیده است.
