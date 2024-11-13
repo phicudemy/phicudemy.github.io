@@ -9,7 +9,7 @@ categories:
   - path: _categories/philosophy.md
 tags:
   - path: _tags/philosophyofscience.md
-schedule: چهارشنبه‌ها، ساعت ۱۴-۱۶
+schedule: چهارشنبه‌ها، ساعت ۱۴-۱۶ (شروع از ۷ آذر)
 format:
   - online
   - inperson
