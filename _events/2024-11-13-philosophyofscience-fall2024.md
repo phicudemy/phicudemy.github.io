@@ -1,0 +1,14 @@
+---
+title: درآمدی بر متافیزیک طبیعت (علم)
+slug: philosophyofscience-fall2024
+people:
+  - {}
+schedule: چهارشنبه‌ها، ساعت ۱۴-۱۶
+format:
+  - online
+  - inperson
+  - offline
+start: 2024-11-26T20:30:00.000Z
+sessions: 4
+---
+
