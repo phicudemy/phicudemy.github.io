@@ -64,7 +64,7 @@ Schrenk, M. (2016), <i>Metaphysics of Science: A Systematic and Historical Intro
 **جلسۀ اول: ماجراهای عجیب و غریب شرطی‌های خلاف واقع**
 
 <p align="left">
-Stalnaker, R. (1968), “A Theory of Conditionals”, In: N. Rescher (Ed.), <i>Studies in Logical Theory</i> (pp. 98-112), Oxford: Blackwell. </p>
+Stalnaker, R. (1968), “A Theory of Conditionals”, In: N. Rescher (Ed.), <i>Studies in Logical Theory</i> (pp. 98-112), Oxford: Blackwell </p>
 
 فصل 3 کتاب شرنک.
 
@@ -72,14 +72,14 @@ Stalnaker, R. (1968), “A Theory of Conditionals”, In: N. Rescher (Ed.), <i>S
 **جلسۀ دوم: گرایش‌ها و این‌که چگونه به آن‌ها گرایش پیدا کنیم**
 
 <p align="left">
-Martin, C. B. (1994), “Dispositions and Conditionals”, <i>The Philosophical Quarterly</i>, 44 (174), pp. 1–8. </p>
+Martin, C. B. (1994), “Dispositions and Conditionals”, <i>The Philosophical Quarterly</i>, 44 (174), pp. 1–8 </p>
 
 فصل 2 کتاب شرنک.
 
 **جلسۀ سوم: قوانین طبیعت و این‌که چگونه به آن‌ها احترام بگذاریم**
 
 <p align="left">
-Dretske, F. I. (1977), “Laws of Nature”, <i>Philosophy of Science</i>, 44(2), pp. 248-268.
+Dretske, F. I. (1977), “Laws of Nature”, <i>Philosophy of Science</i>, 44(2), pp. 248-268
 </p>
 
 فصل 4 کتاب شرنک.
@@ -87,7 +87,7 @@ Dretske, F. I. (1977), “Laws of Nature”, <i>Philosophy of Science</i>, 44(2)
 **جلسۀ چهارم: علیت و این‌که چگونه با آن کنار بیاییم**
 
 <p align="left">
-Lewis, D. (1973), “Causation”, <i>Journal of Philosophy</i>, 70 (17). pp. 556–67.
+Lewis, D. (1973), “Causation”, <i>Journal of Philosophy</i>, 70 (17). pp. 556–67
 </p>
 فصل 5 کتاب شرنک.
 
