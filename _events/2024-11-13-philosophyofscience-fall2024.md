@@ -16,6 +16,9 @@ format:
   - offline
 start: 2024-11-26T20:30:00.000Z
 sessions: 4
+published: true
+register: 'https://zarinp.al/648149'
+stdregister: 'https://zarinp.al/648150'
 ---
 
 **محتوای درس**
