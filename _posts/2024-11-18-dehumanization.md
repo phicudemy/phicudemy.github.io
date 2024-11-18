@@ -93,7 +93,7 @@ excerpt: >
 
 بنگرید به:
 
-<p dir="ltr">Abbott, G. (2024, September 29). "lynching". <i>Encyclopedia Britannica</i>. <https://www.britannica.com/topic/lynching>
+<p dir="ltr">Abbott, G. (2024, September 29). "lynching". <i>Encyclopedia Britannica</i>. <https://www.britannica.com/topic/lynching></p>
 
  
 
