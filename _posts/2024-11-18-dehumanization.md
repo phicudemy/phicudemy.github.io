@@ -3,8 +3,11 @@ title: چرا انسانیت‌زدایی مهم است؟
 slug: dehumanization
 people:
   - path: _people/livingstonedsmith.md
+translator:
+  - path: _people/khanjanian.md
 date: 2024-11-17T20:30:00.000Z
 ---
+
 
 **چرا انسانیت‌زدایی مهم است؟******
 
