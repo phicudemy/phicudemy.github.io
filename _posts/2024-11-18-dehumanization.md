@@ -8,6 +8,8 @@ translator:
 date: 2024-11-17T20:30:00.000Z
 categories:
   - path: _categories/culture.md
+contents:
+  - path: _contents/article.md
 ---
 
 
