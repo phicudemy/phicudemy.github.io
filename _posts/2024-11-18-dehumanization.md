@@ -79,15 +79,23 @@ excerpt: >
 
 <p dir="ltr">Smith, D. L. (2016). “Paradoxes of Dehumanization”. <i>Social Theory and Practice</i>, 42(2), 416–443</p>
 
-[\[3\]](#fnref-3){:#fn-3} <p dir="ltr">New York Times, January 9, 1943.</p>
+[\[3\]](#fnref-3){:#fn-3} 
 
-[\[4\]](#fnref-4){:#fn-4} <p dir="ltr">Michael C. C. Adams, “Retelling the Tale: Wars in Common Memory,” in G. Boritt (Ed.), <i>War Comes Again: Comparative Vistas on the Civil War and World War II</i> (New York: Oxford University Press, 1995), 216</p>
+<p dir="ltr">New York Times, January 9, 1943.</p>
+
+[\[4\]](#fnref-4){:#fn-4} 
+
+<p dir="ltr">Michael C. C. Adams, “Retelling the Tale: Wars in Common Memory,” in G. Boritt (Ed.), <i>War Comes Again: Comparative Vistas on the Civil War and World War II</i> (New York: Oxford University Press, 1995), 216</p>
 
 [\[5\]](#fnref-5){:#fn-5} واژۀ گوک یک اصطلاح توهین‌آمیز است که عمدتاً خطاب به مردم در آسیای شرقی و جنوب شرقی به کار می‌رود. منظور از قانون گوگ صرف نیز در این‎جا قاعده‌ای نانوشته در میان سربازان آمریکایی در جنگ ویتنام بود که به ارتکاب خشونت بی‌رویه علیه ویتنامی‌ها تأکید داشت. (م)
 
-[\[6\]](#fnref-6){:#fn-6} <p dir="ltr">Nick Turse, <i>Kill Anything That Moves: The Real American War in Vietnam</i> (New York: Picador, 2013), 50, 161.</p>
+[\[6\]](#fnref-6){:#fn-6} 
 
-[\[7\]](#fnref-7){:#fn-7} <p dir="ltr">Michael C. C. Adams, “Retelling the Tale: Wars in Common Memory,” in G. Boritt (Ed.), <i>War Comes Again: Comparative Vistas on the Civil War and World War II</i> (New York: Oxford University Press, 1995), 216</p>
+<p dir="ltr">Nick Turse, <i>Kill Anything That Moves: The Real American War in Vietnam</i> (New York: Picador, 2013), 50, 161.</p>
+
+[\[7\]](#fnref-7){:#fn-7} 
+
+<p dir="ltr">Michael C. C. Adams, “Retelling the Tale: Wars in Common Memory,” in G. Boritt (Ed.), <i>War Comes Again: Comparative Vistas on the Civil War and World War II</i> (New York: Oxford University Press, 1995), 216</p>
 
 [\[8\]](#fnref-8){:#fn-8} لینچ‌ کردن به نوعی از مجازات خشونت‌آمیز اشاره دارد که خارج از رویۀ قانونی و به‌صورت خودسرانه صورت می‌گیرد. به نظر می‌رسد این عنوان از نام چارلز لینچ (۱۷۳۶-۱۷۹۶)، سیاست‌مدار آمریکایی، گرفته شد است که در طول جنگ استقلال آمریکا (۱۷۷۵-۱۷۸۳) با برگزاری دادگاه‌های نمایشی به اعدام لویالیست‌ها (Loyalists) می‌پرداخت. (م)
 
