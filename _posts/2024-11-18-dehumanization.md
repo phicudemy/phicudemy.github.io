@@ -71,7 +71,7 @@ excerpt: >
 ***
 
 [\[1\]](#fnref-1){:#fn-1} 
-<div align="left">Jean Hatzfeld, <i>Machete Season: The Killers in Rwanda Speak</i> (New York: Picador, 2005), 47, 144; <br>Alison Liebhafsky Des Forges, <i>Leave None to Tell the Story: Genocide in Rwanda</i> (New York: Human Rights Watch, 1999), 347–348.
+<div align="left">Jean Hatzfeld, <i>Machete Season: The Killers in Rwanda Speak</i> (New York: Picador, 2005), 47, 144; <br>Alison Liebhafsky Des Forges, <i>Leave None to Tell the Story: Genocide in Rwanda</i> (New York: Human Rights Watch, 1999), 347–348.</div>
 
  
 
