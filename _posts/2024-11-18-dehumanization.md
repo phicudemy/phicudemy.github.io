@@ -77,25 +77,25 @@ excerpt: >
 
 [\[2\]](#fnref-2){:#fn-2} مفهوم subhumanity در نظریۀ اسمیت از انسانیت‌زدایی اهمیتی محوری دارد. از نظر وی، فرایند انسانیت‌زدایی مستلزم آن است که فرد یا گروه هدف به‌طور هم‌زمان انسان و مادون ‌انسان در نظر گرفته شوند. به‌عبارت دقیق‌تر، هرچند فرد یا گروه مقابل در ظاهر و از بیرون مشابه انسان‌هاست، اما در باطن و از درون موجودی مادون‌انسانی است. برای مطالعه بیش‌تر بنگرید به: (م)
 
-<div align="left">Smith, D. L. (2016). “Paradoxes of Dehumanization”. <i>Social Theory and Practice</i>, 42(2), 416–443</div>
+<p dir="ltr">Smith, D. L. (2016). “Paradoxes of Dehumanization”. <i>Social Theory and Practice</i>, 42(2), 416–443</p>
 
  
 
-[\[3\]](#fnref-3){:#fn-3} <div align="left">New York Times, January 9, 1943.</div>
+[\[3\]](#fnref-3){:#fn-3} <p dir="ltr">New York Times, January 9, 1943.</p>
 
-[\[4\]](#fnref-4){:#fn-4} <div align="left">Michael C. C. Adams, “Retelling the Tale: Wars in Common Memory,” in G. Boritt (Ed.), <i>War Comes Again: Comparative Vistas on the Civil War and World War II</i> (New York: Oxford University Press, 1995), 216</div>
+[\[4\]](#fnref-4){:#fn-4} <p dir="ltr">Michael C. C. Adams, “Retelling the Tale: Wars in Common Memory,” in G. Boritt (Ed.), <i>War Comes Again: Comparative Vistas on the Civil War and World War II</i> (New York: Oxford University Press, 1995), 216</p>
 
 [\[5\]](#fnref-5){:#fn-5} واژۀ گوک یک اصطلاح توهین‌آمیز است که عمدتاً خطاب به مردم در آسیای شرقی و جنوب شرقی به کار می‌رود. منظور از قانون گوگ صرف نیز در این‎جا قاعده‌ای نانوشته در میان سربازان آمریکایی در جنگ ویتنام بود که به ارتکاب خشونت بی‌رویه علیه ویتنامی‌ها تأکید داشت. (م)
 
-[\[6\]](#fnref-6){:#fn-6} Nick Turse, *Kill Anything That Moves: The Real American War in Vietnam *(New York: Picador, 2013), 50, 161.
+[\[6\]](#fnref-6){:#fn-6} <p dir="ltr">Nick Turse, *Kill Anything That Moves: The Real American War in Vietnam *(New York: Picador, 2013), 50, 161.</p>
 
-[\[7\]](#fnref-7){:#fn-7} Michael C. C. Adams, “Retelling the Tale: Wars in Common Memory,” in G. Boritt (Ed.), *War Comes Again: Comparative Vistas on the Civil War and World War II *(New York: Oxford University Press, 1995), 216
+[\[7\]](#fnref-7){:#fn-7} <p dir="ltr">Michael C. C. Adams, “Retelling the Tale: Wars in Common Memory,” in G. Boritt (Ed.), <i>War Comes Again: Comparative Vistas on the Civil War and World War II</i> (New York: Oxford University Press, 1995), 216</p>
 
 [\[8\]](#fnref-8){:#fn-8} لینچ‌ کردن به نوعی از مجازات خشونت‌آمیز اشاره دارد که خارج از رویۀ قانونی و به‌صورت خودسرانه صورت می‌گیرد. به نظر می‌رسد این عنوان از نام چارلز لینچ (۱۷۳۶-۱۷۹۶)، سیاست‌مدار آمریکایی، گرفته شد است که در طول جنگ استقلال آمریکا (۱۷۷۵-۱۷۸۳) با برگزاری دادگاه‌های نمایشی به اعدام لویالیست‌ها (Loyalists) می‌پرداخت. (م)
 
 بنگرید به:
 
-Abbott, G. (2024, September 29). "lynching". *Encyclopedia Britannica*. <https://www.britannica.com/topic/lynching>
+<p dir="ltr">Abbott, G. (2024, September 29). "lynching". <i>Encyclopedia Britannica</i>. <https://www.britannica.com/topic/lynching>
 
  
 
