@@ -21,6 +21,7 @@ excerpt: >
   «Why Dehumanization Matters» است. پانوشت‌های مترجم با علامت (م) مشخص شده‌اند.
 ---
 
+
 **یادداشت مترجم:**
 
 آن‌چه می‌خوانید ترجمۀ بخشی از کتابی با عنوان *درباب ناانسانیت؛ انسانیت‌زدایی و چگونگی مقاومت در برابر آن*،[^1] اثر دیوید لیوینگستون اسمیت،[^2] در سال ۲۰۲۰ است. نویسنده استاد فلسفۀ دانشگاه نیوانگلند و از نظریه‌پردازان اصلی مطالعات انسانیت‌زدایی است که در آثار متعدد خود به طرح اندیشه درمورد چیستی، چگونگی و اهمیت انسانیت‌زدایی می‌پردازد. این نوشته مربوط به بخش دوم کتاب مذکور با عنوان «Why Dehumanization Matters» است. پانوشت‌های مترجم با علامت (م) مشخص شده‌اند.
@@ -101,7 +102,8 @@ excerpt: >
 
 بنگرید به:
 
-<p dir="ltr">Abbott, G. (2024, September 29). "lynching". <i>Encyclopedia Britannica</i>. <https://www.britannica.com/topic/lynching></p>
+<p dir="ltr">Abbott, G. (2024, September 29). "lynching," <i>[Encyclopedia Britannica](https://www.britannica.com/topic/lynching)</i>.
+</p>
 
  
 
