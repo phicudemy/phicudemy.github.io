@@ -83,7 +83,7 @@ excerpt: >
 
 [\[3\]](#fnref-3){:#fn-3} <div align="left">New York Times, January 9, 1943.</div>
 
-[\[4\]](#fnref-4){:#fn-4} Michael C. C. Adams, “Retelling the Tale: Wars in Common Memory,” in G. Boritt (Ed.), *War Comes Again: Comparative Vistas on the Civil War and World War II* (New York: Oxford University Press, 1995), 216
+[\[4\]](#fnref-4){:#fn-4} <div align="left">Michael C. C. Adams, “Retelling the Tale: Wars in Common Memory,” in G. Boritt (Ed.), <i>War Comes Again: Comparative Vistas on the Civil War and World War II</i> (New York: Oxford University Press, 1995), 216</div>
 
 [\[5\]](#fnref-5){:#fn-5} واژۀ گوک یک اصطلاح توهین‌آمیز است که عمدتاً خطاب به مردم در آسیای شرقی و جنوب شرقی به کار می‌رود. منظور از قانون گوگ صرف نیز در این‎جا قاعده‌ای نانوشته در میان سربازان آمریکایی در جنگ ویتنام بود که به ارتکاب خشونت بی‌رویه علیه ویتنامی‌ها تأکید داشت. (م)
 
