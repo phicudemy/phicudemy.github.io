@@ -81,7 +81,7 @@ excerpt: >
 
  
 
-[\[3\]](#fnref-3){:#fn-3} New York Times, January 9, 1943.
+[\[3\]](#fnref-3){:#fn-3} <div align="left">New York Times, January 9, 1943.</div>
 
 [\[4\]](#fnref-4){:#fn-4} Michael C. C. Adams, “Retelling the Tale: Wars in Common Memory,” in G. Boritt (Ed.), *War Comes Again: Comparative Vistas on the Civil War and World War II* (New York: Oxford University Press, 1995), 216
 
