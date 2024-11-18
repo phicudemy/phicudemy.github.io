@@ -79,8 +79,6 @@ excerpt: >
 
 <p dir="ltr">Smith, D. L. (2016). “Paradoxes of Dehumanization”. <i>Social Theory and Practice</i>, 42(2), 416–443</p>
 
- 
-
 [\[3\]](#fnref-3){:#fn-3} <p dir="ltr">New York Times, January 9, 1943.</p>
 
 [\[4\]](#fnref-4){:#fn-4} <p dir="ltr">Michael C. C. Adams, “Retelling the Tale: Wars in Common Memory,” in G. Boritt (Ed.), <i>War Comes Again: Comparative Vistas on the Civil War and World War II</i> (New York: Oxford University Press, 1995), 216</p>
