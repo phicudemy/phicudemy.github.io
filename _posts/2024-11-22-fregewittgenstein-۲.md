@@ -4,6 +4,8 @@ subtitle: نامهٔ دوم (۱۶ سپتامبر ۱۹۱۹)
 slug: fregewittgenstein-۲
 people:
   - path: _people/gottlonfrege.md
+translator:
+  - path: _people/طیبی.md
 date: 2024-11-21T20:30:00.000Z
 ---
 
