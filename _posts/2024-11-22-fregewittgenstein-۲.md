@@ -54,5 +54,5 @@ tags:
 گ. فرگه.
 
 [^1]: Sinn / sense
-[^2]: Vorstellung / ideas
+[^2]: Vorstellung / idea
 [^3]: Sachverhalt / atomic fact
