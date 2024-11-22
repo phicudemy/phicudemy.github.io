@@ -1,7 +1,7 @@
 ---
 title: از فرگه به وینگنشتاین دربارهٔ <i>تراکتاتوس</i> (II)
 subtitle: نامهٔ دوم (۱۶ سپتامبر ۱۹۱۹)
-slug: fregewittgenstein-۲
+slug: fregewittgenstein-2
 people:
   - path: _people/gottlonfrege.md
 translator:
