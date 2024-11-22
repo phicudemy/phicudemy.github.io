@@ -2,8 +2,11 @@
 title: از فرگه به وینگنشتاین دربارهٔ <i>تراکتاتوس</i> (II)
 subtitle: نامهٔ دوم (۱۶ سپتامبر ۱۹۱۹)
 slug: fregewittgenstein-۲
+people:
+  - path: _people/gottlonfrege.md
 date: 2024-11-21T20:30:00.000Z
 ---
+
 
 
 ۱۶ سپتامبر ۱۹۱۹، باد کلاینین
