@@ -9,6 +9,8 @@ translator:
 date: 2024-11-21T20:30:00.000Z
 categories:
   - path: _categories/philosophy.md
+contents:
+  - path: _contents/notes.md
 ---
 
 
