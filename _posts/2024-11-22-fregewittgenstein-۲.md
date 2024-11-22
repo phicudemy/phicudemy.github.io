@@ -14,7 +14,7 @@ contents:
 tags:
   - path: _tags/analyticphilosophy.md
   - path: _tags/wittgenstein.md
-  - {}
+  - path: _tags/frege.md
   - {}
 ---
 
