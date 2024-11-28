@@ -54,9 +54,9 @@ tags:
 
 [^1]: Michael Dummett
 [^2]: London Review of Books
-[^3]: John Downing (1980) *Now You Do Know*, WOW Campaigns.
+[^3]: John Downing (1980) _Now You Do Know_, WOW Campaigns.
 [^4]: Wykeham Professor of Logic
-[^5]: Michael Dummett (1973) *Frege: Philosophy of Language*, 1st edition, Harper and Row Publishers.  
+[^5]: Michael Dummett (1973) _Frege: Philosophy of Language_, 1st edition, Harper and Row Publishers.  
 [^6]: Institute of Race Relations
-[^7]: Michael Dummett (2001) *On Immigration and Refugees*, Routledge.
+[^7]: Michael Dummett (2001) _On Immigration and Refugees_, Routledge.
 
