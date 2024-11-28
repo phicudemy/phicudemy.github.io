@@ -11,7 +11,11 @@ categories:
   - path: _categories/culture.md
 contents:
   - path: _contents/article.md
+tags:
+  - path: _tags/race.md
+  - {}
 ---
+
 
 
 **یادداشت مترجم**
