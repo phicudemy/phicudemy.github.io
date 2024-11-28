@@ -26,6 +26,7 @@ tags:
 
 مبارزات و فعالیت‌های سیاسی و اجتماعی دامت در این حوزه‌ها مبنای کتاب مهم او *دربارهٔ مهاجرت و پناهندگان* بوده است.[^7]
 
+**جمهوری فلسفه و ادبیات**
 ---------------
 
 ![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Paintings/Spirit _of_the_Carnival_1982_Tam_Joseph.webp "Spirit of the Carnival by Tam Joseph, 1983")
