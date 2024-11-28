@@ -13,7 +13,7 @@ contents:
   - path: _contents/article.md
 tags:
   - path: _tags/race.md
-  - {}
+  - path: _tags/racism.md
 ---
 
 
