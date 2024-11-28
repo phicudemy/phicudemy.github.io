@@ -7,6 +7,8 @@ translator:
   - path: _people/jomhouri.md
 date: 2024-11-27T20:30:00.000Z
 published: true
+categories:
+  - path: _categories/culture.md
 ---
 
 
