@@ -1,9 +1,12 @@
 ---
 title: قدرت و تعصب
 slug: powerandprejudice
+people:
+  - path: _people/michaeldummett.md
 date: 2024-11-27T20:30:00.000Z
 published: true
 ---
+
 
 **یادداشت مترجم**
 
