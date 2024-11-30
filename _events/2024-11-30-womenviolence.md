@@ -7,6 +7,8 @@ people:
   - path: _people/maryamlotfi.md
 contents:
   - path: _contents/sessions.md
+categories:
+  - path: _categories/women.md
 schedule: سه‌شنبه ۱۳ آذر ۱۴۰۳، ساعت ۱۵-۱۷
 format:
   - inperson
