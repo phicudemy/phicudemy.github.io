@@ -4,7 +4,7 @@ slug: womenviolence
 people:
   - path: _people/siminkazemi.md
   - path: _people/sarabagheri.md
-  - {}
+  - path: _people/maryamlotfi.md
 schedule: سه‌شنبه ۱۳ آذر ۱۴۰۳، ساعت ۱۵-۱۷
 format:
   - inperson
