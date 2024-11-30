@@ -13,6 +13,7 @@ schedule: سه‌شنبه ۱۳ آذر ۱۴۰۳، ساعت ۱۵-۱۷
 format:
   - inperson
 start: 2024-12-02T20:30:00.000Z
+published: true
 ---
 
 
