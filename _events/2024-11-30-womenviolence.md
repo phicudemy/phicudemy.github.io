@@ -3,7 +3,7 @@ title: زنان، خشونت، قانون
 slug: womenviolence
 people:
   - path: _people/siminkazemi.md
-  - {}
+  - path: _people/sarabagheri.md
   - {}
 schedule: سه‌شنبه ۱۳ آذر ۱۴۰۳، ساعت ۱۵-۱۷
 format:
