@@ -1,11 +1,16 @@
 ---
 title: زنان، خشونت، قانون
 slug: womenviolence
+people:
+  - path: _people/siminkazemi.md
+  - {}
+  - {}
 schedule: سه‌شنبه ۱۳ آذر ۱۴۰۳، ساعت ۱۵-۱۷
 format:
   - inperson
 start: 2024-12-02T20:30:00.000Z
 ---
+
 
 
 ![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/%D8%B1%D9%88%DB%8C%D8%AF%D8%A7%D8%AF%D9%87%D8%A7/5.jpg)
