@@ -5,6 +5,8 @@ people:
   - path: _people/siminkazemi.md
   - path: _people/sarabagheri.md
   - path: _people/maryamlotfi.md
+contents:
+  - path: _contents/sessions.md
 schedule: سه‌شنبه ۱۳ آذر ۱۴۰۳، ساعت ۱۵-۱۷
 format:
   - inperson
