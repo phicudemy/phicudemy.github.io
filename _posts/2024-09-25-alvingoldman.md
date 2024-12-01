@@ -10,7 +10,6 @@ categories:
   - path: _categories/philosophy.md
 contents:
   - path: _contents/oneframe.md
-  - path: _contents/notes.md
 tags:
   - path: _tags/cognitivesciences.md
   - path: _tags/socialepistemology.md
