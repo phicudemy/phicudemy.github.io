@@ -8,10 +8,11 @@ published: true
 categories:
   - path: _categories/philosophy.md
 contents:
-  - path: _contents/notes.md
+  - path: _contents/oneframe.md
 tags:
   - path: _tags/davidlewis.md
 ---
+
 
  ![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Philosophers/Lewis, David/DavidLewis-1.jpg)
 
