@@ -9,6 +9,7 @@ categories:
   - path: _categories/cogsci.md
   - path: _categories/philosophy.md
 contents:
+  - path: _contents/oneframe.md
   - path: _contents/notes.md
 tags:
   - path: _tags/cognitivesciences.md
@@ -17,6 +18,7 @@ tags:
   - path: _tags/epistemology.md
   - path: _tags/goldman.md
 ---
+
 
 
 
