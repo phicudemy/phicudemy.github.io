@@ -10,10 +10,11 @@ categories:
   - path: _categories/women.md
   - path: _categories/philosophy.md
 contents:
-  - path: _contents/notes.md
+  - path: _contents/oneframe.md
 tags:
   - path: _tags/philosophers.md
 ---
+
 
 
 
