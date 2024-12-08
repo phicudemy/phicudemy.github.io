@@ -1,5 +1,5 @@
 ---
-title: لیلیت تریان
+title: لیلیت تریان (۱۳۰۹-۱۳۹۷)
 subtitle: 'پیکره‌ساز ایرانی '
 slug: lilitteryan
 people:
