@@ -5,6 +5,7 @@ slug: lilitteryan
 people:
   - path: _people/sepodemoscowchi.md
 date: 2024-12-05T20:30:00.000Z
+published: true
 categories:
   - path: _categories/figures.md
 contents:
