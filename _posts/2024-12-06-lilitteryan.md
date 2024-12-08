@@ -12,6 +12,7 @@ contents:
 ---
 
 
+
 ![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/03.jpeg)
 
 لیلیت تریان (۱۰ دی ۱۳۰۹- ۱۶ اسفند ۱۳۹۷) پیکره‌ساز ایرانی، معروف به مادر پیکره‌سازی ایران، در خانواده‌ای ارمنی و هنردوست در تهران به دنیا آمد. پدرش کارمند بانک ملی ایران بود و به معماری علاقه داشت. مادرش مدّتی در فرانسه در رشتهٔ هنر تحصیل کرده بود و لیلیت را با طراحی و نقاشی آشنا کرد. پس از دبیرستان، لیلیت در کنکور دانشکدهٔ هنرهای زیبا شرکت کرد، اما سال بعد به کلاس‌های نقاشی این دانشکده راه یافت. در ۱۳۳۱، از دانشکده انصراف داد و به‌قصد تحصیل در دانشگاه هنرهای زیبای پاریس (مدرسهٔ بوزار) به فرانسه رفت. حین آمادگی برای آزمون ورودی دانشگاه به پیکره‌سازی علاقه‌مند شد و چهار سال در این دانشگاه به تحصیل پیکره‌سازی پرداخت.
@@ -26,6 +27,7 @@ contents:
 <img 
        src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Saint_Mary_Armenian_Church_(Tehran)_5880.jpg" 
     title = "پیکرهٔ نیمه‌تنهٔ پیرم‌خان، کلیسای مریم مقدس، لیلیت تریان، ۱۳۴۷"
+    alt= "پیکرهٔ نیمه‌تنهٔ پیرم‌خان، کلیسای مریم مقدس، لیلیت تریان، ۱۳۴۷"
        style="width: 50%; height:50%;" />
 </center>
 
@@ -46,7 +48,7 @@ contents:
 <p dir="ltr">
     <a href="http://www.iransculpture.ir/sculptors/ir/z2-lilit-terian/terian.htm">http://www.iransculpture.ir/sculptors/ir/z2-lilit-terian/terian.htm</a>
     <br>
-    <a href="https://evnreport.com/et-cetera/lilit-teryan-the-doyen-of-irans-modern-sculpture/"></a>
+    <a href="https://evnreport.com/et-cetera/lilit-teryan-the-doyen-of-irans-modern-sculpture/">https://evnreport.com/et-cetera/lilit-teryan-the-doyen-of-irans-modern-sculpture/</a>
 </p>
 
 
