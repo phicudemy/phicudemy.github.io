@@ -9,12 +9,18 @@ contents:
   - path: _contents/sessions.md
 categories:
   - path: _categories/women.md
+tags:
+  - path: _tags/women.md
+  - {}
+  - {}
+  - {}
 schedule: سه‌شنبه ۱۳ آذر ۱۴۰۳، ساعت ۱۵-۱۷
 format:
   - inperson
 start: 2024-12-02T20:30:00.000Z
 published: true
 ---
+
 
 
 
