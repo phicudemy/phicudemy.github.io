@@ -12,7 +12,7 @@ categories:
 tags:
   - path: _tags/women.md
   - path: _tags/violenceagainstwomen.md
-  - {}
+  - path: _tags/feminism.md
   - {}
 schedule: سه‌شنبه ۱۳ آذر ۱۴۰۳، ساعت ۱۵-۱۷
 format:
