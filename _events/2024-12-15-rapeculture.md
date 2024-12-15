@@ -14,7 +14,7 @@ tags:
   - path: _tags/women.md
   - path: _tags/violenceagainstwomen.md
   - path: _tags/rapeculture.md
-  - {}
+  - path: _tags/feminism.md
 schedule: چهار‌شنبه ۲۸ آذر، ساعت ۱۹-۱۷
 format:
   - inperson
