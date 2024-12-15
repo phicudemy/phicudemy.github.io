@@ -43,7 +43,7 @@ published: true
 در این نشست، دراین‌باره گفت‌وگو می‌کنیم که عناصر پنهان و آشکار این فرهنگ چیستند؟ کدام تصورات و باورهای ما دربارۀ تجاوز نادرست‌اند و نیاز به تصحیح دارند و چرا تصحیح آنها بخش مهمی از تلاش ما برای اصلاح وضع موجود است.
 
 <br><br><br>
-زمان: چهارشنبه، ۲۸ آذر ۱۴۰۳، ساعت ۱۷-۱۹ <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=Nzl1NGVmNmJ1ZTY1ZzFwOGZtdHIwZzhldjggam9taG91cmlmYWxzYWZlQG0&amp;tmsrc=jomhourifalsafe%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>افزودن به تقویم گوگل</a>
+زمان: چهارشنبه، ۲۸ آذر ۱۴۰۳، ساعت ۱۷-۱۹ <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=Nzl1NGVmNmJ1ZTY1ZzFwOGZtdHIwZzhldjggam9taG91cmlmYWxzYWZlQG0&amp;tmsrc=jomhourifalsafe%40gmail.com"></a>افزودن به تقویم گوگل</a>
 
 محل برگزاری: تهران، خیابان انقلاب، خیابان وصال شیرازی، کوچهٔ نایبی، پلاک ۲۳
 <br><br>
