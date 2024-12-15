@@ -4,7 +4,7 @@ slug: rapeculture
 people:
   - path: _people/najmevahedi.md
   - path: _people/amirsaemi.md
-  - {}
+  - path: _people/marziyelotfi.md
 schedule: چهار‌شنبه ۲۸ آذر، ساعت ۱۹-۱۷
 format:
   - inperson
