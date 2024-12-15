@@ -11,6 +11,9 @@ categories:
   - {}
   - path: _categories/culture.md
 tags:
+  - path: _tags/women.md
+  - {}
+  - {}
   - {}
 schedule: چهار‌شنبه ۲۸ آذر، ساعت ۱۹-۱۷
 format:
