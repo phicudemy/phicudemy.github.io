@@ -8,7 +8,7 @@ people:
 contents:
   - path: _contents/sessions.md
 categories:
-  - {}
+  - path: _categories/women.md
   - path: _categories/culture.md
 tags:
   - path: _tags/women.md
