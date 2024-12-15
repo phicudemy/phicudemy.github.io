@@ -8,7 +8,8 @@ people:
 contents:
   - path: _contents/sessions.md
 categories:
-  - path: _categories/women.md
+  - {}
+  - path: _categories/culture.md
 schedule: چهار‌شنبه ۲۸ آذر، ساعت ۱۹-۱۷
 format:
   - inperson
