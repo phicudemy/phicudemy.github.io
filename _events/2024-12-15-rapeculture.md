@@ -12,7 +12,7 @@ categories:
   - path: _categories/culture.md
 tags:
   - path: _tags/women.md
-  - {}
+  - path: _tags/violenceagainstwomen.md
   - {}
   - {}
 schedule: چهار‌شنبه ۲۸ آذر، ساعت ۱۹-۱۷
