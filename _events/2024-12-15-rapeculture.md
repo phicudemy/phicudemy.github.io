@@ -3,6 +3,7 @@ title: گفت‌وگویی دربارهٔ فرهنگ تجاوز
 slug: rapeculture
 people:
   - path: _people/najmevahedi.md
+  - path: _people/amirsaemi.md
   - {}
 schedule: چهار‌شنبه ۲۸ آذر، ساعت ۱۹-۱۷
 format:
