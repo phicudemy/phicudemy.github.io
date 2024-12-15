@@ -7,6 +7,8 @@ people:
   - path: _people/marziyelotfi.md
 contents:
   - path: _contents/sessions.md
+categories:
+  - path: _categories/women.md
 schedule: چهار‌شنبه ۲۸ آذر، ساعت ۱۹-۱۷
 format:
   - inperson
