@@ -13,7 +13,7 @@ categories:
 tags:
   - path: _tags/women.md
   - path: _tags/violenceagainstwomen.md
-  - {}
+  - path: _tags/rapeculture.md
   - {}
 schedule: چهار‌شنبه ۲۸ آذر، ساعت ۱۹-۱۷
 format:
