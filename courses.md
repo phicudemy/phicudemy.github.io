@@ -25,7 +25,8 @@ caption: Plato's Academy mosaic (from Pompeii), 100 BC to 79 AD, 86 cm × 85 cm 
     <div id="flush-collapse-{{category.slug}}" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
     <div class="accordion-body">
         <ul class="list-group list-group-flush">
-        {% for post in site.events %}
+        {% assign siteevents = site.events | sort: 'post_date' | reverse%}
+        {% for post in siteevents %}
         {% if catrecent  == 5 %}{% break %}{% endif %} 
         {% for cat in post.contents %}
         {% if cat.path == category.relative_path %}
