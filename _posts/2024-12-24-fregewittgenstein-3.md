@@ -7,6 +7,9 @@ people:
 translator:
   - path: _people/طیبی.md
 date: 2024-12-23T20:30:00.000Z
+published: true
+categories:
+  - path: _categories/philosophy.md
 ---
 
 
