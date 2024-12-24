@@ -21,8 +21,6 @@ tags:
 
 ساجد طیبی
 
-ساجد طیبی
-
 -----------
 
 ![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Philosophers/Frege-Wittgenstein.jpg)
