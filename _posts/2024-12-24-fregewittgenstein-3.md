@@ -2,8 +2,11 @@
 title: از فرگه به وینگنشتاین دربارهٔ <i>تراکتاتوس</i> (III)
 subtitle: نامهٔ سوم (۳۰ سپتامبر ۱۹۱۹)
 slug: fregewittgenstein-3
+people:
+  - path: _people/gottlonfrege.md
 date: 2024-12-23T20:30:00.000Z
 ---
+
 
 
 ساجد طیبی
