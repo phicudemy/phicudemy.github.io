@@ -11,6 +11,8 @@ published: true
 categories:
   - path: _categories/philosophy.md
 tags:
+  - path: _tags/frege.md
+  - {}
   - path: _tags/wittgenstein.md
 ---
 
