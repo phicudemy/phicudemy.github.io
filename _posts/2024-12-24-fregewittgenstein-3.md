@@ -4,6 +4,8 @@ subtitle: نامهٔ سوم (۳۰ سپتامبر ۱۹۱۹)
 slug: fregewittgenstein-3
 people:
   - path: _people/gottlonfrege.md
+translator:
+  - path: _people/طیبی.md
 date: 2024-12-23T20:30:00.000Z
 ---
 
