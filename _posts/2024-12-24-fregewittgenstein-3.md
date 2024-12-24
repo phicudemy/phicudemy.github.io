@@ -10,6 +10,8 @@ date: 2024-12-23T20:30:00.000Z
 published: true
 categories:
   - path: _categories/philosophy.md
+tags:
+  - path: _tags/wittgenstein.md
 ---
 
 
