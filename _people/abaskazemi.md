@@ -1,5 +1,5 @@
 ---
-title: سید عباس کاظمی
+title: سیدعباس کاظمی
 slug: abaskazemi
 ---
 
