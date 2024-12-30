@@ -1,5 +1,0 @@
----
-title: چهره‌ها
-slug: figures
----
-
