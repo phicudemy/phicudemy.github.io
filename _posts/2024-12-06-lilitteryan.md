@@ -7,10 +7,12 @@ people:
 date: 2024-12-05T20:30:00.000Z
 published: true
 categories:
+  - path: _categories/culture.md
   - path: _categories/figures.md
 contents:
   - path: _contents/oneframe.md
 ---
+
 
 
 
