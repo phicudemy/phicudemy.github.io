@@ -4,7 +4,10 @@ slug: ethicsofwar
 date: 2024-12-29T20:30:00.000Z
 categories:
   - path: _categories/philosophy.md
+contents:
+  - path: _contents/oneframe.md
 ---
+
 
  
 
