@@ -52,12 +52,12 @@ contents:
 
 [\[۲\]](#fnref-2){:#fn-2}
 <p dir = ltr>
-Lazar, S. (2020). War, The Stanford Encyclopedia of Philosophy, Edward N. Zalta (ed.), URL \<https://plato.stanford.edu/archives/spr2020/entries/war/>;<br>
-Frowe, H. (2014). \_Defensive Killing\_, Oxford University Press; <br>
-Frowe, H. (2023). \_The ethics of war and peace: an introduction\_. Taylor & Francis.<br>
-McMahan, J. (2004), ‘The ethics of killing in war’, \_Ethics 114 \_, 693–733; <br>
-McMahan, J. (2009). \_Killing in War\_, Oxford: Oxford University Press; <br>
-Walzer, M. (2006 \\\[1977]\\), \_Just and Unjust Wars: A Moral Argument with Historical Illustrations\_, 4th edition, New York: Basic Books. </p>
+Lazar, S. (2020). War, The Stanford Encyclopedia of Philosophy, Edward N. Zalta (ed.), URL = \<https://plato.stanford.edu/archives/spr2020/entries/war/>;<br>
+Frowe, H. (2014). <i>Defensive Killing</i>, Oxford University Press; <br>
+Frowe, H. (2023). <i>The ethics of war and peace: an introduction</i>. Taylor & Francis.<br>
+McMahan, J. (2004), ‘The ethics of killing in war’, <i>Ethics</i> 114, 693–733; <br>
+McMahan, J. (2009). <i>Killing in War</i>, Oxford: Oxford University Press; <br>
+Walzer, M. (2006 [1977]), <i>Just and Unjust Wars: A Moral Argument with Historical Illustrations</i>, 4th edition, New York: Basic Books. </p>
  
 [\[۳\]](#fnref-3){:#fn-3} حوادث ناگوار پس از پایان جنگ‌های آمریکا در عراق و افغانستان منجر به تأملات فلسفی درباب قوانین اخلاقی ناظر بر چگونگی پایان جنگ و مدیریت حوادث پس از آن شد. درپی این تأملات، گروه سومی از قوانین اخلاقی توسط فلاسفه برای داوری اخلاقی درباب نحوۀ پایان دادن جنگ و مدیریت حوادث پس از آن پیش‎نهاد شده است. به این گروهِ سوم از قوانین اخلاقی ناظر بر جنگ که خیلی متأخرتر از دو گروه ذکرشده در این مقاله مطرح شده‌اند اصطلاحاً قوانین jus post bellum یا عدالت پس از جنگ گفته می‌شود (Lazar, 2020؛ Frowe, 2023).
 
@@ -73,7 +73,7 @@ Walzer, M. (2006 \\\[1977]\\), \_Just and Unjust Wars: A Moral Argument with His
 
 [\[۸\]](#fnref-8){:#fn-8} تاجایی‌که نگارنده اطلاع دارد، Walzer (2006\\\[1977]) شاخص‌ترین و تأثیرگذارترین فیلسوف در دوران معاصر معرفی می‌شود که چنین نظری دارد.
 
-[\[۹\]](#fnref-9){:#fn-9} به‌نظر نگارنده،Jeff McMahan  شاخص‌ترین و تأثیرگذارترین فیلسوفی است که چنین دیدگاهی دارد و در آثار متعدد خود که برخی از آن‌ها در متن ذکر شدند به صورت‌بندی و دفاع از این دیدگاه پرداخته است.
+[\[۹\]](#fnref-9){:#fn-9} به‌نظر نگارنده، Jeff McMahan  شاخص‌ترین و تأثیرگذارترین فیلسوفی است که چنین دیدگاهی دارد و در آثار متعدد خود که برخی از آن‌ها در متن ذکر شدند به صورت‌بندی و دفاع از این دیدگاه پرداخته است.
 
 [^1]: pacifism 
 [^2]: realism
