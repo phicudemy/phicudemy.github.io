@@ -5,6 +5,8 @@ slug: madametussauds
 people:
   - path: _people/sepodemoscowchi.md
 date: 2024-12-29T20:30:00.000Z
+categories:
+  - path: _categories/culture.md
 ---
 
 
