@@ -48,11 +48,11 @@ contents:
 ---------
 
 [\[۱\]](#fnref-1){:#fn-1}
-<p dir = ltr> Fiala, A. (2023). Pacifism, The Stanford Encyclopedia of Philosophy, Edward N. Zalta & Uri Nodelman (eds.), URL = <a href="https://plato.stanford.edu/archives/fall2023/entries/pacifism">https://plato.stanford.edu/archives/fall2023/entries/pacifism</a></p>
+<p dir = ltr> Fiala, A. (2023). Pacifism, The Stanford Encyclopedia of Philosophy, Edward N. Zalta & Uri Nodelman (eds.), URL = <a href= "https://plato.stanford.edu/archives/fall2023/entries/pacifism">https://plato.stanford.edu/archives/fall2023/entries/pacifism</a></p>
 
 [\[۲\]](#fnref-2){:#fn-2}
 <p dir = ltr>
-Lazar, S. (2020). War, The Stanford Encyclopedia of Philosophy, Edward N. Zalta (ed.), URL = \<https://plato.stanford.edu/archives/spr2020/entries/war/>;<br>
+Lazar, S. (2020). War, The Stanford Encyclopedia of Philosophy, Edward N. Zalta (ed.), URL = <a href= "https://plato.stanford.edu/archives/spr2020/entries/war">https://plato.stanford.edu/archives/spr2020/entries/war</a>;<br>
 Frowe, H. (2014). <i>Defensive Killing</i>, Oxford University Press; <br>
 Frowe, H. (2023). <i>The ethics of war and peace: an introduction</i>. Taylor & Francis.<br>
 McMahan, J. (2004), ‘The ethics of killing in war’, <i>Ethics</i> 114, 693–733; <br>
