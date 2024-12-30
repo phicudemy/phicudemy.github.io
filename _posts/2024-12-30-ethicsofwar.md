@@ -51,7 +51,7 @@ contents:
 ---------
 
 [\[۱\]](#fnref-1){:#fn-1}
-<p dir = ltr> Fiala, A. (2023). Pacifism, The Stanford Encyclopedia of Philosophy, Edward N. Zalta & Uri Nodelman (eds.), URL = <a href= "https://plato.stanford.edu/archives/fall2023/entries/pacifism">https://plato.stanford.edu/archives/fall2023/entries/pacifism</a></p>
+<p dir = ltr> Fiala, A. (2023). Pacifism, The Stanford Encyclopedia of Philosophy, Edward N. Zalta & Uri Nodelman (eds.), URL = <a href= "https://plato.stanford.edu/archives/fall2023/entries/pacifism">https://plato.stanford.edu/archives/fall2023/entries/pacifism</a>.</p>
 
 [\[۲\]](#fnref-2){:#fn-2}
 <p dir = ltr>
