@@ -4,6 +4,7 @@ slug: ethicsofwar
 people:
   - path: _people/abaskazemi.md
 date: 2024-12-29T20:30:00.000Z
+published: true
 categories:
   - path: _categories/philosophy.md
 contents:
