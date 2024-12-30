@@ -48,32 +48,20 @@ contents:
 ---------
 
 [\[۱\]](#fnref-1){:#fn-1}
-Fiala, A. (2023). Pacifism, The Stanford Encyclopedia of Philosophy, Edward N. Zalta & Uri Nodelman (eds.), URL = \<https://plato.stanford.edu/archives/fall2023/entries/pacifism/>
+<p dir = ltr> Fiala, A. (2023). Pacifism, The Stanford Encyclopedia of Philosophy, Edward N. Zalta & Uri Nodelman (eds.), URL = \<https://plato.stanford.edu/archives/fall2023/entries/pacifism/></p>
 
 [\[۲\]](#fnref-2){:#fn-2}
-Lazar, S. (2020). War, The Stanford Encyclopedia of Philosophy, Edward N. Zalta (ed.), URL \<https://plato.stanford.edu/archives/spr2020/entries/war/>;
-
-Frowe, H. (2014). \_Defensive Killing\_, Oxford University Press;
-
-Frowe, H. (2023). \_The ethics of war and peace: an introduction\_. Taylor & Francis.
-
-McMahan, J. (2004), ‘The ethics of killing in war’, \_Ethics 114 \_, 693–733;
-
-McMahan, J. (2009). \_Killing in War\_, Oxford: Oxford University Press;
-
-Walzer, M. (2006 \\\[1977]\\), \_Just and Unjust Wars: A Moral Argument with Historical Illustrations\_, 4th edition, New York: Basic Books.
-
+<p dir = ltr>
+Lazar, S. (2020). War, The Stanford Encyclopedia of Philosophy, Edward N. Zalta (ed.), URL \<https://plato.stanford.edu/archives/spr2020/entries/war/>;<br>
+Frowe, H. (2014). \_Defensive Killing\_, Oxford University Press; <br>
+Frowe, H. (2023). \_The ethics of war and peace: an introduction\_. Taylor & Francis.<br>
+McMahan, J. (2004), ‘The ethics of killing in war’, \_Ethics 114 \_, 693–733; <br>
+McMahan, J. (2009). \_Killing in War\_, Oxford: Oxford University Press; <br>
+Walzer, M. (2006 \\\[1977]\\), \_Just and Unjust Wars: A Moral Argument with Historical Illustrations\_, 4th edition, New York: Basic Books. </p>
  
-
- 
-
- 
-
 [\[۳\]](#fnref-3){:#fn-3} حوادث ناگوار پس از پایان جنگ‌های آمریکا در عراق و افغانستان منجر به تأملات فلسفی درباب قوانین اخلاقی ناظر بر چگونگی پایان جنگ و مدیریت حوادث پس از آن شد. درپی این تأملات، گروه سومی از قوانین اخلاقی توسط فلاسفه برای داوری اخلاقی درباب نحوۀ پایان دادن جنگ و مدیریت حوادث پس از آن پیش‎نهاد شده است. به این گروهِ سوم از قوانین اخلاقی ناظر بر جنگ که خیلی متأخرتر از دو گروه ذکرشده در این مقاله مطرح شده‌اند اصطلاحاً قوانین jus post bellum یا عدالت پس از جنگ گفته می‌شود (Lazar, 2020؛ Frowe, 2023).
 
- 
-
-برای مطالعۀ بیش‌تر در این مورد، بنگرید  به Frowe 2023: ch. 12 مراجعه کنید.
+ برای مطالعۀ بیش‌تر در این مورد، بنگرید  به Frowe 2023: ch. 12.
  
 [\[۴\]](#fnref-4){:#fn-4} به این قوانین در ادبیات فلسفه اخلاق جنگ قوانینِ jus ad bellum یا عدالتِ جنگ گفته می‌شود.
 
