@@ -5,6 +5,8 @@ people:
   - path: _people/arashabazari.md
 contents:
   - path: _contents/sessions.md
+categories:
+  - path: _categories/philosophy.md
 schedule: '۲۷ دی ۱۴۰۳- ساعت ۱۸-۲۰:۳۰'
 format:
   - online
