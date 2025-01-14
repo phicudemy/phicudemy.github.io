@@ -1,6 +1,6 @@
 ---
 title: 'تجربۀ رهایی: بحثی دربارۀ کتاب نظریه رهایی، اثر کریستف منکه'
-slug: menke_abazari
+slug: menkeabazari
 people:
   - path: _people/arashabazari.md
 contents:
