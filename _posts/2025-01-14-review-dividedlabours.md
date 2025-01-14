@@ -5,7 +5,8 @@ title: >-
 slug: review-dividedlabours
 people:
   - path: _people/zahramotaghi.md
-date: 2025-01-14T20:30:00.000Z
+date: 2025-01-13T20:30:00.000Z
+published: true
 categories:
   - path: _categories/women.md
   - path: _categories/philosophy.md
