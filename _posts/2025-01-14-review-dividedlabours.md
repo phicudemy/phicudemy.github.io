@@ -4,7 +4,10 @@ title: >-
   زنان_**
 slug: review-dividedlabours
 date: 2025-01-14T20:30:00.000Z
+contents:
+  - path: _contents/bookreviews.md
 ---
+
 
 
 **عنوان کتاب:** _تقسیم کار؛ رویکردی تکاملی به اشتغال زنان (۱۹۹۹)_
