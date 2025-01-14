@@ -12,6 +12,7 @@ categories:
 contents:
   - path: _contents/bookreviews.md
 tags:
+  - path: _tags/feminism.md
   - path: _tags/women.md
   - path: _tags/bookreview.md
 ---
