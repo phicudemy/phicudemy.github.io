@@ -3,6 +3,8 @@ title: تجربۀ رهایی؛ بحثی دربارۀ کتاب نظریه رها�
 slug: menkeabazari
 people:
   - path: _people/arashabazari.md
+contents:
+  - path: _contents/sessions.md
 schedule: 'پنج‌شنبه ۲۷ دی ۱۴۰۳- ساعت ۱۸-۲۰:۳۰'
 format:
   - online
