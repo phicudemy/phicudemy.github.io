@@ -6,6 +6,8 @@ slug: review-dividedlabours
 people:
   - path: _people/zahramotaghi.md
 date: 2025-01-14T20:30:00.000Z
+categories:
+  - path: _categories/philosophy.md
 contents:
   - path: _contents/bookreviews.md
 ---
