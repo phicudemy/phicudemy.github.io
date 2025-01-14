@@ -213,4 +213,4 @@ tags:
 [^6]:
     Moeeni, S,. Tanaka, A. (2023). “The Effects of Labor Market Opportunities on Education: The Case of a Female Hiring Ceiling in Iran”,  _Journal of Public Economics,_ 224;
     
-    The Fly Bottle Podcast. (2024). Safoura Moeeni: The conundrum of women’s participationin Iran’s job market (Season 2, Ep.10).
+    The Fly Bottle Podcast. (2024). Safoura Moeeni: The conundrum of women’s participation in Iran’s job market (Season 2, Ep.10).
