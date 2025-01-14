@@ -1,12 +1,15 @@
 ---
 title: تجربۀ رهایی؛ بحثی دربارۀ کتاب نظریه رهایی، اثر کریستف منکه
 slug: menkeabazari
+people:
+  - path: _people/arashabazari.md
 schedule: 'پنج‌شنبه ۲۷ دی ۱۴۰۳- ساعت ۱۸-۲۰:۳۰'
 format:
   - online
 start: 2025-01-15T20:30:00.000Z
 published: true
 ---
+
 
 
 
