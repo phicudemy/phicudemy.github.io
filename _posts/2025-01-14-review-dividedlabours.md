@@ -3,6 +3,8 @@ title: >-
   مروری بر کتاب تازه‌ای از نشر کرگدن: **_تقسیم کار، رویکردی تکاملی به اشتغال
   زنان_**
 slug: review-dividedlabours
+people:
+  - path: _people/zahramotaghi.md
 date: 2025-01-14T20:30:00.000Z
 contents:
   - path: _contents/bookreviews.md
