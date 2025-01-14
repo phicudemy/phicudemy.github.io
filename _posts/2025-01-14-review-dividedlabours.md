@@ -208,8 +208,8 @@ tags:
     
     Haslanger, S. (2017). “Objectivity, Epistemic Objectification, and Oppression”, In: _The Routledge Handbook of Epistemic Injustice_, Routledge.
 
-[^5]: به‏‌نقل‌‏از <https://d-mag.ir/p7475>
-
+[^5]:
+    به‏‌نقل‌‏از [https://d-mag.ir/p7475/](https://d-mag.ir/p7475/)
 [^6]:
     Moeeni, S,. Tanaka, A. (2023). “The Effects of Labor Market Opportunities on Education: The Case of a Female Hiring Ceiling in Iran”,  _Journal of Public Economics,_ 224;
     
