@@ -25,7 +25,7 @@ published: true
        alt =" "
        style="width: 50%; height:50%;" />
 </center>
-
+<br><br>
 
 **«جمهوری فلسفه و ادبیات» برگزار می‌کند:**
 
