@@ -1,6 +1,6 @@
 ---
-title: 'تقسیم کار: رویکردی تکاملی به اشتغال زنان'
-subtitle: مروری بر کتاب تازه‌ای از نشر کرگدن
+title: 'مروری بر کتاب <i>تقسیم کار: رویکردی تکاملی به اشتغال زنان</i>'
+subtitle: ''
 slug: review-dividedlabours
 people:
   - path: _people/zahramotaghi.md
@@ -16,6 +16,7 @@ tags:
   - path: _tags/women.md
   - path: _tags/bookreview.md
 ---
+
 
 ![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Book_Cover/e96d944bfbf04b6fafd21ad16f067fb0.webp){: .img-thumbnail .float-end .ms-4 .w-50} 
 
