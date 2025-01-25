@@ -5,6 +5,8 @@ people:
   - path: _people/bessatelmi.md
 contents:
   - path: _contents/courses.md
+categories:
+  - path: _categories/philosophy.md
 schedule: بهمن و اسفند ۱۴۰۳
 format:
   - online
