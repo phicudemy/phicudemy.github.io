@@ -7,6 +7,8 @@ contents:
   - path: _contents/courses.md
 categories:
   - path: _categories/philosophy.md
+tags:
+  - path: _tags/wittgenstein.md
 schedule: بهمن و اسفند ۱۴۰۳
 format:
   - online
