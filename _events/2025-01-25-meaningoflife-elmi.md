@@ -3,6 +3,8 @@ title: «معنای زندگی» در گذار از فلسفه به ادبیات
 slug: meaningoflife-elmi
 people:
   - path: _people/bessatelmi.md
+contents:
+  - path: _contents/courses.md
 schedule: بهمن و اسفند ۱۴۰۳
 format:
   - online
