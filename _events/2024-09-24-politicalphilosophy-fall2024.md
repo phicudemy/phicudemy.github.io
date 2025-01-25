@@ -13,7 +13,7 @@ format:
 start: 2024-10-23T20:30:00.000Z
 sessions: 8
 published: true
-register: 'https://zarinp.al/634769'
+register: ''
 ---
 
 
