@@ -1,6 +1,6 @@
 ---
 title: «معنای زندگی» در گذار از فلسفه به ادبیات با ویتگنشتاین
-slug: meaningoflife-elmi
+slug: meaningoflife-spring2025
 people:
   - path: _people/bessatelmi.md
 contents:
