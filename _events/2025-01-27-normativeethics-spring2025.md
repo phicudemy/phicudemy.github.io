@@ -44,11 +44,11 @@ register: 'https://zarinp.al/674326'
 **جلسۀ اول: (۲۴ بهمن)**
 
 <p dir="ltr">
-Kutz, Christopher (2007), Causeless Complicity, <i>Criminal Law and Philosophy</i>, 1 (3):289-305.
+Kutz, Christopher (2007), Causeless Complicity, <i>Criminal Law and Philosophy</i>, 1 (3):289-305. <br>
 
-Driver, Julia (2015), “Individual Consumption and Moral Complicity,” <i>The Moral Complexities of Eating Meat</i>: 67-79.
+Driver, Julia (2015), “Individual Consumption and Moral Complicity,” <i>The Moral Complexities of Eating Meat</i>: 67-79.<br>
 
-Lawson, Brian (2013), “Individual Complicity in Collective Wrongdoing”, <i>Ethical Theory and Moral Practice</i>, 16 (2):227-243.
+Lawson, Brian (2013), “Individual Complicity in Collective Wrongdoing”, <i>Ethical Theory and Moral Practice</i>, 16 (2):227-243.<br>
 
 Bazargan-Forward, Saba (2016), “Complicity”, In Kirk Ludwig & Marija Jankovic (eds.), <i>The Routledge Handbook of Collective Intentionality</i>, New York: Routledge.
 </p>
@@ -56,11 +56,11 @@ Bazargan-Forward, Saba (2016), “Complicity”, In Kirk Ludwig & Marija Jankovi
 **جلسۀ دوم: (۸ اسفند)**
 <p dir="ltr">
 
-Lazar, S. (2010), “The responsibility Dilemma for Killing in War: A Review Essay”, <i>Philosophy & Public Affairs</i>, 38(2), 180–213.
+Lazar, S. (2010), “The responsibility Dilemma for Killing in War: A Review Essay”, <i>Philosophy & Public Affairs</i>, 38(2), 180–213.<br>
 
-Bazargan, S. (2013), “Complicitous Liability in War”, <i>Philosophical Studies</i>, 165, 177–195.
+Bazargan, S. (2013), “Complicitous Liability in War”, <i>Philosophical Studies</i>, 165, 177–195.<br>
 
-Jensen, Morten Højer (2020), Complicity and the Responsibility Dilemma, <i>Philosophical Studies</i> 177 (1):109-127.
+Jensen, Morten Højer (2020), Complicity and the Responsibility Dilemma, <i>Philosophical Studies</i> 177 (1):109-127.<br>
 
 Zakaras, Alex (2018), “Complicity and Coercion”,  <i>Oxford Studies in Political Philosophy</i>, 4.4 (2018): 192-218.
 </p>
@@ -68,18 +68,18 @@ Zakaras, Alex (2018), “Complicity and Coercion”,  <i>Oxford Studies in Poli
 **جلسۀ سوم: (۱۵اسفند)**
 <p dir="ltr">
 
-D. Rodin, “The Myth of National Self-Defence,” in Fabre and Lazar, <i>The Morality of Defensive War</i>, Oxford University Press, 2014.
+D. Rodin, “The Myth of National Self-Defence,” in Fabre and Lazar, <i>The Morality of Defensive War</i>, Oxford University Press, 2014.<br>
 
-Tadros, Victor (2016), “Permissibility in a World of Wrongdoing”, <i>Philosophy and Public Affairs</i>, 44 (2):101-132.
+Tadros, Victor (2016), “Permissibility in a World of Wrongdoing”, <i>Philosophy and Public Affairs</i>, 44 (2):101-132.<br>
 
 Frowe, Helen (2022), “Intervening Agency and Civilian Liability”, <i>Criminal Law and Philosophy</i>, 16 (1):181-191.</p>
 
 **جلسۀ چهارم: (۲۲ اسفند)**
 <p dir="ltr">
 
-Lackey, Jennifer (2020), “The Duty to Object”, <i>Philosophy and Phenomenological Research</i>, 101 (1): 35–60.
+Lackey, Jennifer (2020), “The Duty to Object”, <i>Philosophy and Phenomenological Research</i>, 101 (1): 35–60.<br>
 
-Donohue, J. L. A. (2024), “Silence as Complicity and Action as Silence”, <i>Philosophical Studies</i>, 181 (12):3499-3519.
+Donohue, J. L. A. (2024), “Silence as Complicity and Action as Silence”, <i>Philosophical Studies</i>, 181 (12):3499-3519.<br>
 
 Bennett, Christopher (2021), “Complicity and Normative Control”, <i>The Monist</i>, 104 (2):182-194. </p>
 
