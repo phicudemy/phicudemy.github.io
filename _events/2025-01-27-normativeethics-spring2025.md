@@ -14,6 +14,7 @@ format:
 start: 2025-02-11T20:30:00.000Z
 sessions: 4
 published: true
+register: 'https://zarinp.al/674326'
 ---
 
 
@@ -40,7 +41,7 @@ published: true
 
 ### فهرست مقالات
 
-**جلسۀ اول:**
+**جلسۀ اول: (۲۴ بهمن)**
 
 <p dir="ltr">
 Kutz, Christopher (2007), Causeless Complicity, <i>Criminal Law and Philosophy</i>, 1 (3):289-305.
@@ -52,7 +53,7 @@ Lawson, Brian (2013), “Individual Complicity in Collective Wrongdoing”, <i>
 Bazargan-Forward, Saba (2016), “Complicity”, In Kirk Ludwig & Marija Jankovic (eds.), <i>The Routledge Handbook of Collective Intentionality</i>, New York: Routledge.
 </p>
 
-**جلسۀ دوم:**
+**جلسۀ دوم: (۸ اسفند)**
 <p dir="ltr">
 
 Lazar, S. (2010), “The responsibility Dilemma for Killing in War: A Review Essay”, <i>Philosophy & Public Affairs</i>, 38(2), 180–213.
@@ -64,7 +65,7 @@ Jensen, Morten Højer (2020), Complicity and the Responsibility Dilemma, <i>Phi
 Zakaras, Alex (2018), “Complicity and Coercion”,  <i>Oxford Studies in Political Philosophy</i>, 4.4 (2018): 192-218.
 </p>
 
-**جلسۀ سوم:**
+**جلسۀ سوم: (۱۵اسفند)**
 <p dir="ltr">
 
 D. Rodin, “The Myth of National Self-Defence,” in Fabre and Lazar, <i>The Morality of Defensive War</i>,
@@ -73,7 +74,7 @@ Tadros, Victor (2016), “Permissibility in a World of Wrongdoing”, <i>Philoso
 
 Frowe, Helen (2022), “Intervening Agency and Civilian Liability”, <i>Criminal Law and Philosophy</i>, 16 (1):181-191.</p>
 
-**جلسۀ چهارم:**
+**جلسۀ چهارم: (۲۲ اسفند)**
 <p dir="ltr">
 
 Lackey, Jennifer (2020), “The Duty to Object”, <i>Philosophy and Phenomenological Research</i>, 101 (1): 35–60.
