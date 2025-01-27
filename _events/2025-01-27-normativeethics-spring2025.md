@@ -68,7 +68,7 @@ Zakaras, Alex (2018), “Complicity and Coercion”,  <i>Oxford Studies in Poli
 **جلسۀ سوم: (۱۵اسفند)**
 <p dir="ltr">
 
-D. Rodin, “The Myth of National Self-Defence,” in Fabre and Lazar, <i>The Morality of Defensive War</i>,
+D. Rodin, “The Myth of National Self-Defence,” in Fabre and Lazar, <i>The Morality of Defensive War</i>, Oxford University Press, 2014.
 
 Tadros, Victor (2016), “Permissibility in a World of Wrongdoing”, <i>Philosophy and Public Affairs</i>, 44 (2):101-132.
 
