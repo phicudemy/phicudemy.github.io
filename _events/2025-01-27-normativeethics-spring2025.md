@@ -2,7 +2,7 @@
 title: 'مباحثی در فلسفۀ اخلاق هنجاری: هم‌دستی'
 slug: normativeethics-spring2025
 people:
-  - {}
+  - path: _people/amirsaemi.md
 schedule: بهمن و اسفند ۱۴۰۳
 format:
   - online
@@ -11,6 +11,7 @@ start: 2025-02-11T20:30:00.000Z
 sessions: 4
 published: true
 ---
+
 
 
 
