@@ -8,8 +8,8 @@ contents:
 categories:
   - path: _categories/philosophy.md
 tags:
-  - path: _tags/epistemology.md
   - path: _tags/analyticphilosophy.md
+  - path: _tags/epistemology.md
 schedule: پنج‌شنبه‌ها ساعت ۱۰ الی ۱۲
 format:
   - online
