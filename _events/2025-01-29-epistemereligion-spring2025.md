@@ -3,6 +3,8 @@ title: معرفت‌شناسی دین
 slug: epistemereligion-spring2025
 people:
   - path: _people/zeinabsalari.md
+contents:
+  - path: _contents/courses.md
 schedule: پنج‌شنبه‌ها ساعت ۱۰ الی ۱۲
 format:
   - online
