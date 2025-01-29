@@ -29,7 +29,7 @@ stdregister: 'https://zarinp.al/675024'
 <br><br>
 
 ### شرح درس:
-<br><br>
+<br>
 
 آیا دفاع عقلانی از باورهای دینی مطلوب و ممکن است؟ پاسخ به این پرسش معمول و متداول از مهم‌ترین دغدغه‌های حوزۀ مطالعاتی است که امروزه تحت عنوان معرفت‌شناسی دین شناخته شده است. معرفت‌شناسی دین روایتی جدید از مواجهۀ دیرین عقل و ایمان است که از دل جریانِ اصلی معرفت‌شناسی تحلیلی و در سایۀ شکوفایی فلسفۀ دین تحلیلی برآمده است.  
 
@@ -75,7 +75,7 @@ stdregister: 'https://zarinp.al/675024'
 <br><br>
 ### مهم‌ترین منابع درس:
 <br>
-<p dir="ltr">
+<p dir="ltr" align="left">
 
 <ul>
 <li>R. Douglas Geivett and Brendan Sweetman (eds.) (1992), <i>Contemporary Perspectives on Religious Epistemology</i>, Oxford.</li>
@@ -87,8 +87,9 @@ stdregister: 'https://zarinp.al/675024'
 <li>R. VanArragon and K. Clark (eds.) (2011), <i>Evidence and Religious Belief</i>, Oxford University Press. </li>
 <li>Benton, Matthew A., John Hawthorne, and Danni Rabinowitz (eds.) (2018), <i>Knowledge, Belief, and God; New Insights in Religious Epistemology</i>, Oxford University Press.</li>
 </ul>
-<br><br>
 </p>
+
+<br><br>
 
 ***
 
