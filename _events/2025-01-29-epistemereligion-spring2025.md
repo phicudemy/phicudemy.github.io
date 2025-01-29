@@ -68,7 +68,19 @@ stdregister: 'https://zarinp.al/675024'
 ·       محافظه‌کاری پدیداری
 
 ·       بازخوانی و بازسازی برهان‌های عملی بر خداباوری (شرط‌بندی پاسکال و ارادۀ معطوف به باور جیمز)
+<br><br>
+### مهم‌ترین منابع درس:
 
+<ul>
+<li>1.	R. Douglas Geivett and Brendan Sweetman (eds.) (1992), <i>Contemporary Perspectives on Religious Epistemology</i>, Oxford.</li>
+<li>2.	Graham Oppy and N. N. Trakakis (eds.) (2009), <i>Ancient Philosophy of Religion</i>, Routledge. </li>
+<li>3.	Graham Oppy, N. N. Trakakis (eds.) (2009), <i>Early Modern Philosophy of Religion</i>, Routledge.</li>
+<li>4.	Taylor D. McNabb (2019), <i>Religious Epistemology, Cambridge Elements in Philosophy of Religion</i>, Cambridge.</li>
+<li>5.	Taylor D. McNabb, Jonathan Fuqua, and John Grecco (eds.) (2023), <i>The Cambridge Handbook of Religious Epistemology</i>, Cambridge. </li>
+<li>6.	Smith, Martin (2013), “The Epistemology of Religion”, <i>Analysis</i>, 74 (1), 135-147</li>
+<li>7.	R. VanArragon and K. Clark (eds.) (2011), <i>Evidence and Religious Belief</i>, Oxford University Press. </li>
+<li>8.	Benton, Matthew A., John Hawthorne, and Danni Rabinowitz (eds.) (2018), <i>Knowledge, Belief, and God; New Insights in Religious Epistemology</i>, Oxford University Press.</li>
+</ul>
 <br><br>
 
 ***
