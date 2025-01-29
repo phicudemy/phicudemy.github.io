@@ -70,6 +70,7 @@ stdregister: 'https://zarinp.al/675024'
 ·       بازخوانی و بازسازی برهان‌های عملی بر خداباوری (شرط‌بندی پاسکال و ارادۀ معطوف به باور جیمز)
 <br><br>
 ### مهم‌ترین منابع درس:
+<p dir="ltr">
 
 <ul>
 <li>1.	R. Douglas Geivett and Brendan Sweetman (eds.) (1992), <i>Contemporary Perspectives on Religious Epistemology</i>, Oxford.</li>
@@ -82,7 +83,7 @@ stdregister: 'https://zarinp.al/675024'
 <li>8.	Benton, Matthew A., John Hawthorne, and Danni Rabinowitz (eds.) (2018), <i>Knowledge, Belief, and God; New Insights in Religious Epistemology</i>, Oxford University Press.</li>
 </ul>
 <br><br>
-
+</p>
 ***
 
 ### معرفی مدرس:
