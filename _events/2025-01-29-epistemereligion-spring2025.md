@@ -20,6 +20,7 @@ register: 'https://zarinp.al/675020'
 stdregister: 'https://zarinp.al/675024'
 ---
 
+
 <center>
 <img 
        src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/academy/spring2025/0.jpg" 
@@ -74,7 +75,7 @@ stdregister: 'https://zarinp.al/675024'
 <br><br>
 ### مهم‌ترین منابع درس:
 <br>
-<p dir="ltr" align="left">
+<div dir="ltr" align="left">
 
 <ul>
 <li>R. Douglas Geivett and Brendan Sweetman (eds.) (1992), <i>Contemporary Perspectives on Religious Epistemology</i>, Oxford.</li>
@@ -86,7 +87,7 @@ stdregister: 'https://zarinp.al/675024'
 <li>R. VanArragon and K. Clark (eds.) (2011), <i>Evidence and Religious Belief</i>, Oxford University Press. </li>
 <li>Benton, Matthew A., John Hawthorne, and Danni Rabinowitz (eds.) (2018), <i>Knowledge, Belief, and God; New Insights in Religious Epistemology</i>, Oxford University Press.</li>
 </ul>
-</p>
+</div>
 
 <br><br>
 
