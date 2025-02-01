@@ -19,6 +19,7 @@ register: 'https://zarinp.al/674326'
 
 
 
+
 <center>
 <img 
        src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/academy/spring2025/1 cover-site.jpg" 
@@ -59,7 +60,7 @@ register: 'https://zarinp.al/674326'
 **جلسۀ اول: (۲۴ بهمن)**
 
 <p dir="ltr">
-Kutz, Christopher (2000). <i>Complicity: Ethics and Law for a Collective Age</i>. New York: Cambridge University Press, Chapters 1, 4 and 5.
+Kutz, Christopher (2000). <i>Complicity: Ethics and Law for a Collective Age</i>. New York: Cambridge University Press, Chapters 1, 4 and 5.<br><br>
 
 Kutz, Christopher (2007), Causeless Complicity, <i>Criminal Law and Philosophy</i>, 1 (3):289-305. <br><br>
 
