@@ -3,6 +3,8 @@ title: آشنایی با تاریخ بیهقی از رهگذر خواندن دا
 slug: bayhaqi-spring2025
 people:
   - path: _people/sajarrezasoltani.md
+categories:
+  - path: _categories/literature.md
 schedule: بهمن و اسفند ۱۴۰۳
 format:
   - online
