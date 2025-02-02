@@ -1,6 +1,8 @@
 ---
 title: آشنایی با تاریخ بیهقی از رهگذر خواندن داستان‌هایی از کتاب
 slug: bayhaqi-spring2025
+people:
+  - path: _people/sajarrezasoltani.md
 schedule: بهمن و اسفند ۱۴۰۳
 format:
   - online
@@ -11,4 +13,5 @@ published: true
 register: 'https://zarinp.al/676506'
 stdregister: 'https://zarinp.al/676508'
 ---
+
 
