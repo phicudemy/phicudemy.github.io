@@ -12,6 +12,8 @@ format:
 start: 2025-02-17T20:30:00.000Z
 sessions: 4
 published: true
+register: 'https://zarinp.al/676862'
+stdregister: 'https://zarinp.al/676866'
 ---
 
 
