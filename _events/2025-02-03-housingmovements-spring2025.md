@@ -5,6 +5,8 @@ people:
   - path: _people/alitayebi.md
 contents:
   - path: _contents/courses.md
+categories:
+  - path: _categories/urbanstudies.md
 schedule: بهمن و اسفند ۱۴۰۳
 format:
   - online
