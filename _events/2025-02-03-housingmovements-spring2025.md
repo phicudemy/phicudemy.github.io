@@ -3,6 +3,8 @@ title: آشنایی با جنبش‌های مسکن
 slug: housingmovements-spring2025
 people:
   - path: _people/alitayebi.md
+contents:
+  - path: _contents/courses.md
 schedule: بهمن و اسفند ۱۴۰۳
 format:
   - online
