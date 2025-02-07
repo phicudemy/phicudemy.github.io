@@ -6,6 +6,8 @@ people:
   - path: _people/marziyelotfi.md
 contents:
   - path: _contents/courses.md
+categories:
+  - path: _categories/philosophy.md
 schedule: پنج‌شنبه‌ها ساعت ۱۴ الی ۱۶
 format:
   - online
