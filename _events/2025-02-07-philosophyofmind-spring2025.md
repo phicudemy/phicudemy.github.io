@@ -33,7 +33,7 @@ stdregister: 'https://zarinp.al/678163'
 
 <br><br>
 ### برنامهٔ درس:
-<br><br>
+
 #### شرح جلسات:
 
 <br><br>
@@ -46,6 +46,7 @@ stdregister: 'https://zarinp.al/678163'
 <br><br>
 
 ***
-<br><br>
+
 ### معرفی مدرسان:
 
+<br><br>
