@@ -22,3 +22,15 @@ stdregister: 'https://zarinp.al/678163'
 ---
 
 
+
+
+<center>
+<img 
+       src="" 
+       alt=" "
+       style="width: 50%; height:50%;" />
+</center>
+<br><br>
+
+### شرح درس:
+
