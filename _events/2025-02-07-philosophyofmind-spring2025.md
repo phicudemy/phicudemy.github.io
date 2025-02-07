@@ -9,6 +9,7 @@ contents:
 categories:
   - path: _categories/philosophy.md
 tags:
+  - path: _tags/cognitivesciences.md
   - path: _tags/analyticphilosophy.md
 schedule: پنج‌شنبه‌ها ساعت ۱۴ الی ۱۶
 format:
