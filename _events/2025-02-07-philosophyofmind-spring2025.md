@@ -21,9 +21,6 @@ register: 'https://zarinp.al/678162'
 stdregister: 'https://zarinp.al/678163'
 ---
 
-
-
-
 <center>
 <img 
        src="" 
