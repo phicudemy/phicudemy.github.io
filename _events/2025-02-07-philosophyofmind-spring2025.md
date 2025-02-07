@@ -67,7 +67,48 @@ stdregister: 'https://zarinp.al/678163'
 **جلسهٔ هشتم:** متافیزیک و نظریه‌های آگاهی
 <br><br>
 ### منابع درس:
+فهرست برخی از منابع مقدماتی و متوسط
+عمومی که بخش‌هایی از آن‌ها در کلاس مورداستفاده قرار خواهد گرفت به این شرح است:
 
+<p dir="ltr">
+
+Bayne, T. 2022. <i>Philosophy of Mind: An Introduction.</i><br>
+
+Campbell, N. 2005. <i>Introduction to the Philosophy of Mind</i>.<br>
+
+Feser, E. 2006. <i>Philosophy of Mind; a Beginner's Guide</i>.<br>
+
+Heil, J. 2020. <i>Philosophy of Mind; a Contemporary Introduction</i>. <br>
+
+Kim, J. 2010. <i>Philosophy of Mind</i>. <br>
+
+</p>
+
+فهرست برخی از منابع پیشرفته/ تخصصی که
+بخش‌هایی از آن‌ها در کلاس مورد
+استفاده قرار خواهد گرفت به این شرح است:
+
+<p dir="ltr">
+
+Chalmers, D. 1996. <i>The Conscious Mind</i> , New York: Oxford University Press.<br>
+
+Chalmers, D. 2010. <i>The Character of Consciousness</i>, New York: Oxford University Press. <br>
+
+Kripke, S. 1980. <i>Naming and Necessity</i>, Cambridge, MA: Harvard University Press. <br>
+
+Nagel, T. 1974.“What Is It Like to Be a Bat?” <i>Philosophical Review</i>, 83: 435–50. <br>
+
+McGinn, C. 2004. “What Constitutes the Mind-Body Problem,” in <i>Consciousness and Its Objects</i>, Oxford: Oxford University Press, 2004. <br>
+
+<i>Contemporary Debates in Philosophy of Mind</i>, 2009. <br>
+
+<i>The Oxford Handbook of Philosophy of Mind</i>, 2009.<br>
+
+<i>The Oxford Studies in Philosophy of Mind</i>, volume 1, 2021.<br>
+
+<i>The Oxford Studies in Philosophy of Mind</i>, volume 2, 2022.<br>
+
+</p>
 <br><br>
 
 ### توضیحاتِ تکمیلی:
