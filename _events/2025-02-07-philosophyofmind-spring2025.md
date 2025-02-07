@@ -4,6 +4,8 @@ slug: philosophyofmind-spring2025
 people:
   - path: _people/omidkarimzade.md
   - path: _people/marziyelotfi.md
+contents:
+  - path: _contents/courses.md
 schedule: پنج‌شنبه‌ها ساعت ۱۴ الی ۱۶
 format:
   - online
