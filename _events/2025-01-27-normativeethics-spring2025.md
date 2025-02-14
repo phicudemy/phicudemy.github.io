@@ -18,8 +18,6 @@ register: 'https://zarinp.al/674326'
 ---
 
 
-
-
 <center>
 <img 
        src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/academy/spring2025/1 cover-site.jpg" 
@@ -80,7 +78,9 @@ Bazargan, S. (2013), “Complicitous Liability in War”, <i>Philosophical Studi
 
 Jensen, Morten Højer (2020), Complicity and the Responsibility Dilemma, <i>Philosophical Studies</i> 177 (1):109-127.<br><br>
 
-Zakaras, Alex (2018), “Complicity and Coercion”,  <i>Oxford Studies in Political Philosophy</i>, 4.4 (2018): 192-218.
+Zakaras, Alex (2018), “Complicity and Coercion”,  <i>Oxford Studies in Political Philosophy</i>, 4.4 (2018): 192-218.<br><br>
+C. Aragon and A. Jaggar (2018) "Agency, complicity, and the responsibility to resist structural injustice", 
+<i>Journal of Social Philosophy</i>, vol. 49, no. 3, pp. 439-460.
 </p>
 
 **جلسۀ سوم: (۱۵اسفند)**
