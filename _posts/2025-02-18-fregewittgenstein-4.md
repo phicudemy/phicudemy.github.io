@@ -4,6 +4,8 @@ subtitle: نامهٔ چهارم (۳ آوریل ۱۹۲۰)
 slug: fregewittgenstein-4
 people:
   - path: _people/gottlonfrege.md
+translator:
+  - path: _people/طیبی.md
 date: 2025-02-17T20:30:00.000Z
 ---
 
