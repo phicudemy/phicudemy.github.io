@@ -18,6 +18,7 @@ tags:
   - path: _tags/letter.md
 ---
 
+![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/Philosophers/Frege-Wittg-4.jpg)
 
 <br>
 <p align="left">باد کلاینن (مکلنبورگ)، ۳ آوریل ۱۹۲۰</p>
