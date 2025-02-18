@@ -2,6 +2,8 @@
 title: از فرگه به وینگنشتاین دربارهٔ <i>تراکتاتوس</i> (IV)
 subtitle: نامهٔ چهارم (۳ آوریل ۱۹۲۰)
 slug: fregewittgenstein-4
+people:
+  - path: _people/gottlonfrege.md
 date: 2025-02-17T20:30:00.000Z
 ---
 
