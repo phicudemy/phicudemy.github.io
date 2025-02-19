@@ -23,9 +23,10 @@ stdregister: 'https://zarinp.al/673510'
 
 
 
+
 <center>
 <img 
-       src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/academy/spring2025/cover-site.jpg" 
+       src="" 
        alt=" "
        style="width: 50%; height:50%;" />
 </center>
