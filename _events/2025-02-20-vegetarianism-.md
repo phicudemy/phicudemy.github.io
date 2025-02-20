@@ -3,7 +3,7 @@ title: گفت‌وگو دربارهٔ کتاب <i>مکالماتی درباره�
 slug: 'vegetarianism '
 people:
   - path: _people/ardeshirmansouri.md
-  - {}
+  - path: _people/alitayebi.md
   - {}
 contents:
   - {}
