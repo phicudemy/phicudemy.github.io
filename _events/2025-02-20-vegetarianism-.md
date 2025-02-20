@@ -6,7 +6,7 @@ people:
   - path: _people/alitayebi.md
   - path: _people/mohsenislami.md
 contents:
-  - {}
+  - path: _contents/sessions.md
 categories:
   - {}
 start: 2025-01-29T20:30:00.000Z
