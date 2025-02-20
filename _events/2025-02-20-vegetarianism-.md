@@ -4,7 +4,7 @@ slug: 'vegetarianism '
 people:
   - path: _people/ardeshirmansouri.md
   - path: _people/alitayebi.md
-  - {}
+  - path: _people/mohsenislami.md
 contents:
   - {}
 categories:
