@@ -8,6 +8,7 @@ people:
 contents:
   - path: _contents/sessions.md
 categories:
+  - path: _categories/philosophy.md
   - {}
 start: 2025-01-29T20:30:00.000Z
 ---
