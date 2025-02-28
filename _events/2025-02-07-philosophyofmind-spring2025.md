@@ -17,6 +17,7 @@ format:
   - inperson
 start: 2025-02-19T20:30:00.000Z
 sessions: 9
+published: true
 register: 'https://zarinp.al/686132'
 stdregister: 'https://zarinp.al/686135'
 ---
