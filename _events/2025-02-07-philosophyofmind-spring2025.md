@@ -18,7 +18,7 @@ format:
 start: 2025-02-19T20:30:00.000Z
 sessions: 9
 register: 'https://zarinp.al/686132'
-stdregister: 'https://zarinp.al/678163'
+stdregister: 'https://zarinp.al/686135'
 ---
 
 
