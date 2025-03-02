@@ -1,5 +1,5 @@
 ---
-title: علوم اجتماعی
+title: جامعه‌شناسی و علوم اجتماعی
 slug: socialscience
 ---
 
