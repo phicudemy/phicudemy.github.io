@@ -1,5 +1,0 @@
----
-title: جامعه‌شناسی
-slug: sociology
----
-
