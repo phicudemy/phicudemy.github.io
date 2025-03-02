@@ -8,6 +8,8 @@ categories:
   - path: _categories/socialscience.md
 contents:
   - path: _contents/article.md
+tags:
+  - path: _tags/asefbayat.md
 ---
 
 
