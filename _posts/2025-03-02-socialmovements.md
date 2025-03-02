@@ -9,6 +9,7 @@ categories:
 contents:
   - path: _contents/article.md
 tags:
+  - path: _tags/social-movements.md
   - path: _tags/asefbayat.md
 ---
 
