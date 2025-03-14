@@ -211,89 +211,49 @@ contents:
        style="width: 75%; height:75%;" />
 </center>
 
+***
+[\[1\]](#fnref-1){:#fn-1} توری فلاندری نوعی(Flemish lace)  نوعی پارچۀ دست‌بافت و بسیار ظریف است که در منطقه فلاندر (Flanders)  در بلژیک و بخش‌هایی از شمال فرانسه تولید می‌شد. این تورها در قرون گذشته به‌ویژه در دورۀ رنسانس و باروک بسیار محبوب بودند و به‌دلیل پیچیدگی، ظرافت، و زیبایی خاصشان، جزو اقلام لوکس محسوب می‌شدند. (م.)
 
 [^1]: David Sanford Werman 
-
 [^2]: Duke University School of Medicine
-
 [^3]: _Journal of Applied Psychoanalytic Studies_
-
 [^4]: Ostend
-
 [^5]: University of Bonn
-
 [^6]: Baron
-
 [^7]: Rousseaux
-
 [^8]: The Lady in Distress
-
 [^9]: Rue de Flandre
-
 [^10]: The Lamp Boy
-
 [^11]: Tramps Trying to Get Warm
-
 [^12]: The Oarsman
-
 [^13]: Russian Music
-
 [^14]: Afternoon in Ostend 
-
 [^15]: The Colorist
-
 [^16]: Lady with a Fan
-
 [^17]: The Woman Eating Oysters
-
 [^18]: Édouard Vuillard
-
 [^19]: Pierre Bonnard
-
 [^20]: Luminist
-
 [^21]: J. M. W. Turner
-
 [^22]: James McNeill Whistler
-
 [^23]: L'Essor
-
 [^24]: The Cabbage
-
 [^25]: The Scandalized Masks
-
 [^26]: Emma Labotte
-
 [^27]: Mask Gazing at a Negro Mountebank
-
 [^28]: The Attributes of the Artist’s Studio
-
 [^29]: Portrait of the Artist’s Father
-
 [^30]: Dujardin
-
 [^31]: Pissarro
-
 [^32]: Renoir
-
 [^33]: Wizards in a Squall
-
 [^34]: The Good Judges
-
 [^35]: The Astonishment of the Mask Wouse
-
 [^36]: Christ's Entry into Brussels
-
 [^37]: Walther Vanbeselaere
-
 [^38]: identification
-
 [^39]: Calvary
-
 [^40]: Intrigue
-
 [^41]: Self-Portrait with Masks
-
 [^42]: Peter Paul Rubens
-
 [^43]: Demons Tormenting Me
