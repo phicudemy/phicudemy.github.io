@@ -14,7 +14,7 @@ contents:
 ---
 
 
-**توضیح مترجم:** آن‌چه می‌خوانید ترجمۀ خلاصه‌ای از مقاله‌ای است با عنوان «Ensor and the Mask of Reality» از دیوید سنفورد ورمن[^1] (1992-2014)، روانکاو آمریکایی و استاد بازنشستۀ مدرسۀ پزشکی دانشگاه دوک[^2]، که در سال 2003 و در _مجلۀ مطالعات روانکاوی کاربردی_[^3]__منتشر شده است. این مقاله می‌کوشد تا تأثیر تجربیات زیسته بر آثار یکی از برجسته‌ترین نقاشان اواخر قرن نوزدهم را بررسی کند. تصاویر توسط مترجم به متن اضافه شده و توضیحات وی با علامت (م.) مشخص شده ‌است.
+**توضیح مترجم:** آن‌چه می‌خوانید ترجمۀ خلاصه‌ای از مقاله‌ای است با عنوان «Ensor and the Mask of Reality» از دیوید سنفورد ورمن[^1] (1992-2014)، روانکاو آمریکایی و استاد بازنشستۀ مدرسۀ پزشکی دانشگاه دوک[^2]، که در سال 2003 و در _مجلۀ مطالعات روانکاوی کاربردی_[^3] منتشر شده است. این مقاله می‌کوشد تا تأثیر تجربیات زیسته بر آثار یکی از برجسته‌ترین نقاشان اواخر قرن نوزدهم را بررسی کند. تصاویر توسط مترجم به متن اضافه شده و توضیحات وی با علامت (م.) مشخص شده ‌است.
 
 ***
 
@@ -178,31 +178,31 @@ contents:
 
 [^9]: Rue de Flandre
 
-[^10]:The Lamp Boy
+[^10]: The Lamp Boy
 
-[^11]:Tramps Trying to Get Warm
+[^11]: Tramps Trying to Get Warm
 
-[^12]:The Oarsman
+[^12]: The Oarsman
 
-[^13]:Russian Music
+[^13]: Russian Music
 
-[^14]:Afternoon in Ostend 
+[^14]: Afternoon in Ostend 
 
-[^15]:The Colorist
+[^15]: The Colorist
 
-[^16]:Lady with a Fan
+[^16]: Lady with a Fan
 
-[^17]:The Woman Eating Oysters
+[^17]: The Woman Eating Oysters
 
-[^18]:Édouard Vuillard
+[^18]: Édouard Vuillard
 
-[^19]:Pierre Bonnard
+[^19]: Pierre Bonnard
 
-[^20]:Luminist
+[^20]: Luminist
 
-[^21]:J. M. W. Turner
+[^21]: J. M. W. Turner
 
-[^22]:James McNeill Whistler
+[^22]: James McNeill Whistler
 
 [^23]: L'Essor
 
