@@ -204,23 +204,23 @@ contents:
 
 [^22]:James McNeill Whistler
 
-[^23]:L'Essor
+[^23]: L'Essor
 
-[^24]:The Cabbage
+[^24]: The Cabbage
 
-[^25]:The Scandalized Masks
+[^25]: The Scandalized Masks
 
-[^26]:Emma Labotte
+[^26]: Emma Labotte
 
-[^27]:Mask Gazing at a Negro Mountebank
+[^27]: Mask Gazing at a Negro Mountebank
 
-[^28]:The Attributes of the Artist’s Studio
+[^28]: The Attributes of the Artist’s Studio
 
-[^29]:Portrait of the Artist’s Father
+[^29]: Portrait of the Artist’s Father
 
-[^30]:Dujardin
+[^30]: Dujardin
 
-[^31]:Pissarro
+[^31]: Pissarro
 
 [^32]: Renoir
 
