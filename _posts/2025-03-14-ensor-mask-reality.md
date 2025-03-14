@@ -8,7 +8,7 @@ translator:
 date: 2025-03-13T20:30:00.000Z
 published: true
 categories:
-  - {}
+  - path: _categories/culture.md
 contents:
   - path: _contents/article.md
 ---
