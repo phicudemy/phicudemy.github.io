@@ -241,7 +241,7 @@ contents:
 [\[12\]](#fnref-12){:#fn-12} عنوان مشهورتر: The Oyster Eater (De oestereetster) (م.)
 
 [\[13\]](#fnref-13){:#fn-13}
-<p dir="ltr"> </p>
+<p dir="ltr">Ensor, J. (1974). <i>Mes Ecrits.</i> Liège: Editions Natonales. 5th edition. (p. 17)</p>
 
 [\[14\]](#fnref-14){:#fn-14}
 <p dir="ltr"> </p>
