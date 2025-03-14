@@ -268,7 +268,9 @@ contents:
 <p dir="ltr">Legrand, F. C. (1971). <i>Ensor cet inconnu.</i> Bruxelles: Collection Renaissance-Art. (p. 22)</p>
 
 [\[15\]](#fnref-15){:#fn-15} عنوان مشهورتر: Attributes of the Fine Arts (Les Attributs des Beaux-Arts) (م.)
+
 [\[16\]](#fnref-16){:#fn-16} انسور در اثر Old Lady with Blue Shawl (1881) تصویری از مادربزرگ خود را نیز ترسیم کرده است که به متن افزوده شده است (م.)
+
 [\[17\]](#fnref-17){:#fn-17}
 <p dir="ltr">Legrand, F. C. (1971). <i>Ensor cet inconnu.</i> Bruxelles: Collection Renaissance-Art. (pp. 78-79)</p>
 
@@ -284,7 +286,9 @@ contents:
 <p dir="ltr">Van Gindertael, R. (1975). <i>Ensor,</i> trans. V. Menkes. Boston: New York Graphic Society. (p. 79)</p>
 
 [\[22\]](#fnref-22){:#fn-22} Calvary: نام تپه‌ای که به‌روایت انجیل مسیح را در آن‌جا مصلوب کردند. (م.)
+
 [\[23\]](#fnref-23){:#fn-23} Brueghelesque: اشاره به سبک ملهم از نقاش فلاندری در دورۀ رنسانس یعنی پیتر بروگل پدر (Pieter Bruegel the Elder) دارد. (م.)
+
 [\[24\]](#fnref-24){:#fn-24} 24.	اگرچه تاریخ انتشار _دسیسه_ دو سال زودتر از زمان ازدواج خواهرش است، اما شواهد حاکی از آن است که انسور قدمت واقعی آثار خود را اغلب دستکاری و بعضاً آنها را قدیمی‌تر گزارش کرده است.
 
 [^1]: David Sanford Werman 
