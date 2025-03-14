@@ -230,7 +230,7 @@ contents:
 
 [\[10\]](#fnref-10){:#fn-10} عنوان مشهورتر: The Lamplighter (Le Lampiste) (م.)
 
-[\[11\]](#fnref-11){:#fn-11}
+[\[11\]](#fnref-11){:#fn-11} عنوان مشهورتر: The Rower (Le Rameur) (م.)
 [\[12\]](#fnref-12){:#fn-12}
 [\[13\]](#fnref-13){:#fn-13}
 [\[14\]](#fnref-14){:#fn-14}
