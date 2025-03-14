@@ -252,15 +252,15 @@ contents:
 <p dir="ltr">Legrand, F. C. (1971). <i>Ensor cet inconnu.</i> Bruxelles: Collection Renaissance-Art. (pp. 78-79)</p>
 
 [\[18\]](#fnref-18){:#fn-18}
-<p dir="ltr"> </p>
+<p dir="ltr">Ensor, J. (1974). <i>Mes Ecrits.</i> Liège: Editions Natonales. 5th edition. (p. 164)</p>
 
 [\[19\]](#fnref-19){:#fn-19}
-<p dir="ltr"> </p>
+<p dir="ltr">Ensor, J. (1974). <i>Mes Ecrits.</i> Liège: Editions Natonales. 5th edition. (p. 76)</p>
 
 [\[20\]](#fnref-20){:#fn-20} بعضاً به این نقاشی با عنوان کامل‌تر «Christ's Entry Into Brussels in 1889» اشاره می‌شود.
 
 [\[21\]](#fnref-21){:#fn-21}
-<p dir="ltr"> </p>
+<p dir="ltr">Van Gindertael, R. (1975). <i>Ensor,</i> trans. V. Menkes. Boston: New York Graphic Society. (p. 79)</p>
 
 [\[22\]](#fnref-22){:#fn-22} Calvary: نام تپه‌ای که به‌روایت انجیل مسیح را در آن‌جا مصلوب کردند. (م.)
 [\[23\]](#fnref-23){:#fn-23} Brueghelesque: اشاره به سبک ملهم از نقاش فلاندری در دورۀ رنسانس یعنی پیتر بروگل پدر (Pieter Bruegel the Elder) دارد. (م.)
