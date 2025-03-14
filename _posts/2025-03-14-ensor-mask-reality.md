@@ -158,7 +158,7 @@ contents:
 <img 
        src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Ensor/paintings/Picture13.jpg" 
        alt="The Astonishment of the Mask Wouse – Ensor (1889)"
-       style="width: 50%; height:50%;" />
+       style="width: 75%; height:75%;" />
 </center>
 
 برجسته‌ترین و بدون شک شناخته‌شده‌ترین نقاشیِ با نقاب انسور _ورود مسیح به بروکسل_[^36] (۱۸۸۸)[20] است. این اثر درخشان تا سال ۱۹۲۹ استودیوی او را ترک نکرد و به‌طور عمومی به نمایش گذاشته نشد. [والتر] وانبسلایر[^37] دربارۀ این نقاشی و استفاده کلی انسور از نقاب چنین نوشته است:
