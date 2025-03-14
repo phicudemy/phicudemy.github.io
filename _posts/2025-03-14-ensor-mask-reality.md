@@ -244,12 +244,12 @@ contents:
 <p dir="ltr">Ensor, J. (1974). <i>Mes Ecrits.</i> Liège: Editions Natonales. 5th edition. (p. 17)</p>
 
 [\[14\]](#fnref-14){:#fn-14}
-<p dir="ltr"> </p>
+<p dir="ltr">Legrand, F. C. (1971). <i>Ensor cet inconnu.</i> Bruxelles: Collection Renaissance-Art. (p. 22)</p>
 
 [\[15\]](#fnref-15){:#fn-15} عنوان مشهورتر: Attributes of the Fine Arts (Les Attributs des Beaux-Arts) (م.)
 [\[16\]](#fnref-16){:#fn-16} انسور در اثر Old Lady with Blue Shawl (1881) تصویری از مادربزرگ خود را نیز ترسیم کرده است که به متن افزوده شده است (م.)
 [\[17\]](#fnref-17){:#fn-17}
-<p dir="ltr"> </p>
+<p dir="ltr">Legrand, F. C. (1971). <i>Ensor cet inconnu.</i> Bruxelles: Collection Renaissance-Art. (pp. 78-79)</p>
 
 [\[18\]](#fnref-18){:#fn-18}
 <p dir="ltr"> </p>
