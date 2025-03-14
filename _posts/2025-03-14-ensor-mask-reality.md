@@ -219,7 +219,7 @@ contents:
 <img 
        src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Ensor/paintings/Picture19.jpg" 
        alt="Demons Teasing Me – Ensor (1895)"
-       style="width: 50%; height:50%;" />
+       style="width: 75%; height:75%;" />
 </center>
 
 
