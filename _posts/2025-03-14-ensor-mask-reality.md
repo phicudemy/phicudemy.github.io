@@ -6,6 +6,10 @@ people:
 translator:
   - path: _people/khanjanian.md
 date: 2025-03-13T20:30:00.000Z
+categories:
+  - {}
+contents:
+  - path: _contents/article.md
 ---
 
 
