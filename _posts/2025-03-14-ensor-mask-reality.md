@@ -126,10 +126,10 @@ contents:
 
 <div class="row">
   <div class="column">
-    <img src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Ensor/paintings/Picture11.jpg" alt="Old Lady with Blue Shawl (The Artist's Grandmother) – Ensor (1881)" style="width:100%">
+    <img src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Ensor/paintings/Picture11.jpg" alt="Old Lady with Blue Shawl (The Artist's Grandmother) – Ensor (1881)" style="width:50%">
   </div>
   <div class="column">
-    <img src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Ensor/paintings/Picture12.jpg" alt="The Scandalized Masks – Ensor (1883)" style="width:100%">
+    <img src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Ensor/paintings/Picture12.jpg" alt="The Scandalized Masks – Ensor (1883)" style="width:50%">
   </div>
  </div>
 
