@@ -14,6 +14,7 @@ contents:
 ---
 
 
+
 **توضیح مترجم:** آن‌چه می‌خوانید ترجمۀ خلاصه‌ای از مقاله‌ای است با عنوان «Ensor and the Mask of Reality» از دیوید سنفورد ورمن[^1] (1992-2014)، روانکاو آمریکایی و استاد بازنشستۀ مدرسۀ پزشکی دانشگاه دوک[^2]، که در سال 2003 و در _مجلۀ مطالعات روانکاوی کاربردی_[^3] منتشر شده است. این مقاله می‌کوشد تا تأثیر تجربیات زیسته بر آثار یکی از برجسته‌ترین نقاشان اواخر قرن نوزدهم را بررسی کند. تصاویر توسط مترجم به متن اضافه شده و توضیحات وی با علامت (م.) مشخص شده ‌است.
 
 میثم خانجانیان؛ دانشجوی دکتری روان‌شناسی شناختی، پژوهشکدۀ علوم شناختی و مغز
@@ -115,10 +116,10 @@ contents:
 
 <div class="row">
   <div class="column">
-    <img src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Ensor/paintings/Picture9.jpg" alt="The Scandalized Masks – Ensor (1883)" style="width:50%">
+    <img src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Ensor/paintings/Picture9.jpg" alt="The Scandalized Masks – Ensor (1883)" style="width:40%;float:left">
   </div>
   <div class="column">
-    <img src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Ensor/paintings/Picture10.jpg" alt="Portrait of the Artist’s Father – Ensor (1881)" style="width:50%">
+    <img src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Ensor/paintings/Picture10.jpg" alt="Portrait of the Artist’s Father – Ensor (1881)" style="width:40%; float:right">
   </div>
  </div>
 
