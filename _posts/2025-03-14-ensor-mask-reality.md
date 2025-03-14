@@ -160,9 +160,9 @@ contents:
 ![Demons Teasing Me – Ensor (1895)](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Ensor/paintings/Picture19.jpg)
 
 
-[^1]:David Sanford Werman 
+[^1]: David Sanford Werman 
 
-[^2]:Duke University School of Medicine
+[^2]: Duke University School of Medicine
 
 [^3]: _Journal of Applied Psychoanalytic Studies_
 
@@ -172,11 +172,11 @@ contents:
 
 [^6]: Baron
 
-[^7]:Rousseaux
+[^7]: Rousseaux
 
-[^8]:The Lady in Distress
+[^8]: The Lady in Distress
 
-[^9]:Rue de Flandre
+[^9]: Rue de Flandre
 
 [^10]:The Lamp Boy
 
@@ -222,17 +222,17 @@ contents:
 
 [^31]:Pissarro
 
-[^32]:Renoir
+[^32]: Renoir
 
-[^33]:Wizards in a Squall
+[^33]: Wizards in a Squall
 
-[^34]:The Good Judges
+[^34]: The Good Judges
 
-[^35]:The Astonishment of the Mask Wouse
+[^35]: The Astonishment of the Mask Wouse
 
-[^36]:Christ's Entry into Brussels
+[^36]: Christ's Entry into Brussels
 
-[^37]:Walther Vanbeselaere
+[^37]: Walther Vanbeselaere
 
 [^38]: identification
 
