@@ -6,6 +6,7 @@ people:
 translator:
   - path: _people/khanjanian.md
 date: 2025-03-13T20:30:00.000Z
+published: true
 categories:
   - {}
 contents:
