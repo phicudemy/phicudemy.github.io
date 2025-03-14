@@ -3,6 +3,8 @@ title: جیمز انسور و نقاب واقعیت
 slug: ensor-mask-reality
 people:
   - path: _people/davidwerman.md
+translator:
+  - path: _people/khanjanian.md
 date: 2025-03-13T20:30:00.000Z
 ---
 
