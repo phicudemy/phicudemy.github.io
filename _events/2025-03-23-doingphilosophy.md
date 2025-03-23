@@ -1,6 +1,6 @@
 ---
 title: 'روش‌هایِ فلسفه: فلسفه‌ورزیدن چگونه چیزی است؟'
-slug: doingphilosophy
+slug: doingphilosophy-spring2025
 people:
   - path: _people/mohsenzamani.md
 contents:
@@ -19,6 +19,7 @@ sessions: 8
 register: 'https://zarinp.al/694299'
 stdregister: 'https://zarinp.al/694301'
 ---
+
 
 
 
