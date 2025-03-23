@@ -61,7 +61,7 @@ Williamson, Timothy. _Doing Philosophy: From Common Curiosity to Logical Reasoni
 
 ***
 
-**اطلاعات برگزاری:**
+### اطلاعات برگزاری:
 
 - ۸ جلسه
 
