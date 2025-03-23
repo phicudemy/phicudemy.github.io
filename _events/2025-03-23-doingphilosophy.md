@@ -5,6 +5,8 @@ people:
   - path: _people/mohsenzamani.md
 contents:
   - path: _contents/courses.md
+categories:
+  - path: _categories/philosophy.md
 schedule: 'چهارشنبه‌ها ساعت ۲۰:۳۰-۱۸:۳۰'
 format:
   - online
