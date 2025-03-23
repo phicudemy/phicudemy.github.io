@@ -16,9 +16,10 @@ format:
   - inperson
 start: 2025-02-12T20:30:00.000Z
 sessions: 4
-register: 'https://zarinp.al/675020'
-stdregister: 'https://zarinp.al/675024'
+register: ''
+stdregister: ''
 ---
+
 
 
 <center>
