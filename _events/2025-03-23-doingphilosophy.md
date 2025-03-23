@@ -7,6 +7,8 @@ contents:
   - path: _contents/courses.md
 categories:
   - path: _categories/philosophy.md
+tags:
+  - path: _tags/analyticphilosophy.md
 schedule: 'چهارشنبه‌ها ساعت ۲۰:۳۰-۱۸:۳۰'
 format:
   - online
