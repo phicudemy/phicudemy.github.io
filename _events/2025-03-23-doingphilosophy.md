@@ -26,7 +26,7 @@ stdregister: 'https://zarinp.al/694301'
 <img 
        src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/academy/spring2025/0-Zamani.jpg" 
        alt=" "
-       style="width: 50%; height:50%;" />
+       style="width: 75%; height:75%;" />
 </center>
 <br><br>
 
