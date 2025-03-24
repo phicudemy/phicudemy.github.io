@@ -1,3 +1,7 @@
+{% assign now = site.time | date: '%s' | plus: 0%}
+{% assign postTime = post.start | date: '%s' | plus: 0%}
+{% if post.sessions > 1 %}{%assign enddate = post.sessions | times: 604800 %} {%assign postTime = postTime | plus: enddate %}{%endif%}
+{%if postTime > now  %}{%assign register = true %}{%else%}{%assign register = false %}{%endif%}
 <div class="card shadow-sm border-dark h-100">
   <nav class="navbar bg-first rounded-top-3 pb-0 border-bottom  border-dark">
     <ul class="navbar-nav mx-2">
@@ -48,8 +52,13 @@
       <!-- Right elements -->
       <div class="font-fd">
         {%if post.register %}
-        <div class="btn-group d-none d-sm-block float-end btn-group-sm" role="group" aria-label="registration">
+        <div class="register-btns btn-group d-none d-sm-block float-end btn-group-sm" role="group" aria-label="registration">
+          {%if register == true %}
           <a class="btn btn-first" href="{{post.register}}" target="_blank">ثبت‌نام</a>
+          {%else%}
+          <button type="button"  class="btn btn-first" disabled>برگزارشده</button>
+
+          {%endif%}
         </div>
         {%endif%}
       </div>  

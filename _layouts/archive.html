@@ -78,7 +78,7 @@ layout: default
     <div class="row pb-5  border-bottom">
       {%assign catsize = 0 %}
       {%assign catrecent = 0 %}
-      {% for post in site.events %}
+      {% for post in site.events reversed %}
       {% for cat in post[pagecollection.label] %}
       {% if cat.path == page.relative_path %}
       <div class="col-lg-4 mb-2 event-card {%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content.path | first %}{% if cont %}{{cont.slug}}{% endif %}{% endfor %} {%endif%}">

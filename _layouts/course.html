@@ -5,6 +5,10 @@ jsFile: post.js
 {% for category in page.categories %}{% assign cat = site.categories | where: 'relative_path', category | first %}
 {% if cat %}{% assign botcat = cat.title %}{% assign botcaturl = cat.url %}{% endif %}
 {% endfor %}
+{% assign now = site.time | date: '%s' | plus: 0%}
+{% assign postTime = page.start | date: '%s' | plus: 0%}
+{% if page.sessions > 1 %}{%assign enddate = page.sessions | times: 604800 %} {%assign postTime = postTime | plus: enddate %}{%endif%}
+{%if postTime > now  %}{%assign register = true %}{%else%}{%assign register = false %}{%endif%}
 <section class="post-header">
   <div class="container-fluid">
     <div class="row py-5">
@@ -32,22 +36,31 @@ jsFile: post.js
           {% include shareButtons.html %}
           | 
           <span class="persianMonth" data-timestamp="{%if page.start %}{{page.start | date: '%s'}}{%else%}{{page.date | date: '%s'}}{%endif%}"></span>
-          {%if page.sessions %} | <span class="font-fd">{{page.sessions}}</span> جلسه {%endif%}
+          {%if page.sessions %} | <span id="sessionsNo" class="font-fd">{{page.sessions}}</span> جلسه {%endif%}
           {% if page.format %}(<span>{% for frmt in page.format %}{% assign fmt = site.data.dict | where: 'en', frmt | first %}{{fmt.fa}}{% unless forloop.last %} و {% endunless %}{%endfor%}</span>){%endif%}
           {% if page.schedule %} | {{page.schedule}}{%endif%} 
           {% if page.register or page.stdregister %}
-          <div class="btn-group d-none d-sm-block float-end btn-group-lg" role="group" aria-label="registration">
+          <div class="register-btns btn-group d-none d-sm-block float-end btn-group-lg" role="group" aria-label="registration">
+          {%if register == true %}
             <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#preregistrModal">پیش‌ثبت‌نام</button>
             {% if page.register %}<a class="btn btn-first" href="{{page.register}}" target="_blank">ثبت‌نام</a>{%endif%} 
             {% if page.stdregister %}<a class="btn btn-warning" href="{{page.stdregister}}" target="_blank">دانشجویی</a>{%endif%} 
+          {%else%}
+            <button type="button"  class="btn btn-secondary" disabled>برگزارشده</button>
+          {%endif%}
           </div>
           {%endif%}
         </p>
         {% if page.register or page.stdregister %}
-        <div class="d-grid d-block d-sm-none bg-dark position-fixed bottom-0 start-0 w-100">
+        <div class="register-btns d-grid d-block d-sm-none bg-dark position-fixed bottom-0 start-0 w-100">
+          {%if register == true %}
           <button type="button" class="btn btn-secondary btn-lg rounded-0" data-bs-toggle="modal" data-bs-target="#preregistrModal">پیش‌ثبت‌نام</button>
           {% if page.register %}<a class="btn btn-first btn-lg rounded-0" href="{{page.register}}" target="_blank">ثبت‌نام</a>{%endif%}
           {% if page.stdregister %}<a class="btn btn-warning btn-lg rounded-0" href="{{page.stdregister}}" target="_blank">ثبت‌نام دانشجویی</a>{%endif%}
+          {%else%}
+          <button type="button"  class="btn btn-secondary btn-lg rounded-0" disabled>برگزارشده</button>
+          {%endif%}
+
         </div>
         {%endif%}
       </div>
@@ -115,6 +128,3 @@ jsFile: post.js
     </div>
   </div>
 </div>
-
-<script>
-</script>

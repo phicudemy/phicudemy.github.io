@@ -3,7 +3,7 @@
       <div class="card-body">
         <h5 class="card-title">{{post.title}}</h5>
         <p class="card-subtitle mb-2 text-body-secondary small">
-          {% if post.subtitle %}{{post.subtitle}}
+          {% if post.subtitle %}{{post.subtitle |strip_html | strip_newlines | strip}}
           {%else%}
           {% if post.people%}
           {% for person in post.people %}{% assign ppl = site.people | where: 'relative_path', person.path | first %}
