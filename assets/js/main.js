@@ -123,11 +123,11 @@ $(document).ready(function(){
         copyToClipboard(text, el);
       });
     });
+  
     
-    var form = document.getElementById("preregistrForm");
-      
-      async function handleSubmit(event) {
-        event.preventDefault();
+    async function handleSubmit(event) {
+        var form = document.getElementById("preregistrForm");
+
         $('.input').children().addClass('disabled')
         $('.submit-text').hide()
         $('.spinner-border').show()
@@ -163,8 +163,8 @@ $(document).ready(function(){
           status.innerHTML = "مشکلی در انجام ثبت‌نام به وجود آمده است"
         });
       }
-      if (form) {
-
-        form.addEventListener("submit", handleSubmit)
-      }
-    
+      $(document).on('submit', '#preregistrForm', function(event){
+        event.preventDefault();
+        handleSubmit(event)
+    });
+  
