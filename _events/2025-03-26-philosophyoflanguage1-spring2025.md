@@ -3,6 +3,8 @@ title: 'فلسفهٔ زبان (I): نظریه‌های ارجاع'
 slug: philosophyoflanguage1-spring2025
 people:
   - path: _people/طیبی.md
+contents:
+  - path: _contents/courses.md
 schedule: پنج‌شنبه‌ها ساعت ۱۰ الی ۱۲
 format:
   - online
