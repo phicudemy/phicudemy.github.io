@@ -23,9 +23,10 @@ stdregister: 'https://zarinp.al/694301'
 
 
 
+
 <center>
 <img 
-       src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/academy/spring2025/0-Zamani.jpg" 
+       src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/academy/spring2025/0-%20Tayebi.jpg" 
        alt=" "
        style="width: 75%; height:75%;" />
 </center>
