@@ -8,6 +8,7 @@ contents:
 categories:
   - path: _categories/philosophy.md
 tags:
+  - path: _tags/frege.md
   - path: _tags/analyticphilosophy.md
 schedule: پنج‌شنبه‌ها ساعت ۱۰ الی ۱۲
 format:
