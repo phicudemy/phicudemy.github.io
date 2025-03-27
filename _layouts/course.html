@@ -40,7 +40,7 @@ jsFile: post.js
           {% if page.format %}(<span>{% for frmt in page.format %}{% assign fmt = site.data.dict | where: 'en', frmt | first %}{{fmt.fa}}{% unless forloop.last %} و {% endunless %}{%endfor%}</span>){%endif%}
           {% if page.schedule %} | {{page.schedule}}{%endif%} 
           {% if page.register or page.stdregister %}
-          <div class="register-btns btn-group d-none d-sm-block float-end btn-group-lg" role="group" aria-label="registration">
+          <div class="register-btns btn-group float-end btn-group-lg" role="group" aria-label="registration">
           {%if register == true %}
             <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#preregistrModal">پیش‌ثبت‌نام</button>
             {% if page.register %}<a class="btn btn-first" href="{{page.register}}" target="_blank">ثبت‌نام</a>{%endif%} 
@@ -51,18 +51,6 @@ jsFile: post.js
           </div>
           {%endif%}
         </p>
-        {% if page.register or page.stdregister %}
-        <div class="register-btns d-grid d-block d-sm-none bg-dark position-fixed bottom-0 start-0 w-100">
-          {%if register == true %}
-          <button type="button" class="btn btn-secondary btn-lg rounded-0" data-bs-toggle="modal" data-bs-target="#preregistrModal">پیش‌ثبت‌نام</button>
-          {% if page.register %}<a class="btn btn-first btn-lg rounded-0" href="{{page.register}}" target="_blank">ثبت‌نام</a>{%endif%}
-          {% if page.stdregister %}<a class="btn btn-warning btn-lg rounded-0" href="{{page.stdregister}}" target="_blank">ثبت‌نام دانشجویی</a>{%endif%}
-          {%else%}
-          <button type="button"  class="btn btn-secondary btn-lg rounded-0" disabled>برگزارشده</button>
-          {%endif%}
-
-        </div>
-        {%endif%}
       </div>
     </div>
     <div class="row">
