@@ -1,5 +1,5 @@
 ---
-title: 'فلسفهٔ زبان (I): نظریه‌های ارجاع'
+title: 'فلسفهٔ زبان: نظریه‌های ارجاع'
 slug: philosophyoflanguage1-spring2025
 people:
   - path: _people/طیبی.md
@@ -20,6 +20,7 @@ published: true
 register: 'https://zarinp.al/694969'
 stdregister: 'https://zarinp.al/694970'
 ---
+
 
 <center>
 <img 
