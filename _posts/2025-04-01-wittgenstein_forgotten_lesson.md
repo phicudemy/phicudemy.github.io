@@ -84,7 +84,7 @@ contents:
 
 [^8]: theoretical and non-theoretical understanding
 
-[^9]: “a synopsis of trivialities”
+[^9]: a synopsis of trivialities
 
 [^10]: acoustics
 
