@@ -6,6 +6,9 @@ people:
 translator:
   - path: _people/bessatelmi.md
 date: 2025-03-31T20:30:00.000Z
+published: true
+categories:
+  - path: _categories/philosophy.md
 ---
 
 
