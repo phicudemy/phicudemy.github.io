@@ -3,6 +3,8 @@ title: درسِ فراموش‌شدۀ ویتگنشتاین
 slug: wittgenstein_forgotten_lesson
 people:
   - path: _people/raymonk.md
+translator:
+  - path: _people/bessatelmi.md
 date: 2025-03-31T20:30:00.000Z
 ---
 
