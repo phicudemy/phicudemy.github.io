@@ -6,6 +6,8 @@ people:
 date: 2025-04-04T20:30:00.000Z
 categories:
   - path: _categories/philosophy.md
+contents:
+  - path: _contents/article.md
 ---
 
 
