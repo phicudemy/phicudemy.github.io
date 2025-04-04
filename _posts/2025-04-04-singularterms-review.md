@@ -142,7 +142,7 @@ contents:
 
 - Evans, G. (1982) The Varieties of Reference, edited by J. McDowell, Clarendon Press. <br>
 
-- Frege, G. (1892) “On Sense and Reference,” in Geach and Black (1960) Translations from Philosophical Writings of -Gottlob Frege (2 Edition), Oxford: Basil Blackwell, pp. 56-78. <br>
+- Frege, G. (1892) “On Sense and Reference,” in Geach and Black (1960) Translations from Philosophical Writings of Gottlob Frege (2 Edition), Oxford: Basil Blackwell, pp. 56-78. <br>
 
 - Heck, R. (1995) ‘‘The Sense of Communication,’’ Mind, 104: 79–106. <br>
 
