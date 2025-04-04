@@ -3,7 +3,8 @@ title: نگاهی به معناشناسی الفاظ مفرد در فلسفۀ ز
 slug: singularterms-review
 people:
   - path: _people/طیبی.md
-date: 2025-04-04T20:30:00.000Z
+date: 2025-04-03T20:30:00.000Z
+published: true
 categories:
   - path: _categories/philosophy.md
 contents:
