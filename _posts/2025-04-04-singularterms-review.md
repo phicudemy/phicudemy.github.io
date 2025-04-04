@@ -179,3 +179,5 @@ editors, Oxford University Press, pp. 481-563. <br>
 - Strawson, P. F. (1959) Individuals, Routledge. <br>
 
 </p>
+
+**توضیح:** این مقاله، با تفاوت‌هایی جزئی، پیشتر در شمارهٔ ۹۳ مجلهٔ **اخبار** (تابستان ۹۸) منتشر شده است. 
