@@ -177,4 +177,4 @@ Searle, J. (1958) “Proper Names,” Mind, 67:166-173. <br>
 Strawson, P. F. (1950) “On Referring,” Mind, 59: 320-344. <br>
 
 Strawson, P. F. (1959) Individuals, Routledge. <br>
-
+</p>
