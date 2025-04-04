@@ -133,48 +133,48 @@ contents:
 
 <p dir="ltr">
 
-Cappelen, H. & J. Dever (2012) The Inessential Indexical: On the Philosophical Insignificance of Perspective and the First Person, Oxford University Press. <br>
+- Cappelen, H. & J. Dever (2012) The Inessential Indexical: On the Philosophical Insignificance of Perspective and the First Person, Oxford University Press. <br>
 
-Donnellan, K. (1966) “Reference and Definite Descriptions,” The Philosophical Review, 75: 281-304. <br>
+- Donnellan, K. (1966) “Reference and Definite Descriptions,” The Philosophical Review, 75: 281-304. <br>
 
-Donnellan, K. (1970) “Proper Names and Identifying Descriptions,” Synthese, 21: 335-358. <br>
+- Donnellan, K. (1970) “Proper Names and Identifying Descriptions,” Synthese, 21: 335-358. <br>
 
-Evans, G. (1982) The Varieties of Reference, edited by J. McDowell, Clarendon Press. <br>
+- Evans, G. (1982) The Varieties of Reference, edited by J. McDowell, Clarendon Press. <br>
 
-Frege, G. (1892) “On Sense and Reference,” in Geach and Black (1960) Translations from Philosophical Writings of Gottlob Frege (2 Edition), Oxford: Basil Blackwell, pp. 56-78. <br>
+- Frege, G. (1892) “On Sense and Reference,” in Geach and Black (1960) Translations from Philosophical Writings of -Gottlob Frege (2 Edition), Oxford: Basil Blackwell, pp. 56-78. <br>
 
-Heck, R. (1995) ‘‘The Sense of Communication,’’ Mind, 104: 79–106. <br>
+- Heck, R. (1995) ‘‘The Sense of Communication,’’ Mind, 104: 79–106. <br>
 
-Kaplan, F. (1977) “Demonstratives,” in Almog, Wettstein, and Perry (eds.) (1989) Themes from Kaplan,
+- Kaplan, F. (1977) “Demonstratives,” in Almog, Wettstein, and Perry (eds.) (1989) Themes from Kaplan,
 editors, Oxford University Press, pp. 481-563. <br>
 
-Kripke, S. A. (1980) Naming and Necessity, Blackwell. <br>
+- Kripke, S. A. (1980) Naming and Necessity, Blackwell. <br>
 
-Loar, B. (1976) ‘‘The Semantics of Singular Terms,’’ Philosophical Studies, 30: 353–77. <br>
+- Loar, B. (1976) ‘‘The Semantics of Singular Terms,’’ Philosophical Studies, 30: 353–77. <br>
 
-McDowell, J. (1984) “De Re Senses,” The Philosophical Quarterly, 34: 283-294. <br>
+- McDowell, J. (1984) “De Re Senses,” The Philosophical Quarterly, 34: 283-294. <br>
 
-Mill, J. S. (1843) A System of Logic, Harrison and Co. <br>
+- Mill, J. S. (1843) A System of Logic, Harrison and Co. <br>
 
-Perry, J. (1977) “Frege on Demonstrative,” The Philosophical Review, 86: 474-497. <br>
+- Perry, J. (1977) “Frege on Demonstrative,” The Philosophical Review, 86: 474-497. <br>
 
-Perry (1979) “The Problem of the Essential Indexical,” Noûs, 13: 3-21. <br>
+- Perry (1979) “The Problem of the Essential Indexical,” Noûs, 13: 3-21. <br>
 
-Putnam, H. (1975) “The Meaning of ‘Meaning’,” Minnesota Studies in the Philosophy of Science, 7: 131-193. <br>
+- Putnam, H. (1975) “The Meaning of ‘Meaning’,” Minnesota Studies in the Philosophy of Science, 7: 131-193. <br>
 
-Recanati, F. (1993) Direct Reference: From Language to Thought, Blackwell. <br>
+- Recanati, F. (1993) Direct Reference: From Language to Thought, Blackwell. <br>
 
-Recanati, F. (2012) Mental Files, Oxford University Press. <br>
+- Recanati, F. (2012) Mental Files, Oxford University Press. <br>
 
-Recanati, F. (2016) Mental Files in Flux, Oxford University Press. <br>
+- Recanati, F. (2016) Mental Files in Flux, Oxford University Press. <br>
 
-Russell, B. (1905) “On Denoting,” Mind, XIV: 479-493. <br>
+- Russell, B. (1905) “On Denoting,” Mind, XIV: 479-493. <br>
 
-Russell, B. (1910) “Knowledge by Acquaintance and Knowledge by Description,” Proceedings of the Aristotelian Society, 11: 108-128. <br>
+- Russell, B. (1910) “Knowledge by Acquaintance and Knowledge by Description,” Proceedings of the Aristotelian Society, 11: 108-128. <br>
 
-Searle, J. (1958) “Proper Names,” Mind, 67:166-173. <br>
+- Searle, J. (1958) “Proper Names,” Mind, 67:166-173. <br>
 
-Strawson, P. F. (1950) “On Referring,” Mind, 59: 320-344. <br>
+- Strawson, P. F. (1950) “On Referring,” Mind, 59: 320-344. <br>
 
-Strawson, P. F. (1959) Individuals, Routledge. <br>
+- Strawson, P. F. (1959) Individuals, Routledge. <br>
 </p>
