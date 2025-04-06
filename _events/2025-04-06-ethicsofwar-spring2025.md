@@ -3,6 +3,8 @@ title: 'مباحثی در فلسفهٔ اخلاق: اخلاق جنگ'
 slug: ethicsofwar-spring2025
 people:
   - path: _people/abaskazemi.md
+contents:
+  - path: _contents/courses.md
 schedule: چهارشنبه‌ها ساعت ۱۶ الی ۱۸
 format:
   - online
