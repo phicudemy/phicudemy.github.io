@@ -1,6 +1,7 @@
 ---
 title: 'مباحثی در فلسفهٔ اخلاق: اخلاق جنگ'
 slug: ethicsofwar-spring2025
+schedule: چهارشنبه‌ها ساعت ۱۶ الی ۱۸
 format:
   - online
   - inperson
