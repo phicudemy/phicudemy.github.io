@@ -14,8 +14,9 @@ schedule: 'چهارشنبه‌ها ساعت ۲۰:۳۰-۱۸:۳۰'
 format:
   - online
   - inperson
-start: 2025-04-08T20:30:00.000Z
+start: 2025-04-15T20:30:00.000Z
 sessions: 8
+published: true
 register: 'https://zarinp.al/694299'
 stdregister: 'https://zarinp.al/694301'
 ---
