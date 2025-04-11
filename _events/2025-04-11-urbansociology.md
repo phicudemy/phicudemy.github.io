@@ -1,5 +1,5 @@
 ---
-title: جامعه‌شناسی شهر
+title: مقدمه‌ای بر جامعه‌شناسی شهری
 slug: urbansociology
 people:
   - path: _people/nafiseazad.md
