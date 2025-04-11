@@ -3,6 +3,8 @@ title: جامعه‌شناسی شهر
 slug: urbansociology
 people:
   - path: _people/nafiseazad.md
+contents:
+  - path: _contents/courses.md
 format:
   - online
   - inperson
