@@ -5,6 +5,8 @@ people:
   - path: _people/nafiseazad.md
 contents:
   - path: _contents/courses.md
+categories:
+  - path: _categories/socialscience.md
 format:
   - online
   - inperson
