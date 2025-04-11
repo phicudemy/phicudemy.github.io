@@ -6,8 +6,9 @@ people:
 contents:
   - path: _contents/courses.md
 categories:
-  - path: _categories/urbanstudies.md
   - path: _categories/socialscience.md
+  - path: _categories/urbanstudies.md
+schedule: چهارشنبه‌ها، ساعت ۱۰-۱۲
 format:
   - online
   - inperson
