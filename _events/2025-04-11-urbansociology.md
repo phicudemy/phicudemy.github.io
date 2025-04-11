@@ -6,6 +6,7 @@ people:
 contents:
   - path: _contents/courses.md
 categories:
+  - path: _categories/urbanstudies.md
   - path: _categories/socialscience.md
 format:
   - online
