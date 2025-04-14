@@ -1,0 +1,64 @@
+---
+title: محیط کاربری
+layout: dashboard
+slug: user
+permalink: /user/
+image: /assets/images/Paintings/laughing_philosopher_1629.jpg
+caption: Rembrandt laughing / Rembrandt, c. 1628, Oil on copper, 22.2 × 17.1 cm (8 3/4 × 6 3/4 in.), J. Paul Getty Museum California.
+---
+
+
+<div class="container my-5">
+  <div id="user-info" class="mb-4">
+    <h4>مشخصات</h4>
+    <p class="placeholder-glow"><strong>نام کامل:</strong> <span id="user-fullname" class="placeholder ">در حال بارگیری...</span></p>
+    <p class="placeholder-glow"><strong>ایمیل:</strong> <span id="user-email" class="placeholder ">در حال بارگیری...</span></p>
+    <p class="placeholder-glow"><strong>شماره همراه:</strong> <span id="user-phone" class="placeholder ">در حال بارگیری...</span></p>
+    
+    <button id="edit-profile-button" class="btn btn-warning mt-2">ویرایش پروفایل</button>
+    <button id="logout-button" class="btn btn-danger mt-2">خروج</button>
+  </div>
+  
+  <hr class="my-4">
+
+  <div id="event-list">
+    <h4>رویدادهای ثبت‌نام شده</h4>
+    <!-- Events will be inserted here -->
+  </div>
+</div>
+<div class="modal fade" id="editProfileModal" tabindex="-1" aria-labelledby="editProfileModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form id="edit-profile-form">
+        <div class="modal-header">
+          <h5 class="modal-title" id="editProfileModalLabel">ویرایش پروفایل</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="بستن"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="edit-fullname" class="form-label">نام کامل</label>
+            <input type="text" class="form-control" id="edit-fullname" required>
+          </div>
+          <div class="mb-3">
+            <label for="edit-phone" class="form-label">شماره همراه</label>
+            <input type="text" class="form-control" id="edit-phone" required>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-success">ذخیره تغییرات</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<script>
+  $(document).on('click', '#logout-button', function() {
+    logout();
+  });
+
+  $(document).on('click', '#edit-profile-button', async function() {
+    await openEditProfileModal();
+  });  
+  window.onload = loadDashboard;
+</script>

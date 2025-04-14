@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>Verifying...</title></head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+    const client = supabase.createClient(
+      "https://iptradvpkatbfgibcrru.supabase.co",
+      "YOUR_PUBLIC_ANON_KEY"
+    );
+
+    client.auth.getSession().then(({ data: { session } }) => {
+      if (session) {
+        window.location.href = "/";
+      } else {
+        alert("Email confirmed. You can now log in.");
+        window.location.href = "/";
+      }
+    });
+  </script>
+</body>
+</html>

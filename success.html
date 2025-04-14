@@ -1,0 +1,63 @@
+<div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <div id="payment-result" class="p-4 border rounded shadow-sm">
+          <h2 id="payment-status" class="mb-4"></h2>
+          <p id="payment-message" class="lead"></p>
+          <p id="payment-event"></p>
+          <p id="payment-transaction"></p>
+          <a href="/user/" class="btn btn-success mt-4">رفتن به پروفایل</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener('DOMContentLoaded', async function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const authority = urlParams.get('Authority');
+    const status = urlParams.get('Status');
+  
+    const paymentStatus = document.getElementById('payment-status');
+    const paymentMessage = document.getElementById('payment-message');
+    const paymentEvent = document.getElementById('payment-event');
+    const paymentTransaction = document.getElementById('payment-transaction');
+  
+    if (status !== 'OK') {
+      paymentStatus.innerText = 'پرداخت ناموفق بود';
+      paymentMessage.innerText = 'متاسفیم، پرداخت شما موفقیت‌آمیز نبود.';
+      paymentTransaction.innerText = `کد پیگیری: ${authority || 'نامشخص'}`;
+      paymentStatus.classList.add('text-danger');
+      return;
+    }
+  
+    const response = await fetch('https://iptradvpkatbfgibcrru.supabase.co/functions/v1/verify_payment', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ authority })
+    });
+  
+    const result = await response.json();
+  
+    if (result.success) {
+      paymentStatus.innerText = 'پرداخت با موفقیت تایید شد';
+      paymentMessage.innerText = 'ثبت‌نام شما با موفقیت انجام شد.';
+      paymentTransaction.innerText = `کد پیگیری: ${authority}`;
+      paymentStatus.classList.add('text-success');
+  
+      // If you store event name in LocalStorage earlier, you can fetch it here
+      const eventTitle = localStorage.getItem('event_title');
+      if (eventTitle) {
+        paymentEvent.innerText = `رویداد: ${eventTitle}`;
+      }
+  
+    } else {
+      paymentStatus.innerText = 'تایید پرداخت ناموفق بود';
+      paymentMessage.innerText = 'مشکلی در تایید پرداخت به وجود آمد.';
+      paymentTransaction.innerText = `کد پیگیری: ${authority}`;
+      paymentStatus.classList.add('text-danger');
+    }
+  });
+  </script>

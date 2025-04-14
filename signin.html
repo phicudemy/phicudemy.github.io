@@ -1,0 +1,26 @@
+---
+title: ورود
+layout: dashboard
+slug: login
+permalink: /login/
+image: /assets/images/Paintings/laughing_philosopher_1629.jpg
+caption: Rembrandt laughing / Rembrandt, c. 1628, Oil on copper, 22.2 × 17.1 cm (8 3/4 × 6 3/4 in.), J. Paul Getty Museum California.
+---
+      <!-- Login Form -->
+      <div id="loginForm" class="card">
+        <div class="card-body">
+          <form id="login-form">
+            <div class="mb-3">
+              <label for="login-email" class="form-label">آدرس ایمیل</label>
+              <input type="email" class="form-control" id="login-email" required>
+            </div>
+            <div class="mb-3">
+              <label for="login-password" class="form-label">پسورد</label>
+              <input type="password" class="form-control" id="login-password" required>
+            </div>
+            <button type="button" class="btn btn-success float-end" onclick="logIn()">ورود</button>
+          </form>
+          <p><a href="/user/forgot/">پسورد خود را فراموش کردید؟</a></p>
+          <p>عضو نیستید؟ <a href="/signup/">ثبت‌نام کنید ...</a></p>
+        </div>
+      </div>

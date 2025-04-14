@@ -167,4 +167,10 @@ $(document).ready(function(){
         event.preventDefault();
         handleSubmit(event)
     });
-  
+    function goToRegisterPage(eventUrl, eventTitle, eventPay1, eventPay2) {
+      localStorage.setItem("event_url", eventUrl);
+      localStorage.setItem("event_title", eventTitle);
+      localStorage.setItem("event_pay1", eventPay1);
+      localStorage.setItem("event_pay2", eventPay2);
+      window.location.href = "/register/";
+    }
