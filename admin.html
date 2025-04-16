@@ -1,0 +1,58 @@
+---
+title: مدیریت
+slug: admin
+layout: default
+permalink: /admin/
+---
+
+<div id="admin-users" class="mt-4"></div>
+
+<script>
+  async function loadAdminUsers() {
+    const { data: { session }, error } = await client.auth.getSession();
+    if (!session || session.user.user_metadata.role !== 'admin') {
+      alert("دسترسی فقط برای مدیران است.");
+      window.location.href = "/";
+      return;
+    }
+
+    const { data: users, error: fetchError } = await client
+      .from("user_metadata")
+      .select("*")
+      .order("created_at", { ascending: false });
+
+    if (fetchError) {
+      console.error("Error loading users:", fetchError.message);
+      document.getElementById("admin-users").innerHTML = `<p class="text-danger">خطا در بارگیری کاربران</p>`;
+      return;
+    }
+
+    let html = `<table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>ایمیل</th>
+          <th>نام</th>
+          <th>تلفن</th>
+          <th>نقش</th>
+          <th>تاریخ ثبت‌نام</th>
+        </tr>
+      </thead>
+      <tbody>`;
+
+    users.forEach(user => {
+      const meta = user.metadata || {};
+      html += `<tr>
+        <td>${user.email}</td>
+        <td>${meta.full_name || "-"}</td>
+        <td>${meta.phone || "-"}</td>
+        <td>${meta.role || "user"}</td>
+        <td>${new Date(user.created_at).toLocaleDateString("fa-IR")}</td>
+      </tr>`;
+    });
+
+    html += `</tbody></table>`;
+    document.getElementById("admin-users").innerHTML = html;
+  }
+
+  loadAdminUsers();
+</script>
