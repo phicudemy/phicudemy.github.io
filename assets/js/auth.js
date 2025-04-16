@@ -8,6 +8,12 @@ window.onload = async () => {
   const { data: { session } } = await client.auth.getSession();
   const path = window.location.pathname;
   const isUserProtectedPage = path === "/user/";
+  const isLoginOrSignupPage = path === "/login/" || path === "/signup/";
+
+  if (session?.user && isLoginOrSignupPage) {
+    window.location.href = "/user/";
+    return;
+  }
 
   if (!session && isUserProtectedPage) {
     window.location.href = "/login/";
@@ -114,12 +120,7 @@ async function logout() {
 
 function showAuthModal(message) {
   const alertBox = document.getElementById("authAlertBox");
-  alertBox.innerHTML = `
-    <div class="alert alert-warning alert-dismissible fade show mb-0" role="alert">
-      ${message}
-      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="بستن"></button>
-    </div>
-  `;
+  alertBox.innerHTML = message;
   const modal = new bootstrap.Modal(document.getElementById("authAlertModal"));
   modal.show();
 }
@@ -308,3 +309,20 @@ async function loadDashboard() {
   document.getElementById("event-list").innerHTML += html;
 }
 
+$(document).on('submit', '#forgot-password-form', function(event){
+  event.preventDefault();
+  sendPasswordReset();
+})
+async function sendPasswordReset() {
+  const email = document.getElementById("reset-email").value;
+  const { error } = await client.auth.resetPasswordForEmail(email, {
+    redirectTo: window.location.origin + "/user/reset/"
+  });
+
+  if (error) {
+    showAuthModal("خطا در ارسال ایمیل تنظیم مجدد پسورد: " + error.message);
+    console.error(error);
+  } else {
+    showAuthModal("لینکی برای تنظیم مجدد پسورد ایمیل شد. ایمیل خود را چک کنید.");
+  }
+}
