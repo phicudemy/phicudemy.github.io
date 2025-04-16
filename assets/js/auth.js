@@ -9,11 +9,6 @@ window.onload = async () => {
   const path = window.location.pathname;
   const isUserProtectedPage = path === "/user/";
   const isLoginOrSignupPage = path === "/login/" || path === "/signup/";
-  const user = session?.user;
-
-  if (!user || user.user_metadata.role !== 'admin') {
-    window.location.href = '/'; // redirect non-admins
-  }
   
   if (session?.user && isLoginOrSignupPage) {
     window.location.href = "/user/";
