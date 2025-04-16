@@ -5,54 +5,51 @@ layout: default
 permalink: /manage/
 ---
 
-<div id="admin-users" class="mt-4"></div>
+<div id="user-table-container" class="container mt-4">
+  <h2>مدیریت کاربران</h2>
+  <div id="user-table">در حال بارگذاری کاربران...</div>
+</div>
 
 <script>
-  async function loadAdminUsers() {
-    const { data: { session }, error } = await client.auth.getSession();
-    if (!session || session.user.user_metadata.role !== 'admin') {
-      alert("دسترسی فقط برای مدیران است.");
-      window.location.href = "/";
-      return;
+async function fetchAllUsers() {
+  const token = (await client.auth.getSession()).data.session.access_token;
+
+  const response = await fetch('https://iptradvpkatbfgibcrru.supabase.co/functions/v1/list_users', {
+    method: 'GET',
+    headers: {
+      Authorization: `Bearer ${token}`
     }
+  });
 
-    const { data: users, error: fetchError } = await client
-      .from("user_metadata")
-      .select("*")
-      .order("created_at", { ascending: false });
-
-    if (fetchError) {
-      console.error("Error loading users:", fetchError.message);
-      document.getElementById("admin-users").innerHTML = `<p class="text-danger">خطا در بارگیری کاربران</p>`;
-      return;
-    }
-
-    let html = `<table class="table table-bordered">
-      <thead>
-        <tr>
-          <th>ایمیل</th>
-          <th>نام</th>
-          <th>تلفن</th>
-          <th>نقش</th>
-          <th>تاریخ ثبت‌نام</th>
-        </tr>
-      </thead>
-      <tbody>`;
-
-    users.forEach(user => {
-      const meta = user.metadata || {};
-      html += `<tr>
-        <td>${user.email}</td>
-        <td>${meta.full_name || "-"}</td>
-        <td>${meta.phone || "-"}</td>
-        <td>${meta.role || "user"}</td>
-        <td>${new Date(user.created_at).toLocaleDateString("fa-IR")}</td>
-      </tr>`;
-    });
-
-    html += `</tbody></table>`;
-    document.getElementById("admin-users").innerHTML = html;
+  const result = await response.json();
+  if (result.error) {
+    document.getElementById("user-table").innerHTML = `<p class="text-danger">${result.error}</p>`;
+  } else {
+    renderUserTable(result.users);
   }
+}
 
-  loadAdminUsers();
+function renderUserTable(users) {
+  let html = `<table class="table table-bordered"><thead><tr>
+    <th>ایمیل</th><th>نام</th><th>تلفن</th><th>نقش</th><th>عملیات</th>
+  </tr></thead><tbody>`;
+
+  users.forEach(user => {
+    html += `<tr>
+      <td>${user.email}</td>
+      <td>${user.user_metadata?.full_name || '-'}</td>
+      <td>${user.user_metadata?.phone || '-'}</td>
+      <td>${user.user_metadata?.role || '-'}</td>
+      <td>
+        <button class="btn btn-sm btn-primary" onclick="editRole('${user.id}')">تغییر نقش</button>
+        <button class="btn btn-sm btn-danger" onclick="deleteUser('${user.id}')">حذف</button>
+      </td>
+    </tr>`;
+  });
+
+  html += '</tbody></table>';
+  document.getElementById("user-table").innerHTML = html;
+}
+
+fetchAllUsers();
 </script>
