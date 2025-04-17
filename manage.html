@@ -16,6 +16,7 @@ permalink: /manage/
               <th scope="col">همراه</th>
               <th scope="col">ایمیل</th>
               <th scope="col">نقش</th>
+              <th scope="col">عملیات</th>
             </tr>
           </thead>
           <tbody id="user-list">
@@ -80,10 +81,14 @@ async function loadAdminDashboard() {
       <td>${phone}</td>
       <td>${user.email}</td>
       <td>
-        <select onchange="updateUserRole('${user.id}', this.value)">
+        <select id="role-select-${user.id}" class="form-select form-select-sm w-auto d-inline-block mt-1">
           <option value="user" ${role === "user" ? "selected" : ""}>کاربر</option>
           <option value="admin" ${role === "admin" ? "selected" : ""}>ادمین</option>
         </select>
+      </td>
+      <td>
+        <button class="btn btn-primary btn-sm mt-2 me-2" onclick="updateUserRole('${user.id}')">ثبت</button>
+        <button class="btn btn-sm btn-danger mt-2" onclick="deleteUser('${user.id}')">حذف کاربر</button>
       </td>
       `;
 
@@ -91,7 +96,8 @@ async function loadAdminDashboard() {
   });
 }
 
-async function updateUserRole(userId, newRole) {
+async function updateUserRole(userId) {
+  const newRole = document.getElementById(`role-select-${userId}`).value;
   const { data: { session }, error } = await client.auth.getSession();
   if (!session || !session.access_token) return alert("شما وارد نشده‌اید.");
 
@@ -109,10 +115,35 @@ async function updateUserRole(userId, newRole) {
   const result = await response.json();
 
   if (result.error) {
-    alert("خطا در بروزرسانی نقش: " + result.error);
+    alert("خطا در بروزرسانی نقش: " + (result.error || "نامشخص"));
   } else {
     alert("نقش با موفقیت بروزرسانی شد.");
     loadAdminDashboard();
+  }
+}
+
+async function deleteUser(userId) {
+  const confirmDelete = confirm("آیا مطمئن هستید که می‌خواهید این کاربر را حذف کنید؟");
+  if (!confirmDelete) return;
+
+  const { data: { session } } = await client.auth.getSession();
+  const token = session?.access_token;
+
+  const res = await fetch("https://iptradvpkatbfgibcrru.supabase.co/functions/v1/delete_user", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": `Bearer ${token}`
+    },
+    body: JSON.stringify({ user_id: userId })
+  });
+
+  const result = await res.json();
+  if (result.success) {
+    alert("کاربر با موفقیت حذف شد.");
+    location.reload();
+  } else {
+    alert("خطا در حذف کاربر: " + (result.error || ""));
   }
 }
 
