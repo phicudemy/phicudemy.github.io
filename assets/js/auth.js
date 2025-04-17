@@ -5,11 +5,11 @@ const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 let currentUserId = null;
 
 window.onload = async () => {
+  await updateNavbarUserInfo()
   const { data: { session } } = await client.auth.getSession();
   const path = window.location.pathname;
   const isUserProtectedPage = path === "/user/";
   const isLoginOrSignupPage = path === "/login/" || path === "/signup/";
-  
   if (session?.user && isLoginOrSignupPage) {
     window.location.href = "/user/";
     return;
@@ -27,14 +27,6 @@ window.onload = async () => {
     const name = user.user_metadata?.full_name || "کاربر";
     const phone = user.user_metadata?.phone || "-";
 
-    
-    const userInfoItem = document.getElementById("nav-user-info");
-    const userNameLink = document.getElementById("nav-user-name");
-    
-    if (userInfoItem && userNameLink) {
-      userNameLink.textContent = name;
-      userInfoItem.style.display = "block";
-    }    
     const loginStatus = document.getElementById("login-status");
     if (loginStatus) loginStatus.innerText = `خوش آمدید ${name} (${user.email})`;
 
@@ -332,5 +324,17 @@ async function sendPasswordReset() {
     console.error(error);
   } else {
     showAuthModal("لینکی برای تنظیم مجدد پسورد ایمیل شد. ایمیل خود را چک کنید.");
+  }
+}
+
+async function updateNavbarUserInfo() {
+  const { data: { user }, error } = await client.auth.getUser();
+  const userName = user.user_metadata?.full_name || user.email || "کاربر";
+  const userInfoItem = document.getElementById("nav-user-info");
+  const userNameLink = document.getElementById("nav-user-name");
+
+  if (user && userInfoItem && userNameLink) {
+    userNameLink.textContent = userName;
+    userInfoItem.style.display = "block";
   }
 }
