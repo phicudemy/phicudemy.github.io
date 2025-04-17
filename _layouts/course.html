@@ -67,10 +67,15 @@ jsFile: post.js
       </div>     
       <div class="col-sm-6 pt-3 content">
         {{page.content| markdownify}}
+        <div class="pb-5">
+          {% include regForm.html %}
+        </div>
         <div class="mb-2 foot-comment">
           {% include cardComment.html %}
         </div>
-        {% include cardRels.html %}
+        <div class="mt-5">
+          {% include cardRels.html %}
+        </div>
       </div>
     </div>
   </div>
@@ -116,3 +121,35 @@ jsFile: post.js
     </div>
   </div>
 </div>
+<script>
+  async function initRegistrationForm() {
+
+    const currentUserInfo = await getCurrentUserInfo();
+    console.log("User Info:", currentUserInfo);
+    // Optionally autofill user fields
+    if (currentUserInfo) {
+      $('#signupAlert').hide();
+      const [id, email, created_at, full_name, phone] = currentUserInfo;
+      $('#reg-fullname').val(full_name || '');
+      $('#reg-email').val(email || '');
+      $('#reg-phone').val(phone || '');
+      $('#reg-user_id').val(id || '');
+    } else {
+      $('#signupAlert').show();
+    }
+  }
+  window.onload = async () => {
+    initRegistrationForm();
+    const { data: { user }, error } = await client.auth.getUser();
+    if (user) {
+      const role = user.user_metadata?.role || "user";
+
+      // ✅ show registration form only if admin
+      if (role === "admin") {
+        const container = document.getElementById("registration-form");
+        if (container) container.style.display = "block";
+      }
+
+    }
+};
+</script>

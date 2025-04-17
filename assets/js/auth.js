@@ -229,7 +229,7 @@ async function saveRegistration(form, token = null) {
         full_name: form.full_name,
         email: form.email,
         phone: form.phone,
-        amount: 10000, // or use form.amount
+        amount: 10000,  // Optional: Replace with `form.amount` if you make this dynamic
         event_url: form.event_url,
         description: 'ثبت‌نام برای رویداد'
       })
@@ -242,14 +242,18 @@ async function saveRegistration(form, token = null) {
 
     if (result.already_registered) {
       showAuthModal(result.message);
-      status.innerText = result.message;
-      status.className = "text-warning";
+      if (status) {
+        status.innerText = result.message;
+        status.className = "text-warning";
+      }
     } else if (result.payment_url) {
       window.location.href = result.payment_url;
     } else {
       showAuthModal("خطا در اتصال به درگاه پرداخت");
-      status.innerText = "خطا در اتصال به درگاه پرداخت";
-      status.className = "text-danger";
+      if (status) {
+        status.innerText = "خطا در اتصال به درگاه پرداخت";
+        status.className = "text-danger";
+      }
     }
 
   } catch (err) {
