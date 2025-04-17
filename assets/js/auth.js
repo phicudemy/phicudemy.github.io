@@ -27,6 +27,14 @@ window.onload = async () => {
     const name = user.user_metadata?.full_name || "کاربر";
     const phone = user.user_metadata?.phone || "-";
 
+    
+    const userInfoItem = document.getElementById("nav-user-info");
+    const userNameLink = document.getElementById("nav-user-name");
+    
+    if (userInfoItem && userNameLink) {
+      userNameLink.textContent = name;
+      userInfoItem.style.display = "block";
+    }    
     const loginStatus = document.getElementById("login-status");
     if (loginStatus) loginStatus.innerText = `خوش آمدید ${name} (${user.email})`;
 
