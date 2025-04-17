@@ -1,0 +1,60 @@
+---
+title: رویدادهای ثبت‌نام شده
+slug: registerations
+layout: default
+permalink: /user/registerations/
+---
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div id="admin-dashboard">
+        <h2>{{page.title}}</h2>
+        <div class="table-responsive">
+          <table class="table table-striped table-hover">
+            <thead>
+              <tr>
+                <th scope="col" style="min-height: 200px;">رویداد</th>
+                <th scope="col">تاریخ ثبت‌نام</th>
+                <th scope="col">وضعیت</th>
+                <th scope="col" style="min-height: 150px;">عملیات</th>
+              </tr>
+            </thead>
+            <tbody id="event-list">
+              <tr>
+                <th class="placeholder-glow" scope="row"><span class="placeholder">رویداد</span></th>
+                <td class="placeholder-glow"><span class="placeholder">تاریخ ثبت‌نام</span></td>
+                <td class="placeholder-glow"><span class="placeholder">وضعیت</span></td>
+                <td class="placeholder-glow"><span class="placeholder">عملیات</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<script>
+  window.onload = async() =>{
+    const { data: { session }, error } = await client.auth.getSession();
+
+    if (error || !session || !session.user) {
+      document.getElementById("user-info").innerHTML = `<p class="text-danger">لطفاً وارد شوید.</p>`;
+      document.getElementById("event-list").innerHTML = "";
+      return;
+    }
+
+    const user = session.user;
+
+    await loadEvents(user);
+
+  } 
+
+window.onload = async () => {
+  const { data: { user }, error } = await client.auth.getUser();
+  await loadEvents(user);
+};
+
+loadEvents
+</script>

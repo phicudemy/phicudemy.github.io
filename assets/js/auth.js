@@ -3,9 +3,12 @@ const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
 
 const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 let currentUserId = null;
+window.addEventListener("load", async () => {
+  const { data: { user }, error } = await client.auth.getUser();
+  await updateNavbarUserInfo(user);
+});
 
 window.onload = async () => {
-  await updateNavbarUserInfo()
   const { data: { session } } = await client.auth.getSession();
   const path = window.location.pathname;
   const isUserProtectedPage = path === "/user/";
@@ -14,14 +17,15 @@ window.onload = async () => {
     window.location.href = "/user/";
     return;
   }
-
+  
   if (!session && isUserProtectedPage) {
     window.location.href = "/login/";
     return;
   }
-
+  
   const { data: { user }, error } = await client.auth.getUser();
   if (user) {
+    await updateNavbarUserInfo(user)
     currentUserId = user.id;
 
     const name = user.user_metadata?.full_name || "کاربر";
@@ -140,7 +144,7 @@ $(document).on('submit', '#profile-form', function(event){
   updateProfile();
 });
 
-$(document).on('click', '#logout-button', function(){
+$(document).on('click', '.logout-button', function(){
   logout();
 });
 
@@ -254,16 +258,7 @@ async function saveRegistration(form, token = null) {
   }
 }
 
-async function loadDashboard() {
-  const { data: { session }, error } = await client.auth.getSession();
-
-  if (error || !session || !session.user) {
-    document.getElementById("user-info").innerHTML = `<p class="text-danger">لطفاً وارد شوید.</p>`;
-    document.getElementById("event-list").innerHTML = "";
-    return;
-  }
-
-  const user = session.user;
+async function loadDashboard(user) {
   const full_name = user.user_metadata?.full_name || "-";
   const phone = user.user_metadata?.phone || "-";
 
@@ -275,38 +270,45 @@ async function loadDashboard() {
   document.getElementById("user-email").classList.remove('placeholder');
   document.getElementById("user-phone").classList.remove('placeholder');
 
+}
+async function loadEvents(user) {
   const { data: events, error: fetchError } = await client
     .from("registeration")
     .select("event_title, event_url, status, created_at, pay_confirm")
     .eq("user_id", user.id)
     .order("created_at", { ascending: false });
 
+  const eventList = document.getElementById("event-list");
+  eventList.innerHTML = "";
+
+
   if (fetchError) {
     console.error("Error loading registrations:", fetchError);
-    document.getElementById("event-list").innerHTML += `<p class="text-danger">خطا در بارگیری رویدادها</p>`;
+    eventList.innerHTML += `<p class="text-danger">خطا در بارگیری رویدادها</p>`;
     return;
   }
 
   if (!events.length) {
-    document.getElementById("event-list").innerHTML += `<p class="text-warning">هیچ رویدادی ثبت نشده است.</p>`;
+    eventList.innerHTML += `<p class="text-warning">هیچ رویدادی ثبت نشده است.</p>`;
     return;
   }
 
-  let html = '<div class="list-group mt-3">';
   events.forEach(event => {
-    html += `
-      <a href="${event.event_url}" class="list-group-item list-group-item-action">
-        <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">${event.event_title}</h5>
-          <small>${new Date(event.created_at).toLocaleDateString("fa-IR")}</small>
-        </div>
-        <p class="mb-1">وضعیت: ${event.pay_confirm ? "پرداخت شده ✅" : "در انتظار پرداخت ❌"}</p>
-      </a>
+    const div = document.createElement("tr");
+    
+    div.innerHTML = `
+      <th scope="row"><strong><a href="${event.event_url}" target="_blank">${event.event_title}</strong></a></th>
+      <td>${new Date(event.created_at).toLocaleDateString("fa-IR")}</td>
+      <td>${event.pay_confirm ? "پرداخت شده ✅" : "در انتظار پرداخت ❌"}</td>
+      <td>
+        <button class="btn btn-primary btn-sm me-2" onclick="updateUserRole('${user.id}')">ثبت</button>
+        <button class="btn btn-sm btn-danger" onclick="deleteUser('${user.id}')">حذف کاربر</button>
+      </td>
     `;
+    eventList.appendChild(div);
   });
-  html += '</div>';
 
-  document.getElementById("event-list").innerHTML += html;
+  
 }
 
 $(document).on('submit', '#forgot-password-form', function(event){
@@ -327,14 +329,213 @@ async function sendPasswordReset() {
   }
 }
 
-async function updateNavbarUserInfo() {
-  const { data: { user }, error } = await client.auth.getUser();
+async function updateNavbarUserInfo(user) {
   const userName = user.user_metadata?.full_name || user.email || "کاربر";
   const userInfoItem = document.getElementById("nav-user-info");
-  const userNameLink = document.getElementById("nav-user-name");
 
-  if (user && userInfoItem && userNameLink) {
-    userNameLink.textContent = userName;
-    userInfoItem.style.display = "block";
+  if (user && userInfoItem) {
+    userInfoItem.style.display = 'block';
+    // const role = user.user_metadata.role || "user";
+    // console.log(role)
+    // userInfoItem.innerHTML = `
+    //   <a class="nav-link dropdown-toggle" href="#" id="nav-user-name" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    //     ${userName}
+    //   </a>
+    //   <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-user-name">
+    //     <li><a class="dropdown-item" href="/user/">داشبورد</a></li>
+    //     <li><a class="dropdown-item" href="/user/changepassword/">تغییر رمز عبور</a></li>
+    //     ${role === "admin" ? '<li><hr class="dropdown-divider"></li><li id="admin-panel-link"><a class="dropdown-item" href="/manage/">مدیریت کاربران</a></li>' : ""}
+    //     <li><hr class="dropdown-divider"></li>
+    //     <li><button class="logout-button dropdown-item text-danger" id="nav-logout">خروج</button>
+    //   </ul>    
+    // `;
+  }
+}
+
+async function getCurrentUserInfo() {
+  const { data: { user }, error: userError } = await client.auth.getUser();
+
+  if (userError || !user) {
+    console.error("User not found or not logged in.");
+    return null;
+  }
+
+  const { data: profile, error: profileError } = await client
+    .from("profiles")
+    .select("*")
+    .eq("id", user.id)
+    .single();
+
+  if (profileError) {
+    console.error("Error loading profile:", profileError.message);
+    return null;
+  }
+
+  // Combine auth user and profile data
+  const result = {
+    id: user.id,
+    email: user.email,
+    created_at: user.created_at,
+    full_name: profile.full_name,
+    phone: profile.phone,
+    other: profile // includes everything from your custom table
+  };
+
+  // Convert to array if needed
+  return Object.values(result);
+}
+
+async function changePasswordWithVerification() {
+  const currentPassword = document.getElementById("current-password").value;
+  const newPassword = document.getElementById("new-password").value;
+
+  const { data: { user }, error: userError } = await client.auth.getUser();
+  if (userError || !user) {
+    showAuthModal("لطفاً وارد شوید.");
+    return;
+  }
+
+  // Re-authenticate the user by signing in again
+  const { error: loginError } = await client.auth.signInWithPassword({
+    email: user.email,
+    password: currentPassword
+  });
+
+  if (loginError) {
+    showAuthModal("رمز عبور فعلی اشتباه است.");
+    return;
+  }
+
+  // If correct, update to the new password
+  const { error: updateError } = await client.auth.updateUser({
+    password: newPassword
+  });
+
+  if (updateError) {
+    showAuthModal("خطا در تغییر رمز عبور: " + updateError.message);
+  } else {
+    showAuthModal("رمز عبور با موفقیت تغییر کرد. لطفاً دوباره وارد شوید.");
+    const modalElement = document.getElementById("authAlertModal");
+    const modalInstance = bootstrap.Modal.getInstance(modalElement);
+
+    modalElement.addEventListener("hidden.bs.modal", async() => {
+      await client.auth.signOut();
+      window.location.href = "/login/";
+    }, { once: true }); // Ensure it only fires once
+  }
+}
+
+async function checkAdminAccess(user , error) {
+  if (error || !user || user.user_metadata.role !== "admin") {
+    alert("دسترسی غیرمجاز");
+    window.location.href = "/";
+    return;
+  }
+}
+
+async function loadAdminDashboard() {
+  const { data: { session }, error: sessionError } = await client.auth.getSession();
+
+  if (sessionError || !session || !session.access_token) {
+    document.getElementById("user-list").innerHTML = `<div class="text-danger">لطفاً وارد شوید.</div>`;
+    return;
+  }
+
+  const token = session.access_token;
+
+  const response = await fetch(`${SUPABASE_URL}/functions/v1/list_users`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${token}`
+    }
+  });
+
+  const result = await response.json();
+
+  const userList = document.getElementById("user-list");
+  userList.innerHTML = "";
+
+  if (!Array.isArray(result.users)) {
+    userList.innerHTML = `<div class="text-danger">خطا در بارگذاری کاربران</div>`;
+    return;
+  }
+
+  result.users.forEach(user => {
+  const div = document.createElement("tr");
+
+  const role = user.role || "user";
+  const fullName = user.full_name || "-";
+  const phone = user.phone || "-";
+
+  div.innerHTML = `
+      <th scope="row"><strong>${fullName}</strong></th>
+      <td>${phone}</td>
+      <td>${user.email}</td>
+      <td>
+        <select id="role-select-${user.id}" class="form-select form-select-sm w-auto d-inline-block mt-1">
+          <option value="user" ${role === "user" ? "selected" : ""}>کاربر</option>
+          <option value="editor" ${role === "editor" ? "selected" : ""}>دبیر</option>
+          <option value="admin" ${role === "admin" ? "selected" : ""}>مدیر</option>
+        </select>
+      </td>
+      <td>
+        <button class="btn btn-primary btn-sm me-2" onclick="updateUserRole('${user.id}')">ثبت</button>
+        <button class="btn btn-sm btn-danger" onclick="deleteUser('${user.id}')">حذف کاربر</button>
+      </td>
+      `;
+
+    userList.appendChild(div);
+  });
+}
+
+async function updateUserRole(userId) {
+  const newRole = document.getElementById(`role-select-${userId}`).value;
+  const { data: { session }, error } = await client.auth.getSession();
+  if (!session || !session.access_token) return alert("شما وارد نشده‌اید.");
+
+  const token = session.access_token;
+
+  const response = await fetch(`${SUPABASE_URL}/functions/v1/update_user_role`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${token}`
+    },
+    body: JSON.stringify({ user_id: userId, new_role: newRole })
+  });
+
+  const result = await response.json();
+
+  if (result.error) {
+    alert("خطا در بروزرسانی نقش: " + (result.error || "نامشخص"));
+  } else {
+    alert("نقش با موفقیت بروزرسانی شد.");
+    loadAdminDashboard();
+  }
+}
+
+async function deleteUser(userId) {
+  const confirmDelete = confirm("آیا مطمئن هستید که می‌خواهید این کاربر را حذف کنید؟");
+  if (!confirmDelete) return;
+
+  const { data: { session } } = await client.auth.getSession();
+  const token = session?.access_token;
+
+  const res = await fetch("https://iptradvpkatbfgibcrru.supabase.co/functions/v1/delete_user", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": `Bearer ${token}`
+    },
+    body: JSON.stringify({ user_id: userId })
+  });
+
+  const result = await res.json();
+  if (result.success) {
+    alert("کاربر با موفقیت حذف شد.");
+    location.reload();
+  } else {
+    alert("خطا در حذف کاربر: " + (result.error || ""));
   }
 }

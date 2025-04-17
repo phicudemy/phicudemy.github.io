@@ -4,6 +4,8 @@
 {% elsif page.url contains 'magazine' or page.section contains 'magazine' %}
 {% assign target = site.posts %}
 {% assign section = 'magazine' %}
+{% elsif page.url contains 'user' %}
+{% assign target = 'user' %}
 {% endif %}
 <nav class="navbar navbar-light navbar-expand-md justify-content-center bg-first rounded-top-3 pb-0 border-bottom  border-dark">
     <div class="container-fluid">
@@ -19,12 +21,12 @@
                 <li class="nav-item {% if page.url == item.link or page.url contains item.slug or page.section contains item.slug %} active bg-main nav-active{% endif %}">
                     <a class="nav-link {% if page.url == item.link %}mb-0 pb-0{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
                 </li>
-            {% endfor %}                
+            {% endfor %}
+                <li class="nav-item mx-1 {% if page.url contains 'user' %} active bg-main nav-active{% endif %}" id="nav-user-info" style="display: none;">
+                    <a class="nav-link {% if page.url contains 'user' %}mb-0 pb-0{% endif %}" href="/user/">محیط کاربری</a>
+                </li>
             </ul>
             <ul class="navbar-nav ms-auto text-center">
-                <li class="nav-item mx-1" id="nav-user-info" style="display: none;">
-                    <a class="nav-link" href="/user/" id="nav-user-name"></a>
-                </li>
                 <li class="nav-item mx-1">
                     <a class="text-reset" href="https://t.me/jomhourifalsafe" target="_blank"><i class="bi bi-telegram h2 my-auto"></i></a>
                 </li>
@@ -61,6 +63,24 @@
         {%endif%}
         {%endif%}
         {%endfor%}
+        {% if page.url contains 'user' %}
+        <li class="nav-item me-3 me-lg-1">
+            <a class="nav-link d-sm-flex align-items-sm-center {% if page.url == '/user/' %}active{%endif%}" href="/user/">مشخصات</a>
+        </li>
+        <li class="nav-item me-3 me-lg-1">
+            <a class="nav-link d-sm-flex align-items-sm-center {% if page.url contains 'registerations' %}active{%endif%}" href="/user/registerations/">ثبت‌نام‌ها</a>
+        </li>
+        <li class="nav-item me-3 me-lg-1">
+            <a class="nav-link d-sm-flex align-items-sm-center {% if page.url contains 'user/manage' %}active{%endif%}" href="/user/manage/">مدیریت کاربران</a>
+        </li>
+        <li class="nav-item me-3 me-lg-1">
+            <a class="nav-link d-sm-flex align-items-sm-center {% if contains 'changepassword' %}active{%endif%}" href="/user/changepassword/">تغییر پسورد</a>
+        </li>
+        <li class="nav-item me-3 me-lg-1">
+            <button class="logout-button text-danger nav-link d-sm-flex align-items-sm-center {% if contains 'changepassword' %}active{%endif%}" >خروج</button>
+        </li>
+        {%endif%}
+
       </ul>  
     </div>
   </nav>

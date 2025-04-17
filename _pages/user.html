@@ -16,14 +16,7 @@ caption: Rembrandt laughing / Rembrandt, c. 1628, Oil on copper, 22.2 × 17.1 cm
     <p class="placeholder-glow"><strong>شماره همراه:</strong> <span id="user-phone" class="placeholder ">در حال بارگیری...</span></p>
     
     <button id="edit-profile-button" class="btn btn-warning mt-2">ویرایش پروفایل</button>
-    <button id="logout-button" class="btn btn-danger mt-2">خروج</button>
-  </div>
-  
-  <hr class="my-4">
-
-  <div id="event-list">
-    <h4>رویدادهای ثبت‌نام شده</h4>
-    <!-- Events will be inserted here -->
+    <button id="logout-button" class="logout-button btn btn-danger mt-2">خروج</button>
   </div>
 </div>
 <div class="modal fade" id="editProfileModal" tabindex="-1" aria-labelledby="editProfileModalLabel" aria-hidden="true">
@@ -60,5 +53,18 @@ caption: Rembrandt laughing / Rembrandt, c. 1628, Oil on copper, 22.2 × 17.1 cm
   $(document).on('click', '#edit-profile-button', async function() {
     await openEditProfileModal();
   });  
-  window.onload = loadDashboard;
+  window.onload = async() =>{
+    const { data: { session }, error } = await client.auth.getSession();
+
+    if (error || !session || !session.user) {
+      document.getElementById("user-info").innerHTML = `<p class="text-danger">لطفاً وارد شوید.</p>`;
+      document.getElementById("event-list").innerHTML = "";
+      return;
+    }
+
+    const user = session.user;
+
+    await loadDashboard(user);
+
+  } 
 </script>
