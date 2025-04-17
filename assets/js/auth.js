@@ -226,12 +226,16 @@ async function saveRegistration(form, token = null) {
       method: 'POST',
       headers: headers,
       body: JSON.stringify({
+        user_id: form.user_id,
         full_name: form.full_name,
         email: form.email,
         phone: form.phone,
-        amount: 10000,  // Optional: Replace with `form.amount` if you make this dynamic
+        event_title: form.event_title,
+        pay_option_1: form.pay_option_1,
+        pay_option_2: form.pay_option_2,
+        amount: 10000,
         event_url: form.event_url,
-        description: 'ثبت‌نام برای رویداد'
+        description: form.notes
       })
     });
 
