@@ -9,20 +9,21 @@ permalink: /manage/
     <div class="col">
       <div id="admin-dashboard">
         <h2>{{page.title}}</h2>
-        <table class="table table-striped table-hover">
-          <thead>
-            <tr>
-              <th scope="col">نام</th>
-              <th scope="col">همراه</th>
-              <th scope="col">ایمیل</th>
-              <th scope="col">نقش</th>
-              <th scope="col">عملیات</th>
-            </tr>
-          </thead>
-          <tbody id="user-list">
-
-          </tbody>
-        </table>
+        <div class="table-responsive">
+          <table class="table table-striped table-hover">
+            <thead>
+              <tr>
+                <th scope="col">نام</th>
+                <th scope="col">همراه</th>
+                <th scope="col">ایمیل</th>
+                <th scope="col">نقش</th>
+                <th scope="col">عملیات</th>
+              </tr>
+            </thead>
+            <tbody id="user-list">
+            </tbody>
+          </table>
+        </div>
       </div>
       
     </div>
@@ -83,13 +84,13 @@ async function loadAdminDashboard() {
       <td>
         <select id="role-select-${user.id}" class="form-select form-select-sm w-auto d-inline-block mt-1">
           <option value="user" ${role === "user" ? "selected" : ""}>کاربر</option>
-          <option value="admin" ${role === "editor" ? "selected" : ""}>دبیر</option>
+          <option value="editor" ${role === "editor" ? "selected" : ""}>دبیر</option>
           <option value="admin" ${role === "admin" ? "selected" : ""}>مدیر</option>
         </select>
       </td>
       <td>
-        <button class="btn btn-primary btn-sm mt-2 me-2" onclick="updateUserRole('${user.id}')">ثبت</button>
-        <button class="btn btn-sm btn-danger mt-2" onclick="deleteUser('${user.id}')">حذف کاربر</button>
+        <button class="btn btn-primary btn-sm me-2" onclick="updateUserRole('${user.id}')">ثبت</button>
+        <button class="btn btn-sm btn-danger" onclick="deleteUser('${user.id}')">حذف کاربر</button>
       </td>
       `;
 
