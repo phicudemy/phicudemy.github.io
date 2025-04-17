@@ -83,7 +83,8 @@ async function loadAdminDashboard() {
       <td>
         <select id="role-select-${user.id}" class="form-select form-select-sm w-auto d-inline-block mt-1">
           <option value="user" ${role === "user" ? "selected" : ""}>کاربر</option>
-          <option value="admin" ${role === "admin" ? "selected" : ""}>ادمین</option>
+          <option value="admin" ${role === "editor" ? "selected" : ""}>دبیر</option>
+          <option value="admin" ${role === "admin" ? "selected" : ""}>مدیر</option>
         </select>
       </td>
       <td>
