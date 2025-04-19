@@ -282,7 +282,7 @@ async function loadDashboard(user) {
 async function loadEvents(user) {
   const { data: events, error: fetchError } = await client
     .from("registeration")
-    .select("event_title, event_url, status, created_at, pay_confirm")
+    .select("id, event_title, event_url, status, created_at, pay_confirm")
     .eq("user_id", user.id)
     .order("created_at", { ascending: false });
 
@@ -309,8 +309,7 @@ async function loadEvents(user) {
       <td>${new Date(event.created_at).toLocaleDateString("fa-IR")}</td>
       <td>${event.pay_confirm ? "پرداخت شده ✅" : "در انتظار پرداخت ❌"}</td>
       <td>
-        <button class="btn btn-primary btn-sm me-2" onclick="updateUserRole('${user.id}')">ثبت</button>
-        <button class="btn btn-sm btn-danger" onclick="deleteUser('${user.id}')">حذف کاربر</button>
+        ${!event.pay_confirm ? `<button class="btn btn-warning btn-sm mt-2" onclick="payPending('${event.id}')">پرداخت</button>` : ""}
       </td>
     `;
     eventList.appendChild(div);
@@ -545,5 +544,59 @@ async function deleteUser(userId) {
     location.reload();
   } else {
     alert("خطا در حذف کاربر: " + (result.error || ""));
+  }
+}
+
+async function payPending(regId) {
+  const { data: { session }, error } = await client.auth.getSession();
+  if (!session || !session.access_token) {
+    showAuthModal("لطفاً ابتدا وارد شوید.");
+    return;
+  }
+
+  try {
+    // Step 1: Fetch registration info
+    const { data: registration, error: fetchError } = await client
+      .from("registeration")
+      .select("id, user_name, user_email, user_phone, amount, event_url, event_title")
+      .eq("id", regId)
+      .single();
+
+    if (fetchError || !registration) {
+      showAuthModal("ثبت‌نام یافت نشد یا مشکلی در دریافت اطلاعات رخ داد.");
+      return;
+    }
+
+    // Step 2: Call Edge Function with full data
+    const response = await fetch("https://iptradvpkatbfgibcrru.supabase.co/functions/v1/create_payment", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${session.access_token}`
+      },
+      body: JSON.stringify({
+        reg_id: regId,
+        user_id: session.user.id,
+        full_name: registration.user_name,
+        email: registration.user_email,
+        phone: registration.user_phone,
+        amount: registration.amount,
+        event_url: registration.event_url,
+        event_title: registration.event_title,
+        description: "پرداخت مجدد برای رویداد"
+      })
+    });
+
+    const result = await response.json();
+
+    if (result.payment_url) {
+      window.location.href = result.payment_url;
+    } else {
+      showAuthModal(result.message || "مشکلی در اتصال به درگاه پرداخت رخ داد.");
+    }
+
+  } catch (err) {
+    console.error("Error initiating payment:", err);
+    showAuthModal("مشکل غیرمنتظره در پرداخت.");
   }
 }
