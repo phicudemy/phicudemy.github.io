@@ -13,7 +13,7 @@ categories:
 tags:
   - path: _tags/analyticphilosophy.md
   - path: _tags/williamson.md
-  - {}
+  - path: _tags/doingphilosophytag.md
 ---
 
 
