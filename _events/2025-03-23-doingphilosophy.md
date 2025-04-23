@@ -9,7 +9,7 @@ categories:
   - path: _categories/philosophy.md
 tags:
   - path: _tags/williamson.md
-  - {}
+  - path: _tags/doingphilosophytag.md
   - path: _tags/epistemology.md
   - path: _tags/analyticphilosophy.md
 schedule: 'چهارشنبه‌ها ساعت ۲۰:۳۰-۱۸:۳۰'
