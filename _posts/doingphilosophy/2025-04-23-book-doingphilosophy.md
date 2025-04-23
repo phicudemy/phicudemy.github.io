@@ -14,8 +14,16 @@ contents:
 
 
 
-آقای [محسن زمانی](/people/mohsenzamani/) لطف کردند و ترجمهٔ خود از کتاب [«فلسفه ورزیدن: از کنج‌کاویِ معمولی تا استدلالِ منطقی»](https://global.oup.com/academic/product/doing-philosophy-9780198822516?cc=us&lang=en&) اثر [تیمتی ویلیامسن](https://en.wikipedia.org/wiki/Timothy_Williamson) (استاد دانشگاه آکسفورد)را برای انتشار در اختیار «جمهوری فلسفه و ادبیات» قرار دادند. ضمن تشکر از ایشان، «جمهوری فلسفه و ادبیات» به‌مرور ترجمهٔ فصول مختلفِ این کتاب را، که از فهرست زیر قابل دست‌رس خواهد بود، در اختیار مخاطبان قرار خواهد داد. 
 
+آقای [محسن زمانی](/people/mohsenzamani/) لطف کردند و ترجمهٔ خود از کتاب [«فلسفه ورزیدن: از کنج‌کاویِ معمولی تا استدلالِ منطقی»](https://global.oup.com/academic/product/doing-philosophy-9780198822516?cc=us&lang=en&) اثر [تیمتی ویلیامسن](https://en.wikipedia.org/wiki/Timothy_Williamson) (استاد دانشگاه آکسفورد)را برای انتشار در اختیار «جمهوری فلسفه و ادبیات» قرار دادند. ضمن تشکر از ایشان، «جمهوری فلسفه و ادبیات» به‌مرور ترجمهٔ فصول مختلفِ این کتاب را، که از فهرست زیر قابل دست‌رس خواهد بود، در اختیار مخاطبان قرار خواهد داد. 
+<br><br>
+<center>
+<img 
+       src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/71VcnmmDAkL._SL1500_.jpg" 
+       alt=" "
+       style="width: 75%; height:75%;" />
+</center>
+<br><br>
 اطلاعاتِ کتاب‌شناختی این اثر:
 <p dir="ltr">
 Williamson, Timothy (2018). <i>Doing Philosophy: From Common Curiosity to Logical Reasoning</i>. Oxford, United Kingdom: Oxford University Press.</p>
