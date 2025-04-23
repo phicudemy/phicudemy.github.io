@@ -4,6 +4,8 @@ subtitle: از کنج‌کاویِ معمولی تا استدلالِ منطقی
 slug: book-doingphilosophy
 people:
   - path: _people/timothywilliamson.md
+translator:
+  - path: _people/mohsenzamani.md
 date: 2025-04-22T20:30:00.000Z
 published: true
 ---
