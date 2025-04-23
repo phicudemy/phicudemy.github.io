@@ -28,7 +28,7 @@ contents:
 <p dir="ltr">
 Williamson, Timothy (2018). <i>Doing Philosophy: From Common Curiosity to Logical Reasoning</i>. Oxford, United Kingdom: Oxford University Press.</p>
 
-فهرست کتابِ «فلسفه ورزیدن: از کنج‌کاویِ معمولی تا استدلالِ منطقی»
+**فهرست کتابِ «فلسفه ورزیدن: از کنج‌کاویِ معمولی تا استدلالِ منطقی»**
 
 ۱- مقدمه
 
