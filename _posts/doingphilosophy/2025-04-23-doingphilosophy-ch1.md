@@ -15,9 +15,10 @@ categories:
 
 
 
+
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۲. از فهم متعارف آغازکردن]
+[[فصل ۲. از فهم متعارف آغازکردن](/magazine/doingphilosophy-ch2/)]
 
 
 ----------
@@ -54,5 +55,5 @@ categories:
 ----------
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۲. از فهم متعارف آغازکردن]
+[[فصل ۲. از فهم متعارف آغازکردن](/magazine/doingphilosophy-ch2/)]
 
