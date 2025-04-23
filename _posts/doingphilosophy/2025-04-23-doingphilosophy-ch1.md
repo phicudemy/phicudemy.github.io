@@ -1,6 +1,6 @@
 ---
 title: فصل ۱. مقدمه
-subtitle: از کتاب «از کنج‌کاویِ معمولی تا استدلالِ منطقی»
+subtitle: 'از کتاب «فلسفه ورزیدن: از کنج‌کاویِ معمولی تا استدلالِ منطقی»'
 slug: doingphilosophy-ch1
 people:
   - path: _people/timothywilliamson.md
