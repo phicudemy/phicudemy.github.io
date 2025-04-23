@@ -2,6 +2,8 @@
 title: فصل ۲. از فهمِ متعارف آغاز کردن
 subtitle: 'از کتاب «فلسفه ورزیدن: از کنج‌کاویِ معمولی تا استدلالِ منطقی»'
 slug: doingphilosophy-ch2
+people:
+  - path: _people/timothywilliamson.md
 date: 2025-04-22T20:30:00.000Z
 published: true
 ---
