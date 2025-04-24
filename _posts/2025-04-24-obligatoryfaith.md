@@ -214,7 +214,7 @@ contents:
 
 [\[23\]](#fnref-23){:#fn-23} Rinard 2017.
 
-[\[24\]](#fnref-24){:#fn-24} برای مثال، بنگرید به Deonna and Teroni 2012
+[\[24\]](#fnref-24){:#fn-24} برای مثال، بنگرید به Deonna and Teroni 2012.
 
 [\[25\]](#fnref-25){:#fn-25} Fantl and McGrath 2002.
 
