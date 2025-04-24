@@ -227,7 +227,7 @@ contents:
 <p dir="ltr">
 
 <ul>
-    <li><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12.0pt;"><span style="letter-spacing:-.15pt;line-height:200%;">Alston, W. (1985). “Concepts of Epistemic Justification'. Reprinted in Alston 1989, pp. 81-115.</span></span></li>
+    <li> Alston, W. (1985). “Concepts of Epistemic Justification'. Reprinted in Alston 1989, pp. 81-115.</li>
     <li>
         <p style="line-height:normal;margin:6.0pt 0in;tab-stops:-.5in;text-align:justify;"><span style="font-family:&quot;Times New Roman&quot;, serif;font-size:12pt;"><span style="letter-spacing:-.15pt;">Alston, W.: 1988, “The Deontological Conception of Epistemic Justification”. Reprinted in Alston 1989, pp. 115-153.</span></span></p>
     </li>
