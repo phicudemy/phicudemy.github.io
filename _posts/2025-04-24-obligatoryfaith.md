@@ -301,7 +301,7 @@ contents:
         <p style="margin:6.0pt 0in;text-align:justify;"><span style="font-family:&quot;Times New Roman&quot;, serif;font-size:12.0pt;">Sylvan, K. (2015). “What apparent reasons appear to be. Philosophical Studies”, 172(3), 587–606.</span></p>
     </li>
     <li>
-        <p style="layout-grid-mode:char;line-height:normal;margin:6.0pt 0in;tab-stops:-.5in;text-align:justify;"><span style="font-family:&quot;Times New Roman&quot;, serif;font-size:12pt;"><span>Vahid, H. (2020).&nbsp;The Dispositional Architecture of Epistemic Reasons. Routledge.</span><span lang="FA" dir="RTL"></span></span></p>
+        <p style="layout-grid-mode:char;line-height:normal;margin:6.0pt 0in;tab-stops:-.5in;text-align:justify;"><span style="font-family:&quot;Times New Roman&quot;, serif;font-size:12pt;"><span>Vahid, H. (2020).&nbsp;The Dispositional Architecture of Epistemic Reasons. Routledge.</span></span></p>
     </li>
 </ul>
 </p>
