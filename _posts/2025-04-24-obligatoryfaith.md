@@ -10,6 +10,7 @@ categories:
 contents:
   - path: _contents/article.md
 tags:
+  - path: _tags/epistemology.md
   - path: _tags/philosophyofreligion-tag.md
 ---
 
