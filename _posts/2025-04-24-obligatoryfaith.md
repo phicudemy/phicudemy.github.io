@@ -314,6 +314,6 @@ contents:
 [^6]: assumption
 [^7]: working hypothesis
 [^8]: truth-conductivity
-[^9]: (infinite justificational fecundity)
+[^9]: infinite justificational fecundity
 [^10]: presentational
 [^11]: pragmatic encroachment
