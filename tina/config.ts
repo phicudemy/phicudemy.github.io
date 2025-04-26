@@ -363,6 +363,16 @@ export default defineConfig({
             type: 'string',
           },          
           {
+            label: 'هزینه ثبت‌نام',
+            name: 'register_fee',
+            type: 'number',
+          },          
+          {
+            label: 'هزینه ثبت‌نام دانشجویی',
+            name: 'stdregister_fee',
+            type: 'number',
+          },          
+          {
             type: "string",
             name: "body",
             label: "متن",
