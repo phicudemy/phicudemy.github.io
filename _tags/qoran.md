@@ -1,0 +1,5 @@
+---
+title: قرآن
+slug: qoran
+---
+
