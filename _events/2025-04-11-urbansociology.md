@@ -17,7 +17,10 @@ sessions: 6
 published: true
 register: 'https://zarinp.al/698704'
 stdregister: 'https://zarinp.al/698705'
+register_fee: 1200000
+stdregister_fee: 900000
 ---
+
 
 
 
