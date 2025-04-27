@@ -3,6 +3,8 @@ title: خوانش چهار مفهوم بنیادی نیچه در *چنین گف�
 slug: دietzsche-arathustra
 people:
   - path: _people/bessatelmi.md
+contents:
+  - path: _contents/courses.md
 schedule: چهارشنبه‌ها ساعت ۱۳ الی ۱۵
 format:
   - online
