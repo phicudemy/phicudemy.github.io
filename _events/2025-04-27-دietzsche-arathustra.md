@@ -1,5 +1,5 @@
 ---
-title: خوانش چهار مفهوم بنیادی نیچه در *چنین گفت زرتشت* با سینما
+title: خوانش چهار مفهوم بنیادی نیچه در _چنین گفت زرتشت_ با سینما
 slug: دietzsche-arathustra
 people:
   - path: _people/bessatelmi.md
