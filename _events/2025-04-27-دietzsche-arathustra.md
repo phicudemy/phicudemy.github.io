@@ -65,7 +65,7 @@ published: true
 <p dir="ltr">
 <i>The Great Beauty</i> (2013)<br>
 
-<i>زندگی و دیگر هیچ</i> (1370)
+<i>زندگی و دیگر هیچ</i> (۱۳۷۰)
 
 </p>
 
