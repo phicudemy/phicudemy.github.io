@@ -1,6 +1,8 @@
 ---
 title: خوانش چهار مفهوم بنیادی نیچه در *چنین گفت زرتشت* با سینما
 slug: دietzsche-arathustra
+people:
+  - path: _people/bessatelmi.md
 schedule: چهارشنبه‌ها ساعت ۱۳ الی ۱۵
 format:
   - online
@@ -9,6 +11,7 @@ start: 2025-05-06T20:30:00.000Z
 sessions: 4
 published: true
 ---
+
 
 ### شرح درس:
 
