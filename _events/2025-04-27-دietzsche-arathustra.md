@@ -7,7 +7,7 @@ contents:
   - path: _contents/courses.md
 categories:
   - path: _categories/philosophy.md
-  - {}
+  - path: _categories/culture.md
 schedule: چهارشنبه‌ها ساعت ۱۳ الی ۱۵
 format:
   - online
