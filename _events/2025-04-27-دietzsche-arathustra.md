@@ -15,7 +15,12 @@ format:
 start: 2025-05-06T20:30:00.000Z
 sessions: 4
 published: true
+register: 'https://zarinp.al/705392'
+stdregister: 'https://zarinp.al/705394'
+register_fee: 6000000
+stdregister_fee: 4000000
 ---
+
 
 
 ### شرح درس:
