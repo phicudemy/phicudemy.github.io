@@ -4,45 +4,49 @@ slug: status
 path: /status/
 ---
 <div class="container mt-5">
-  <div class="card shadow rounded-4">
-    <div class="card-body">
-      <h3 class="card-title text-center mb-4">وضعیت ثبت‌نام</h3>
-      <div id="status-alert" class="alert d-none text-center">
-        <strong id="status-message"></strong><br>
-        <button class="btn btn-first d-none" id="pay-btn">پرداخت</button>
-      </div>
-      <div id="details" style="display: none;">
-        <dl class="row">
-          <dt class="col-sm-4">رویداد:</dt>
-          <dd class="col-sm-8"><a href="" id="event-url"><strong id="event-title"></strong></a></dd>
-
-          <dt class="col-sm-4">نام:</dt>
-          <dd class="col-sm-8" id="user-name"></dd>
-
-          <dt class="col-sm-4">ایمیل:</dt>
-          <dd class="col-sm-8" id="user-email"></dd>
-
-          <dt class="col-sm-4">شماره تماس:</dt>
-          <dd class="col-sm-8" id="user-phone"></dd>
-
-          <dt class="col-sm-4">وضعیت:</dt>
-          <dd class="col-sm-8" id="status"></dd>
-
-          <dt class="col-sm-4">مبلغ:</dt>
-          <dd class="col-sm-8" id="amount"></dd>
-
-          <dt class="col-sm-4">کد رهگیری:</dt>
-          <dd class="col-sm-8" id="ref-id"></dd>
-
-          <dt class="col-sm-4">شماره کارت:</dt>
-          <dd class="col-sm-8" id="card-pan"></dd>
-
-          <dt class="col-sm-4">توضیحات:</dt>
-          <dd class="col-sm-8" id="notes"></dd>
-        </dl>
-      </div>
+    <div class="row">
+        <div class="col-sm-6 mx-auto my-3">
+            <div class="card shadow rounded-4">
+                <div class="card-body">
+                  <h3 class="card-title text-center mb-4">وضعیت ثبت‌نام</h3>
+                  <div id="status-alert" class="alert d-none text-center">
+                    <strong id="status-message"></strong><br>
+                    <button class="btn btn-first d-none" id="pay-btn">پرداخت</button>
+                  </div>
+                  <div id="details" style="display: none;">
+                    <dl class="row">
+                      <dt class="col-sm-4">رویداد:</dt>
+                      <dd class="col-sm-8"><a href="" id="event-url"><strong id="event-title"></strong></a></dd>
+            
+                      <dt class="col-sm-4">نام:</dt>
+                      <dd class="col-sm-8" id="user-name"></dd>
+            
+                      <dt class="col-sm-4">ایمیل:</dt>
+                      <dd class="col-sm-8" id="user-email"></dd>
+            
+                      <dt class="col-sm-4">شماره تماس:</dt>
+                      <dd class="col-sm-8" id="user-phone"></dd>
+            
+                      <dt class="col-sm-4">وضعیت:</dt>
+                      <dd class="col-sm-8" id="status"></dd>
+            
+                      <dt class="col-sm-4">مبلغ:</dt>
+                      <dd class="col-sm-8" id="amount"></dd>
+            
+                      <dt class="col-sm-4">کد رهگیری:</dt>
+                      <dd class="col-sm-8" id="ref-id"></dd>
+            
+                      <dt class="col-sm-4">شماره کارت:</dt>
+                      <dd class="col-sm-8" id="card-pan"></dd>
+            
+                      <dt class="col-sm-4">توضیحات:</dt>
+                      <dd class="col-sm-8" id="notes"></dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+        </div>
     </div>
-  </div>
 </div>
 <script type="module">
   const params = new URLSearchParams(window.location.search);
