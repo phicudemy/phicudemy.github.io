@@ -1,0 +1,110 @@
+---
+title: وضعیت ثبت‌نام
+slug: status
+path: /status/
+---
+<div class="container mt-5">
+  <div class="card shadow rounded-4">
+    <div class="card-body">
+      <h3 class="card-title text-center mb-4">وضعیت ثبت‌نام</h3>
+      <div id="status-alert" class="alert d-none text-center">
+        <strong id="status-message"></strong><br>
+        <button class="btn btn-first d-none" id="pay-btn">پرداخت</button>
+      </div>
+      <div id="details" style="display: none;">
+        <dl class="row">
+          <dt class="col-sm-4">رویداد:</dt>
+          <dd class="col-sm-8"><a href="" id="event-url"><strong id="event-title"></strong></a></dd>
+
+          <dt class="col-sm-4">نام:</dt>
+          <dd class="col-sm-8" id="user-name"></dd>
+
+          <dt class="col-sm-4">ایمیل:</dt>
+          <dd class="col-sm-8" id="user-email"></dd>
+
+          <dt class="col-sm-4">شماره تماس:</dt>
+          <dd class="col-sm-8" id="user-phone"></dd>
+
+          <dt class="col-sm-4">وضعیت:</dt>
+          <dd class="col-sm-8" id="status"></dd>
+
+          <dt class="col-sm-4">مبلغ:</dt>
+          <dd class="col-sm-8" id="amount"></dd>
+
+          <dt class="col-sm-4">کد رهگیری:</dt>
+          <dd class="col-sm-8" id="ref-id"></dd>
+
+          <dt class="col-sm-4">شماره کارت:</dt>
+          <dd class="col-sm-8" id="card-pan"></dd>
+
+          <dt class="col-sm-4">توضیحات:</dt>
+          <dd class="col-sm-8" id="notes"></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="module">
+  const params = new URLSearchParams(window.location.search);
+  const regId = params.get("reg_id");
+
+  function showMessage(message, type = "info", pay=false) {
+    const msgAl = document.getElementById("status-alert");
+    const msgEl = document.getElementById("status-message");
+    const btnP1 = document.getElementById("pay-btn");
+    msgEl.textContent = message;
+    msgAl.classList.add("alert-" + type);
+    if (pay){
+        btnP1.classList.remove("d-none");
+        btnP1.setAttribute("onClick", `payPending('${regId}')`);
+    } else {
+        btnP1.classList.add("d-none");
+        btnP1.removeAttribute(`onClick`);
+    }
+    msgAl.classList.remove("d-none");
+  }
+
+  function showDetails(data) {
+    document.getElementById("event-title").textContent = data.event_title || "—";
+    document.getElementById("event-url").href = data.event_url || "—"; 
+    document.getElementById("user-name").textContent = data.user_name || "—";
+    document.getElementById("user-email").textContent = data.user_email || "—";
+    document.getElementById("user-phone").textContent = data.user_phone || "—";
+    document.getElementById("status").textContent = data.status == "paid"? "ثبت‌نام نهایی" : "پیش‌ثبت‌نام";
+    document.getElementById("amount").textContent = data.amount ? `${data.amount.toLocaleString()} ریال` : "—";
+    document.getElementById("ref-id").textContent = data.ref_id || "—";
+    document.getElementById("card-pan").textContent = data.pay_card_pan || "—";
+    document.getElementById("notes").textContent = data.notes || "—";
+    document.getElementById("details").style.display = "block";
+  }
+
+  async function fetchStatus() {
+    if (!regId) {
+      showMessage("شناسه ثبت‌نام در لینک موجود نیست.", "danger");
+      return;
+    }
+
+    const { data, error } = await client
+      .from("registeration")
+      .select("event_title,event_url, user_name, user_email, user_phone, status, amount, ref_id, pay_card_pan, notes")
+      .eq("id", regId)
+      .single();
+
+    if (error || !data) {
+      showMessage("اطلاعات ثبت‌نام یافت نشد یا خطایی رخ داده است.", "danger");
+      return;
+    }
+
+    showDetails(data);
+
+    if (data.status === "paid") {
+      showMessage("پرداخت با موفقیت انجام شده است.", "success", false);
+    } else if (data.status === "pending") {
+      showMessage("پیش‌ثبت‌نام انجام شده اما پرداخت تکمیل نشده است.", "warning", true);
+    } else {
+      showMessage("ثبت‌نام در وضعیت: " + data.status, "info");
+    }
+  }
+
+  fetchStatus();
+</script>

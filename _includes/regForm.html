@@ -2,36 +2,71 @@
     <h2>ثبت‌نام</h2>
     <div id="signupAlert" class="alert alert-warning" role="alert" style="display: none;">
         برای مدیریت ثبت‌نام‌ها و تجربه بهتر در سایت می‌توانید <a href="/user/signup/">عضو شوید</a>.
-    </div>    
-    <div class="mb-3">
-        <div class="form-check form-switch">
-          <input class="form-check-input" type="checkbox" role="switch" id="studentReg">
-          <label class="form-check-label" for="studentReg">دانشجویی</label>
-        </div>        
     </div>
     <div class="mb-3">
-        <label for="reg-fullname" class="form-label">نام و نام خانوادگی</label>
-        <input type="text" id="reg-fullname" class="form-control" required>
+      {%if page.register_fee %}
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="amount" id="radioFee1" value="{{page.register_fee}}" data-student="false" checked>
+        <label class="form-check-label" for="radioFee1">
+          <span class="regType">عادی</span>
+          <span class="badge text-bg-secondary small"><span class="athousand font-fd" data-value="{{page.register_fee}}"></span> تومان</span>
+        </label>
+      </div>
+      {%endif%}
+      {%if page.stdregister_fee %}
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="radio" name="amount" id="radioFee2" data-student="true" value="{{page.stdregister_fee}}">
+        <label class="form-check-label" for="radioFee2">
+          <span class="regType">دانشجویی</span>
+          <span class="badge text-bg-secondary small"><span class="athousand font-fd" data-value="{{page.stdregister_fee}}"></span> تومان</span>
+        </label>
+      </div>
+      {%endif%}
+    </div>    
+    <div class="form-floating  mb-3">
+      <input type="text" id="reg-fullname" class="form-control" required>
+      <label for="reg-fullname" class="form-label">نام و نام خانوادگی</label>
       </div>
 
-    <div class="mb-3">
-      <label for="reg-email" class="form-label">ایمیل</label>
+    <div class="form-floating mb-3">
       <input type="email" id="reg-email" class="form-control" required>
+      <label for="reg-email" class="form-label">ایمیل</label>
     </div>
-    <div class="mb-3">
-        <label for="reg-cell" class="form-label">شماره همراه</label>
-        <input type="tel" id="reg-phone" class="form-control" required>
+    <div class="form-floating mb-3">
+      <input type="tel" id="reg-phone" class="form-control" required>
+      <label for="reg-cell" class="form-label">شماره همراه</label>
     </div>
-    <div class="mb-3">
-      <label for="reg-notes" class="form-label">یادداشت</label>
-      <textarea id="reg-notes" class="form-control"></textarea>
+    <div class="form-floating mb-3">
+      <textarea id="reg-notes" class="form-control" style="height: 100px"></textarea>
+      <label for="reg-notes" class="form-label">توضیحات</label>
+    </div>
+    <div class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" name="preregister" role="switch" id="switchPreRegister" value="preregister">
+      <label class="form-check-label" for="switchPreRegister">پیش‌ثبت‌نام</label>
     </div>
     <input type="hidden" id="reg-title" value="{{page.title}}">
     <input type="hidden" id="reg-pay1" value="{{page.register}}">
     <input type="hidden" id="reg-pay2" value="{{page.stdregister}}">
     <input type="hidden" id="reg-url" value="{{page.id}}">
     <input type="hidden" id="reg-user_id" value="">
-    
-    <button type="submit" class="btn btn-success float-end">ثبت‌نام</button>
+    <div class="btn-group float-end" role="group" aria-label="reg-btns">
+      <button type="submit" class="btn btn-first">ثبت‌نام</button>
+    </div>
   </form>
   <div id="registration-status"></div>
+
+  <script>
+    $(document).ready(function(){
+      $('.athousand').each(function () {
+        let num = parseInt($(this).attr('data-value'));
+        $(this).text(parseFloat(num).toLocaleString())
+      });
+      $('input[type=checkbox][name=preregister]').on('change', function(){
+        if($('input[name="preregister"]:checked').val() == "preregister") {
+          $('button[type="submit"]').text('پیش‌ثبت‌نام');
+        } else {
+          $('button[type="submit"]').text('ثبت‌نام');
+        }
+      });
+    })
+  </script>

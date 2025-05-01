@@ -206,7 +206,10 @@ $(document).on('submit', '#registration-form', async function(event) {
     email: user?.email || $('#reg-email').val() || '',
     phone: user?.user_metadata?.phone || $('#reg-phone').val() || '',
     notes: $('#reg-notes').val() || '',
+    amount: $('input[name="amount"]:checked').val(),
+    type: $('input[name="amount"]:checked').next("label").children('.regType').text() || '',
     user_id: user?.id || '',
+    pre_register: $("#switchPreRegister").val()
   };
 
   await saveRegistration(formData, session?.access_token);
@@ -231,11 +234,11 @@ async function saveRegistration(form, token = null) {
         email: form.email,
         phone: form.phone,
         event_title: form.event_title,
-        pay_option_1: form.pay_option_1,
-        pay_option_2: form.pay_option_2,
-        amount: 10000,
+        amount: form.amount,
+        type:form.type,
         event_url: form.event_url,
-        description: form.notes
+        description: form.notes,
+        pre_register: form.pre_register
       })
     });
 
@@ -266,6 +269,7 @@ async function saveRegistration(form, token = null) {
   }
 }
 
+
 async function loadDashboard(user) {
   const full_name = user.user_metadata?.full_name || "-";
   const phone = user.user_metadata?.phone || "-";
@@ -282,7 +286,7 @@ async function loadDashboard(user) {
 async function loadEvents(user) {
   const { data: events, error: fetchError } = await client
     .from("registeration")
-    .select("id, event_title, event_url, status, created_at, pay_confirm")
+    .select("id, event_title, type, event_url, status, created_at, pay_confirm")
     .eq("user_id", user.id)
     .order("created_at", { ascending: false });
 
@@ -307,10 +311,8 @@ async function loadEvents(user) {
     div.innerHTML = `
       <th scope="row"><strong><a href="${event.event_url}" target="_blank">${event.event_title}</strong></a></th>
       <td>${new Date(event.created_at).toLocaleDateString("fa-IR")}</td>
-      <td>${event.pay_confirm ? "پرداخت شده ✅" : "در انتظار پرداخت ❌"}</td>
-      <td>
-        ${!event.pay_confirm ? `<button class="btn btn-warning btn-sm mt-2" onclick="payPending('${event.id}')">پرداخت</button>` : ""}
-      </td>
+      <td>${event.type || "عادی"}</td>
+      <td><a href="/status/?reg_id=${event.id}">${event.pay_confirm ? '<i class="bi bi-check2-square"></i> پرداخت شده' : "<i class='bi bi-hourglass-split'></i> در انتظار پرداخت"}</a></td>
     `;
     eventList.appendChild(div);
   });
@@ -583,7 +585,8 @@ async function payPending(regId) {
         amount: registration.amount,
         event_url: registration.event_url,
         event_title: registration.event_title,
-        description: "پرداخت مجدد برای رویداد"
+        description: registration.notes,
+        pre_register: false
       })
     });
 
@@ -600,3 +603,4 @@ async function payPending(regId) {
     showAuthModal("مشکل غیرمنتظره در پرداخت.");
   }
 }
+

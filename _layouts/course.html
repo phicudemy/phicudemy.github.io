@@ -67,9 +67,13 @@ jsFile: post.js
       </div>     
       <div class="col-sm-6 pt-3 content">
         {{page.content| markdownify}}
+        {%if register == true %}
+        {%if page.register_fee or page.stdregister_fee %}
         <div class="pb-5">
           {% include regForm.html %}
         </div>
+        {% endif %}
+        {%endif%}
         <div class="mb-2 foot-comment">
           {% include cardComment.html %}
         </div>
