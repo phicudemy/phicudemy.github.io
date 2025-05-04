@@ -1,6 +1,8 @@
 ---
 title: چهره‌های ستم
 slug: oppression
+people:
+  - path: _people/rezamosmer.md
 format:
   - online
   - inperson
@@ -8,6 +10,7 @@ start: 2025-05-13T20:30:00.000Z
 sessions: 3
 published: true
 ---
+
 
 ### شرح درس:
 
