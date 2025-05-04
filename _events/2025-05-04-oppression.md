@@ -7,6 +7,7 @@ contents:
   - path: _contents/courses.md
 categories:
   - path: _categories/philosophy.md
+schedule: چهارشنبه‌ها ساعت ۱۶ الی ۱۸
 format:
   - online
   - inperson
