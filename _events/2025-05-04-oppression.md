@@ -3,6 +3,8 @@ title: چهره‌های ستم
 slug: oppression
 people:
   - path: _people/rezamosmer.md
+contents:
+  - path: _contents/courses.md
 format:
   - online
   - inperson
