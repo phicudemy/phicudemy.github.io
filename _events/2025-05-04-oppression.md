@@ -5,6 +5,8 @@ people:
   - path: _people/rezamosmer.md
 contents:
   - path: _contents/courses.md
+categories:
+  - path: _categories/philosophy.md
 format:
   - online
   - inperson
