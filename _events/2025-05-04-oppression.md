@@ -13,6 +13,8 @@ format:
 start: 2025-05-13T20:30:00.000Z
 sessions: 3
 published: true
+register: 'https://zarinp.al/707516'
+stdregister: 'https://zarinp.al/707517'
 ---
 
 
