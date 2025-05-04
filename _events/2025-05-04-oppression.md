@@ -47,13 +47,13 @@ stdregister: 'https://zarinp.al/707517'
 
 <ul>
     <li>
-        <p style="line-height:115%;margin:0in;text-align:justify;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Cudd, Ann E. (2006), <i>Analyzing Oppression</i>, Oxford: Oxford University Press<span dir="RTL"></span><span dir="RTL"></span><span dir="RTL"></span><span dir="RTL"></span><span lang="AR-SA" dir="RTL">.</span></span></p>
+       Cudd, Ann E. (2006), <i>Analyzing Oppression</i>, Oxford: Oxford University Press
     </li>
     <li>
-        <p style="line-height:150%;margin:0in;text-align:justify;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Frye, Marilyn (1983), “Oppression”, in: Marilyn Frye, <i>Politics of Reality: Essays in Feminist Theory</i>, Crossing Press.</span></p>
+        Frye, Marilyn (1983), “Oppression”, in: Marilyn Frye, <i>Politics of Reality: Essays in Feminist Theory</i>, Crossing Press.
     </li>
     <li>
-        <p style="line-height:150%;margin:0in;text-align:justify;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Young, Iris Marion (1990), “Five faces of oppression”, in: Iris Marion Young, <i>Justice and the Politics of Difference</i>, Princeton University Press.</span></p>
+       Young, Iris Marion (1990), “Five faces of oppression”, in: Iris Marion Young, <i>Justice and the Politics of Difference</i>, Princeton University Press.
     </li>
 </ul>
 
