@@ -126,34 +126,7 @@ jsFile: post.js
   </div>
 </div>
 <script>
-  async function initRegistrationForm() {
-
-    const currentUserInfo = await getCurrentUserInfo();
-    console.log("User Info:", currentUserInfo);
-    // Optionally autofill user fields
-    if (currentUserInfo) {
-      $('#signupAlert').hide();
-      const [id, email, created_at, full_name, phone] = currentUserInfo;
-      $('#reg-fullname').val(full_name || '');
-      $('#reg-email').val(email || '');
-      $('#reg-phone').val(phone || '');
-      $('#reg-user_id').val(id || '');
-    } else {
-      $('#signupAlert').show();
-    }
-  }
   window.onload = async () => {
     initRegistrationForm();
-    const { data: { user }, error } = await client.auth.getUser();
-    if (user) {
-      const role = user.user_metadata?.role || "user";
-
-      // ✅ show registration form only if admin
-      if (role === "admin") {
-        const container = document.getElementById("registration-form");
-        if (container) container.style.display = "block";
-      }
-
-    }
 };
 </script>

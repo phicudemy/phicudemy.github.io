@@ -3,7 +3,11 @@ title: وضعیت ثبت‌نام
 slug: status
 path: /status/
 ---
-<div class="container mt-5">
+<div id="eventList" class="container mt-5" style="display: none;">
+    <h2 class="mb-4">ثبت‌نام‌کنندگان رویداد</h2>
+    <div id="registration-list"></div>
+</div>
+<div id="regStatus" class="container mt-5" style="display: none;">
     <div class="row">
         <div class="col-sm-6 mx-auto my-3">
             <div class="card shadow rounded-4">
@@ -48,11 +52,26 @@ path: /status/
         </div>
     </div>
 </div>
-<script type="module">
-  const params = new URLSearchParams(window.location.search);
-  const regId = params.get("reg_id");
+<script>
+    const encodedData = window.btoa("Hello, world"); // encode a string
+    console.log(encodedData)
+    const params = new URLSearchParams(window.location.search);
+    window.onload = async () => {
+        if (params.get("reg_id")) {
+            const regId = params.get("reg_id");
+            document.getElementById("regStatus").style.display = "block";
+            await fetchStatus(regId);
+        } else if (params.get("event_id")) {
+            const eventId = window.atob(params.get("event_id"));
+            const { data: { user }, error } = await client.auth.getUser();
+            document.getElementById("eventList").style.display = "block";
+            await checkAdminAccess(user, error);
+            await fetchRegistrations(eventId);
+        }
+    };
+    
 
-  function showMessage(message, type = "info", pay=false) {
+  function showMessage(rid, message, type = "info", pay=false) {
     const msgAl = document.getElementById("status-alert");
     const msgEl = document.getElementById("status-message");
     const btnP1 = document.getElementById("pay-btn");
@@ -60,7 +79,7 @@ path: /status/
     msgAl.classList.add("alert-" + type);
     if (pay){
         btnP1.classList.remove("d-none");
-        btnP1.setAttribute("onClick", `payPending('${regId}')`);
+        btnP1.setAttribute("onClick", `payPending('${rid}')`);
     } else {
         btnP1.classList.add("d-none");
         btnP1.removeAttribute(`onClick`);
@@ -82,33 +101,76 @@ path: /status/
     document.getElementById("details").style.display = "block";
   }
 
-  async function fetchStatus() {
-    if (!regId) {
-      showMessage("شناسه ثبت‌نام در لینک موجود نیست.", "danger");
+  async function fetchStatus(rid) {
+    if (!rid) {
+      showMessage(rid, "شناسه ثبت‌نام در لینک موجود نیست.", "danger");
       return;
     }
 
     const { data, error } = await client
       .from("registeration")
       .select("event_title,event_url, user_name, user_email, user_phone, status, amount, ref_id, pay_card_pan, notes")
-      .eq("id", regId)
+      .eq("id", rid)
       .single();
 
     if (error || !data) {
-      showMessage("اطلاعات ثبت‌نام یافت نشد یا خطایی رخ داده است.", "danger");
+      showMessage(rid, "اطلاعات ثبت‌نام یافت نشد یا خطایی رخ داده است.", "danger");
       return;
     }
 
     showDetails(data);
 
     if (data.status === "paid") {
-      showMessage("پرداخت با موفقیت انجام شده است.", "success", false);
+      showMessage(rid, "پرداخت با موفقیت انجام شده است.", "success", false);
     } else if (data.status === "pending") {
-      showMessage("پیش‌ثبت‌نام انجام شده اما پرداخت تکمیل نشده است.", "warning", true);
+      showMessage(rid, "پیش‌ثبت‌نام انجام شده اما پرداخت تکمیل نشده است.", "warning", true);
     } else {
-      showMessage("ثبت‌نام در وضعیت: " + data.status, "info");
+      showMessage(rid, "ثبت‌نام در وضعیت: " + data.status, "info");
     }
   }
+  async function fetchRegistrations(eid) {
+      const { data, error } = await client
+        .from("registeration")
+        .select("*")
+        .eq("event_url", eid)
+        .order("created_at", { ascending: false });
 
-  fetchStatus();
+      if (error || !data.length) {
+        document.getElementById("registration-list").innerHTML = 
+          `<div class="alert alert-warning">هیچ ثبت‌نامی برای این رویداد پیدا نشد.</div>`;
+        return;
+      }
+
+      renderRegistrations(data);
+    }
+
+    function renderRegistrations(regs) {
+      const table = `
+        <table class="table table-bordered table-hover align-middle">
+          <thead class="table-light">
+            <tr>
+              <th>نام</th>
+              <th>ایمیل</th>
+              <th>شماره همراه</th>
+              <th>نوع</th>
+              <th>وضعیت پرداخت</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${regs.map(r => `
+              <tr>
+                <td>${r.user_name || '-'}</td>
+                <td>${r.user_email || '-'}</td>
+                <td>${r.user_phone || '-'}</td>
+                <td>${r.type || '-'}</td>
+                <td class="${r.status === 'paid' ? 'text-success' : 'text-danger'}">
+                    <a href="/status/?reg_id=${r.id}">${r.status === 'paid' ? '<i class="bi bi-check2-square"></i> پرداخت شده' : '<i class="bi bi-hourglass-split"></i> در انتظار پرداخت'}</a>
+                </td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      `;
+      document.getElementById("registration-list").innerHTML = table;
+    }
 </script>

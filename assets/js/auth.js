@@ -8,7 +8,7 @@ window.addEventListener("load", async () => {
   await updateNavbarUserInfo(user);
 });
 
-window.onload = async () => {
+document.addEventListener("DOMContentLoaded", async () => {
   const { data: { session } } = await client.auth.getSession();
   const path = window.location.pathname;
   const isUserProtectedPage = path === "/user/";
@@ -25,6 +25,13 @@ window.onload = async () => {
   
   const { data: { user }, error } = await client.auth.getUser();
   if (user) {
+    const role = user.user_metadata?.role || "user";
+    $('.user-access').show();
+    if (role === 'admin') {
+      $('.admin-access').show();
+    } else {
+      $('.admin-access').hide();
+    }
     await updateNavbarUserInfo(user)
     currentUserId = user.id;
 
@@ -47,8 +54,12 @@ window.onload = async () => {
   } else if (isUserProtectedPage) {
     showAuthModal("لطفاً برای ادامه وارد شوید.");
     window.location.href = "/login/";
+  } else {
+    $('.user-access').remove();
+    $('.admin-access').remove();
+
   }
-};
+});
 
 async function signUp() {
   const email = document.getElementById("signup-email").value;
@@ -604,3 +615,74 @@ async function payPending(regId) {
   }
 }
 
+async function showRegisteredEvents() {
+  const { data, error } = await client
+    .from("registeration")
+    .select("event_url, event_title, status, created_at");
+
+  if (error || !data.length) {
+    document.getElementById("registered-events").innerHTML = "<p>هیچ رویدادی ثبت نشده است.</p>";
+    return;
+  }
+
+  const eventMap = new Map();
+
+  data.forEach(item => {
+    const key = item.event_url;
+    if (!eventMap.has(key)) {
+      eventMap.set(key, {
+        title: item.event_title,
+        url: item.event_url,
+        preregistered: 0,
+        registered: 0,
+        last_date: item.created_at
+      });
+    }
+
+    const event = eventMap.get(key);
+    if (item.status === "paid") {
+      event.registered += 1;
+    } else {
+      event.preregistered += 1;
+    }
+
+    if (new Date(item.created_at) > new Date(event.last_date)) {
+      event.last_date = item.created_at;
+    }
+  });
+  const sortedEvents = Array.from(eventMap.values()).sort((a, b) => new Date(b.last_date) - new Date(a.last_date));
+
+let html = "";
+for (const event of sortedEvents) {
+  const dateFormatted = new Date(event.last_date).toLocaleDateString("fa-IR", {
+    year: "numeric", month: "long", day: "numeric"
+  });
+  const eventID = window.btoa(event.url);
+  html += `
+    <tr>
+      <th scope="row"><a href="/status/?event_id=${eventID}">${event.title}</a></th>
+      <td>${dateFormatted}</td>
+      <td>${event.registered}</td>
+      <td>${event.preregistered}</td>
+    </tr>`;
+}
+
+document.getElementById("user-list").innerHTML = html;
+}
+
+async function initRegistrationForm() {
+
+  const currentUserInfo = await getCurrentUserInfo();
+  console.log("User Info:", currentUserInfo);
+  // Optionally autofill user fields
+  if (currentUserInfo) {
+    $('#signupAlert').hide();
+    const [id, email, created_at, full_name, phone] = currentUserInfo;
+    $('#reg-fullname').val(full_name || '');
+    $('#reg-email').val(email || '');
+    $('#reg-phone').val(phone || '');
+    $('#reg-user_id').val(id || '');
+  } else {
+    $('#signupAlert').show();
+  }
+}

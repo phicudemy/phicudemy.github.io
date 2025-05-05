@@ -64,14 +64,17 @@
         {%endif%}
         {%endfor%}
         {% if page.url contains 'user' %}
-        <li class="nav-item me-3 me-lg-1">
+        <li class="nav-item me-3 me-lg-1 user-access">
             <a class="nav-link d-sm-flex align-items-sm-center {% if page.url == '/user/' %}active{%endif%}" href="/user/">مشخصات</a>
         </li>
         <li class="nav-item me-3 me-lg-1">
             <a class="nav-link d-sm-flex align-items-sm-center {% if page.url contains 'registerations' %}active{%endif%}" href="/user/registerations/">ثبت‌نام‌ها</a>
         </li>
-        <li class="nav-item me-3 me-lg-1">
-            <a class="nav-link d-sm-flex align-items-sm-center {% if page.url contains 'user/manage' %}active{%endif%}" href="/user/manage/">مدیریت کاربران</a>
+        <li class="nav-item me-3 me-lg-1 admin-access" style="display: none;">
+            <a class="nav-link d-sm-flex align-items-sm-center admin {% if page.url contains 'user/manage_users' %}active{%endif%}" href="/user/manage_users/">مدیریت کاربران</a>
+        </li>
+        <li class="nav-item me-3 me-lg-1 admin-access" style="display: none;">
+            <a class="nav-link d-sm-flex align-items-sm-center admin {% if page.url contains 'user/manage_events' %}active{%endif%}" href="/user/manage_events/">مدیریت ثبت‌نام‌ها</a>
         </li>
         <li class="nav-item me-3 me-lg-1">
             <a class="nav-link d-sm-flex align-items-sm-center {% if contains 'changepassword' %}active{%endif%}" href="/user/changepassword/">تغییر پسورد</a>
