@@ -10,7 +10,7 @@ categories:
 tags:
   - {}
   - {}
-  - {}
+  - path: _tags/women.md
   - path: _tags/feminism.md
 schedule: چهارشنبه‌ها ساعت ۱۶ الی ۱۸
 format:
