@@ -19,7 +19,8 @@ tags:
 ---
 
 
-**یادداشت:** متن زیر ترجمة بخشی از مقالة «ستم»، نوشتة ماریلین فرای، است.
+
+**یادداشت:** متن زیر ترجمهٔ بخشی از مقالهٔ «ستم»، نوشتهٔ ماریلین فرای، است.
 
 <p dir="ltr">
 Marilyn Frye (1983), “Oppression”, in: Marilyn Frye, <i>Politics of Reality: Essays in Feminist Theory</i>, Crossing Press.
