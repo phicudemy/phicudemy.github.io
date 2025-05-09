@@ -1,8 +1,11 @@
 ---
 title: ستم
 slug: oppression-frye
+people:
+  - path: _people/marilynfrye.md
 date: 2025-05-08T20:30:00.000Z
 ---
+
 
 **یادداشت:** متن زیر ترجمة بخشی از مقالة «ستم»[^1]، نوشتة ماریلین فرای[^2]، است.
 
