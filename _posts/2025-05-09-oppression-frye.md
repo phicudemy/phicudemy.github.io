@@ -9,6 +9,8 @@ date: 2025-05-08T20:30:00.000Z
 published: true
 categories:
   - path: _categories/philosophy.md
+contents:
+  - path: _contents/article.md
 ---
 
 
