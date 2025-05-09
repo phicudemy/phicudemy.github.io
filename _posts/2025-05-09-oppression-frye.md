@@ -29,7 +29,7 @@ Marilyn Frye (1983), “Oppression”, in: Marilyn Frye, <i>Politics of Reality:
 
 ---
 
-![Migrant Mother by Dorothea Lange (1936)](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Oppression/Lange-MigrantMother02.jpg "Migrant Mother by Dorothea Lange (1936)")
+!["Migrant Mother" by Dorothea Lange (1936)](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Oppression/Lange-MigrantMother02.jpg "Migrant Mother by Dorothea Lange (1936)")
 <br>
 
 
