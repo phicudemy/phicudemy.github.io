@@ -9,7 +9,7 @@ categories:
   - path: _categories/philosophy.md
 tags:
   - {}
-  - {}
+  - path: _tags/racism.md
   - path: _tags/women.md
   - path: _tags/feminism.md
 schedule: چهارشنبه‌ها ساعت ۱۶ الی ۱۸
