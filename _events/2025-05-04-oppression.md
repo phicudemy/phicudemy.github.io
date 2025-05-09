@@ -8,7 +8,7 @@ contents:
 categories:
   - path: _categories/philosophy.md
 tags:
-  - {}
+  - path: _tags/violenceagainstwomen.md
   - path: _tags/racism.md
   - path: _tags/women.md
   - path: _tags/feminism.md
