@@ -7,6 +7,11 @@ contents:
   - path: _contents/courses.md
 categories:
   - path: _categories/philosophy.md
+tags:
+  - {}
+  - {}
+  - {}
+  - path: _tags/feminism.md
 schedule: چهارشنبه‌ها ساعت ۱۶ الی ۱۸
 format:
   - online
@@ -17,6 +22,7 @@ published: true
 register: 'https://zarinp.al/707516'
 stdregister: 'https://zarinp.al/707517'
 ---
+
 
 
 <center>
