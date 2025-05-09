@@ -3,6 +3,8 @@ title: ستم
 slug: oppression-frye
 people:
   - path: _people/marilynfrye.md
+translator:
+  - path: _people/jomhouri.md
 date: 2025-05-08T20:30:00.000Z
 ---
 
