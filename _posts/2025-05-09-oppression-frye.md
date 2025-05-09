@@ -6,6 +6,9 @@ people:
 translator:
   - path: _people/jomhouri.md
 date: 2025-05-08T20:30:00.000Z
+published: true
+categories:
+  - path: _categories/philosophy.md
 ---
 
 
