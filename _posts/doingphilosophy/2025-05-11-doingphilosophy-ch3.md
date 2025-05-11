@@ -10,6 +10,10 @@ date: 2025-05-10T20:30:00.000Z
 published: true
 categories:
   - path: _categories/philosophy.md
+tags:
+  - {}
+  - {}
+  - path: _tags/doingphilosophytag.md
 ---
 
 
