@@ -11,7 +11,7 @@ published: true
 categories:
   - path: _categories/philosophy.md
 tags:
-  - {}
+  - path: _tags/analyticphilosophy.md
   - path: _tags/williamson.md
   - path: _tags/doingphilosophytag.md
 ---
