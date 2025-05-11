@@ -6,7 +6,16 @@ date: 2025-05-10T20:30:00.000Z
 published: true
 ---
 
-### 3 مباحثه کردن
+
+[[فصل ۲. از فهم متعارف آغاز کردن](/magazine/doingphilosophy-ch2/)]
+
+[[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
+
+[فصل ۴. ایضاح کردن اصطلاحات]
+
+----------
+
+### ۳ مباحثه کردن
 
 <br><br>
 
@@ -400,11 +409,11 @@ published: true
 بکشند. باید حواستان باشد که با کی دارید صحبت می‌کنید.
 
 <figure class="table">
-    <table>
+    <table style="border-color:hsl(0, 0%, 0%);border-style:solid;">
         <tbody>
             <tr>
                 <td>
-                    <p style="direction:rtl;margin:0in;text-align:justify;text-indent:0in;unicode-bidi:embed;" dir="RTL"><span style="font-family:&quot;B Lotus&quot;;font-size:14.0pt;"><span lang="FA" dir="ltr"><strong><u>کادرِ</u> ۱ قواعدِ یکی از بازی‌های منطق</strong></span></span></p>
+                    <p style="direction:rtl;margin:0in;text-align:justify;text-indent:0in;unicode-bidi:embed;" dir="RTL"><span style="font-family:&quot;B Lotus&quot;;font-size:14.0pt;"><span lang="FA" dir="ltr"><strong>کادرِ ۱. قواعدِ یکی از بازی‌های منطق</strong></span></span></p>
                 </td>
             </tr>
             <tr>
@@ -414,9 +423,18 @@ published: true
                     <p style="direction:rtl;margin:0in;text-align:justify;text-indent:0in;unicode-bidi:embed;" dir="RTL"><span style="font-family:&quot;B Lotus&quot;;font-size:14.0pt;"><span lang="FA" dir="ltr">اگر رأی موردمناقشه «الف و ب» باشد، مهاجم یا «الف» را برمی‌گزیند یا «ب» را، همان که انتخاب شده رأی‌ موردِ مناقشۀ جدید می‌شود و بازی ادامه پیدا می‌کند («الف» و «ب» می‌توانند هر رأیی باشند، مثلاً «باران می‌بارد» و «هوا سرد است»). مهاجم است که انتخاب می‌کند، چون برای ابطالِ رأیی که «و» دارد کذبِ یکی از مؤلفه‌ها کافی است، و آن‌ که محتاجِ یافتنِ این مؤلفه‌ است مهاجم است.</span></span></p>
                     <p style="direction:rtl;margin:0in;text-align:justify;text-indent:0in;unicode-bidi:embed;" dir="RTL"><span style="font-family:&quot;B Lotus&quot;;font-size:14.0pt;"><span lang="FA" dir="ltr">اگر <u>حکمِ/رأی</u> موردمناقشه «الف یا ب» باشد، مدافع یا «الف» را برمی‌گزیند یا «ب» را، همان که انتخاب شده رأی‌ موردمناقشۀ جدید می‌شود و بازی ادامه پیدا می‌کند. مدافع است که انتخاب می‌کند، چون برای اثباتِ رأیی که «یا» دارد صدقِ یکی از مؤلفه‌ها کافی است، و آن‌ که محتاجِ یافتنِ این مؤلفه‌ است مدافع است.</span></span><span style="font-family:&quot;Times New Roman&quot;, serif;font-size:12pt;"><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span style="font-family:&quot;B Lotus&quot;;font-size:14.0pt;" lang="FA"></span></span></p>
                     <p style="direction:rtl;margin:0in;text-align:justify;text-indent:0in;unicode-bidi:embed;" dir="RTL"><span style="font-family:&quot;B Lotus&quot;;font-size:14.0pt;"><span lang="FA" dir="ltr">اگر رأی موردمناقشه «چنین نیست که الف» باشد، نقشِ مدافع و مهاجم عوض می‌شود و «الف» رأی موردمناقشۀ جدید می‌شود و بازی ادامه پیدا می‌کند (مثلاً اگر «الف» «باران می‌بارد» باشد، «چنین نیست که الف» «باران نمی‌بارد» است). دلیلِ عوض شدنِ نقش‌ها این است که صدقِ «چنین نیست که الف» معادل است با ابطالِ «الف» و ابطالِ «چنین نیست که الف» معادل است با صدقِ «الف». بنابراین مدافعِ «چنین نیست که الف» باید به «الف» حمله کند و مهاجم به «چنین نیست که الف» باید از الف دفاع کند.</span></span></p>
-<p style="direction:rtl;margin:0in;text-align:justify;text-indent:0in;unicode-bidi:embed;" dir="RTL"><span style="font-family:&quot;B Lotus&quot;;font-size:14.0pt;"><span lang="FA" dir="ltr">هر حرکت در بازی از پیچیدگی منطقی رأی محلِ مناقشه می‌کاهد. دیر یا زود، بازی به جایی می‌رسد که رأی محلِ مناقشه رأیی منطقاً بسیط است. فرض بر این است که چنین رأی‌هایی را می‌توان با مشاهده اثبات یا ابطال کرد. اگر رأی موردنظر صادق باشد، مدافع می‌برد و اگر کاذب باشد، مهاجم.</span></span></p>
+                    <p><span style="font-family:&quot;B Lotus&quot;;font-size:14.0pt;"><span lang="FA" dir="RTL">هر حرکت در بازی از پیچیدگی منطقی رأی محلِ مناقشه می‌کاهد. دیر یا زود، بازی به جایی می‌رسد که رأی محلِ مناقشه رأیی منطقاً بسیط است. فرض بر این است که چنین رأی‌هایی را می‌توان با مشاهده اثبات یا ابطال کرد. اگر رأی موردنظر صادق باشد، مدافع می‌برد و اگر کاذب باشد، مهاجم.</span></span></p>
                 </td>
             </tr>
         </tbody>
     </table>
 </figure>
+
+----------
+
+[[فصل ۲. از فهم متعارف آغاز کردن](/magazine/doingphilosophy-ch2/)]
+
+[[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
+
+[فصل ۴. ایضاح کردن اصطلاحات]
+
