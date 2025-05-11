@@ -23,7 +23,7 @@ tags:
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[[فصل ۳. مباحثه کردن](magazine/doingphilosophy-ch3/)]
+[[فصل ۳. مباحثه کردن](/magazine/doingphilosophy-ch3/)]
 
 
 ----------
@@ -363,4 +363,4 @@ tags:
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[[فصل ۳. مباحثه کردن](magazine/doingphilosophy-ch3/)]
+[[فصل ۳. مباحثه کردن](/magazine/doingphilosophy-ch3/)]
