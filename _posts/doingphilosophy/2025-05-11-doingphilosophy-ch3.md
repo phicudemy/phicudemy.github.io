@@ -250,7 +250,7 @@ published: true
         <tbody>
             <tr>
                 <td>
-                    <p style="direction:rtl;margin:0.1in;text-align:justify;text-indent:0.1in;unicode-bidi:embed;" dir="RTL"><span lang="FA" dir="rtl"><strong>کادرِ ۱. قواعدِ یکی از بازی‌های منطق</strong></span></p>
+                    <p style="direction:rtl;margin:0.1in;text-align:justify;text-indent:0in;unicode-bidi:embed;" dir="RTL"><span lang="FA" dir="rtl"><strong>کادرِ ۱. قواعدِ یکی از بازی‌های منطق</strong></span></p>
                 </td>
             </tr>
             <tr>
