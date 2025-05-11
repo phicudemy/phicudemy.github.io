@@ -12,7 +12,7 @@ categories:
   - path: _categories/philosophy.md
 tags:
   - {}
-  - {}
+  - path: _tags/williamson.md
   - path: _tags/doingphilosophytag.md
 ---
 
