@@ -2,6 +2,8 @@
 title: فصل ۳. مباحثه کردن
 subtitle: 'از کتاب «فلسفه ورزیدن: از کنج‌کاویِ معمولی تا استدلالِ منطقی»'
 slug: doingphilosophy-ch3
+people:
+  - path: _people/timothywilliamson.md
 date: 2025-05-10T20:30:00.000Z
 published: true
 ---
