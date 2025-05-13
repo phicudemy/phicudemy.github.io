@@ -64,11 +64,11 @@
     <script type="text/javascript" src="/assets/vendors/jquery-3.6.0.js"></script>
     <script type="text/javascript" src="/assets/vendors/masonry.pkgd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="/assets/js/auth.js?v=0.44"></script>
+    <script src="/assets/js/auth.js?v=0.45"></script>
     <script  type="text/javascript" src="/assets/js/main.js?v=1.4"></script>
 
   </head>
-  <body class="{% if page.url == "/" %} h-100{% endif %} bg-second p-lg-5">
+  <body class=" bg-second p-lg-5">
     <div class="cover-container main d-flex w-100 mb-5 mx-auto flex-column bg-white rounded rounded-3 shadow border border-dark " style="min-height: 90vh;">
     <div class="mb-auto">
       {% include navtop.html %}
@@ -83,7 +83,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script async src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
     {% if page.jsFile %}
-    <script src="/assets/js/{{page.jsFile}}?v=0.5"></script>
+    <script src="/assets/js/{{page.jsFile}}?v=0.6"></script>
     {%endif%}
   </body>
 

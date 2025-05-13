@@ -673,8 +673,6 @@ document.getElementById("user-list").innerHTML = html;
 async function initRegistrationForm() {
 
   const currentUserInfo = await getCurrentUserInfo();
-  console.log("User Info:", currentUserInfo);
-  // Optionally autofill user fields
   if (currentUserInfo) {
     $('#signupAlert').hide();
     const [id, email, created_at, full_name, phone] = currentUserInfo;
