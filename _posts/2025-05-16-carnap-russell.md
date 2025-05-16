@@ -2,6 +2,8 @@
 title: کارنپ، راسل، و آرزوهایی در اوج جنگ سرد
 subtitle: مکاتبه‌ٔ میان راسل و کارنپ، به‌مناسب سالگرد تولدهایشان
 slug: carnap-russell
+translator:
+  - path: _people/طیبی.md
 date: 2025-05-15T20:30:00.000Z
 published: true
 ---
