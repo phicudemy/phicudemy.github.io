@@ -1,0 +1,5 @@
+---
+title: کارنپ
+slug: carnap
+---
+
