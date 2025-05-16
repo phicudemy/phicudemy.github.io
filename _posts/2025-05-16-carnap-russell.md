@@ -13,6 +13,8 @@ categories:
   - path: _categories/philosophy.md
 contents:
   - path: _contents/notes.md
+tags:
+  - path: _tags/letter.md
 ---
 
 
