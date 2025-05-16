@@ -14,7 +14,6 @@ categories:
 contents:
   - path: _contents/notes.md
 tags:
-  - path: _tags/analyticphilosophy.md
   - path: _tags/coldwar.md
   - path: _tags/carnap.md
   - path: _tags/russell.md
