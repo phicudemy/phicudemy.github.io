@@ -1,6 +1,6 @@
 ---
 title: کارنپ، راسل، و آرزوهایی در اوج جنگ سرد
-subtitle: مکاتبه‌ٔ میان راسل و کارنپ، به‌مناسب سالگرد تولدهایشان
+subtitle: مکاتبه‌ٔ راسل و کارنپ، به‌مناسب سالگرد تولدهایشان
 slug: carnap-russell
 people:
   - path: _people/rudolfcarnap.md
@@ -20,6 +20,7 @@ tags:
   - path: _tags/russell.md
   - path: _tags/letter.md
 ---
+
 
 
 
