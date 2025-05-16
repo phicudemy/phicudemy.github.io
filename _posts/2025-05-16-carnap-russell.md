@@ -15,7 +15,7 @@ contents:
   - path: _contents/notes.md
 tags:
   - {}
-  - {}
+  - path: _tags/carnap.md
   - path: _tags/russell.md
   - path: _tags/letter.md
 ---
