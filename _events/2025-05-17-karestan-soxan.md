@@ -5,6 +5,8 @@ title: >-
 slug: karestan-soxan
 contents:
   - path: _contents/sessions.md
+categories:
+  - path: _categories/literature.md
 schedule: یک‌شنبه ۲۸ اردیبهشت ۱۴۰۴
 format:
   - inperson
