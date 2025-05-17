@@ -4,9 +4,9 @@ title: >-
   شاهنامه</i>
 slug: karestan-soxan
 people:
-  - path: _people/nedaqiassi.md
-  - path: _people/amirmaziyar.md
   - path: _people/mohammaddehghani.md
+  - path: _people/amirmaziyar.md
+  - path: _people/nedaqiassi.md
 contents:
   - path: _contents/sessions.md
 categories:
