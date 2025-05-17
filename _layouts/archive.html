@@ -7,9 +7,6 @@ layout: default
     <div class="row py-5 px-lg-5">
       <div class="col-sm-6 my-auto">
         {% unless pagecollection.label == 'contents' %}
-        {%if pagecollection.label == 'people' or pagecollection.label == 'translator' %}
-        {{pagecollection.label}}
-        {%endif%}
         <h5 class="text-danger"><a class="text-reset" data-bs-toggle="collapse" href="#collapse{{pagecollection.label}}" role="button" aria-expanded="false" aria-controls="collapse{{pagecollection.label}}">{{pagecollection.title}} <i class="bi bi-three-dots-vertical"></i></a></h5>
         <div class="collapse" id="collapse{{pagecollection.label}}">
           {%for subcollection in site[pagecollection.label]%}
@@ -136,6 +133,33 @@ layout: default
       {%assign catsize = 0 %}
       {%assign catrecent = 0 %}
       {% for post in site.posts %}
+      {%if pagecollection.label == 'people' or pagecollection.label == 'translator' %}
+      {% assign cat_list = "" %}
+
+      {% if post.people %}
+        {% for p in post.people %}
+          {% assign cat_list = cat_list | append: p.path | append: ",," %}
+        {% endfor %}
+      {% endif %}
+      
+      {% if post.translator %}
+        {% for t in post.translator %}
+          {% assign cat_list = cat_list | append: t.path | append: ",," %}
+        {% endfor %}
+      {% endif %}
+      
+      {% assign cat_array = cat_list | split: ",," %}
+      
+      {% for cat in cat_array %}
+        {% if cat != "" %}
+        {% if cat == page.relative_path %}
+        <div class="col-lg-4 mb-2 content-card {%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content.path | first %}{% if cont %}{{cont.slug}}{% endif %}{% endfor %} {%endif%}">
+          {% include cardContent.html%}
+        </div>
+        {%endif%}
+        {% endif %}
+      {% endfor %}      
+      {%else%}
       {% for cat in post[pagecollection.label] %}
       {% if cat.path == page.relative_path %}
       <div class="col-lg-4 mb-2 content-card {%if post.contents%}{% for content in post.contents %}{% assign cont = site.contents | where: 'relative_path', content.path | first %}{% if cont %}{{cont.slug}}{% endif %}{% endfor %} {%endif%}">
@@ -143,6 +167,9 @@ layout: default
       </div>
       {%endif%}
       {%endfor%}
+
+      {%endif%}
+
       {%endfor%}
     </div>
     {% endif %}
