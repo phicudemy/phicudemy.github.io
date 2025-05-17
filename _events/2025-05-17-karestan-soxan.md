@@ -5,7 +5,7 @@ title: >-
 slug: karestan-soxan
 people:
   - {}
-  - {}
+  - path: _people/amirmaziyar.md
   - path: _people/mohammaddehghani.md
 contents:
   - path: _contents/sessions.md
