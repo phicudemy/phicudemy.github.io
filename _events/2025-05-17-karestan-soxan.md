@@ -12,7 +12,6 @@ contents:
 categories:
   - path: _categories/literature.md
 tags:
-  - {}
   - path: _tags/bookreview.md
 schedule: یک‌شنبه ۲۸ اردیبهشت ۱۴۰۴
 format:
