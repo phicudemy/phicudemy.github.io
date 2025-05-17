@@ -1,6 +1,6 @@
 $.when(
-  $.getJSON("/courses.json?v=0.6"),
-  $.getJSON("/posts.json?v=0.7")
+  $.getJSON("/courses.json?v=0.61"),
+  $.getJSON("/posts.json?v=0.71")
 ).done(function(coursesData, postsData) {
   var courses = coursesData[0];
   var posts = postsData[0];
@@ -17,21 +17,22 @@ $.when(
       var post = posts.filter(function(el) {
         return el.link.includes(href);
       });
-
       if (course.length > 0) {
+        var others = course[0].authors.length >1 ? ' و...' : '';
         $this
           .addClass("link-underline-success link-offset-3")
           .attr("data-bs-toggle", "popover")
           .attr("data-bs-title", course[0].title)
-          .attr("data-bs-content", 'آکادمی | ' + course[0].authors[0].title + ': ' + course[0].excerpt)
+          .attr("data-bs-content", 'آکادمی | ' + course[0].authors[0].title + others + ': ' + course[0].excerpt)
           .attr("data-bs-trigger", "hover focus");
       }
 
       if (post.length > 0) {
+        var others = post[0].authors.length >1 ? ' و...' : '';
         $this
           .attr("data-bs-toggle", "popover")
           .attr("data-bs-title", post[0].title)
-          .attr("data-bs-content", 'مجله | ' + post[0].authors[0].title + ': ' + post[0].excerpt)
+          .attr("data-bs-content", 'مجله | ' + post[0].authors[0].title + others + ': ' + post[0].excerpt)
           .attr("data-bs-trigger", "hover focus");
       }
     }

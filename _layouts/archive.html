@@ -7,6 +7,9 @@ layout: default
     <div class="row py-5 px-lg-5">
       <div class="col-sm-6 my-auto">
         {% unless pagecollection.label == 'contents' %}
+        {%if pagecollection.label == 'people' or pagecollection.label == 'translator' %}
+        {{pagecollection.label}}
+        {%endif%}
         <h5 class="text-danger"><a class="text-reset" data-bs-toggle="collapse" href="#collapse{{pagecollection.label}}" role="button" aria-expanded="false" aria-controls="collapse{{pagecollection.label}}">{{pagecollection.title}} <i class="bi bi-three-dots-vertical"></i></a></h5>
         <div class="collapse" id="collapse{{pagecollection.label}}">
           {%for subcollection in site[pagecollection.label]%}
