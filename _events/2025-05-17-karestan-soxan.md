@@ -1,8 +1,12 @@
 ---
 title: >-
-  نشست حضوری «نقد و گفت‌وگو دربارهٔ کتاب کارستان سخن؛ درهم‌تنیدگی تخیل و واقعیت
-  در شاهنامه»
+  نقد و گفت‌وگو دربارهٔ کتاب <i>کارستان سخن؛ درهم‌تنیدگی تخیل و واقعیت در
+  شاهنامه</i>
 slug: karestan-soxan
+people:
+  - {}
+  - {}
+  - path: _people/mohammaddehghani.md
 contents:
   - path: _contents/sessions.md
 categories:
@@ -13,6 +17,7 @@ format:
 start: 2025-05-17T20:30:00.000Z
 published: true
 ---
+
 
 
 
