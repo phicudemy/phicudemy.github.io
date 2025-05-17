@@ -3,12 +3,15 @@ title: >-
   نشست حضوری «نقد و گفت‌وگو دربارهٔ کتاب کارستان سخن؛ درهم‌تنیدگی تخیل و واقعیت
   در شاهنامه»
 slug: karestan-soxan
+contents:
+  - path: _contents/sessions.md
 schedule: یک‌شنبه ۲۸ اردیبهشت ۱۴۰۴
 format:
   - inperson
 start: 2025-05-17T20:30:00.000Z
 published: true
 ---
+
 
 
 
