@@ -11,6 +11,8 @@ contents:
   - path: _contents/sessions.md
 categories:
   - path: _categories/literature.md
+tags:
+  - path: _tags/bookreview.md
 schedule: یک‌شنبه ۲۸ اردیبهشت ۱۴۰۴
 format:
   - inperson
