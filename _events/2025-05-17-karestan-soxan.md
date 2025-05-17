@@ -19,14 +19,14 @@ published: true
 ---
 
 
+<center>
+<img 
+       src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/academy/sessions/photo_2025-05-17_13-46-00.jpg" 
+       alt=" "
+       style="width: 50%; height:50%;" />
+</center>
+<br>
 
-
-
-
-
-
-![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/academy/sessions/photo_2025-05-17_13-46-00.jpg)
-<br><br>
 «جمهوری فلسفه و ادبیات» برگزار می‌کند:
 
 ## نشست حضوری «نقد و گفت‌وگو دربارهٔ کتاب _کارستان سخن: درهم‌تنیدگی تخیل و واقعیت در شاهنامه_»
