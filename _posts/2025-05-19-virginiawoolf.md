@@ -8,6 +8,8 @@ published: true
 categories:
   - path: _categories/literature.md
   - path: _categories/women.md
+contents:
+  - path: _contents/article.md
 ---
 
 
