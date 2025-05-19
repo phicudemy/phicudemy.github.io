@@ -10,6 +10,8 @@ categories:
   - path: _categories/women.md
 contents:
   - path: _contents/article.md
+tags:
+  - path: _tags/women.md
 ---
 
 
