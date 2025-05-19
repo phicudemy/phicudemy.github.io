@@ -1,8 +1,11 @@
 ---
 title: ویرجینیا وولف (۱۹۴۱-۱۸۸۲)
 slug: virginiawoolf
+people:
+  - path: _people/marziyelotfi.md
 date: 2025-05-18T20:30:00.000Z
 ---
+
 
 ![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/woolf/photo_2025-05-19_07-09-32.jpg)
 <br>
