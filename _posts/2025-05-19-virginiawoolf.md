@@ -7,7 +7,7 @@ date: 2025-05-18T20:30:00.000Z
 published: true
 categories:
   - path: _categories/literature.md
-  - {}
+  - path: _categories/women.md
 ---
 
 
