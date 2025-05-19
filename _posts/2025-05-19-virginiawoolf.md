@@ -11,6 +11,7 @@ categories:
 contents:
   - path: _contents/article.md
 tags:
+  - path: _tags/feminism.md
   - path: _tags/women.md
 ---
 
