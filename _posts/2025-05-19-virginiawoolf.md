@@ -4,6 +4,10 @@ slug: virginiawoolf
 people:
   - path: _people/marziyelotfi.md
 date: 2025-05-18T20:30:00.000Z
+published: true
+categories:
+  - path: _categories/literature.md
+  - {}
 ---
 
 
