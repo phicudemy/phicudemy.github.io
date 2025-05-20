@@ -36,11 +36,12 @@ excerpt: >
 
 
 
+
 [[فصل ۲. از فهم متعارف آغاز کردن](/magazine/doingphilosophy-ch2/)]
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۴. ایضاح کردن اصطلاحات]
+[[فصل ۴. ایضاح کردن اصطلاحات](/magazine/doingphilosophy-ch4/)]
 
 ----------
 
