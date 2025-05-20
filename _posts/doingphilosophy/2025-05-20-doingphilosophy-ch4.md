@@ -2,6 +2,8 @@
 title: فصل ۴. ایضاح کردنِ اصطلاحات
 subtitle: 'از کتاب «فلسفه ورزیدن: از کنج‌کاویِ معمولی تا استدلالِ منطقی»'
 slug: doingphilosophy-ch4
+people:
+  - path: _people/timothywilliamson.md
 date: 2025-05-19T20:30:00.000Z
 published: true
 ---
