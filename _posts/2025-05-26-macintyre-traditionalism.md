@@ -289,7 +289,7 @@ tags:
 
 MacIntyre, Alasdair. <i>Whose Justice? Which Rationality?</i> University of Notre Dame Press, 1988. <br>
 
-Knight, Kelvin. <i>The MacIntyre Reader,<i> University of Notre Dame Press, 1998.
+Knight, Kelvin. <i>The MacIntyre Reader,</i> University of Notre Dame Press, 1998.
 
 </p>
 
