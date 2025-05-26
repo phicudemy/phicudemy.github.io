@@ -1,0 +1,5 @@
+---
+title: مک‌اینتایر
+slug: MacIntyre
+---
+
