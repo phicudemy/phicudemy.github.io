@@ -16,7 +16,7 @@ tags:
   - path: _tags/macintyre.md
   - path: _tags/philosophers.md
   - path: _tags/traditionalism.md
-  - {}
+  - path: _tags/tradition.md
   - {}
 ---
 
