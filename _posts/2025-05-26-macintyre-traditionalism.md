@@ -17,7 +17,7 @@ tags:
   - path: _tags/philosophers.md
   - path: _tags/traditionalism.md
   - path: _tags/tradition.md
-  - {}
+  - path: _tags/analyticphilosophy.md
 ---
 
 
