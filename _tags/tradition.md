@@ -1,0 +1,5 @@
+---
+title: سنت
+slug: tradition
+---
+
