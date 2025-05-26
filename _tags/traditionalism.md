@@ -1,0 +1,5 @@
+---
+title: سنت‌گرایی
+slug: traditionalism
+---
+
