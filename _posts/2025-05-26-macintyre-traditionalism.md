@@ -7,6 +7,9 @@ slug: macintyre-traditionalism
 people:
   - path: _people/mrlabib.md
 date: 2025-05-25T20:30:00.000Z
+published: true
+categories:
+  - path: _categories/philosophy.md
 ---
 
 
