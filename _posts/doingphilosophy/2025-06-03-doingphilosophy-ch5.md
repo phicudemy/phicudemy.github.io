@@ -2,9 +2,12 @@
 title: فصل ۵. انجام دادنِ آزمایش‌های فکری
 subtitle: 'از کتاب «فلسفه ورزیدن: از کنج‌کاویِ معمولی تا استدلالِ منطقی»'
 slug: doingphilosophy-ch5
+people:
+  - path: _people/timothywilliamson.md
 date: 2025-06-02T20:30:00.000Z
 published: true
 ---
+
 
 [[فصل ۴. ایضاح کردن اصطلاحات](/magazine/doingphilosophy-ch4/)]
 
