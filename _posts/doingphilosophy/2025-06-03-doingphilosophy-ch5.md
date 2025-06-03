@@ -451,7 +451,7 @@ tags:
   Robert Shope, <i>The Analysis of Knowing: A Decade of Research</i> (Princeton, NJ: Princeton University Press, 1983).</p>
 من در این کتاب از این نظر دفاع می‌کنم که معرفت پایه است:
 <p dir="ltr">
-  </i>Knowledge and Its Limits</i> (Oxford: Oxford University Press, 2000). </p>
+  <i>Knowledge and Its Limits</i> (Oxford: Oxford University Press, 2000). </p>
 
 - مثالِ نوازندۀ ویولن در این‌جا آمده است:
 
