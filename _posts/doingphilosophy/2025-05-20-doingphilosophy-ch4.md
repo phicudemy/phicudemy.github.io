@@ -18,11 +18,12 @@ tags:
 
 
 
+
 [[فصل ۳. مباحثه کردن](/magazine/doingphilosophy-ch3/)]
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۵. مباحثه کردن]
+[[فصل ۵. انجام دادنِ آزمایش‌های فکری](/magazine/doingphilosophy-ch5/)]
 
 ---
 
@@ -425,4 +426,4 @@ tags:
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۵. مباحثه کردن]
+[[فصل ۵. انجام دادنِ آزمایش‌های فکری](/magazine/doingphilosophy-ch5/)]
