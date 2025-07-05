@@ -8,6 +8,8 @@ translator:
   - path: _people/طیبی.md
 date: 2025-07-04T20:30:00.000Z
 published: true
+categories:
+  - path: _categories/political-sciences.md
 contents:
   - path: _contents/notes.md
 tags:
