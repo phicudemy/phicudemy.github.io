@@ -7,6 +7,10 @@ people:
 translator:
   - path: _people/طیبی.md
 date: 2025-07-04T20:30:00.000Z
+categories:
+  - path: _categories/political-sciences.md
+contents:
+  - {}
 ---
 
 
