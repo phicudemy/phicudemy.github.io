@@ -1,7 +1,7 @@
 ---
 title: 'آخرین پیام برتراند راسل: بیانیه‌ای دربارهٔ مسألهٔ فلسطین'
 subtitle: ''
-slug: russell_middleeast
+slug: russell-middleeast
 people:
   - path: _people/bertrandrussell.md
 translator:
@@ -15,6 +15,7 @@ contents:
 tags:
   - path: _tags/russell.md
 ---
+
 
 
 
