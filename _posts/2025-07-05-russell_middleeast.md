@@ -2,6 +2,8 @@
 title: 'آخرین پیام برتراند راسل: بیانیه‌ای دربارهٔ مسألهٔ فلسطین'
 subtitle: ''
 slug: russell_middleeast
+people:
+  - path: _people/bertrandrussell.md
 date: 2025-07-04T20:30:00.000Z
 ---
 
