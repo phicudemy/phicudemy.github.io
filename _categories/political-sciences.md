@@ -1,5 +1,5 @@
 ---
 title: علوم سیاسی
-slug: political sciences
+slug: political-sciences
 ---
 
