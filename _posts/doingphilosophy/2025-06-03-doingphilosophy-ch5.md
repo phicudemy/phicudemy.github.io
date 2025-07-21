@@ -503,5 +503,5 @@ Alexander.</p>
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۶. مقایسه کردن نظریه‌ها]
+[[فصل ۶. مقایسه کردن نظریه‌ها](/magazine/doingphilosophy-ch6/)]
 
