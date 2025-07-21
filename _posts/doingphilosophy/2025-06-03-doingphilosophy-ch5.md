@@ -17,11 +17,12 @@ tags:
 ---
 
 
+
 [[فصل ۴. ایضاح کردن اصطلاحات](/magazine/doingphilosophy-ch4/)]
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۶. مقایسه کردن نظریه‌ها]
+[[فصل ۶. مقایسه کردن نظریه‌ها](/magazine/doingphilosophy-ch6/)]
 
 ---
 
