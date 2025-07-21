@@ -2,9 +2,12 @@
 title: فصل ۶. مقایسه کردنِ نظریه‌ها
 subtitle: 'از کتاب «فلسفه ورزیدن: از کنج‌کاویِ معمولی تا استدلالِ منطقی»'
 slug: doingphilosophy-ch6
+people:
+  - path: _people/timothywilliamson.md
 date: 2025-07-20T20:30:00.000Z
 published: true
 ---
+
 
 
 No file chosen
