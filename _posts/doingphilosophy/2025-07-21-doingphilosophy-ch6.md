@@ -18,7 +18,6 @@ tags:
 
 
 
-No file chosen
 
 [[فصل ۵. انجام دادن آزمایش‌های فکری](/magazine/doingphilosophy-ch5/)]
 
