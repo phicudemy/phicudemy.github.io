@@ -14,7 +14,7 @@ tags:
   - path: _tags/analyticphilosophy.md
   - path: _tags/williamson.md
   - path: _tags/doingphilosophytag.md
-excerpt: >+
+excerpt: >
   نظریه‌های فلسفی، همانندِ نظریه‌های حوزه‌های دیگر، پاسخ‌هایی‌اند به پرسش‌هایی.
 
   البته به‌ندرت با نظریه خواندنِ پاسخ به پرسش‌های آسان به آن‌ها
@@ -29,6 +29,7 @@ excerpt: >+
 
   فیلسوفان از جملۀ کلی‌ترین پرسش‌هایند.
 ---
+
 
 
 
@@ -575,14 +576,5 @@ Malcolm Forster and Elliott Sober, ‘How to tell when simpler, more unified, or
 [[فصل ۵. انجام دادن آزمایش‌های فکری](/magazine/doingphilosophy-ch5/)]
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
-
-[فصل ۷. قیاس منطقی کردن]
-
-
-
-DesktopTabletMobile/Wechat
-[فصل ۵. انجام دادن آزمایش‌های فکری]
-
-[بازگشت به فهرست کتاب]
 
 [فصل ۷. قیاس منطقی کردن]
