@@ -5,6 +5,8 @@ people:
   - path: _people/ssalarvand.md
   - path: _people/arashabazari.md
   - path: _people/amoazami.md
+contents:
+  - path: _contents/sessions.md
 schedule: چهارشنبه ۱۵ مرداد ۱۴۰۴، ساعت ۲۱-۱۸
 format:
   - inperson
