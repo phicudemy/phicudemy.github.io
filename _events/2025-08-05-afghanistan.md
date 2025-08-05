@@ -7,6 +7,8 @@ people:
   - path: _people/amoazami.md
 contents:
   - path: _contents/sessions.md
+categories:
+  - path: _categories/socialscience.md
 schedule: چهارشنبه ۱۵ مرداد ۱۴۰۴، ساعت ۲۱-۱۸
 format:
   - inperson
