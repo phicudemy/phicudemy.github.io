@@ -3,7 +3,7 @@ title: دربارهٔ مسئلهٔ افغانستانی‌ستیزی
 slug: afghanistan
 people:
   - path: _people/ssalarvand.md
-  - {}
+  - path: _people/arashabazari.md
   - {}
 schedule: چهارشنبه ۱۵ مرداد ۱۴۰۴، ساعت ۲۱-۱۸
 format:
