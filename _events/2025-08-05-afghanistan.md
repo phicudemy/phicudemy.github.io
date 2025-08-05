@@ -4,7 +4,7 @@ slug: afghanistan
 people:
   - path: _people/ssalarvand.md
   - path: _people/arashabazari.md
-  - {}
+  - path: _people/amoazami.md
 schedule: چهارشنبه ۱۵ مرداد ۱۴۰۴، ساعت ۲۱-۱۸
 format:
   - inperson
