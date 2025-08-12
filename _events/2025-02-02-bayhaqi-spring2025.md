@@ -7,6 +7,8 @@ contents:
   - path: _contents/courses.md
 categories:
   - path: _categories/literature.md
+tags:
+  - path: _tags/baihaqi.md
 schedule: بهمن و اسفند ۱۴۰۳
 format:
   - online
@@ -17,6 +19,7 @@ published: true
 register: ''
 stdregister: ''
 ---
+
 
 
 
