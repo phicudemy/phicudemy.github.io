@@ -484,7 +484,7 @@ excerpt: >-
 - برای آشنایی با پارادوکس‌هایی که انگیزه‌ای به دست داده‌اند برای‌ این‌که بازبینی‌ای در منطقِ جدید پیش‌نهاد شود، بنگرید به:
 
 <p dir="ltr"> 
-Mark Sainsbury, <i>Paradoxes<i> (Cambridge: Cambridge University Press, 3rd edition, 2009) </p>
+Mark Sainsbury, <i>Paradoxes</i> (Cambridge: Cambridge University Press, 3rd edition, 2009) </p>
 
 - نقل‌قول دربارۀ استقرا از این مقاله، که در ۱۹۰۷ منتشر   شد، آمده است:
 
