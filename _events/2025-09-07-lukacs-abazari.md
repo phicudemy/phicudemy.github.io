@@ -9,6 +9,7 @@ categories:
   - path: _categories/political-sciences.md
   - path: _categories/philosophy.md
 tags:
+  - path: _tags/aabazari.md
   - path: _tags/georglukacs.md
 schedule: چهارشنبه ۵ شهریور ۱۴۰۴، ساعت ۲۰-۱۸
 format:
@@ -16,6 +17,7 @@ format:
 start: 2025-08-26T20:30:00.000Z
 published: true
 ---
+
 
 
 
