@@ -7,12 +7,15 @@ contents:
   - path: _contents/sessions.md
 categories:
   - path: _categories/philosophy.md
+tags:
+  - path: _tags/aabazari.md
 schedule: 'پنج‌شنبه ۲۷ دی ۱۴۰۳- ساعت ۱۸-۲۰:۳۰'
 format:
   - online
 start: 2025-01-15T20:30:00.000Z
 published: true
 ---
+
 
 
 
