@@ -10,6 +10,10 @@ date: 2025-09-06T20:30:00.000Z
 published: true
 categories:
   - path: _categories/philosophy.md
+tags:
+  - path: _tags/analyticphilosophy.md
+  - {}
+  - {}
 excerpt: >-
   وقتی کسی می‌گوید که استدلالی معتبر است، قضاوتی دربارۀ صدق و کذبِ مقدماتِ و
   نتیجه نمی‌کند، بلکه تنها نفی می‌کند که مواردی وجود دارند که در آن‌ها مقدماتِ
