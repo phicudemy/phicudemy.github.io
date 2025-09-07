@@ -8,10 +8,10 @@ contents:
 categories:
   - path: _categories/philosophy.md
 tags:
+  - path: _tags/analyticphilosophy.md
   - path: _tags/williamson.md
   - path: _tags/doingphilosophytag.md
   - path: _tags/epistemology.md
-  - path: _tags/analyticphilosophy.md
 schedule: 'چهارشنبه‌ها ساعت ۲۰:۳۰-۱۸:۳۰'
 format:
   - online
@@ -22,6 +22,7 @@ published: true
 register: 'https://zarinp.al/694299'
 stdregister: 'https://zarinp.al/694301'
 ---
+
 
 
 
