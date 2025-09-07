@@ -7,12 +7,15 @@ contents:
   - path: _contents/sessions.md
 categories:
   - path: _categories/philosophy.md
+tags:
+  - path: _tags/georglukacs.md
 schedule: چهارشنبه ۵ شهریور ۱۴۰۴، ساعت ۲۰-۱۸
 format:
   - inperson
 start: 2025-08-26T20:30:00.000Z
 published: true
 ---
+
 
 
 <center>
