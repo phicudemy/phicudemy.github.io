@@ -2,6 +2,8 @@
 title: فصل ۷. قیاس منطقی کردن
 subtitle: 'از کتاب «فلسفه ورزیدن: از کنج‌کاویِ معمولی تا استدلالِ منطقی»'
 slug: doingphilosophy-ch7
+people:
+  - path: _people/timothywilliamson.md
 date: 2025-09-06T20:30:00.000Z
 published: true
 excerpt: >-
@@ -12,6 +14,7 @@ excerpt: >-
   هم ناسازگار باشند، ممکن نیست که هر دوی آن استدلال‌ها صحیح باشند، هرچند ممکن
   است که هر دو معتبر باشند.
 ---
+
 
 [[فصل ۶. مقایسه کردنِ نظریه‌ها](/magazine/doingphilosophy-ch6/)]
 
