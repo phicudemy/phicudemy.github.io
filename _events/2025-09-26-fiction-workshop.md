@@ -5,6 +5,8 @@ people:
   - path: _people/mehdiboostani.md
 contents:
   - path: _contents/workshops.md
+categories:
+  - path: _categories/literature.md
 schedule: پنج‌شنبه‌ها ساعت ۱۰ الی ۱۳
 format:
   - inperson
