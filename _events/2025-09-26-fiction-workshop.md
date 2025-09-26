@@ -3,6 +3,8 @@ title: کارگاه عملی «خلق و پرورش ایده‌های داستا
 slug: fiction-workshop
 people:
   - path: _people/mehdiboostani.md
+contents:
+  - path: _contents/workshops.md
 schedule: پنج‌شنبه‌ها ساعت ۱۰ الی ۱۳
 format:
   - inperson
