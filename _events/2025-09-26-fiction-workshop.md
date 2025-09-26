@@ -1,14 +1,18 @@
 ---
 title: کارگاه عملی «خلق و پرورش ایده‌های داستانی»
 slug: fiction-workshop
+people:
+  - path: _people/mehdiboostani.md
 schedule: پنج‌شنبه‌ها ساعت ۱۰ الی ۱۳
 format:
   - inperson
 start: 2025-10-15T20:30:00.000Z
+sessions: 7
 published: true
 register: 'https://zarinp.al/746305'
 stdregister: 'https://zarinp.al/746306'
 ---
+
 
 
 
