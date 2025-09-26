@@ -11,7 +11,7 @@ schedule: پنج‌شنبه‌ها ساعت ۱۰ الی ۱۳
 format:
   - inperson
 start: 2025-10-15T20:30:00.000Z
-sessions: 7
+sessions: 6
 published: true
 register: 'https://zarinp.al/746305'
 stdregister: 'https://zarinp.al/746306'
