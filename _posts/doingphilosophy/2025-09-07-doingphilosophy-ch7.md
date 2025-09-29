@@ -26,11 +26,12 @@ excerpt: >-
 
 
 
+
 [[فصل ۶. مقایسه کردنِ نظریه‌ها](/magazine/doingphilosophy-ch6/)]
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۸. بهره بردن از تاریخ فلسفه]
+[[فصل ۸. بهره بردن از تاریخ فلسفه](/magazine/doingphilosophy-ch8/)]
 
 ---
 
@@ -516,6 +517,6 @@ Bertrand Russell, <i>Essays in Analysis</i> (London: George Allen & Unwin, 1973)
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۸. بهره بردن از تاریخ فلسفه]
+[[فصل ۸. بهره بردن از تاریخ فلسفه](/magazine/doingphilosophy-ch8/)]
 
 
