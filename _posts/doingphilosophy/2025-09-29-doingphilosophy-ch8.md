@@ -2,9 +2,12 @@
 title: فصل ۸. بهره بردن از تاریخ فلسفه
 subtitle: 'از کتاب «فلسفه ورزیدن: از کنج‌کاویِ معمولی تا استدلالِ منطقی»'
 slug: doingphilosophy-ch8
+people:
+  - path: _people/timothywilliamson.md
 date: 2025-09-28T20:30:00.000Z
 published: true
 ---
+
 
 [[فصل ۷. قیاس منطقی کردن](/magazine/doingphilosophy-ch7/)]
 
