@@ -4,10 +4,14 @@ subtitle: نوشتۀ کلر مک‌کامهیل و راشل وایزمن
 slug: metaphysicalanimals
 people:
   - path: _people/marziyelotfi.md
+translator:
+  - {}
 date: 2025-09-30T20:30:00.000Z
 published: true
 categories:
   - path: _categories/philosophy.md
+contents:
+  - path: _contents/bookreviews.md
 ---
 
 
