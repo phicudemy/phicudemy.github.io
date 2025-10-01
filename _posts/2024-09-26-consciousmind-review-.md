@@ -1,5 +1,6 @@
 ---
 title: 'معرفی کتاب <i>ذهن آگاه: در جست‌وجوی نظریه‌ای بنیادی</i>'
+subtitle: نوشتهٔ دیوید چالمرز
 slug: 'consciousmind-review '
 people:
   - path: _people/marziyelotfi.md
@@ -12,6 +13,7 @@ contents:
 tags:
   - path: _tags/bookreview.md
 ---
+
 
 ![](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/covers-1.jpg)
 
