@@ -12,6 +12,8 @@ categories:
   - path: _categories/philosophy.md
 contents:
   - path: _contents/bookreviews.md
+tags:
+  - path: _tags/bookreview.md
 ---
 
 
