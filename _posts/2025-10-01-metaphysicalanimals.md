@@ -7,6 +7,7 @@ people:
 date: 2025-09-30T20:30:00.000Z
 published: true
 categories:
+  - path: _categories/women.md
   - path: _categories/philosophy.md
 contents:
   - path: _contents/bookreviews.md
@@ -14,6 +15,7 @@ tags:
   - path: _tags/women.md
   - path: _tags/bookreview.md
 ---
+
 
 
 <center>
