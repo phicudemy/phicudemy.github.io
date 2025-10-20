@@ -6,7 +6,7 @@ people:
   - path: _people/timothywilliamson.md
 translator:
   - path: _people/mohsenzamani.md
-date: 2025-10-20T20:30:00.000Z
+date: 2025-10-20T16:10:00.000Z
 published: true
 categories:
   - path: _categories/philosophy.md
