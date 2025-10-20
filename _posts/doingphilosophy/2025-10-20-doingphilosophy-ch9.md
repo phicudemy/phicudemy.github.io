@@ -432,31 +432,62 @@ tags:
 
 - تمایز بینِ نظریه‌های ایدئال و غیرایدئال در این اثرِ جان راولز بیان شده است:
 
+<p dir="ltr">
+  <i>A Theory of Justice</i> (Cambridge, MA: Harvard University Press, revised edition, 1999). </p>
+
 - این کتابی از ادوارد اونس ـ پریچارد است که در متن به آن اشاره شده است: 
+
+<p dir="ltr">
+  <i>Witchcraft, Oracles and Magic among the Azande</i> (Oxford: Clarendon Press, 1937). </p>
 
 - برای آگاهی از نسبی‌‌گرایی، بنگرید به:
 
+<p dir="ltr">
+  Maria Baghramian, <i>Relativism</i> (London: Routledge, 2004);<br>
+  Paul Boghossian, <i>Fear of Knowledge: Against Relativism and Constructivism</i> (Oxford: Clarendon Press, 2006). </p>
+
+
 و این کتابِ من:
+<p dir="ltr">
+  <i>Tetralogue: I’m Right, You’re Wrong</i> (Oxford: Oxford University Press, 2015). </p>
 
 - تقریباً در تمامِ فصل‌های این کتاب می‌توان تعاملِ‌ زبان‌شناسی و فلسفۀ زبان را دید:
+<p dir="ltr">
+  <i>The Routledge Companion to Philosophy of Language</i> (London: Routledge, 2012), edited by Gillian Russell and Delia Graff Fara. </p>
 
 - برای آگاهی از تعامل روان‌شناسی و فلسفۀ ادراکِ حسی، بنگرید به:
+<p dir="ltr">
+  <i>The Oxford Handbook of Philosophy of Perception</i> (Oxford: Oxford University Press, 2015), edited by Mohan Matthen. </p>
 
 - برای آگاهی از نقدی مبتنی بر روان‌شناسی از تلقی سنتی از معرفت به خود، بنگرید به:
+<p dir="ltr">
+    Peter Carruthers, <i>Opacity of Mind: An Integrative Theory of Self-Knowledge</i> (Oxford: Oxford University Press, 2011). </p>
 
 - برای آگاهی از نظریۀ تصمیم، حوزه‌ای که در آن فلسفه و اقتصادِ‌ نظری و علومِ‌ کامپیوتر هم‌پوشانی وسیعی دارند، بنگرید به:
+<p dir="ltr">
+  Martin Peterson, <i>An Introduction to Decision Theory</i> (Cambridge: Cambridge University Press, 2nd edition, 2017). </p>
 
 - این کاری برجسته در منطقِ معرفت است:
+<p dir="ltr">
+  Jaakko Hintikka, <i>Knowledge and Belief</i> (Ithaca, NY: Cornell University Press, 1962). </p>
 
 - برای‌ آگاهی از کاربردهای منطقِ معرفت در علومِ کامپیوتر و اقتصاد، بنگرید به:
+<p dir="ltr">
+  Ronald Fagin, Joseph Halpern, Yoram Moses, and Moshe Vardi, <i>Reasoning About Knowledge</i> (Cambridge, MA: MIT Press, 1995). </p>
 
 - در چندین مقالۀ این کتاب دربارۀ نسبتِ کامپیوتر و ذهن بحث می‌شود:
+<p dir="ltr">
+ Hilary Putnam, <i>Philosophical Papers, Volume 2: Mind, Language and Reality</i> (Cambridge: Cambridge University Press, 1979). </p>
 
 «نظریۀ محاسباتی ذهن» در اکثرِ آثاری که در فلسفۀ ذهن نوشته می‌شوند بحث می‌شود.
 
 - برای آگاهی از رویکردِ زیست‌شناسانه‌ای اثرگذار به پرسش‌های اساسی فلسفه، بنگرید به: 
+<p dir="ltr">
+  Ruth Garrett Millikan, <i>Language, Thought and Other Biological Categories: New Foundations for Realism</i> (Cambridge, MA: MIT Press, 1984). </p>
 
 - برای آگاهی از مشکلی که نظریۀ نسبیتِ خاص برای تلقی متعارف از زمان می‌آفریند، بنگرید به:
+<p dir="ltr">
+Hilary Putnam, ‘Time and physical geometry’, <i>Journal of Philosophy</i>,64 (1967): 240-7. </p>
 
 - اکثرِ کارهای معاصر در فلسفۀ زیست‌شناسی و فلسفۀ فیزیک نشان می‌دهند که فلسفه از علم یاد می‌گیرد، نه این‌که تنها به تأملِ فلسفی دربارۀ علم بپردازد.
 
