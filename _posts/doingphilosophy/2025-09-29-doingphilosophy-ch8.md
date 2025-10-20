@@ -21,7 +21,7 @@ tags:
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۹. بهره بردن از رشته‌های دیگر]
+[[فصل ۹. بهره بردن از رشته‌های دیگر](/magazine/doingphilosophy-ch9/)]
 
 ---
 
@@ -388,4 +388,4 @@ Thomas Kuhn, <i>The Structure of Scientific Revolutions</i> (Chicago, IL: Univer
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۹. بهره بردن از رشته‌های دیگر]
+[[فصل ۹. بهره بردن از رشته‌های دیگر](/magazine/doingphilosophy-ch9/)]
