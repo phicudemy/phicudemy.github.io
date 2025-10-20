@@ -18,6 +18,7 @@ tags:
 
 
 
+
 [[فصل ۸. بهره بردن از تاریخ فلسفه](/magazine/doingphilosophy-ch8/)]
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
@@ -500,5 +501,6 @@ Hilary Putnam, ‘Time and physical geometry’, <i>Journal of Philosophy</i>,64
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
 [فصل ۱۰. مدل ساختن]
+
 
 
