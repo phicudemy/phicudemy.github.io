@@ -55,7 +55,7 @@ Williamson, Timothy (2018). <i>Doing Philosophy: From Common Curiosity to Logica
 
 [۸- بهره بردن از تاریخ فلسفه](/magazine/doingphilosophy-ch8/)
 
-۹- بهره بردن از رشته‌های دیگر
+[۹- بهره بردن از رشته‌های دیگر](/magazine/doingphilosophy-ch9/)
 
 ۱۰- مدل‌ ساختن
 
