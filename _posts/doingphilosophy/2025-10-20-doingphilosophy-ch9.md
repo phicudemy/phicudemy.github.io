@@ -198,7 +198,7 @@ tags:
 دارند که در دو سرِ یکی از آن‌ها پیکان‌هایی رو به داخل کشیده شده‌اند و در دو سرِ
 خطِ دیگر پیکان‌هایی رو به خارج.
 
-![۹. خطای دیدِ مولر-لایر](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/doingphilosophy-illustrations/ch9-2.png 
+![۹. خطای دیدِ مولر-لایر](https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/doingphilosophy-illustrations/ch9-2.png)
 
 خطی که در
 دو سرش پیکان‌هایی رو به داخل کشیده شده بلندتر از خطی می‌نماید که در دو سرش
