@@ -16,6 +16,7 @@ format:
   - inperson
 start: 2025-11-05T20:30:00.000Z
 sessions: 4
+published: true
 ---
 
 
