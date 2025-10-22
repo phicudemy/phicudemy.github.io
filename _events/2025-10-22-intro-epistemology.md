@@ -3,6 +3,8 @@ title: مقدمه‌ای بر معرفت‌شناسی
 slug: intro-epistemology
 people:
   - path: _people/mohsenzamani.md
+contents:
+  - path: _contents/courses.md
 schedule: پنج‌شنبه‌ها ساعت ۱۰ الی ۱۲
 format:
   - online
