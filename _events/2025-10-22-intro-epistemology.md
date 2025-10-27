@@ -23,9 +23,10 @@ stdregister: 'https://zarinp.al/751430'
 
 
 
+
 <center>
 <img 
-       src="" 
+       src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/academy/fall2025/0-epistemology.jpg" 
        alt=" "
        style="width: 75%; height:75%;" />
 </center>
