@@ -19,7 +19,9 @@ tags:
 ---
 
 **توضیح:** آنچه در ادامه خواهید خواند ترجمه‌ای است از یادداشتی با عنوانِ [When Philosophy Lost Its Wa](https://archive.nytimes.com/opinionator.blogs.nytimes.com/2016/01/11/when-philosophy-lost-its-way/?mcubz=1)y که در ژانویه ۲۰۱۶ در نیویورک تایمز منتشر شده است. نویسندگان این یادداشت، رابرت فرودمن و آدام بریگل، در دپارتمان فلسفه و دین و دانشگاه شمال تگزاس تدریس می‌کنند. آن‌ها نویسندگان مشترک کتاب «سقراط: نهادهای فلسفۀ قرن بیست‌ویکم» هستند. 
-<br><br>
+
+***
+
 <center>
 <img 
        src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg" 
