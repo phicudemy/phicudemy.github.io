@@ -14,6 +14,7 @@ categories:
 contents:
   - path: _contents/article.md
 tags:
+  - path: _tags/analyticphilosophy.md
   - path: _tags/philosophers.md
 ---
 
