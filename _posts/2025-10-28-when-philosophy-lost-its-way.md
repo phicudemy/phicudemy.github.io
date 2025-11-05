@@ -30,7 +30,7 @@ tags:
 <center>
 <img 
        src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg" 
-       alt=" "
+       alt="Wanderer above the Sea of Fog- Caspar David Friedrich (1818)"
        style="width: 75%; height:75%;" />
 </center>
 <br><br>
