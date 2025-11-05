@@ -18,3 +18,12 @@ tags:
 ---
 
 
+
+<center>
+<img 
+       src="https://assets.tina.io/b6b0cb5c-4b1b-43f4-9bea-8d6867c09320/magazine/Wright_of_Derby,_The_Orrery.jpg" 
+       alt="A Philosopher Lecturing on the Orrery- Joseph Wright of Derby (1766)"
+       style="width: 75%; height:75%;" />
+</center>
+<br><br>
+
