@@ -12,6 +12,9 @@ categories:
   - path: _categories/philosophy.md
 contents:
   - path: _contents/article.md
+tags:
+  - path: _tags/analyticphilosophy.md
+  - {}
 ---
 
 
