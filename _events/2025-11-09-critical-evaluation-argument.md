@@ -3,6 +3,8 @@ title: ارزیابی نقادانۀ استدلال (براساس کتاب شف�
 slug: critical-evaluation-argument
 people:
   - path: _people/mehdikhosravani.md
+contents:
+  - path: _contents/courses.md
 schedule: 'چهارشنبه‌ها، ساعت ۱۸:۳۰ الی ۲۰:۳۰ '
 format:
   - online
