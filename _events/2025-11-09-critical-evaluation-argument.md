@@ -15,6 +15,8 @@ format:
 start: 2025-11-18T20:30:00.000Z
 sessions: 8
 published: true
+register: 'https://zarinp.al/754770'
+stdregister: 'https://zarinp.al/754771'
 ---
 
 ### شرح دوره:
