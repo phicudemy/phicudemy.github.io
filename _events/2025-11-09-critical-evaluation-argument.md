@@ -5,6 +5,8 @@ people:
   - path: _people/mehdikhosravani.md
 contents:
   - path: _contents/courses.md
+categories:
+  - path: _categories/criticalreasoning.md
 schedule: 'چهارشنبه‌ها، ساعت ۱۸:۳۰ الی ۲۰:۳۰ '
 format:
   - online
