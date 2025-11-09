@@ -7,6 +7,8 @@ contents:
   - path: _contents/courses.md
 categories:
   - path: _categories/criticalreasoning.md
+tags:
+  - path: _tags/critical-reason.md
 schedule: 'چهارشنبه‌ها، ساعت ۱۸:۳۰ الی ۲۰:۳۰ '
 format:
   - online
