@@ -1,5 +1,5 @@
 ---
-title: ارزیابی نقادانۀ استدلال (براساس کتاب شفاف‏اندیشیدن)
+title: ارزیابی نقادانۀ استدلال (براساس کتاب شفاف‏‌اندیشیدن)
 slug: critical-evaluation-argument
 people:
   - path: _people/mehdikhosravani.md
