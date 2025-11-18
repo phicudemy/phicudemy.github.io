@@ -12,7 +12,7 @@ tags:
 schedule: 'چهارشنبه‌ها، ساعت ۱۸:۳۰ الی ۲۰:۳۰ '
 format:
   - online
-start: 2025-11-24T23:00:00.000Z
+start: 2025-11-25T23:00:00.000Z
 sessions: 8
 published: true
 register: 'https://zarinp.al/754770'
