@@ -473,7 +473,7 @@ tags:
 
 <p dir="ltr">
   ‘Model-building in philosophy’ in <i>Philosophy’s Future: The Problem of Philosophical Progress  </i>(Oxford: Wiley-Blackwell, 2017): 159-73, edited by Russell Blackford and Damien Broderick. </p>
-
+<br><br>
 ---
 
 
