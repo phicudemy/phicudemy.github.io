@@ -8,6 +8,8 @@ translator:
   - path: _people/mohsenzamani.md
 date: 2025-11-18T23:00:00.000Z
 published: true
+categories:
+  - path: _categories/philosophy.md
 ---
 
 
