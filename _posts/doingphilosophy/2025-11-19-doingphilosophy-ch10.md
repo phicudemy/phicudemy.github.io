@@ -4,6 +4,8 @@ subtitle: 'از کتاب «فلسفه ورزیدن: از کنج‌کاویِ م�
 slug: doingphilosophy-ch10
 people:
   - path: _people/timothywilliamson.md
+translator:
+  - path: _people/mohsenzamani.md
 date: 2025-11-18T23:00:00.000Z
 published: true
 ---
