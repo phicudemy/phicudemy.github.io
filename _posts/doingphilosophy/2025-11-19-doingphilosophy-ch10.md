@@ -2,9 +2,12 @@
 title: فصل ۱۰. مدل ساختن
 subtitle: 'از کتاب «فلسفه ورزیدن: از کنج‌کاویِ معمولی تا استدلالِ منطقی»'
 slug: doingphilosophy-ch10
+people:
+  - path: _people/timothywilliamson.md
 date: 2025-11-18T23:00:00.000Z
 published: true
 ---
+
 
 
 
