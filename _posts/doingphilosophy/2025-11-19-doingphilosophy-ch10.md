@@ -257,7 +257,6 @@ tags:
 به دست داد. او هم‌چنین نشان داد در مواردی که معناشناسی مصداقی موفق عمل می‌کند، چگونه
 معناشناسی مصداقی می‌تواند به‌سادگی به معناشناسی مفهومی بدل شود (اگر می‌خواهید
 شمه‌ای از معناشناسی مفهومی را دریابید، کادر ۳ را ببینید).
-
 <figure class="table">
     <table style="border-color:hsl(0, 0%, 0%);border-style:solid;">
         <tbody>
@@ -277,19 +276,19 @@ tags:
                         <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">جمله‌های پیچیده از جمله‌هایِ ساده و با استفاده از «و»، «یا»، و «چنین نیست که» ساخته می‌شوند. مصداقِ هر جمله ارزشِ صدق است که یا صدق است یا کذب. از طریقِ قواعدی که در پی می‌آید، مصداقِ هر جملۀ پیجیده را مصداق‌هایِ جمله‌هایی سازندۀ آن جملۀ پیچیده تعیین می‌کند («الف» و «ب» می‌توانند هر جمله‌ای از زبان باشند).</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm;text-align:justify;text-indent:0cm;unicode-bidi:embed;" dir="RTL">
-                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">و&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اگر «الف» صادق باشد و «ب» صادق باشد، آن‌گاه «الف و ب» صادق است.&nbsp;</span></span>
+                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">&nbsp; و&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اگر «الف» صادق باشد و «ب» صادق باشد، آن‌گاه «الف و ب» صادق است.&nbsp;</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm 53.6pt 0cm 0cm;text-align:justify;text-indent:18.4pt;unicode-bidi:embed;" dir="RTL">
                         <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">&nbsp;اگر «الف» کاذب باشد یا «ب» کاذب باشد، آن‌گاه «الف و ب» کاذب است.</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm;text-align:justify;text-indent:0cm;unicode-bidi:embed;" dir="RTL">
-                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">یا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اگر «الف» صادق باشد یا «ب» صادق باشد، آن‌گاه «الف یا ب» صادق است.&nbsp;</span></span>
+                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">&nbsp; یا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اگر «الف» صادق باشد یا «ب» صادق باشد، آن‌گاه «الف یا ب» صادق است.&nbsp;</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm 53.6pt 0cm 0cm;text-align:justify;text-indent:18.4pt;unicode-bidi:embed;" dir="RTL">
                         <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">اگر «الف» کاذب باشد و «ب» کاذب باشد، آن‌گاه «الف یا ب» کاذب است.</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm;text-align:justify;text-indent:0cm;unicode-bidi:embed;" dir="RTL">
-                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">چنین نیست که&nbsp;&nbsp;&nbsp;اگر «الف» صادق باشد، آن‌گاه «چنین نیست که الف» کاذب است.&nbsp;</span></span>
+                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">&nbsp; چنین نیست که&nbsp;&nbsp;&nbsp;اگر «الف» صادق باشد، آن‌گاه «چنین نیست که الف» کاذب است.&nbsp;</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm 53.6pt 0cm 0cm;text-align:justify;text-indent:18.4pt;unicode-bidi:embed;" dir="RTL">
                         <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">اگر «الف» کاذب باشد، آن‌گاه «چنین نیست که الف» صادق است.</span></span>
@@ -304,31 +303,31 @@ tags:
                         <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">جمله‌های پیچیده از جمله‌هایِ ساده و با استفاده از «و»، «یا»، «چنین نیست که»، «ضروری است»، و «ممکن است» ساخته می‌شوند. مفهومِ هر جمله همان توزیعِ ارزشِ صدق‌‌هایش در همۀ جهان‌هایِ ممکن است. از طریقِ قواعدی که در پی می‌آید، مفهومِ هر جملۀ پیچیده را مفهوم‌هایِ جمله‌های سازندۀ آن جملۀ پیجیده تعیین می‌کند («الف» و «ب» می‌توانند هر جمله‌ای از زبان باشند و ج می‌تواند هر جهانِ ممکنی باشد).</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm;text-align:justify;text-indent:0cm;unicode-bidi:embed;" dir="RTL">
-                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">و&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اگر «الف»</span></span><span style="font-family:&quot;Times New Roman&quot;, serif;font-size:12pt;"><span dir="rtl"></span><span dir="rtl"></span><span dir="rtl"></span><span dir="rtl"></span><span lang="FA" dir="rtl"> </span><span dir="RTL"></span><span dir="RTL"></span></span><span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span dir="RTL"></span><span dir="RTL"></span><span lang="FA" dir="rtl"> در ج صادق باشد و «ب» در ج صادق باشد، آن‌گاه «الف و ب» در ج صادق است.</span></span>
+                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">&nbsp; و&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اگر «الف»</span></span><span style="font-family:&quot;Times New Roman&quot;, serif;font-size:12pt;"><span dir="rtl"></span><span dir="rtl"></span><span dir="rtl"></span><span dir="rtl"></span><span lang="FA" dir="rtl"> </span><span dir="RTL"></span><span dir="RTL"></span></span><span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span dir="RTL"></span><span dir="RTL"></span><span lang="FA" dir="rtl"> در ج صادق باشد و «ب» در ج صادق باشد، آن‌گاه «الف و ب» در ج صادق است.</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm 53.6pt 0cm 0cm;text-align:justify;text-indent:18.4pt;unicode-bidi:embed;" dir="RTL">
                         <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">اگر «الف» در ج کاذب باشد یا «ب» در ج کاذب باشد، آن‌گاه «الف و ب» در ج کاذب است.</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm;text-align:justify;text-indent:0cm;unicode-bidi:embed;" dir="RTL">
-                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">یا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اگر «الف» در ج صادق باشد یا «ب» در ج صادق باشد، آن‌گاه «الف یا ب» در ج صادق است.&nbsp;</span></span>
+                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">&nbsp; یا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اگر «الف» در ج صادق باشد یا «ب» در ج صادق باشد، آن‌گاه «الف یا ب» در ج صادق است.&nbsp;</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm 53.6pt 0cm 0cm;text-align:justify;text-indent:18.4pt;unicode-bidi:embed;" dir="RTL">
                         <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">اگر «الف» در ج کاذب باشد و «ب» در ج کاذب باشد، آن‌گاه «الف یا ب» در ج کاذب است.</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm;text-align:justify;text-indent:0cm;unicode-bidi:embed;" dir="RTL">
-                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">چنین نیست که&nbsp;&nbsp;&nbsp;&nbsp; اگر «الف» در ج صادق باشد، آن‌گاه «چنین نیست که الف» در ج کاذب است.&nbsp;</span></span>
+                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">&nbsp; چنین نیست که&nbsp;&nbsp;&nbsp;&nbsp; اگر «الف» در ج صادق باشد، آن‌گاه «چنین نیست که الف» در ج کاذب است.&nbsp;</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm 53.6pt 0cm 0cm;text-align:justify;text-indent:18.4pt;unicode-bidi:embed;" dir="RTL">
                         <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">اگر «الف» در ج کاذب باشد، آن‌گاه «چنین نیست که الف» در ج صادق است.</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm;text-align:justify;text-indent:0cm;unicode-bidi:embed;" dir="RTL">
-                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">ضروری است&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اگر «الف» در همۀ جهان‌هایِ ممکن صادق باشد، آن‌گاه «الف ضروری است» در ج صادق است.&nbsp;</span></span>
+                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">&nbsp; ضروری است&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اگر «الف» در همۀ جهان‌هایِ ممکن صادق باشد، آن‌گاه «الف ضروری است» در ج صادق است.&nbsp;</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm 53.6pt 0cm 0cm;text-align:justify;text-indent:18.4pt;unicode-bidi:embed;" dir="RTL">
                         <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">اگر «الف» در یک جهانِ ممکن کاذب باشد، آن‌گاه «الف ضروری است» در ج کاذب است.</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm;text-align:justify;text-indent:0cm;unicode-bidi:embed;" dir="RTL">
-                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">ممکن است&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اگر «الف» در یک جهانِ ممکن صادق باشد، آن‌گاه «الف ممکن است» در ج صادق است.&nbsp;</span></span>
+                        <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">&nbsp; ممکن است&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اگر «الف» در یک جهانِ ممکن صادق باشد، آن‌گاه «الف ممکن است» در ج صادق است.&nbsp;</span></span>
                     </p>
                     <p style="direction:rtl;margin:0cm 53.6pt 0cm 0cm;text-align:justify;text-indent:18.4pt;unicode-bidi:embed;" dir="RTL">
                         <span style="font-family:&quot;B Nazanin&quot;;font-size:12pt;"><span lang="FA" dir="rtl">اگر «الف» در همۀ جهان‌هایِ ممکن کاذب باشد، آن‌گاه «الف ممکن است» در ج کاذب است.</span></span>
@@ -343,7 +342,6 @@ tags:
         </tbody>
     </table>
 </figure>
-
 کارنپ
 برای زبانی مصنوعی و صوری معناشناسی مفهومی کاملی به دست داد: در این زبان هر جمله،
 هرچقدر هم که پیچیده باشد، مفهومی دارد، مفهومی که مفهوم‌های ساده‌ترینِ مؤلفه‌های
