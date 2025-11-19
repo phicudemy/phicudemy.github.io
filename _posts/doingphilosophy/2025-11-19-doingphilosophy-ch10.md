@@ -10,6 +10,10 @@ date: 2025-11-18T23:00:00.000Z
 published: true
 categories:
   - path: _categories/philosophy.md
+tags:
+  - path: _tags/analyticphilosophy.md
+  - {}
+  - {}
 ---
 
 
