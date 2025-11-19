@@ -20,11 +20,12 @@ tags:
 
 
 
+
 [[فصل ۸. بهره بردن از تاریخ فلسفه](/magazine/doingphilosophy-ch8/)]
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۱۰. مدل ساختن]
+[[فصل ۱۰. مدل ساختن] (/magazine/doingphilosophy-ch10/)]
 
 ---
 ### ۹ بهره بردن از رشته‌های دیگر
@@ -498,7 +499,6 @@ Hilary Putnam, ‘Time and physical geometry’, <i>Journal of Philosophy</i>,64
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۱۰. مدل ساختن]
-
+[[فصل ۱۰. مدل ساختن] (/magazine/doingphilosophy-ch10/)]
 
 
