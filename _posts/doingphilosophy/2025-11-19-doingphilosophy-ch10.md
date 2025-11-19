@@ -459,6 +459,20 @@ tags:
 
 #### یادداشت‌های فصل
 
+- این کتاب درآمد خوبی بر فلسفۀ مدل‌سازی است:
+
+<p dir="ltr">
+  Michael Weisberg, <i>Simulation and Similarity: Using Models to Understand the World </i> (Oxford: Oxford University Press, 2013). </p>
+
+- کارنپ معناشناسی مفهومی خود را در این اثرش بسط داده است:
+
+<p dir="ltr">
+  <i>Meaning and Necessity: A Study in Semantics and Modal Logic </i> (Chicago, IL: University of Chicago Press, 2nd edition, 1956). </p>
+
+- نگاهِ من به این موضوع در این مقاله‌ام بیش‌تر توضیح داده شده است:
+
+<p dir="ltr">
+  ‘Model-building in philosophy’ in <i>Philosophy’s Future: The Problem of Philosophical Progress  </i>(Oxford: Wiley-Blackwell, 2017): 159-73, edited by Russell Blackford and Damien Broderick. </p>
 
 ---
 
