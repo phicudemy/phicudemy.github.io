@@ -1,5 +1,5 @@
-const SUPABASE_URL = "https://iptradvpkatbfgibcrru.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlwdHJhZHZwa2F0YmZnaWJjcnJ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI5MTMzOTAsImV4cCI6MjA1ODQ4OTM5MH0.oxYnh1vKKCv2cXEQMiBQv_3RehZcarmjscMApg6VLe8";
+const SUPABASE_URL = "https://sjkpcjettmhqwbnyfzoa.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNqa3BjamV0dG1ocXdibnlmem9hIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ2ODE0NzQsImV4cCI6MjA4MDI1NzQ3NH0.MMegWfSIQ-Lgxjofpxj1pq1Jg63M70_PuKN1pcYWFgU";
 
 const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 let currentUserId = null;
@@ -236,7 +236,7 @@ async function saveRegistration(form, token = null) {
   }
 
   try {
-    const response = await fetch('https://iptradvpkatbfgibcrru.supabase.co/functions/v1/create_payment', {
+    const response = await fetch('https://sjkpcjettmhqwbnyfzoa.supabase.co/functions/v1/create_payment', {
       method: 'POST',
       headers: headers,
       body: JSON.stringify({
@@ -542,7 +542,7 @@ async function deleteUser(userId) {
   const { data: { session } } = await client.auth.getSession();
   const token = session?.access_token;
 
-  const res = await fetch("https://iptradvpkatbfgibcrru.supabase.co/functions/v1/delete_user", {
+  const res = await fetch("https://sjkpcjettmhqwbnyfzoa.supabase.co/functions/v1/delete_user", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -581,7 +581,7 @@ async function payPending(regId) {
     }
 
     // Step 2: Call Edge Function with full data
-    const response = await fetch("https://iptradvpkatbfgibcrru.supabase.co/functions/v1/create_payment", {
+    const response = await fetch("https://sjkpcjettmhqwbnyfzoa.supabase.co/functions/v1/create_payment", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
