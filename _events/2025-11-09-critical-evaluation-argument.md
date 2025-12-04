@@ -15,6 +15,8 @@ format:
 start: 2025-11-25T23:00:00.000Z
 sessions: 8
 published: true
+register_fee: 10000
+stdregister_fee: 5000
 register: 'https://zarinp.al/754770'
 stdregister: 'https://zarinp.al/754771'
 ---
