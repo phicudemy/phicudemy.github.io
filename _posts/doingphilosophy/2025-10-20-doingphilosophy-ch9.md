@@ -500,6 +500,6 @@ Hilary Putnam, ‘Time and physical geometry’, <i>Journal of Philosophy</i>,64
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[[فصل ۱۰. مدل ساختن] (/magazine/doingphilosophy-ch10/)]
+[[فصل ۱۰. مدل ساختن](/magazine/doingphilosophy-ch10/)]
 
 
