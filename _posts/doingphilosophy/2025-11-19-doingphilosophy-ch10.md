@@ -21,11 +21,12 @@ tags:
 
 
 
+
 [[فصل ۹. بهره بردن از رشته‌های دیگر](/magazine/doingphilosophy-ch9/)]
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۱۱. سخنِ پایانی: آیندهٔ فلسفه]
+[[فصل ۱۱. سخنِ پایانی: آیندهٔ فلسفه](/magazine/doingphilosophy-ch11/)]
 
 
 ---
@@ -483,7 +484,7 @@ tags:
 
 [[بازگشت به فهرست کتاب](/magazine/book-doingphilosophy/)]
 
-[فصل ۱۱. سخنِ پایانی: آیندهٔ فلسفه]
+[[فصل ۱۱. سخنِ پایانی: آیندهٔ فلسفه](/magazine/doingphilosophy-ch11/)]
 
 
 
