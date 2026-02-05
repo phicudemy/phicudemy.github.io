@@ -26,6 +26,7 @@ tags:
 
 
 
+
 آقای [محسن زمانی](/people/mohsenzamani/) لطف کردند و ترجمهٔ خود از کتاب [«فلسفه ورزیدن: از کنج‌کاویِ معمولی تا استدلالِ منطقی»](https://global.oup.com/academic/product/doing-philosophy-9780198822516?cc=us&lang=en&) اثر [تیمتی ویلیامسن](https://en.wikipedia.org/wiki/Timothy_Williamson) (استاد دانشگاه آکسفورد) را برای انتشار در اختیار «جمهوری فلسفه و ادبیات» قرار دادند. ضمن تشکر از ایشان، «جمهوری فلسفه و ادبیات» به‌مرور ترجمهٔ فصول مختلفِ این کتاب را، که از فهرست زیر قابل دست‌رس خواهد بود، در اختیار مخاطبان قرار خواهد داد. 
 <br><br>
 <center>
@@ -61,6 +62,6 @@ Williamson, Timothy (2018). <i>Doing Philosophy: From Common Curiosity to Logica
 
 [۱۰- مدل‌ ساختن](/magazine/doingphilosophy-ch10/)
 
-۱۱- سخنِ پایانی: آیندهٔ فلسفه
+[۱۱- سخنِ پایانی: آیندهٔ فلسفه](/magazine/doingphilosophy-ch11/)
 
 
